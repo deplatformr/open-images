@@ -115,11 +115,17 @@ Watching Powergate transactions
   `watch -n 2 ' tail -n 10 nohup.out'`
 
 
-* To report the Powergate FIL address to Slingshot, use `pow ffs addrs list`. It implies the addresses from that ffs instance will be used to make the deals.
+Report the Powergate FIL address to Slingshot
+---------------------------------------------
+* Use `pow ffs addrs list`. It implies the addresses from that ffs instance will be used to make the deals.
 
+Hosted Powergate FIL
+--------------------
 * Each hosted Powergate instance has 1 FIL. Each new FFS instance you create will get 0.25FIL. So you can't create more than four FFS instances. You should be able to use a single FFS instance to store data many many times. So the amount that we fund each FFS instance should be enough to only need one FFS instance for storing lots of data.
 
-* When we run `pow asks get`,  the units of min piece size are in bytes.
+FAQs
+----
+* What is the unit of measurement when you run `pow asks get`? Bytes.
 
 * The EpochPrice is the price that the miner charge in attoFIL per GB per epoch. Minimal deal duration is 6 months defined by the Filecoin network. Miners doesn't announce accepted deal durations. They just reject the deal if they don't like the deal now. (but you can change this anyway in your StorageConfig).
 

@@ -1,0 +1,3 @@
+venv/
+.DS_Store
+source_data/open_image.sqlite

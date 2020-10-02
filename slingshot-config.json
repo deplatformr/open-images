@@ -1,0 +1,32 @@
+{
+  "Hot": {
+    "Enabled": false,
+    "AllowUnfreeze": true,
+    "Ipfs": {
+      "AddTimeout": 30
+    }
+  },
+  "Cold": {
+    "Enabled": true,
+    "Filecoin": {
+      "RepFactor": 10,
+      "DealMinDuration": 518400,
+      "ExcludedMiners": null,
+      "TrustedMiners": [
+        "t016303",
+        "t016304",
+        "t016305",
+        "t016306",
+        "t016309"
+      ],
+      "CountryCodes": null,
+      "Renew": {
+        "Enabled": false,
+        "Threshold": 0
+      },
+      "Addr": "t3rwztsjalrrnziots5yhyvgqzhhyjqtvubpaleig5h4hezqi36ywt2wvkmahlgn7suhdzuji275ipjkf674aa",
+      "MaxPrice": 1000000000
+    }
+  },
+  "Repairable": true
+}

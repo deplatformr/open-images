@@ -1,0 +1,149 @@
+peter@Peters-MacBook-Air ~ % POW_SERVERADDRESS=api.pow.deplatformr.textile.io:443 pow ffs stage /Users/peter/Downloads/4fa8054781a4c382.jpg -t a8d61841-50e3-42dc-9c6a-09a51d5cde78
+> Success! Cached file in FFS hot storage with cid: QmY4K9ac16CHqRKupfoWjXqhoryuaTu7VxNXGSnVgWiM32
+
+peter@Peters-MacBook-Air ~ % POW_SERVERADDRESS=api.pow.deplatformr.textile.io:443 pow ffs config default -t a8d61841-50e3-42dc-9c6a-09a51d5cde78
+> Default storage config:
+{
+  "Hot": {
+    "Enabled": false,
+    "AllowUnfreeze": false,
+    "Ipfs": {
+      "AddTimeout": 0
+    }
+  },
+  "Cold": {
+    "Enabled": true,
+    "Filecoin": {
+      "RepFactor": 5,
+      "DealMinDuration": 518400,
+      "ExcludedMiners": null,
+      "TrustedMiners": [
+        "t016303",
+        "t016304",
+        "t016305",
+        "t016306",
+        "t016309"
+      ],
+      "CountryCodes": null,
+      "Renew": {
+        "Enabled": false,
+        "Threshold": 0
+      },
+      "Addr": "t3rwztsjalrrnziots5yhyvgqzhhyjqtvubpaleig5h4hezqi36ywt2wvkmahlgn7suhdzuji275ipjkf674aa",
+      "MaxPrice": 0
+    }
+  },
+  "Repairable": false
+}
+
+peter@Peters-MacBook-Air ~ % POW_SERVERADDRESS=api.pow.deplatformr.textile.io:443 pow ffs config push QmY4K9ac16CHqRKupfoWjXqhoryuaTu7VxNXGSnVgWiM32 -t a8d61841-50e3-42dc-9c6a-09a51d5cde78 -o -c /Users/peter/Desktop/deplatformr-slingshot-config.json 
+> Success! Pushed cid storage config for QmY4K9ac16CHqRKupfoWjXqhoryuaTu7VxNXGSnVgWiM32 to FFS with job id: fea5da89-eadc-4e5b-b36a-3b907e38a6fa
+
+
+peter@Peters-MacBook-Air ~ % POW_SERVERADDRESS=api.pow.deplatformr.textile.io:443 pow ffs watch fea5da89-eadc-4e5b-b36a-3b907e38a6fa -t a8d61841-50e3-42dc-9c6a-09a51d5cde78
+               JOB ID                 STATUS  
+fea5da89-eadc-4e5b-b36a-3b907e38a6fa  Queued  
+
+peter@Peters-MacBook-Air ~ %  POW_SERVERADDRESS=api.pow.deplatformr.textile.io:443 pow ffs -t a8d61841-50e3-42dc-9c6a-09a51d5cde78 log QmY4K9ac16CHqRKupfoWjXqhoryuaTu7VxNXGSnVgWiM32
+> 2020-10-01T18:55:34 - Pushing new configuration...
+> 2020-10-01T18:55:34 - Configuration saved successfully
+> 2020-10-01T18:55:35 - Executing job 7b63943c-1d14-4d50-b74f-26d63eb3482c...
+> 2020-10-01T18:55:35 - Ensuring Hot-Storage satisfies the configuration...
+> 2020-10-01T18:55:35 - No actions needed in Hot Storage.
+> 2020-10-01T18:55:35 - Hot-Storage execution ran successfully.
+> 2020-10-01T18:55:35 - Ensuring Cold-Storage satisfies the configuration...
+> 2020-10-01T18:55:36 - Current replication factor is lower than desired, making 4 new deals...
+> 2020-10-01T18:58:19 - Pushing new configuration...
+> 2020-10-01T18:58:19 - Job %!s(MISSING) is already being executed for the same data, this job will be queued until it finishes or is canceled.
+> 2020-10-01T18:58:19 - Configuration saved successfully
+> 2020-10-01T19:02:13 - Calculating piece size...
+> 2020-10-01T19:02:14 - Estimated piece size is 8388608 bytes.
+> 2020-10-01T19:02:14 - Proposing deal to miner t021069 with 100000000 attoFIL per epoch...
+> 2020-10-01T19:02:14 - Proposing deal to miner t010479 with 100000000 attoFIL per epoch...
+> 2020-10-01T19:02:14 - Proposing deal to miner t09573 with 500000000 attoFIL per epoch...
+> 2020-10-01T19:02:21 - Watching deals unfold...
+> 2020-10-01T19:07:21 - Deal with miner t021069 changed state to StorageDealEnsureClientFunds
+> 2020-10-01T19:07:21 - Deal with miner t010479 changed state to StorageDealEnsureClientFunds
+> 2020-10-01T19:07:21 - Deal with miner t09573 changed state to StorageDealEnsureClientFunds
+> 2020-10-01T19:12:21 - Deal with miner t021069 changed state to StorageDealClientFunding
+> 2020-10-01T19:12:21 - Deal with miner t010479 changed state to StorageDealClientFunding
+> 2020-10-01T19:17:21 - Deal with miner t09573 changed state to StorageDealClientFunding
+
+
+-------
+
+source_file = "source_data/images/a12f879f459a5a2c.jpg"
+
+(venv) peter@Peters-MacBook-Air slingshot % python scripts/upload.py
+default_storage_config {
+  hot {
+    allow_unfreeze: true
+    ipfs {
+    }
+  }
+  cold {
+    enabled: true
+    filecoin {
+      rep_factor: 10
+      deal_min_duration: 518400
+      trusted_miners: "t016303"
+      trusted_miners: "t016304"
+      trusted_miners: "t016305"
+      trusted_miners: "t016306"
+      trusted_miners: "t016309"
+      renew {
+      }
+      addr: "t3rwztsjalrrnziots5yhyvgqzhhyjqtvubpaleig5h4hezqi36ywt2wvkmahlgn7suhdzuji275ipjkf674aa"
+    }
+  }
+  repairable: true
+}
+
+cid: "QmbcKgdxWfZzePsrc6rWq2yk12GE1MnW8JJiubHAJovKb5"
+
+job_id: "5f8a98f1-4bb8-4c59-88d8-8bd80136e787"
+
+info {
+  id: "8864a110-aa3c-45b4-be8d-28733952d12e"
+  default_storage_config {
+    hot {
+      allow_unfreeze: true
+      ipfs {
+      }
+    }
+    cold {
+      enabled: true
+      filecoin {
+        rep_factor: 10
+        deal_min_duration: 518400
+        trusted_miners: "t016303"
+        trusted_miners: "t016304"
+        trusted_miners: "t016305"
+        trusted_miners: "t016306"
+        trusted_miners: "t016309"
+        renew {
+        }
+        addr: "t3rwztsjalrrnziots5yhyvgqzhhyjqtvubpaleig5h4hezqi36ywt2wvkmahlgn7suhdzuji275ipjkf674aa"
+      }
+    }
+    repairable: true
+  }
+  balances {
+    addr {
+      name: "Initial Address"
+      addr: "t3rwztsjalrrnziots5yhyvgqzhhyjqtvubpaleig5h4hezqi36ywt2wvkmahlgn7suhdzuji275ipjkf674aa"
+      type: "bls"
+    }
+    balance: 250000000000000000
+  }
+  pins: "QmTqdKd8NdTLWx1vHbLw1nbKyJ9JNr5Q9kMFS2JQkH5hxX"
+  pins: "QmY4K9ac16CHqRKupfoWjXqhoryuaTu7VxNXGSnVgWiM32"
+  pins: "QmaPndBy99qcz7rCAooak8SY34Rk9oXWpEBp4dUyhbmq1q"
+  pins: "QmbcKgdxWfZzePsrc6rWq2yk12GE1MnW8JJiubHAJovKb5"
+  pins: "QmdWK5hzZqiukoxH9z3yz5xDYkvTxJfNfFFVsH2N7WYxME"
+}
+
+
+
+
+

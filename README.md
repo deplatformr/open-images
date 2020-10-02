@@ -152,6 +152,23 @@ https://github.com/textileio/powergate/issues/619
 
 * You can configure cold storage retrieval using. See https://docs.textile.io/powergate/storageconfig/#storageconfig-details `AllowUnfreeze` tells Powergate, go pull from cold storage if you cannot find it on hot.
 
+* The hosted Powergate default config has `Hot` `Enabled` set to `false`.  However, staging a file still gets me the response "Success! Cached file in FFS hot storage with cid: QmY4K9ac16CHqRKupfoWjXqhoryuaTu7VxNXGSnVgWiM32". How can this be if hot storage is not enabled? Is the staged file there for a temporary period of time before I push it to Cold storage? If so, how long is this window of time?  
+  * the response message could be cleaned up. staging does cache it in the same layer that is your Hot layer, but it doesn’t not store it permanently there. recall “Hot” just means “ipfs node” here, so it is cached there until you make a deal with lotus (and garbage collection removes it).
+cached. in hot. but not permanent unless you push a config that says to make it so
+
+* If I change the Hot Enabled setting in my DefaultConfig to true and use it for all my file uploads, does that mean that all these files will be indefinitely cached in that Powergate server's IPFS node? If so, what's the maximum capacity of this IPFS cache on a hosted Powergate?  
+  * Not much. We don’t recommend turning it on for all storage. but if you need select parts for the network to just do them specifically on. (or if you are testing the ability for an app to toggle them on/off)
+
+* If I understand previous discussion threads in this channel correctly, adjusting `RepFactor`, `ExcludedMiners`, `TrustedMiners` , and `CountryCodes`  on a hosted Powergate will have no effect. Textile has defaulted the RepFactor to 3 and is "using a custom miner-selector strategy by default: SR2-MinerSelector. Every time Powergate needs to create a deal, it will fetch this JSON file (https://github.com/filecoin-project/slingshot/blob/master/miners.json), and it will select one miner at random from each region and make deals with them). But I should keep track of each of these 3 pushes to make sure that a deal hasn't failed, right? Let's say one of the three deals has failed. If I repush that file (with an -o overide flag), will it drop the two successful deals and start from scratch, trying to make deals with 3 new miners from that day's JSON file list? Or will the first two successful deals persist and then 3 new override deals may be added to make for 5 copies of the CID in the end?  
+  * no, the pow will check to see how much of the new config is already fulfilled by the state of the storage deals. so if it detects 2 and y you ask for 3, it would just create 1 more
+
+* `DealMinDuration` "DealDuration indicates the duration to be used when making new deals." To be clear, this is the amount of time, in Filecoin epochs, that I want a deal to persist my data, right? The hosted Powergate default for DealMinDuration is set to "518400". Is this equivalent to the minimum 6 month deal duration that is currently in effect on Testnet by default? If not, how much time is this in "real" time?  
+  * that’s block count, but approx 6 months yes
+
+* `MaxPrice`  from the Slingshot channel: "If you are setting max price limits in Filecoin storage deals, please set these to greater than or equal to 100,000,000 attoFIL / GiB / epoch. This is the price that we are recommending storage miners set their asks to, and so will allow deals to go through in the marketplace." So to compl with this my MaxPrice setting should be = "1000000000", right? i.e. it is using attoFIL denomination?  
+  * Correct
+
+
 
 REFERENCES:
 ===========

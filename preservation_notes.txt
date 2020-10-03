@@ -1,0 +1,25 @@
+Permanent photos availability on Flickr is not guaranteed. See https://www.archiveteam.org/index.php?title=Flickr
+
+Dataset metadata is scattered across several large CSV files. They are not aggregated per photo. Metadata is not "inextricably linked" to the source material.
+
+Created a schema.org/ImageObject based JSON-LD profile for the photographs in the Open Images dataset, now making their metadata accessible as Linked Open Data.
+
+Create an unofficial URN namespace format for Open Image IDs ("openimage:<ImageID>")
+
+Extracted extra contextual information from the photographs: creation data, latitude, longitude, altitude.
+
+Created self-describing 32GiB maximum packages of photographs for backup to Filecoin using the OCFL and Bagit.
+
+NOTES
+-----
+* The Complete Open Images set (version 6) has 9,178,275 images. Deplatformr is only downloading the 7,337,077 images that have human-verified labels (19,958 labels).
+
+* This also includes the boxes, segmentations and relationship annotations for these 7,337,077 images (the train, validate and test sets for each).
+
+* Localized Narratives were not included.
+
+* OriginalMD5: MD5 hash of the original JPEG-encoded image.
+
+* Image ids are generated based on hashes of the data so effectively the sampling within a stratum is pseudo-random and deterministic. <Not indicated what hashes were used>
+
+* Thumbnail300KURL is an optional URL to a thumbnail with ~300K pixels (~640x480). 300K: Images have roughly 300,000 pixels. JPEG quality of 72. It is provided for the convenience of downloading the data in the absence of more convenient ways to get the images. If missing, OriginalURL must be used (and then resized to the same size, if needed). These thumbnails are generated on the fly and their contents and even resolution might be different every day. ** new thumbnails created to ensure consistency ** 

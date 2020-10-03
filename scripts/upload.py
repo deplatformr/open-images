@@ -1,7 +1,6 @@
 from pygate_grpc.client import PowerGateClient
 from pygate_grpc.ffs import get_file_bytes, bytes_to_chunks
 import os
-from PIL import Image
 
 client = PowerGateClient("api.pow.deplatformr.textile.io:443", is_secure=True)
 

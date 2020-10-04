@@ -168,6 +168,9 @@ cached. in hot. but not permanent unless you push a config that says to make it 
 * `MaxPrice`  from the Slingshot channel: "If you are setting max price limits in Filecoin storage deals, please set these to greater than or equal to 100,000,000 attoFIL / GiB / epoch. This is the price that we are recommending storage miners set their asks to, and so will allow deals to go through in the marketplace." So to compl with this my MaxPrice setting should be = "1000000000", right? i.e. it is using attoFIL denomination?  
   * Correct
 
+* How do I get the Filecoin Lotus CID via IPFS CID or jobId?  
+   `pow ffs storage -pf --cids <cid>`
+
 
 
 REFERENCES:

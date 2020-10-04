@@ -22,6 +22,6 @@ NOTES
 
 * Image ids are generated based on hashes of the data so effectively the sampling within a stratum is pseudo-random and deterministic. <Not indicated what hashes were used>
 
-* Thumbnail300KURL is an optional URL to a thumbnail with ~300K pixels (~640x480). 300K: Images have roughly 300,000 pixels. JPEG quality of 72. It is provided for the convenience of downloading the data in the absence of more convenient ways to get the images. If missing, OriginalURL must be used (and then resized to the same size, if needed). These thumbnails are generated on the fly and their contents and even resolution might be different every day. ** new thumbnails created to ensure consistency ** 
+* Thumbnail300KURL is an optional URL to a thumbnail with ~300K pixels (~640x480). 300K: Images have roughly 300,000 pixels. JPEG quality of 72. It is provided for the convenience of downloading the data in the absence of more convenient ways to get the images. If missing, OriginalURL must be used (and then resized to the same size, if needed). These thumbnails are generated on the fly and their contents and even resolution might be different every day. ** new thumbnails created to ensure consistency 640 width x ? (90x90 resolution) ** 
 
 * There is a surprisingly high number of 404 and 410 failure responses from the Flickr servers hosting the images (include % & timeout values used)

@@ -16,12 +16,17 @@ if not os.path.exists(os.path.join(os.getcwd(), images_path + "/1")):
 def download():
     cursor = workflow_db.cursor()
     cursor.execute(
-        "SELECT ImageID FROM images LIMIT 1 WHERE download = ?", (None,),)
-    image_id = cursor.fetchone()
+        "SELECT image_id FROM images WHERE download IS NULL LIMIT 1",)
+    result = cursor.fetchone()
+    image_id = result[0]
     cursor.close()
     cursor = images_db.cursor()
     cursor.execute("SELECT OriginalURL FROM open_images WHERE ImageID = ?", (image_id,),)
+    result = cursor.fetchone()
+    url = result[0]
+    cursor.close
     directory = get_directory()
+    download_images(url, image_id, directory)
 
 def get_directory():
     images_dir = os.path.join(os.getcwd(), images_path)
@@ -39,11 +44,8 @@ def get_directory():
     else:
         return(latest_dir)
 
-def main():
-
+if __name__ == "__main__":
     download()
 
-if __name__ == "__main__":
-    get_directory()
 
 

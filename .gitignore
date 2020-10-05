@@ -1,5 +1,5 @@
 venv/
 .DS_Store
-pipepline/source_data/
-pipeline/deplatform_open_images_worlflow.sqlite
+pipeline/source_data/
+pipeline/deplatformr_open_images_workflow.sqlite
 pipeline/scripts/__pycache__

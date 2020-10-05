@@ -22,7 +22,9 @@ def download_images(url, image_id, directory):
             cursor.execute("UPDATE images SET download = ?, download_timestamp = ?, http_code = ? WHERE image_id = ?", (False, utctime, response.status_code, image_id,),)
             db.commit()
             db.close()
+
             return()
+            
         file = open(filepath, "wb")
         response.raw.decode_content = True
         shutil.copyfileobj(response.raw, file)

@@ -8,6 +8,8 @@ Create an unofficial URN namespace format for Open Image IDs ("openimage:<ImageI
 
 Extracted extra contextual information from the photographs: creation data, latitude, longitude, altitude.
 
+The provided MD5 hash of the original JPEG-encoded images were base64 encoded. The hashes needed to be decoded and converted to Hex format to make them usable. Updated the image metadata to use the more standard 32 digit format.
+
 Created self-describing 32GiB maximum packages of photographs for backup to Filecoin using the OCFL and Bagit.
 
 NOTES
@@ -18,7 +20,7 @@ NOTES
 
 * Localized Narratives were not included.
 
-* OriginalMD5: MD5 hash of the original JPEG-encoded image.
+
 
 * Image ids are generated based on hashes of the data so effectively the sampling within a stratum is pseudo-random and deterministic. <Not indicated what hashes were used>
 

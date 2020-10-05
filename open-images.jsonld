@@ -7,6 +7,7 @@
     "name": "<Title>",
     "creator": "<Author> (<AuthorProfileURL>)",
     "dateCreated": "<created>",
+    "description": "<EXIF Image ImageDescription> <EXIF Image Caption>"
     "license": "<License>",
     "contentSize": "<OriginalSize> **re-calculate**",
     "encodingFormat": "<mime_type>",

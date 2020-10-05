@@ -61,65 +61,78 @@ def get_download_list(offset):
 
     return(label, labeled_images)
 
-def download_images(label, list):
+def download_images(label, image_tuple):
 
     cursor = db.cursor()
+    # Convert tuple to list
+    image_list = [[*row] for row in image_tuple]
+
     # Download each picture that uses the same label
     # for i in range(0, len(list)):
     for i in range(0, 20):
         # Check that this image and its info has not already been downloaded
         cursor.execute("SELECT status FROM workflow_status WHERE image_id = ? AND task =?;",
-                       (list[i][0], "download"),)
+                       (image_list[i][0], "download"),)
         download_status = cursor.fetchone()
         if download_status is None:
             try:
+                print(i) # debug
+                print(image_list[i][0]) #debug
+                print(image_list[i][1]) #debug
                 # Create a download directory per label
                 label_dir = os.path.join(
                     os.getcwd(), "source_data/images/" + label + "/")
                 if not os.path.exists(label_dir):
                     os.makedirs(label_dir)
-                url, file_extension = os.path.splitext(list[i][1])
+                url, file_extension = os.path.splitext(image_list[i][1])
                 filename = os.path.join(
-                    label_dir, list[i][0] + file_extension)
+                    label_dir, image_list[i][0] + file_extension)
                 response = requests.get(
-                    list[i][1], stream=True, timeout=(3, 10))
+                    image_list[i][1], stream=True, timeout=(3, 10))
                 utctime = datetime.utcnow()
                 if response.status_code != 200:
                     # Log failure in database
                     cursor.execute("INSERT INTO workflow_status (image_id, task, status, timestamp, output) VALUES (?,?,?,?,?)", (
-                        list[i][0], "download", "failure", utctime, response.status_code,),)
+                        image_list[i][0], "download", "failure", utctime, response.status_code,),)
                     # Remove this image from fetch list
-                    list[i].pop()
+                    print("deleting " + image_list[i][0] + " at index position: " + str(i)) #debug
+                    image_list.pop(i)
+                    print("the record now at position " + str(i) + " is " + image_list[i][0]) #debug
+                    i = i - 1 # <- need to figure out now to do this if an item gets popped from index
                     continue
                 file = open(filename, "wb")
                 response.raw.decode_content = True
                 shutil.copyfileobj(response.raw, file)
                 cursor.execute("INSERT INTO workflow_status (image_id, task, status, timestamp, output) VALUES (?,?,?,?,?)", (
-                    list[i][0], "download", "success", utctime, response.status_code,),)
-                list[i][3] = filename
+                    image_list[i][0], "download", "success", utctime, response.status_code,),)
+                image_list[i].append(filename)
+                print(image_list[i][3])
             except Exception as e:
-                print("Unable to download or save " + list[i][1])
+                print("Unable to download or save " + image_list[i][1])
                 print(e)
                 # Log failure in database
+                utctime = datetime.utcnow()
                 cursor.execute("INSERT INTO workflow_status (image_id, task, status, timestamp, output) VALUES (?,?,?,?,?)", (
-                    list[i][0], "download", "failure", utctime, e,),)
+                    image_list[i][0], "download", "failure", utctime, e,),)
                 # Remove this image from fetch list
-                list[i].pop()
+                image_list.pop(i)
         else:
+            print(image_list[i][0] + " has already been downloaded.")
             continue
 
     db.commit()
     cursor.close()
 
-    return(label_dir, list)
+    return(label_dir, image_list)
 
 
 def verify_checksums(download_dir, images):
     cursor = db.cursor()
 
     # for i in range(0, len(images)):
-    print(images)
     for i in range(0, 10):
+        print(i) #debug
+        print(images[i]) #debug
         try:
             # Decode Open Images MD5 checksum
             open_images_md5 = base64.b64decode(images[i][2])
@@ -143,10 +156,10 @@ def verify_checksums(download_dir, images):
         except Exception as e:
             print(e)
 
-        db.commit()
-        cursor.close()
+    db.commit()
+    cursor.close()
 
-    return()
+    return(images)
 
 
 def main():
@@ -184,7 +197,7 @@ def main():
     try:
         print("Verifying checksums...")
         verified_images = verify_checksums(download_dir, images)
-        print(len(verified_images) + " images successfully downloaded.")
+        print(str(len(verified_images)) + " images successfully downloaded.")
     except Exception as e:
         print("Unable to verify download checksums")
         print(e)

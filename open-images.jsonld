@@ -4,6 +4,7 @@
     "@type": "ImageObject",
     "@id": "openimages: <ImageID>,",
     "contentUrl": "<OriginalURL>",
+    "thumbnailUrl": "Thumb"
     "name": "<Title>",
     "creator": "<Author> (<AuthorProfileURL>)",
     "dateCreated": "<created>",
@@ -15,13 +16,6 @@
     "height": "<height>",
     "image": "<filename> **use ImageID + extension**", 
     "disambiguatingDescription": "MD5 checksum: <OriginalMD5> **confirm**",
-    "thumbnail": "tn_<ImageID> **generate**",
-    "isPartOf": [
-        {
-          "filecoin": "<CID>",
-          "package": "<.tar>"
-        }
-    ],
     "exifData": [
         {
           "@type": "PropertyValue",

@@ -4,6 +4,7 @@ from datetime import datetime
 import base64
 import hashlib
 
+
 def verify_checksums(image_id, filepath, checksum):
     abs_path = os.getcwd()
     sqlite_path = ("deplatformr_open_images_workflow.sqlite")
@@ -12,9 +13,8 @@ def verify_checksums(image_id, filepath, checksum):
     cursor = workflow_db.cursor()
     image_path = os.path.join(abs_path, filepath)
 
-
     try:
-        # Generate MD5 checkusm for downloaded file
+        # Generate MD5 checksum for downloaded file
         with open(image_path, 'rb') as filehash:
             m = hashlib.md5()
             while True:
@@ -29,38 +29,23 @@ def verify_checksums(image_id, filepath, checksum):
         # Compare values
         utctime = datetime.utcnow()
         if m.hexdigest() == open_images_md5.hex():
-            cursor.execute("UPDATE images SET verify_checksum = ?, verify_checksum_timestamp = ? WHERE image_id = ?", (True, utctime, image_id,),)
-            workflow_db.commit()
-            workflow_db.close()
-            db_path = os.path.join(abs_path, "source_data/deplatformr_open_images_v6.sqlite")
-            images_db = sqlite3.connect(db_path)
-            cursor = images_db.cursor()
-            # Update checksum to use decoded value in more standard MD5 format
-            cursor.execute("UPDATE open_images SET OriginalMD5 = ? WHERE ImageID = ?", (m.hexdigest(), image_id,),)
-            images_db.commit()
-            images_db.close()
-
-            return()
-
+            cursor.execute(
+                "UPDATE images SET verify_checksum = ?, verify_checksum_timestamp = ? WHERE image_id = ?", (True, utctime, image_id,),)
         else:
-            cursor.execute("UPDATE images SET verify_checksum = ?, verify_checksum_timestamp = ? WHERE image_id = ?", (False, utctime, image_id,),)
-            workflow_db.commit()
-            workflow_db.close()
-            print("Failed to match checksum " + m.hexdigest() + " for image " + image_id + ".")
-
-            return()
+            cursor.execute(
+                "UPDATE images SET verify_checksum = ?, verify_checksum_timestamp = ? WHERE image_id = ?", (False, utctime, image_id,),)
+            print("Failed to match checksum " +
+                  m.hexdigest() + " for image " + image_id + ".")
 
     except Exception as e:
-        cursor.close()
-        sqlite_path = ("deplatformr_open_images_workflow.sqlite")
-        db_path = os.path.join(abs_path, sqlite_path)
-        workflow_db = sqlite3.connect(db_path)
-        cursor = workflow_db.cursor()
         utctime = datetime.utcnow()
-        cursor.execute("UPDATE images SET verify_checksum = ?, verify_checksum_timestamp = ? WHERE image_id = ?", (False, utctime, image_id,),)
-        workflow_db.commit()
-        workflow_db.close()            
-        print("Failed to match checksum " + m.hexdigest() + " for image " + image_id + ".")
+        cursor.execute(
+            "UPDATE images SET verify_checksum = ?, verify_checksum_timestamp = ? WHERE image_id = ?", (False, utctime, image_id,),)
+        print("Failed to match checksum " +
+              m.hexdigest() + " for image " + image_id + ".")
         print(e)
 
-        return()
+    workflow_db.commit()
+    workflow_db.close()
+
+    return()

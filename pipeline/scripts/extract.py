@@ -41,7 +41,10 @@ def extract_metadata(image_id, filepath):
         try:
             created = str(exif_tags.get("EXIF DateTimeOriginal"))
         except IndexError:
-            created = None
+            try:
+                created = str(exif_tags.get("Image DateTime"))
+            except IndexError:
+                created = None
         try:
             description = str(exif_tags.get("Image ImageDescription"))
         except IndexError:

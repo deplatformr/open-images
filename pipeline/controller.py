@@ -19,7 +19,7 @@ if not os.path.exists(os.path.join(os.getcwd(), images_path + "/1")):
 def download():
     cursor = workflow_db.cursor()
     cursor.execute(
-        "SELECT image_id FROM images WHERE download IS NULL LIMIT 1",)
+        "SELECT image_id FROM images WHERE download IS NULL LIMIT ?", (1,),)
     result = cursor.fetchone()
     image_id = result[0]
     cursor.close()
@@ -54,7 +54,7 @@ def verify():
     try:
         cursor = workflow_db.cursor()
         cursor.execute(
-            "SELECT image_id, filepath FROM images WHERE download = 1 AND verify_checksum IS NULL LIMIT 1",)
+            "SELECT image_id, filepath FROM images WHERE download = ? AND verify_checksum IS NULL LIMIT ?", (1, 1,),)
         result = cursor.fetchone()
         image_id = result[0]
         filepath = result[1]
@@ -77,7 +77,7 @@ def extract():
     try:
         cursor = workflow_db.cursor()
         cursor.execute(
-            "SELECT image_id, filepath FROM images WHERE verify_checksum = 1 AND extract_metadata IS NULL LIMIT 1",)
+            "SELECT image_id, filepath FROM images WHERE verify_checksum = ? AND extract_metadata IS NULL LIMIT ?", (1, 1,),)
         result = cursor.fetchone()
         image_id = result[0]
         filepath = result[1]
@@ -91,6 +91,10 @@ def extract():
 
 
 if __name__ == "__main__":
-    download()
-    verify()
-    extract()
+
+    for i in range(1, 10):
+        print("verify " + str(i))  # debug
+        verify()
+    for i in range(1, 10):
+        print("extract " + str(i))  # debug
+        extract()

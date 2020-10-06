@@ -24,6 +24,7 @@ def extract_metadata(image_id, filepath):
         # Return Exif tags
         f = open(image_path, 'rb')
         exif_tags = exifread.process_file(f)
+        print(exif_tags.get("Image DateTime"))  # debug
         try:
             width = str(exif_tags.get("EXIF ExifImageWidth"))
         except IndexError:
@@ -39,12 +40,12 @@ def extract_metadata(image_id, filepath):
         except IndexError:
             resolution = None
         try:
-            created = str(exif_tags.get("EXIF DateTimeOriginal"))
-        except IndexError:
-            try:
+            if exif_tags.get("EXIF DateTimeOriginal") is None:
                 created = str(exif_tags.get("Image DateTime"))
-            except IndexError:
-                created = None
+            else:
+                created = str(exif_tags.get("EXIF DateTimeOriginal"))
+        except IndexError:
+            created = None
         try:
             description = str(exif_tags.get("Image ImageDescription"))
         except IndexError:

@@ -92,9 +92,9 @@ def extract():
 
 if __name__ == "__main__":
 
-    for i in range(1, 10):
+    for i in range(1, 20):
         print("verify " + str(i))  # debug
         verify()
-    for i in range(1, 10):
+    for i in range(1, 20):
         print("extract " + str(i))  # debug
         extract()

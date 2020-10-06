@@ -1,6 +1,6 @@
 Permanent photos availability on Flickr is not guaranteed. See https://www.archiveteam.org/index.php?title=Flickr
 
-Dataset metadata is scattered across several large CSV files. They are not aggregated per photo. Metadata is not "inextricably linked" to the source material.
+Dataset metadata is scattered across several large CSV files. They are not aggregated per photo. Metadata is not "inextricably linked" to the source material. Hosted at https://storage.googleapis.com/openimages/web/download.html
 
 Created a schema.org/ImageObject based JSON-LD profile for the photographs in the Open Images dataset, now making their metadata accessible as Linked Open Data.
 
@@ -16,15 +16,19 @@ Created self-describing 4 GiB maximum packages of photographs for backup to File
 
 NOTES
 -----
-* The Complete Open Images set (version 6) has 9,178,275 images. Deplatformr is only downloading the 7,337,077 images that have human-verified labels (19,958 labels).
+* The Complete Open Images set (version 6) has 9,178,275 images. 
 
-* This also includes the boxes, segmentations and relationship annotations for these 7,337,077 images (the train, validate and test sets for each).
+* Annotation data includes labels, boxes, segmentations and relationships (the train, validate and test sets for each). 
 
-* Localized Narratives were not included.
+* Label annotations only include those that were human-verified (7,337,077 images).
 
-* Image ids are generated based on hashes of the data so effectively the sampling within a stratum is pseudo-random and deterministic. <Not indicated what hashes were used>
+* Localized Narratives were not included. 
 
-* Thumbnail300KURL is an optional URL to a thumbnail with ~300K pixels (~640x480). 300K: Images have roughly 300,000 pixels. JPEG quality of 72. It is provided for the convenience of downloading the data in the absence of more convenient ways to get the images. If missing, OriginalURL must be used (and then resized to the same size, if needed). These thumbnails are generated on the fly and their contents and even resolution might be different every day. ** new thumbnails created to ensure consistency 640 width x ? (90x90 resolution) ** 
+* Image ids are generated based on hashes of the data so effectively the sampling within a stratum is pseudo-random and deterministic. It is not indicated what hashes were used>
+
+* Thumbnails are not standardized and not included. URL to thumbnail file is provided.
+
+"Thumbnail300KURL is an optional URL to a thumbnail with ~300K pixels (~640x480). 300K: Images have roughly 300,000 pixels. JPEG quality of 72. It is provided for the convenience of downloading the data in the absence of more convenient ways to get the images. If missing, OriginalURL must be used (and then resized to the same size, if needed). These thumbnails are generated on the fly and their contents and even resolution might be different every day."" 
 
 * There is a surprisingly high number of 404 and 410 failure responses from the Flickr servers hosting the images. I used a very high timeout setting of 3 seconds for connection and 10 seconds for reading to minimize server/network bottleneck issues.
 

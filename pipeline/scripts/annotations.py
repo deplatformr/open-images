@@ -15,27 +15,27 @@ def retrieve_annotations(image_id):
         "SELECT labels.LabelName, labels.DisplayName FROM labels INNER JOIN train_labels_human ON train_labels_human.LabelName = labels.LabelName WHERE train_labels_human.ImageID = ?", (image_id,),)
     results = cursor.fetchall()
     if len(results) > 0:
-        labels = []
+        labels = {}
         for result in results:
-            labels.append({result[0]: result[1]})
+            labels[result[0]] = result[1]
         annotations["trainingLabels"] = labels
 
     cursor.execute(
         "SELECT labels.LabelName, labels.DisplayName FROM labels INNER JOIN validate_labels_human ON validate_labels_human.LabelName = labels.LabelName WHERE validate_labels_human.ImageID = ?", (image_id,),)
     results = cursor.fetchall()
     if len(results) > 0:
-        labels = []
+        labels = {}
         for result in results:
-            labels.append({result[0]: result[1]})
+            labels[result[0]] = result[1]
         annotations["validationLabels"] = labels
 
     cursor.execute(
         "SELECT labels.LabelName, labels.DisplayName FROM labels INNER JOIN test_labels_human ON test_labels_human.LabelName = labels.LabelName WHERE test_labels_human.ImageID = ?", (image_id,),)
     results = cursor.fetchall()
     if len(results) > 0:
-        labels = []
+        labels = {}
         for result in results:
-            labels.append({result[0]: result[1]})
+            labels[result[0]] = result[1]
         annotations["testingLabels"] = labels
 
     # Boxes

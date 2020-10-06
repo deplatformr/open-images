@@ -6,7 +6,7 @@ from natsort import natsorted
 from scripts.download import download_images
 from scripts.verify import verify_checksums
 from scripts.extract import extract_metadata
-from scripts.write import write_metadata
+from scripts.sidecar import write_metadata
 
 db_path = os.path.join(os.getcwd(), "deplatformr_open_images_workflow.sqlite")
 workflow_db = sqlite3.connect(db_path)
@@ -92,16 +92,17 @@ def extract():
     return()
 
 
-def write():
+def sidecar():
     try:
         cursor = workflow_db.cursor()
         cursor.execute(
-            "SELECT image_id, filepath FROM images WHERE extract_metadata = ? AND write_metadata IS NULL LIMIT ?", (1, 1,),)
+            "SELECT image_id, filepath FROM images WHERE extract_metadata = ? AND write_sidecar IS NULL LIMIT ?", (1, 1,),)
         result = cursor.fetchone()
         image_id = result[0]
-        directory = os.path.split(result[0])
+        split = os.path.split(result[1])
+        directory = split[0]
         cursor.close()
-        extract_metadata(image_id, image_directory)
+        write_metadata(image_id, directory)
     except Exception as e:
         print("Unable to find image for metadata writing.")
         print(e)
@@ -110,11 +111,7 @@ def write():
 
 
 if __name__ == "__main__":
-
-    print(datetime.now())
-
-    for i in range(1, 950):
-        print("extract " + str(i))
-        extract()
-
-    print(datetime.now())
+    download()
+    verify()
+    extract()
+    sidecar()

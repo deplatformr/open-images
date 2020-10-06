@@ -282,4 +282,38 @@ peter@Peters-MacBook-Air slingshot % POW_SERVERADDRESS=api.pow.deplatformr.texti
 > 2020-10-02T18:59:03 - Configuration saved successfully
 
 
+=========================
+Google Images download:
+Home wifi - Macbook Air 1.6 Dual Core i5 8GB
+1009 images
+
+Download
+---------
+start: 2020-10-05 18:50:44.698927
+end: 2020-10-05 19:24:02.826915
+duration: 34 minutes
+949 successful downloads
+60 failures
+6% failure rate
+
+Verify checksum
+---------------
+start: 2020-10-05 19:32:06.514563
+end: 2020-10-05 19:48:00.206577
+duration: 16 minutes
+949 images
+949 successful checks
+0 failures
+
+Extract Metadata
+----------------
+start: 2020-10-05 19:52:23.185717
+end: 2020-10-05 20:09:09.822502
+duration: 17 minutes
+949 images
+948 successful extracts
+1 failure
+
+
+
 

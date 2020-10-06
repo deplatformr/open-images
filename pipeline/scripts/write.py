@@ -1,6 +1,7 @@
 import os
 import sqlite3
 import json
+from annotations import retrieve_annotations
 
 
 def write_metadata(image_id="cdc83f5d4569422d", image_directory="source_data/images/1"):
@@ -32,8 +33,8 @@ def write_metadata(image_id="cdc83f5d4569422d", image_directory="source_data/ima
     else:
         size = None
 
-    img_dict = {"@context": "https://schema.org/",
-                "@type": "ImageObject", "@id": imageid, "contentUrl": image[2]}
+    img_dict = {"@id": imageid, "contentUrl": image[2], "@context": "https://schema.org/",
+                "@type": "ImageObject"}
 
     if image[10] is not None and image[10] != "None":
         img_dict["thumbnailUrl"] = image[10]
@@ -78,6 +79,9 @@ def write_metadata(image_id="cdc83f5d4569422d", image_directory="source_data/ima
     if exif_dict is not None:
         img_dict["exifData"] = exif_dict
 
+    annotations = retrieve_annotations(image_id)
+    img_dict["about"] = annotations
+
     with open(filepath, "w", encoding="utf-8") as outfile:
         json.dump(img_dict, outfile, indent=4, ensure_ascii=False)
 
@@ -91,7 +95,3 @@ def GetHumanReadableFilesize(size, precision=2):
         suffixIndex += 1  # increment the index of the suffix
         size = size / 1024.0  # apply the division
     return "%.*f %s" % (precision, size, suffixes[suffixIndex])
-
-
-if __name__ == "__main__":
-    write_metadata()

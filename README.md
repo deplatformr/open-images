@@ -4,3 +4,5 @@
 * Upload to Filecoin network
 * Build a map overlay app from extracted GPS data for the [Filecoin Slingshot](https://slingshot.filecoin.io/) competition
 * Train Deplatformr models on personal datasets using Open Image dataset
+
+![image](notes/deplatformr-open-images.png)

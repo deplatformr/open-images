@@ -23,7 +23,8 @@ def download():
     cursor.execute(
         "SELECT image_id FROM images WHERE download IS NULL LIMIT ?", (1,),)
     result = cursor.fetchone()
-    image_id = result[0]
+    #image_id = result[0]
+    image_id = "0a0a00b2fbe89a47"
     cursor.close()
     cursor = images_db.cursor()
     cursor.execute(
@@ -105,6 +106,23 @@ def sidecar():
         write_metadata(image_id, directory)
     except Exception as e:
         print("Unable to find image for metadata writing.")
+        print(e)
+
+    return()
+
+
+def segmentations():
+    try:
+        cursor = workflow_db.cursor()
+        cursor.execute(
+            "SELECT image_id, filepath FROM images WHERE write_sidecar = ? AND move_segmentations IS NULL LIMIT ?", (1, 1,),)
+        result = cursor.fetchone()
+        image_id = result[0]
+        filepath = result[1]
+        cursor.close()
+        write_metadata(image_id, filepath)
+    except Exception as e:
+        print("Unable to find segmentation files to move.")
         print(e)
 
     return()

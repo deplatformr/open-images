@@ -171,6 +171,15 @@ cached. in hot. but not permanent unless you push a config that says to make it 
 * How do I get the Filecoin Lotus CID via IPFS CID or jobId?  
    `pow ffs storage -pf --cids <cid>`
 
+* How do I retrieve data via data cid from cold storage directly?  
+  * If you set HotStorage: true and AllowUnfreeze: true in the StorageConfig, that should retrieve the data from    
+    Filecoin and place it in your go-ipfs node.  
+  * From Lotus: https://docs.filecoin.io/store/lotus/retrieve-data/#making-a-retrieval-deal
+
+* Is it possible sum all stored data using pow?  
+  * You can use `pow ffs show` to get list of all currently stored data and its size. Yu'd have to sum them yourself.
+  * Also, there is that bug with `pow ffs show` where it fails if there are any storage jobs in progress. 
+
 
 
 REFERENCES:

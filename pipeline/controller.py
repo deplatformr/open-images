@@ -3,7 +3,7 @@ import sqlite3
 import shutil
 from datetime import datetime
 from natsort import natsorted
-from scripts.download import download_images
+from scripts.download import download_images, get_directory
 from scripts.verify import verify_checksums
 from scripts.extract import extract_metadata
 from scripts.sidecar import write_metadata
@@ -32,25 +32,7 @@ def download():
     result = cursor.fetchone()
     url = result[0]
     cursor.close
-    directory = get_directory()
-    download_images(url, image_id, directory)
-
-
-def get_directory():
-    images_dir = os.path.join(os.getcwd(), images_path)
-    dirs = os.listdir(images_dir)
-    if ".DS_Store" in dirs:
-        dirs.remove(".DS_Store")
-    latest_dir = natsorted(dirs)[-1]
-    count_dir = os.path.join(images_dir, latest_dir)
-    path, dirs, files = next(os.walk(count_dir))
-    file_count = len(files)
-    if file_count > 999:
-        new_dir = str(int(latest_dir) + 1)
-        os.makedirs(os.path.join(images_dir, new_dir))
-        return(new_dir)
-    else:
-        return(latest_dir)
+    download_images(url, image_id)
 
 
 def verify():

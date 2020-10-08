@@ -5,7 +5,8 @@ import shutil
 from datetime import datetime
 
 
-def download_images(url, image_id, directory):
+def download_images(url, image_id):
+    directory = get_directory()
     abs_path = os.getcwd()
     images_path = ("source_data/images/")
 
@@ -65,3 +66,20 @@ def download_images(url, image_id, directory):
         workflow_db.close()
 
     return()
+
+
+def get_directory():
+    images_dir = os.path.join(os.getcwd(), images_path)
+    dirs = os.listdir(images_dir)
+    if ".DS_Store" in dirs:
+        dirs.remove(".DS_Store")
+    latest_dir = natsorted(dirs)[-1]
+    count_dir = os.path.join(images_dir, latest_dir)
+    path, dirs, files = next(os.walk(count_dir))
+    file_count = len(files)
+    if file_count > 999:
+        new_dir = str(int(latest_dir) + 1)
+        os.makedirs(os.path.join(images_dir, new_dir))
+        return(new_dir)
+    else:
+        return(latest_dir)

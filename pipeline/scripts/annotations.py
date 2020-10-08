@@ -107,7 +107,7 @@ def retrieve_annotations(image_id):
         for result in results:
             segmentations.append({result[0]: result[1], "maskFile": result[2], "boxId": result[3], "xMin": result[4],
                                   "xMax": result[5], "yMin": result[6], "yMax": result[7], "PredictedIoU": result[8], "clicks": result[9]})
-        annotations["testingSegmentations"] = segmentations
+        annotations["trainingSegmentations"] = segmentations
 
     cursor.execute(
         "SELECT validate_segmentations.LabelName, labels.DisplayName, validate_segmentations.MaskPath, validate_segmentations.BoxID, validate_segmentations.BoxXMin, validate_segmentations.BoxXMax, validate_segmentations.BoxYMin, validate_segmentations.BoxYMax, validate_segmentations.PredictedIoU, validate_segmentations.Clicks FROM validate_segmentations INNER JOIN labels ON validate_segmentations.LabelName = labels.LabelName WHERE validate_segmentations.ImageID = ?", (image_id,),)
@@ -117,7 +117,7 @@ def retrieve_annotations(image_id):
         for result in results:
             segmentations.append({result[0]: result[1], "maskFile": result[2], "boxId": result[3], "xMin": result[4],
                                   "xMax": result[5], "yMin": result[6], "yMax": result[7], "PredictedIoU": result[8], "clicks": result[9]})
-        annotations["testingSegmentations"] = segmentations
+        annotations["validationSegmentations"] = segmentations
 
     cursor.execute(
         "SELECT test_segmentations.LabelName, labels.DisplayName, test_segmentations.MaskPath, test_segmentations.BoxID, test_segmentations.BoxXMin, test_segmentations.BoxXMax, test_segmentations.BoxYMin, test_segmentations.BoxYMax, test_segmentations.PredictedIoU, test_segmentations.Clicks FROM test_segmentations INNER JOIN labels ON test_segmentations.LabelName = labels.LabelName WHERE test_segmentations.ImageID = ?", (image_id,),)

@@ -8,7 +8,7 @@ Create an unofficial URN namespace format for Open Image IDs ("openimage:<ImageI
 
 Extracted extra contextual information from the photographs: creation data, description, mime type, height, length, resolution, latitude, longitude, altitude.
 
-The provided MD5 hash of the original JPEG-encoded images were base64 encoded. The hashes needed to be decoded and converted to Hex format to make them usable. Updated the image metadata to use the more standard 32 digit format.
+The provided MD5 hash of the original JPEG-encoded images were base64 encoded. The hashes needed to be decoded and converted to Hex format to make them usable.
 
 The segmentation files were stored seperately from their source files and CSV metadata. The are now stored them with their source file in the same archival package and JSON-LD metadata.
 

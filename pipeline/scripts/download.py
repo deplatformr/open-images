@@ -27,7 +27,6 @@ def download_images(url, image_id, directory):
             workflow_db.close()
 
             return()
-
         file = open(filepath, "wb")
         response.raw.decode_content = True
         shutil.copyfileobj(response.raw, file)

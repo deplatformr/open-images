@@ -1,6 +1,7 @@
 pipepline/venv/
 .DS_Store
-slingshot-qa.txt
+notes/slingshot-qa.txt
+notes/slingshot-config.json
 pipeline/source_data/
 pipeline/deplatformr_open_images_workflow.sqlite
 pipeline/deplatformr_open_images_workflow copy.sqlite

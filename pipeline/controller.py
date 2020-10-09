@@ -9,7 +9,7 @@ from scripts.extract import extract_metadata
 from scripts.sidecar import write_metadata
 from scripts.segmentations import move_segmentations
 from scripts.batch import batch_size
-from scripts.package import create_packages
+from scripts.package import create_package
 
 db_path = os.path.join(os.getcwd(), "deplatformr_open_images_workflow.sqlite")
 workflow_db = sqlite3.connect(db_path)

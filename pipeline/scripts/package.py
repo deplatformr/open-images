@@ -6,8 +6,6 @@ from datetime import datetime
 
 
 def create_package(images, batch_dir):
-    print(images)  # debug
-    print(batch_dir)  # debug
 
     package_threshold = 5242880  # 5MiB
     abs_path = os.getcwd()
@@ -28,17 +26,19 @@ def create_package(images, batch_dir):
                 os.makedirs(new_batch_dir)
                 # move all related files for the last image that's getting removed from batch to keep within threshold
                 last_image = images[-1]
-                print(last_image)  # debug
-                print(last_image[0])
+                print("last image is: " + str(last_image))
                 path, dirs, files = next(os.walk(batch_dir))
                 for file in files:
-                    print(file)
+                    print("checking file: " + str(file))
                     if file.find(last_image[0]) != -1:
-                        print(path)
+                        print("found match in " + str(file))
                         filepath = os.path.join(path, file)
                         shutil.move(filepath, os.path.join(
                             new_batch_dir, file))
+                        print("moved matches from " + str(filepath))
+                        print("to " + new_batch_dir)
                 # drop the last image from the list (convert tuple) to get the package size back under threshold
+                print("removed last image from batch list:")
                 images.pop(-1)
                 print(images)
             except Exception as e:
@@ -63,11 +63,11 @@ def create_package(images, batch_dir):
                     packages_dir, tarball_name), "w:gz")
 
                 for file in files:
-                    print(file)
+                    print("adding " + str(file) + " to package.")
                     filepath = os.path.join(path, file)
                     tarball.add(filepath, file)
                     # delete source copy of file to save space
-                    print(filepath)
+                    print("Removing " + filepath)
                     os.remove(filepath)
                 tarball.close()
 

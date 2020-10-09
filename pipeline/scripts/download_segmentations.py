@@ -69,4 +69,4 @@ for url in urls:
     with ZipFile(filepath, 'r') as unzip_dir:
         unzip_dir.extractall(dir_name)
 
-    # os.remove(filepath)
+    os.remove(filepath)

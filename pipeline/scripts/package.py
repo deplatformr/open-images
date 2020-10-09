@@ -21,7 +21,7 @@ def create_package(images, batch_dir):
         else:
             try:
                 # create new batch directory
-                split = os.path.spit(batch_dir)
+                split = os.path.split(batch_dir)
                 new_dir_number = int(split[1]) + 1
                 new_batch_dir = os.path.join(split[0], str(new_dir_number))
                 os.makedirs(new_batch_dir)

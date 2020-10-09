@@ -171,11 +171,7 @@ def package():
         cursor.execute(
             "SELECT image_id, batch_size FROM images WHERE batch_size > 0 AND package_name IS NULL")
         results = cursor.fetchall()
-        print(type(results))
-        print(results)
         images = list(results)
-        print(type(images))
-        print(images)
         batch_dir = get_batch_directory()
         create_package(images, batch_dir)
 

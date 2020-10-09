@@ -55,19 +55,34 @@ urls = ("https://storage.googleapis.com/openimages/v5/train-masks/train-masks-0.
 
 for url in urls:
 
-    split = os.path.split(url)
-    filename = split[1]
-    filepath = os.path.join(download_dir, filename)
+    try:
+        split = os.path.split(url)
+        filename = split[1]
+        filepath = os.path.join(download_dir, filename)
 
-    response = requests.get(url, stream=True, timeout=(3, 10))
-    file = open(filepath, "wb")
-    response.raw.decode_content = True
-    shutil.copyfileobj(response.raw, file)
+        response = requests.get(url, stream=True, timeout=(3, 10))
+        file = open(filepath, "wb")
+        response.raw.decode_content = True
+        shutil.copyfileobj(response.raw, file)
+    except Exception as e:
+        print("Unable to download zip file.")
+        print(e)
+        continue
 
-    split = os.path.splitext(filename)
-    dir_name = os.path.join(download_dir, split[0])
+    try:
+        split = os.path.splitext(filename)
+        dir_name = os.path.join(download_dir, split[0])
 
-    with ZipFile(filepath, 'r') as unzip_dir:
-        unzip_dir.extractall(dir_name)
+        with ZipFile(filepath, 'r') as unzip_dir:
+            unzip_dir.extractall(dir_name)
+    except Exception as e:
+        print("Unable to unzip file.")
+        print(e)
+        continue
 
-    os.remove(filepath)
+    try:
+        os.remove(filepath)
+    except Exception as e:
+        print("Unable to delete zip file.")
+        print(e)
+        continue

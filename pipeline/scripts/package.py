@@ -1,4 +1,5 @@
 import os
+import shutil
 import sqlite3
 import tarfile
 from datetime import datetime
@@ -25,7 +26,7 @@ def create_package(images, batch_dir):
                 new_dir_number = int(split[1]) + 1
                 new_batch_dir = os.path.join(split[0], str(new_dir_number))
                 os.makedirs(new_batch_dir)
-                # find all related files for the last image that's getting removed from batch to keep within threshold
+                # move all related files for the last image that's getting removed from batch to keep within threshold
                 last_image = images[-1]
                 path, dirs, files = next(os.walk(batch_dir))
                 for file in files:
@@ -34,7 +35,7 @@ def create_package(images, batch_dir):
                         shutil.move(filepath, os.path.join(
                             new_batch_dir, file))
                 # drop the last image from the list (convert tuple) to get the package size back under threshold
-                images_list.pop(-1)
+                images.pop(-1)
             except Exception as e:
                 print("Unable to separate batch to make a package.")
                 print(e)

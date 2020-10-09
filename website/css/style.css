@@ -1,0 +1,18 @@
+body {
+  background-color: #FFF;
+  color: #000;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 120%;
+  padding: 50px;
+}
+
+body img{
+  padding: 40px;
+}
+
+.container-fluid{
+  text-align: center;
+}
+
+.section {
+}

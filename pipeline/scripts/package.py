@@ -3,6 +3,7 @@ import shutil
 import sqlite3
 import tarfile
 from datetime import datetime
+import bagit
 
 
 def create_package(images, batch_dir):
@@ -46,25 +47,26 @@ def create_package(images, batch_dir):
                 print(e)
                 return()
 
-            # TO DO:
-            # move image batches into OCFL structure
-            # generate checksums
-            # generate UUID for package name
-            # shorten UUID for package name
-            # create tarball
+            # Convert batch directory into a Bagit directory
+            print("creating a Bagit")
+            external_identifier = "deplatformr-open-images" + split[1]
+            bagit.make_bag(batch_dir,
+                           {'Source-Organization': 'Deplatformr Project', 'Organization-Address': 'https://open-images.deplatformr.com', 'External-Description': 'This package contains a subset of the Google Open Images dataset used for machine learning training. The image files have been downloaded from their Flickr server source, verified for fixity, had EXIF metadata extracted, and are bundled with their annotation data and segmentation files. This content and context is described in a sidecar metadata files using schema.org/ImageObject and JSON-LD format', 'External-Identifier': external_identifier, 'License': 'https://creativecommons.org/licenses/by/2.0/'}, checksums=["sha512"])
 
             try:
                 # Create the tar package
                 packages_dir = os.path.join(
                     os.getcwd(), "source_data/packages/")
 
-                tarball_name = "deplatformr-open-images-" + split[1] + ".tar"
+                tarball_name = external_identifier + ".tar"
                 tarball = tarfile.open(os.path.join(
-                    packages_dir, tarball_name), "w:gz")
+                    packages_dir, tarball_name), "w")
 
+                # Rewalk the directory after it has been made into a Bagit
+                path, dirs, files = next(os.walk(batch_dir))
                 for file in files:
                     print("adding " + str(file) + " to package.")
-                    filepath = os.path.join(path, file)
+                    filepath = os.path.join(path, arcname=file, recursive=True)
                     tarball.add(filepath, file)
                     # delete source copy of file to save space
                     print("Removing " + filepath)

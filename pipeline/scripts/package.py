@@ -6,6 +6,7 @@ from datetime import datetime
 
 def create_package(images, batch_dir):
     print(images)  # debug
+    print(batch_dir)  # debug
 
     package_threshold = 5242880  # 5MiB
     abs_path = os.getcwd()
@@ -13,7 +14,7 @@ def create_package(images, batch_dir):
     try:
         package_size = 0
         for image in images:
-            package_size += image[2]
+            package_size += image[1]
         if package_size < package_threshold:
             print("Not enough images yet to make a package from this batch.")
             return()

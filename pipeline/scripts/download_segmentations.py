@@ -65,6 +65,6 @@ for url in urls:
     shutil.copyfileobj(response.raw, file)
 
     with ZipFile(filepath, 'r') as unzip_dir:
-        unzip_dir.extractall(filename)
+        unzip_dir.extractall(download_dir)
 
-    os.remove(filepath)
+    # os.remove(filepath)

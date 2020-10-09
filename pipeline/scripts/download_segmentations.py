@@ -62,4 +62,3 @@ for url in urls:
     file = open(filepath, "wb")
     response.raw.decode_content = True
     shutil.copyfileobj(response.raw, file)
-    print("Downloaded " + file)

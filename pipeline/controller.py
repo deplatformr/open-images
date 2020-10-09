@@ -170,7 +170,7 @@ def package():
         cursor = workflow_db.cursor()
         cursor.execute(
             "SELECT image_id, batch_size FROM images WHERE batch_size > 0 AND package_name IS NULL")
-        results = cursor.fetch()
+        results = cursor.fetchall()
         print(type(results))
         print(results)
         images = list(results)

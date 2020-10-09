@@ -25,7 +25,8 @@ def download_images(url, image_id, directory):
                            (False, utctime, response.status_code, image_id,),)
             workflow_db.commit()
             workflow_db.close()
-            print("Unable to download image " + image_id + ". Received " + response.status_code + " code.")
+            print("Unable to download image " + image_id +
+                  ". Received " + response.status_code + " code.")
 
             return()
         file = open(filepath, "wb")
@@ -54,7 +55,7 @@ def download_images(url, image_id, directory):
 
     except Exception as e:
         utctime = datetime.utcnow()
-        print("Unable to download or save " + str(image_id))
+        print("Unable to download or save " + image_id)
         print(e)
         # Log failure in database
         db_path = os.path.join(

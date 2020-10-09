@@ -64,8 +64,9 @@ for url in urls:
     response.raw.decode_content = True
     shutil.copyfileobj(response.raw, file)
 
-    split = os.path.split(filename)
+    split = os.path.splitext(filename)
     dir_name = os.path.join(download_dir, split[0])
+
     with ZipFile(filepath, 'r') as unzip_dir:
         unzip_dir.extractall(dir_name)
 

@@ -3,7 +3,7 @@ import sqlite3
 import shutil
 from datetime import datetime
 from natsort import natsorted
-from scripts.download import download_images
+from scripts.download import download_images, get_directory
 from scripts.verify import verify_checksums
 from scripts.extract import extract_metadata
 from scripts.sidecar import write_metadata

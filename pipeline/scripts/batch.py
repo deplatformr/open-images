@@ -10,6 +10,7 @@ def batch_size(image_id, img_dir, batch_dir):
 
     try:
         path, dirs, files = next(os.walk(os.path.join(abs_path, img_dir)))
+        print(path)
 
         batch_size = 0
 

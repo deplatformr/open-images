@@ -171,7 +171,7 @@ def package():
             "SELECT image_id, filepath, batch_size FROM images WHERE batch_size > 0 AND package_name IS NULL")
         results = cursor.fetchmany()
         batch_dir = get_batch_directory()
-        create_packages(results, batch_dir)
+        create_package(results, batch_dir)
 
     except Exception as e:
         print("Unable to find image for batch sizing.")
@@ -182,9 +182,5 @@ def package():
 
 if __name__ == "__main__":
 
-    verify()
-    extract()
-    sidecar()
-    segmentations()
     batch()
     package()

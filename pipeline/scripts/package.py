@@ -28,14 +28,19 @@ def create_package(images, batch_dir):
                 os.makedirs(new_batch_dir)
                 # move all related files for the last image that's getting removed from batch to keep within threshold
                 last_image = images[-1]
+                print(last_image)  # debug
+                print(last_image[0])
                 path, dirs, files = next(os.walk(batch_dir))
                 for file in files:
+                    print(file)
                     if file.find(last_image[0]) != -1:
+                        print(path)
                         filepath = os.path.join(path, file)
                         shutil.move(filepath, os.path.join(
                             new_batch_dir, file))
                 # drop the last image from the list (convert tuple) to get the package size back under threshold
                 images.pop(-1)
+                print(images)
             except Exception as e:
                 print("Unable to separate batch to make a package.")
                 print(e)
@@ -58,9 +63,11 @@ def create_package(images, batch_dir):
                     packages_dir, tarball_name), "w:gz")
 
                 for file in files:
+                    print(file)
                     filepath = os.path.join(path, file)
                     tarball.add(filepath, file)
                     # delete source copy of file to save space
+                    print(filepath)
                     os.remove(filepath)
                 tarball.close()
 
@@ -89,7 +96,7 @@ def create_package(images, batch_dir):
                 db_path = os.path.join(
                     abs_path, "deplatformr_open_images_workflow.sqlite")
                 workflow_db = sqlite3.connect(db_path)
-                cursor = worlflow_db.cursor()
+                cursor = workflow_db.cursor()
                 cursor.execute(
                     "UPDATE images SET package_name = ? WHERE image_id = ?", (tarball_name, image[0],),)
                 cursor.execute("INSERT INTO packages (name, size, timestamp) VALUES (?,?,?",

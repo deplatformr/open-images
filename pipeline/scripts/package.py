@@ -4,7 +4,7 @@ import tarfile
 from datetime import datetime
 
 
-def create_package(images, batch_dir)
+def create_package(images, batch_dir):
     print(type(images))  # debug
     print(images)  # debug
 

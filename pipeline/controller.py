@@ -183,5 +183,19 @@ def package():
 
 if __name__ == "__main__":
 
+    verify()
+    extract()
+    sidecar()
+    segmentations()
     batch()
     package()
+
+    """
+    download()
+    verify()
+    extract()
+    sidecar()
+    segmentations()
+    batch()
+    package()
+    """

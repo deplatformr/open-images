@@ -31,6 +31,7 @@ def verify_checksums(image_id, filepath, checksum):
         if m.hexdigest() == open_images_md5.hex():
             cursor.execute(
                 "UPDATE images SET verify_checksum = ?, verify_checksum_timestamp = ? WHERE image_id = ?", (True, utctime, image_id,),)
+            print("Verified MD5 checksum for image " + image_id)
         else:
             cursor.execute(
                 "UPDATE images SET verify_checksum = ?, verify_checksum_timestamp = ? WHERE image_id = ?", (False, utctime, image_id,),)

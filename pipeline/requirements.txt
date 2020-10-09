@@ -2,13 +2,13 @@ certifi==2020.6.20
 chardet==3.0.4
 Deprecated==1.2.10
 ExifRead==2.3.1
-grpcio==1.30.0
+grpcio==1.32.0
 idna==2.10
 natsort==7.0.1
 Pillow==7.2.0
 plum-py==0.3.1
-protobuf==3.12.4
-pygate-grpc==0.0.12
+protobuf==3.13.0
+pygate-grpc==0.0.13
 requests==2.24.0
 six==1.15.0
 urllib3==1.25.10

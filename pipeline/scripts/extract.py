@@ -93,6 +93,7 @@ def extract_metadata(image_id, filepath):
         utctime = datetime.utcnow()
         cursor.execute(
             "UPDATE images SET extract_metadata = ?, extract_metadata_timestamp = ? WHERE image_id = ?", (True, utctime, image_id,),)
+        print("Extracted metadata from image " + image_id)
 
     except Exception as e:
         utctime = datetime.utcnow()

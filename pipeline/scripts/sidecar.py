@@ -97,6 +97,7 @@ def write_metadata(image_id, image_directory):
         cursor = workflow_db.cursor()
         cursor.execute(
             "UPDATE images SET write_sidecar = ?, write_sidecar_timestamp = ? WHERE image_id = ?", (True, utctime, image_id,),)
+        print("Wrote metadata sidecar file for image " + image_id)
 
     except Exception as e:
         print("Unable to write metadata sidecar file for image " + image_id)

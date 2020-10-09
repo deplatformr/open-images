@@ -34,4 +34,6 @@ NOTES
 
 From a Google representative: "We (Google) do not host the images themselves, we just annotated them, and host the annotations and links to images. The images cannot be retrieved anymore if the authors removed them. Five percent of Open Images missing from Flickr actually sounds too low.
 
-BTW, the subset of images that's annotated with bounding boxes (1.9 Million) is hosted in full by CVDF or Arpen.""
+BTW, the subset of images that's annotated with bounding boxes (1.9 Million) is hosted in full by CVDF or Arpen."
+
+* The original images, JSON-LD sidecar file and related segmentation files are bundled into tarball packages that are a maximum of 4 GiB in size (to comply with current Filecoin recommendations and Powergate restrictions). Note that compression has not been applied but the tarballs may be smaller than the sum of the files they contain due to the fact that tar can reduce space usage when used on a large number of small files that are smaller than the filesystem's cluster size. For example, if a filesystem uses 1kb clusters, even a file that contains a single byte will consume 1kb (plus an inode). A tar archive file does not have this overhead.

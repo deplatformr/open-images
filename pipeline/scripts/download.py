@@ -49,6 +49,7 @@ def download_images(url, image_id, directory):
                        (True, utctime, response.status_code, filepath, image_id,),)
         workflow_db.commit()
         workflow_db.close()
+        print("Downloaded image " + image_id)
 
     except Exception as e:
         utctime = datetime.utcnow()

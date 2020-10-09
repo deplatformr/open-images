@@ -1,8 +1,8 @@
-pipepline/venv/
+venv/
 .DS_Store
 notes/slingshot-qa.txt
-notes/slingshot-config.json
 pipeline/source_data/
 pipeline/deplatformr_open_images_workflow.sqlite
 pipeline/deplatformr_open_images_workflow copy.sqlite
 pipeline/scripts/__pycache__
+powergate/

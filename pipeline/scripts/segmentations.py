@@ -60,6 +60,7 @@ def move_segmentations(image_id, filepath):
         cursor = workflow_db.cursor()
         cursor.execute(
             "UPDATE images SET move_segmentations = ?, move_segmentations_timestamp = ? WHERE image_id = ?", (True, utctime, image_id,),)
+        print("Moved segmentation files for image " + image_id)
 
     except Exception as e:
         print("Unable to move segmentation files for image " + image_id)

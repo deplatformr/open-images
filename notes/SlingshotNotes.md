@@ -1,3 +1,8 @@
+Filecoin top up form
+https://docs.google.com/forms/d/e/1FAIpQLScT2TGZCT5fLWNcDn7cSVf17VAo2ts8TOu9BSCfYBBNgnHvug/viewform
+https://app.slack.com/client/TEHTVS1L6/CEHTVSEG6/user_profile/U017879KMK2
+
+
 # Competition rules
 
 * https://slingshot.filecoin.io/rules

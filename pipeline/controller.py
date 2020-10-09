@@ -186,12 +186,12 @@ if __name__ == "__main__":
 
     package()
 
-    """
-    download()
-    verify()
-    extract()
-    sidecar()
-    segmentations()
-    batch()
-    package()
-    """
+    for i in range(1, 20):
+        download()
+    for in range(1, 5):
+        verify()
+        extract()
+        sidecar()
+        segmentations()
+        batch()
+        package()

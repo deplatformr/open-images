@@ -169,7 +169,7 @@ def package():
     try:
         cursor = workflow_db.cursor()
         cursor.execute(
-            "SELECT image_id, filepath, batch_size FROM images WHERE batch_size > 0 AND package_name IS NULL")
+            "SELECT image_id, batch_size FROM images WHERE batch_size > 0 AND package_name IS NULL")
         results = cursor.fetchmany()
         batch_dir = get_batch_directory()
         create_package(results, batch_dir)

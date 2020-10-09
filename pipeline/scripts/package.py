@@ -5,7 +5,6 @@ from datetime import datetime
 
 
 def create_package(images, batch_dir):
-    print(type(images))  # debug
     print(images)  # debug
 
     package_threshold = 5242880  # 5MiB
@@ -34,7 +33,6 @@ def create_package(images, batch_dir):
                         shutil.move(filepath, os.path.join(
                             new_batch_dir, file))
                 # drop the last image from the list (convert tuple) to get the package size back under threshold
-                images_list = list(images)
                 images_list.pop(-1)
             except Exception as e:
                 print("Unable to separate batch to make a package.")

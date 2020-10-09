@@ -5,8 +5,7 @@ import shutil
 from datetime import datetime
 
 
-def download_images(url, image_id):
-    directory = get_directory()
+def download_images(url, image_id, directory):
     abs_path = os.getcwd()
     images_path = ("source_data/images/")
 

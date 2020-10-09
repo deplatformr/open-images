@@ -21,6 +21,8 @@ if not os.path.exists(os.path.join(os.getcwd(), images_path + "/1")):
 batches_path = ("source_data/batches/")
 if not os.path.exists(os.path.join(os.getcwd(), batches_path + "/1")):
     os.makedirs(os.path.join(os.getcwd(), batches_path + "/1"))
+if not os.path.exists(os.path.join(os.getcwd(), "source_data/packages/")):
+    os.makedirs(os.path.join(os.getcwd(), "source_data/packages/"))
 
 
 def download():
@@ -165,9 +167,10 @@ def package():
     try:
         cursor = workflow_db.cursor()
         cursor.execute(
-            "SELECT image_id, batch_size, batch_dir FROM images WHERE batch_size > 0 AND package_name IS NULL")
+            "SELECT image_id, filepath, batch_size FROM images WHERE batch_size > 0 AND package_name IS NULL")
         results = cursor.fetchmany()
-        create_packages(results)
+        batch_dir = get_batch_directory()
+        create_packages(results, batch_dir)
 
     except Exception as e:
         print("Unable to find image for batch sizing.")

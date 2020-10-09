@@ -18,18 +18,19 @@ def batch_size(image_id, img_dir, batch_dir):
             if file.find(image_id) != -1:
                 filepath = os.path.join(path, file)
                 batch_size += os.path.getsize(filepath)
+                # TODO make a seperate copy for images with GeoData
                 shutil.move(filepath, os.path.join(batch_dir, file))
 
         cursor = workflow_db.cursor()
-        cursor.execute("UPDATE images SET batch_size, batch_dir WHERE image_id = ?",
-                       (image_id, batch_size, batch_dir),)
+        cursor.execute("UPDATE images SET batch_size = ? WHERE image_id = ?",
+                       (batch_size, image_id,),)
         print("Calculated batch size for image " + image_id)
 
     except Exception as e:
         print("Unable to get batch size for image " + image_id)
         print(e)
         cursor.execute(
-            "UPDATE images SET batch_size, batch_dir WHERE image_id = ?", (image_id, None, None),)
+            "UPDATE images SET batch_size = ? WHERE image_id = ?", (None, image_id,),)
 
     workflow_db.commit()
     workflow_db.close()

@@ -8,7 +8,7 @@ def create_package(images, batch_dir):
     print(type(images))  # debug
     print(images)  # debug
 
-    package_threshhold = 5242880  # 5MiB
+    package_threshold = 5242880  # 5MiB
     abs_path = os.getcwd()
 
     try:

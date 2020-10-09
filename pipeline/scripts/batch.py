@@ -31,6 +31,7 @@ def batch_size(image_id, img_dir, batch_dir):
     except Exception as e:
         print("Unable to get batch size for image " + image_id)
         print(e)
+        cursor = workflow_db.cursor()
         cursor.execute(
             "UPDATE images SET batch_size = ? WHERE image_id = ?", (None, image_id,),)
 

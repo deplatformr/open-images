@@ -160,8 +160,9 @@ def get_batch_directory():
     if ".DS_Store" in dirs:
         dirs.remove(".DS_Store")
     latest_dir = natsorted(dirs)[-1]
+    batch_dir = os.path.join(batches_path, latest_dir)
 
-    return(latest_dir)
+    return(batch_dir)
 
 
 def package():

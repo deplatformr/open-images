@@ -186,10 +186,10 @@ def package():
 
 if __name__ == "__main__":
 
-    for i in range(1, 50):
+    for i in range(1, 100000):
         download()
 
-    for i in range(1, 30):
+    for i in range(1, 90000):
         verify()
         extract()
         sidecar()

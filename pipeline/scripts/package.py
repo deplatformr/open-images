@@ -15,9 +15,6 @@ def create_package(images, batch_dir):
     try:
         package_size = 0
         for image in images:
-            print("image " + image[0])  # debug
-            print("image batch size " +
-                  get_human_readable_file_size(image[1]))  # debug
             package_size += image[1]
         print("Total batch size: " + get_human_readable_file_size(package_size))
         if package_size < package_threshold:

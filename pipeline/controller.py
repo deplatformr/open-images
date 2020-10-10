@@ -24,6 +24,8 @@ if not os.path.exists(os.path.join(os.getcwd(), batches_path + "/1")):
     os.makedirs(os.path.join(os.getcwd(), batches_path + "/1"))
 if not os.path.exists(os.path.join(os.getcwd(), "source_data/packages/")):
     os.makedirs(os.path.join(os.getcwd(), "source_data/packages/"))
+if not os.path.exists(os.path.join(os.getcwd(), "source_data/geodata/")):
+    os.makedirs(os.path.join(os.getcwd(), "source_data/geodata/"))
 
 
 def download():

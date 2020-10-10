@@ -1,5 +1,5 @@
 import tarfile
-
+import os
 
 external_identifier = "deplatformer-open-images-1"
 batch_dir = "source_data/batches/1"

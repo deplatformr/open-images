@@ -1,9 +1,13 @@
 venv/
 .DS_Store
-notes/slingshot-qa.txt
 pipeline/source_data/
 pipeline/deplatformr_open_images_workflow.sqlite
 pipeline/deplatformr_open_images_workflow copy.sqlite
 pipeline/scripts/__pycache__
 powergate/powergate.info
 powergate/pipeline.info
+powergate/slingshot-qa.info
+pipeline/controller2.py
+pipeline/deplatformr_open_images_workflow.sqlite.copy
+pipeline/nohup.out
+pipeline/nohup2.out

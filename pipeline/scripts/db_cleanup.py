@@ -1,4 +1,5 @@
 import sqlite3
+import os
 
 
 db_path = os.path.join(os.getcwd(), "deplatformr_open_images_workflow.sqlite")

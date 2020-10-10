@@ -10,7 +10,7 @@ defaultConfig = powergate.ffs.default_config(token)
 print(defaultConfig)
 
 print("Loading new default config...")
-with open("config_deplatformr.slingshot_1.json", "r") as f:
+with open("config_deplatformr_slingshot_1.json", "r") as f:
     config = f.read()
 
 powergate.ffs.set_default_config(config, token)

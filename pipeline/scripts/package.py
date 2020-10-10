@@ -13,14 +13,14 @@ def create_package(images, batch_dir):
 
     print("image list being evaluated in " + batch_dir + ":")  # debug
     print(images)  # debug
-    print("package threshold:").  # debug
+    print("package threshold:")  # debug
     print(get_human_readable_file_size(package_threshold))  # debug
 
     try:
         package_size = 0
         for image in images:
             package_size += image[1]
-        print("batch size:").  # debug
+        print("batch size:")  # debug
         print(get_human_readable_file_size(package_size))
         if package_size < package_threshold:
             print("Not enough images yet to make a package from this batch.")
@@ -51,7 +51,7 @@ def create_package(images, batch_dir):
                 return()
 
             # Convert batch directory into a Bagit directory
-            print("creating a Bagit"). #debug
+            print("creating a Bagit")  # debug
             external_identifier = "deplatformr-open-images-" + split[1]
             bagit.make_bag(batch_dir,
                            {'Source-Organization': 'Deplatformr Project', 'Organization-Address': 'https://open-images.deplatformr.com', 'External-Description': 'This package contains a subset of the Google Open Images dataset used for machine learning training. The image files have been downloaded from their Flickr server source, verified for fixity, had EXIF metadata extracted, and are bundled with their annotation data and segmentation files. This content and context is described in a sidecar metadata files using schema.org/ImageObject and JSON-LD format.', 'External-Identifier': external_identifier, 'License': 'https://creativecommons.org/licenses/by/2.0/'}, checksums=["sha512"])
@@ -75,7 +75,7 @@ def create_package(images, batch_dir):
                     print("Removing " + filepath)
                     os.remove(filepath)
                 tarball.close()
-                print("created a tarball")  #debug
+                print("created a tarball")  # debug
 
             except Exception as e:
                 print("Unable to create a tarball package from batch.")

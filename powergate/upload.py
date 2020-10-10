@@ -9,9 +9,7 @@ token = os.getenv('POWERGATE_TOKEN')
 
 upload_file = "/home/peter/open-images/pipeline/source_data/packages/deplatformr-open-images-1.tar"
 
-defaultConfig = powergate.ffs.default_config(token)
-print(defaultConfig)
-
+print("Uploading file...")
 iter = get_file_bytes(upload_file)
 res = powergate.ffs.stage(bytes_to_chunks(iter), token)
 print(res)

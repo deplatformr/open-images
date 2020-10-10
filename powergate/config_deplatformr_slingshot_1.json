@@ -202,7 +202,7 @@
         "enabled": false,
         "threshold": 0
       },
-      "addr": "t3xc4ti5eyzplwod444dlpn5ioekipd7jox32dj3yxfxub5il5emtc7k6igaq2zndncg776pnr2ebd6kyqqeaa",
+      "addr": "f3xc4ti5eyzplwod444dlpn5ioekipd7jox32dj3yxfxub5il5emtc7k6igaq2zndncg776pnr2ebd6kyqqeaa",
       "max_price": 100000000000,
       "fast_retrieval": false,
       "deal_start_offset": 0

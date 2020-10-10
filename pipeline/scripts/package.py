@@ -16,7 +16,8 @@ def create_package(images, batch_dir):
         package_size = 0
         for image in images:
             print("image " + image[0])  # debug
-            print("image batch size " + str(image[1]))  # debug
+            print("image batch size " +
+                  get_human_readable_file_size(image[1]))  # debug
             package_size += image[1]
         print("Total batch size: " + get_human_readable_file_size(package_size))
         if package_size < package_threshold:
@@ -92,8 +93,9 @@ def create_package(images, batch_dir):
                 abs_path, "deplatformr_open_images_workflow.sqlite")
             workflow_db = sqlite3.connect(db_path)
             cursor = workflow_db.cursor()
-            cursor.execute(
-                "UPDATE images SET package_name = ? WHERE image_id = ?", (tarball_name, image[0],),)
+            for image in images:
+                cursor.execute(
+                    "UPDATE images SET package_name = ? WHERE image_id = ?", (tarball_name, image[0],),)
             cursor.execute("INSERT INTO packages (name, size, timestamp) VALUES (?,?,?)",
                            (tarball_name, tarball_size, utctime,),)
             workflow_db.commit()

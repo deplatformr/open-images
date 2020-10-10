@@ -11,7 +11,7 @@ try:
     tarball_name = external_identifier + ".tar"
     tarball = tarfile.open(os.path.join(
         packages_dir, tarball_name), "w")
-    tarball.add(batch_dir)
+    tarball.add(tarfile.TarInfo(external_identifier), batch_dir)
     tarball.close()
     print("created a tarball")  # debug
 except Exception as e:

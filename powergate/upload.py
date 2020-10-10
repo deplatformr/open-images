@@ -7,7 +7,7 @@ powergate = PowerGateClient(api, False)
 ffs = os.getenv('POWERGATE_FFS')
 token = os.getenv('POWERGATE_TOKEN')
 
-upload_file = ""
+upload_file = "/home/peter/open-images/pipeline/source_data/packages/deplatformr-open-images-1.tar"
 
 defaultConfig = powergate.ffs.default_config(token)
 print(defaultConfig)

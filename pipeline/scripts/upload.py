@@ -2,13 +2,13 @@ from pygate_grpc.client import PowerGateClient
 from pygate_grpc.ffs import get_file_bytes, bytes_to_chunks
 import os
 
-client = PowerGateClient("api.pow.deplatformr.textile.io:443", is_secure=True)
+client = PowerGateClient("")
 
-ffs = "8864a110-aa3c-45b4-be8d-28733952d12e"
+ffs = ""
 
-token = "a8d61841-50e3-42dc-9c6a-09a51d5cde78"
+token = ""
 
-source_file = "source_data/images/a12f879f459a5a2c.jpg"
+source_file = ""
 current_path = os.getcwd()
 upload_file = os.path.join(current_path, source_file)
 

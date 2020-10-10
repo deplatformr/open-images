@@ -10,7 +10,7 @@ images_db = sqlite3.connect(db_path)
 
 cursor = images_db.cursor()
 cursor.execute("SELECT ImageID from open_images WHERE package_name = ?", (
-    "deplatformr-open-images4.tar",),)
+    "deplatformr-open-images-4.tar",),)
 results = cursor.fetchall()
 cursor.close()
 print("found " + str(len(results)) + " results.")

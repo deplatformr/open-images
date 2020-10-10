@@ -1,6 +1,7 @@
 import csv
 
-with open('miners.csv') as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
-    for row in csv_reader:
-        print('"' + row[0][:6] + '", ')
+with open("excluded_miners.txt", "r") as miners_list:
+    miners = miners_list.readlines()
+    for miner in miners:
+        split = miner.split(":")
+        print('"' + split[0] + '",')

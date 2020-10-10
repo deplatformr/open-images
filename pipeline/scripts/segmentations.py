@@ -70,7 +70,7 @@ def move_segmentations(image_id, filepath):
         if move:
             print("Moved segmentation files for image " + image_id)
         else:
-            print("No segementation files to move for image " + image_id)
+            print("No segmentation files to move for image " + image_id)
 
     except Exception as e:
         print("Unable to move segmentation files for image " + image_id)

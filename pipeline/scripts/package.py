@@ -11,10 +11,17 @@ def create_package(images, batch_dir):
     package_threshold = 5242880  # 5MiB
     abs_path = os.getcwd()
 
+    print("image list being evaluated in " + batch_dir + ":")  # debug
+    print(images)  # debug
+    print("package threshold:").  # debug
+    print(get_human_readable_file_size(package_threshold))  # debug
+
     try:
         package_size = 0
         for image in images:
             package_size += image[1]
+        print("batch size:").  # debug
+        print(get_human_readable_file_size(package_size))
         if package_size < package_threshold:
             print("Not enough images yet to make a package from this batch.")
             return()
@@ -27,31 +34,27 @@ def create_package(images, batch_dir):
                 os.makedirs(new_batch_dir)
                 # move all related files for the last image that's getting removed from batch to keep within threshold
                 last_image = images[-1]
-                print("last image is: " + str(last_image))
                 path, dirs, files = next(os.walk(batch_dir))
                 for file in files:
-                    print("checking file: " + str(file))
                     if file.find(last_image[0]) != -1:
-                        print("found match in " + str(file))
                         filepath = os.path.join(path, file)
                         shutil.move(filepath, os.path.join(
                             new_batch_dir, file))
-                        print("moved matches from " + str(filepath))
-                        print("to " + new_batch_dir)
+                        print("moving last file matches to " + new_batch_dir)
                 # drop the last image from the list (convert tuple) to get the package size back under threshold
-                print("removed last image from batch list:")
                 images.pop(-1)
-                print(images)
+                print("The image list being moved into a package:")  # debug
+                print(images)  # debug
             except Exception as e:
                 print("Unable to separate batch to make a package.")
                 print(e)
                 return()
 
             # Convert batch directory into a Bagit directory
-            print("creating a Bagit")
-            external_identifier = "deplatformr-open-images" + split[1]
+            print("creating a Bagit"). #debug
+            external_identifier = "deplatformr-open-images-" + split[1]
             bagit.make_bag(batch_dir,
-                           {'Source-Organization': 'Deplatformr Project', 'Organization-Address': 'https://open-images.deplatformr.com', 'External-Description': 'This package contains a subset of the Google Open Images dataset used for machine learning training. The image files have been downloaded from their Flickr server source, verified for fixity, had EXIF metadata extracted, and are bundled with their annotation data and segmentation files. This content and context is described in a sidecar metadata files using schema.org/ImageObject and JSON-LD format', 'External-Identifier': external_identifier, 'License': 'https://creativecommons.org/licenses/by/2.0/'}, checksums=["sha512"])
+                           {'Source-Organization': 'Deplatformr Project', 'Organization-Address': 'https://open-images.deplatformr.com', 'External-Description': 'This package contains a subset of the Google Open Images dataset used for machine learning training. The image files have been downloaded from their Flickr server source, verified for fixity, had EXIF metadata extracted, and are bundled with their annotation data and segmentation files. This content and context is described in a sidecar metadata files using schema.org/ImageObject and JSON-LD format.', 'External-Identifier': external_identifier, 'License': 'https://creativecommons.org/licenses/by/2.0/'}, checksums=["sha512"])
 
             try:
                 # Create the tar package
@@ -66,12 +69,13 @@ def create_package(images, batch_dir):
                 path, dirs, files = next(os.walk(batch_dir))
                 for file in files:
                     print("adding " + str(file) + " to package.")
-                    filepath = os.path.join(path, arcname=file, recursive=True)
+                    filepath = os.path.join(path, file, recursive=True)
                     tarball.add(filepath, file)
                     # delete source copy of file to save space
                     print("Removing " + filepath)
                     os.remove(filepath)
                 tarball.close()
+                print("created a tarball")  #debug
 
             except Exception as e:
                 print("Unable to create a tarball package from batch.")
@@ -114,5 +118,14 @@ def create_package(images, batch_dir):
     except Exception as e:
         print("Unable to create a package for batch directory " + batch_dir)
         print(e)
+
+
+def get_human_readable_file_size(size, precision=2):
+    suffixes = ["B", "KiB", "MiB", "GiB", "TiB"]
+    suffixIndex = 0
+    while size > 1024 and suffixIndex < 4:
+        suffixIndex += 1  # increment the index of the suffix
+        size = size / 1024.0  # apply the division
+    return "%.*f %s" % (precision, size, suffixes[suffixIndex])
 
     return()

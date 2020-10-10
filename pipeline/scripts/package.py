@@ -9,7 +9,7 @@ import bagit
 def create_package(images, batch_dir):
 
     abs_path = os.getcwd()
-    package_threshold = 10485760  # 10MiB
+    package_threshold = 1073741824  # 1GiB
     print("Package threshold: " + get_human_readable_file_size(package_threshold))
 
     try:

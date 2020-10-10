@@ -56,7 +56,6 @@ def create_package(images, batch_dir):
             bagit.make_bag(batch_dir,
                            {'Source-Organization': 'Deplatformr Project', 'Organization-Address': 'https://open-images.deplatformr.com', 'External-Description': 'This package contains a subset of the Google Open Images dataset used for machine learning training. The image files have been downloaded from their Flickr server source, verified for fixity, had EXIF metadata extracted, and are bundled with their annotation data and segmentation files. This content and context is described in a sidecar metadata files using schema.org/ImageObject and JSON-LD format.', 'External-Identifier': external_identifier, 'License': 'https://creativecommons.org/licenses/by/2.0/'}, checksums=["sha512"])
 
-            """
             try:
                 # Create the tar package
                 packages_dir = os.path.join(
@@ -115,7 +114,6 @@ def create_package(images, batch_dir):
                 print("Unable to add tarball package name to database.")
                 print(e)
                 return()
-            """
 
     except Exception as e:
         print("Unable to create a package for batch directory " + batch_dir)

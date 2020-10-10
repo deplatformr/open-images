@@ -13,9 +13,11 @@ cursor.execute("SELECT ImageID from open_images WHERE package_name = ?", (
     "deplatformr-open-images4.tar",),)
 results = cursor.fetchall()
 cursor.close()
+print("found " + str(len(results)) + " results.")
 
 cursor = workflow_db.cursor()
 for result in results:
+    print(result[0])
     cursor.execute("UPDATE images set package_name = ? where image_id = ?",
                    ("deplatformr-open-images-4.tar", result[0],),)
 workflow_db.commit()

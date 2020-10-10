@@ -31,7 +31,15 @@ CREATE TABLE IF NOT EXISTS "deals" (
 	"deal_timestamp"	INTEGER,
 	"miner"	INTEGER,
 	"duration"	INTEGER,
-	PRIMARY KEY("deal_id"),
-	FOREIGN KEY("cid") REFERENCES "packages"("cid")
+	FOREIGN KEY("cid") REFERENCES "packages"("cid"),
+	PRIMARY KEY("deal_id")
+);
+CREATE TABLE IF NOT EXISTS "jobs" (
+	"job_id"	TEXT,
+	"cid"	TEXT,
+	"timestamp"	TEXT,
+	"status"	TEXT,
+	FOREIGN KEY("cid") REFERENCES "packages"("cid"),
+	PRIMARY KEY("job_id")
 );
 COMMIT;

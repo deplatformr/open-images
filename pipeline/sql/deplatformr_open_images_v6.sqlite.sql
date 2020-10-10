@@ -193,7 +193,6 @@ CREATE TABLE IF NOT EXISTS "open_images" (
 	"altitude"	TEXT,
 	"filename"	TEXT,
 	"package_name"	TEXT,
-	"package_cid"	TEXT,
 	PRIMARY KEY("ImageID")
 );
 CREATE INDEX IF NOT EXISTS "train_images" ON "train_labels_human" (

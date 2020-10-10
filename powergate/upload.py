@@ -7,7 +7,7 @@ powergate = PowerGateClient(api, False)
 ffs = os.getenv('POWERGATE_FFS')
 token = os.getenv('POWERGATE_TOKEN')
 
-upload_file = "/home/peter/open-images/pipeline/source_data/packages/deplatformr-open-images-1.tar"
+upload_file = "/home/peter/open-images/pipeline/source_data/packages/deplatformr-open-images-2.tar"
 
 print("Uploading file...")
 iter = get_file_bytes(upload_file)

@@ -63,7 +63,7 @@ def create_package(images, batch_dir):
                 tarball_name = external_identifier + ".tar"
                 tarball = tarfile.open(os.path.join(
                     packages_dir, tarball_name), "w")
-                tarball.add(batch_dir)
+                tarball.add(batch_dir, arcname=external_identifier)
                 tarball.close()
                 print("created a tarball")  # debug
             except Exception as e:
@@ -93,7 +93,7 @@ def create_package(images, batch_dir):
             utctime = datetime.utcnow()
             tarball_size = os.path.getsize(
                 os.path.join(packages_dir, tarball_name))
-            print("tarball size is: " + tarball_size)  # debug
+            print("tarball size is: " + str(tarball_size))  # debug
             db_path = os.path.join(
                 abs_path, "deplatformr_open_images_workflow.sqlite")
             workflow_db = sqlite3.connect(db_path)

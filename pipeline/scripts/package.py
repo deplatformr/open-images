@@ -54,7 +54,7 @@ def create_package(images, batch_dir):
             print("creating a Bagit")  # debug
             external_identifier = "deplatformr-open-images-" + split[1]
             bagit.make_bag(batch_dir,
-                           {'Source-Organization': 'Deplatformr Project', 'Organization-Address': 'https://open-images.deplatformr.com', 'External-Description': 'This package contains a subset of the Google Open Images dataset used for machine learning training. The image files have been downloaded from their Flickr server source, verified for fixity, had EXIF metadata extracted, and are bundled with their annotation data and segmentation files. This content and context is described in a sidecar metadata files using schema.org/ImageObject and JSON-LD format.', 'External-Identifier': external_identifier, 'License': 'https://creativecommons.org/licenses/by/2.0/'}, checksums=["sha512"])
+                           {'Source-Organization': 'Deplatformr Project', 'Organization-Address': 'https://open-images.deplatformr.com', 'External-Description': 'This package contains a subset of the Google Open Images dataset used for machine learning training. The image files have been downloaded from their Flickr server source, verified for fixity, had EXIF metadata extracted, and are now bundled here with their annotation data, segmentation files and newly generated sha512 checksums. This content and context is described in a sidecar metadata files using schema.org/ImageObject and JSON-LD format.', 'External-Identifier': external_identifier, 'License': 'https://creativecommons.org/licenses/by/2.0/'}, checksums=["sha512"])
 
             try:
                 # Create the tar package
@@ -100,7 +100,7 @@ def create_package(images, batch_dir):
             cursor = workflow_db.cursor()
             cursor.execute(
                 "UPDATE images SET package_name = ? WHERE image_id = ?", (tarball_name, image[0],),)
-            cursor.execute("INSERT INTO packages (name, size, timestamp) VALUES (?,?,?",
+            cursor.execute("INSERT INTO packages (name, size, timestamp) VALUES (?,?,?)",
                            (tarball_name, tarball_size, utctime,),)
             workflow_db.commit()
             workflow_db.close()

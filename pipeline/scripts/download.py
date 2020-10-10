@@ -26,7 +26,7 @@ def download_images(url, image_id, directory):
             workflow_db.commit()
             workflow_db.close()
             print("Unable to download image " + image_id +
-                  ". Received " + response.status_code + " code.")
+                  ". Received " + str(response.status_code) + " code.")
 
             return()
         file = open(filepath, "wb")

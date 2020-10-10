@@ -18,6 +18,8 @@ def move_segmentations(image_id, filepath):
         images_db = sqlite3.connect(db_path)
         cursor = images_db.cursor()
 
+        move = False
+
         cursor.execute(
             "SELECT MaskPath FROM train_segmentations where ImageID = ?", (image_id,),)
         results = cursor.fetchall()
@@ -26,8 +28,9 @@ def move_segmentations(image_id, filepath):
             source_dir = os.path.join(
                 segmentations_dir, "train-masks-" + image_id[0])
             for result in results:
-                shutil.move(os.path.join(
+                shutil.copyfile(os.path.join(
                     source_dir, result[0]), os.path.join(dest_dir, result[0]))
+            move = True
 
         cursor.execute(
             "SELECT MaskPath FROM validate_segmentations where ImageID = ?", (image_id,),)
@@ -37,8 +40,9 @@ def move_segmentations(image_id, filepath):
             source_dir = os.path.join(
                 segmentations_dir, "validation-masks-" + image_id[0])
             for result in results:
-                shutil.move(os.path.join(
+                shutil.copyfile(os.path.join(
                     source_dir, result[0]), os.path.join(dest_dir, result[0]))
+            move = True
 
         cursor.execute(
             "SELECT MaskPath FROM test_segmentations where ImageID = ?", (image_id,),)
@@ -48,10 +52,13 @@ def move_segmentations(image_id, filepath):
             source_dir = os.path.join(
                 segmentations_dir, "test-masks-" + image_id[0])
             for result in results:
-                shutil.move(os.path.join(
+                shutil.copyfile(os.path.join(
                     source_dir, result[0]), os.path.join(dest_dir, result[0]))
+            move = True
+
         cursor.close()
         images_db.close()
+
         # Log successful move or non-move (if no segmentation files were found)
         utctime = datetime.utcnow()
         db_path = os.path.join(
@@ -60,7 +67,10 @@ def move_segmentations(image_id, filepath):
         cursor = workflow_db.cursor()
         cursor.execute(
             "UPDATE images SET move_segmentations = ?, move_segmentations_timestamp = ? WHERE image_id = ?", (True, utctime, image_id,),)
-        print("Moved segmentation files for image " + image_id)
+        if move:
+            print("Moved segmentation files for image " + image_id)
+        else:
+            print("No segementation files to move for image " + image_id)
 
     except Exception as e:
         print("Unable to move segmentation files for image " + image_id)

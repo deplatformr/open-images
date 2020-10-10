@@ -8,20 +8,15 @@ import bagit
 
 def create_package(images, batch_dir):
 
-    package_threshold = 5242880  # 5MiB
     abs_path = os.getcwd()
-
-    print("image list being evaluated in " + batch_dir + ":")  # debug
-    print(images)  # debug
-    print("package threshold:")  # debug
-    print(get_human_readable_file_size(package_threshold))  # debug
+    package_threshold = 10485760  # 10MiB
+    print("Package threshold: " + get_human_readable_file_size(package_threshold))
 
     try:
         package_size = 0
         for image in images:
             package_size += image[1]
-        print("batch size:")  # debug
-        print(get_human_readable_file_size(package_size))
+        print("Batch size: " + get_human_readable_file_size(package_size))
         if package_size < package_threshold:
             print("Not enough images yet to make a package from this batch.")
             return()
@@ -40,21 +35,18 @@ def create_package(images, batch_dir):
                         filepath = os.path.join(path, file)
                         shutil.move(filepath, os.path.join(
                             new_batch_dir, file))
-                        print("moving last file matches to " + new_batch_dir)
                 # drop the last image from the list (convert tuple) to get the package size back under threshold
                 images.pop(-1)
-                print("The image list being moved into a package:")  # debug
-                print(images)  # debug
             except Exception as e:
                 print("Unable to separate batch to make a package.")
                 print(e)
                 return()
 
             # Convert batch directory into a Bagit directory
-            print("creating a Bagit")  # debug
             external_identifier = "deplatformr-open-images-" + split[1]
             bagit.make_bag(batch_dir,
                            {'Source-Organization': 'Deplatformr Project', 'Organization-Address': 'https://open-images.deplatformr.com', 'External-Description': 'This package contains a subset of the Google Open Images dataset used for machine learning training. The image files have been downloaded from their Flickr server source, verified for fixity, had EXIF metadata extracted, and are now bundled here with their annotation data, segmentation files and newly generated sha512 checksums. This content and context is described in a sidecar metadata files using schema.org/ImageObject and JSON-LD format.', 'External-Identifier': external_identifier, 'License': 'https://creativecommons.org/licenses/by/2.0/'}, checksums=["sha512"])
+            print("Created a Bagit directory.")
 
             try:
                 # Create the tar package
@@ -65,7 +57,7 @@ def create_package(images, batch_dir):
                     packages_dir, tarball_name), "w")
                 tarball.add(batch_dir, arcname=external_identifier)
                 tarball.close()
-                print("created a tarball")  # debug
+                print("Created tarball " + tarball_name + ".")
             except Exception as e:
                 print("Unable to create a tarball package from batch.")
                 print(e)
@@ -73,7 +65,7 @@ def create_package(images, batch_dir):
 
             try:
                 shutil.rmtree(batch_dir)
-                print("deleted the source directory")  # debug
+                print("Deleted the batch source directory.")
             except OSError as e:
                 print("Unable to delete the source directory.")
                 print(e)
@@ -93,7 +85,7 @@ def create_package(images, batch_dir):
             utctime = datetime.utcnow()
             tarball_size = os.path.getsize(
                 os.path.join(packages_dir, tarball_name))
-            print("tarball size is: " + str(tarball_size))  # debug
+            print("Tarball size is: " + get_human_readable_file_size(tarball_size))
             db_path = os.path.join(
                 abs_path, "deplatformr_open_images_workflow.sqlite")
             workflow_db = sqlite3.connect(db_path)

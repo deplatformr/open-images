@@ -60,60 +60,50 @@ def create_package(images, batch_dir):
                 # Create the tar package
                 packages_dir = os.path.join(
                     os.getcwd(), "source_data/packages/")
-
                 tarball_name = external_identifier + ".tar"
                 tarball = tarfile.open(os.path.join(
                     packages_dir, tarball_name), "w")
-
-                # Rewalk the directory after it has been made into a Bagit
-                path, dirs, files = next(os.walk(batch_dir))
-                for file in files:
-                    print("adding " + str(file) + " to package.")
-                    filepath = os.path.join(path, file)
-                    tarball.add(filepath, file)
-                    # delete source copy of file to save space
-                    print("Removing " + filepath)
-                    os.remove(filepath)
+                tarball.add(batch_dir)
                 tarball.close()
                 print("created a tarball")  # debug
-
             except Exception as e:
                 print("Unable to create a tarball package from batch.")
                 print(e)
                 return()
 
             try:
-                # record the tarball package name for each image
-                db_path = os.path.join(
-                    abs_path, "source_data/deplatformr_open_images_v6.sqlite")
-                images_db = sqlite3.connect(db_path)
-                cursor = images_db.cursor()
-
-                for image in images:
-                    cursor.execute("UPDATE open_images SET package_name = ? WHERE ImageID = ?",
-                                   (tarball_name, image[0],),)
-                images_db.commit()
-                images_db.close()
-
-                # add tarball name, size, and timestamp to the workflow dbase
-                utctime = datetime.utcnow()
-                tarball_size = os.path.getsize(
-                    os.path.join(packages_dir, tarball_name))
-                db_path = os.path.join(
-                    abs_path, "deplatformr_open_images_workflow.sqlite")
-                workflow_db = sqlite3.connect(db_path)
-                cursor = workflow_db.cursor()
-                cursor.execute(
-                    "UPDATE images SET package_name = ? WHERE image_id = ?", (tarball_name, image[0],),)
-                cursor.execute("INSERT INTO packages (name, size, timestamp) VALUES (?,?,?",
-                               (tarball_name, tarball_size, utctime,),)
-                workflow_db.commit()
-                workflow_db.close()
-
-            except Exception as e:
-                print("Unable to add tarball package name to database.")
+                shutil.rmtree(batch_dir)
+                print("deleted the source directory")  # debug
+            except OSError as e:
+                print("Unable to delete the source directory.")
                 print(e)
-                return()
+
+            # record the tarball package name for each image
+            db_path = os.path.join(
+                abs_path, "source_data/deplatformr_open_images_v6.sqlite")
+            images_db = sqlite3.connect(db_path)
+            cursor = images_db.cursor()
+
+            for image in images:
+                cursor.execute("UPDATE open_images SET package_name = ? WHERE ImageID = ?",
+                               (tarball_name, image[0],),)
+            images_db.commit()
+            images_db.close()
+            # add tarball name, size, and timestamp to the workflow dbase
+            utctime = datetime.utcnow()
+            tarball_size = os.path.getsize(
+                os.path.join(packages_dir, tarball_name))
+            print("tarball size is: " + tarball_size)  # debug
+            db_path = os.path.join(
+                abs_path, "deplatformr_open_images_workflow.sqlite")
+            workflow_db = sqlite3.connect(db_path)
+            cursor = workflow_db.cursor()
+            cursor.execute(
+                "UPDATE images SET package_name = ? WHERE image_id = ?", (tarball_name, image[0],),)
+            cursor.execute("INSERT INTO packages (name, size, timestamp) VALUES (?,?,?",
+                           (tarball_name, tarball_size, utctime,),)
+            workflow_db.commit()
+            workflow_db.close()
 
     except Exception as e:
         print("Unable to create a package for batch directory " + batch_dir)

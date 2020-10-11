@@ -194,7 +194,6 @@ def upload():
         if result is None:
             return()
         else:
-            print("Uploading package " + result[0] + " to Filecoin.")
             filecoin_upload(result[0])
 
     except Exception as e:

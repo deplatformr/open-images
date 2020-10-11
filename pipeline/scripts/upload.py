@@ -26,6 +26,7 @@ def filecoin_upload(package):
         stage = powergate.ffs.stage(bytes_to_chunks(iter), token)
 
         job = powergate.ffs.push(stage.cid, token)
+        print("Uploaded package " + package + " to Filecoin.")
         print("CID: " + stage.cid)
         print("Job ID: " + job.job_id)
         utctime = datetime.utcnow()

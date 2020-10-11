@@ -179,7 +179,7 @@ def package():
         create_package(images, batch_dir)
 
     except Exception as e:
-        print("Unable to find image for batch sizing.")
+        print("Unable to find image for batching.")
         print(e)
 
     return()
@@ -206,7 +206,7 @@ def upload():
 
 if __name__ == "__main__":
 
-    for i in range(1, 10000):
+    for i in range(1, 300):
         verify()
         extract()
         sidecar()

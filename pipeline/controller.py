@@ -185,6 +185,24 @@ def package():
     return()
 
 
+def upload():
+    try:
+        cursor = workflow_db.cursor()
+        cursor.execute(
+            "SELECT name FROM packages WHERE cid IS NULL LIMIT ?", (1,),)
+        result = cursor.fetchone()
+        if result[0] < 1:
+            print("No package ready yet for Filecoin upload.")
+        else:
+            filecoin_upload(result[0])
+
+    except Exception as e:
+        print("Unable to find package for Filecoin upload.")
+        print(e)
+
+    return()
+
+
 if __name__ == "__main__":
 
     for i in range(1, 10000):

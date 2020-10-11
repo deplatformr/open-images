@@ -12,7 +12,6 @@
       "rep_factor": 10,
       "deal_min_duration": 525600,
       "excluded_miners": [
-                "f01287",
                 "f02305",
                 "f02419",
                 "f02665",

@@ -9,6 +9,4 @@ pipeline/controller2.py
 pipeline/deplatformr_open_images_workflow.sqlite.copy
 pipeline/nohup.out
 pipeline/nohup2.out
-powergate/powergate.info
-powergate/pipeline.info
-powergate/slingshot-qa.info
+powergate/info/

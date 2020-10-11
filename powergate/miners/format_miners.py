@@ -1,6 +1,6 @@
 import csv
 
-with open("trusted_miners.txt", "r") as miners_list:
+with open("excluded_miners.txt", "r") as miners_list:
     miners = miners_list.readlines()
     for miner in miners:
         split = miner.split(":")

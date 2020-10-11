@@ -88,16 +88,11 @@ def create_package(images, batch_dir):
             print("Tarball size is: " + get_human_readable_file_size(tarball_size))
             db_path = os.path.join(
                 abs_path, "deplatformr_open_images_workflow.sqlite")
-            for image in images:
-                workflow_db = sqlite3.connect(db_path)
-                cursor = workflow_db.cursor()
-                cursor.execute(
-                    "UPDATE images SET package_name = ? WHERE image_id = ?", (tarball_name, image[0],),)
-                workflow_db.commit()
-                workflow_db.close()
-
             workflow_db = sqlite3.connect(db_path)
             cursor = workflow_db.cursor()
+            for image in images:
+                cursor.execute(
+                    "UPDATE images SET package_name = ? WHERE image_id = ?", (tarball_name, image[0],),)
             cursor.execute("INSERT INTO packages (name, size, timestamp) VALUES (?,?,?)",
                            (tarball_name, tarball_size, utctime,),)
             workflow_db.commit()

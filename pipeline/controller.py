@@ -10,6 +10,7 @@ from scripts.sidecar import write_metadata
 from scripts.segmentations import move_segmentations
 from scripts.batch import batch_size
 from scripts.package import create_package
+from scripts.upload import filecoin_upload
 
 db_path = os.path.join(os.getcwd(), "deplatformr_open_images_workflow.sqlite")
 workflow_db = sqlite3.connect(db_path)
@@ -186,10 +187,7 @@ def package():
 
 if __name__ == "__main__":
 
-    for i in range(1, 100000):
-        download()
-
-    for i in range(1, 90000):
+    for i in range(1, 10000):
         verify()
         extract()
         sidecar()

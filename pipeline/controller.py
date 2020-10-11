@@ -12,7 +12,9 @@ from scripts.batch import batch_size
 from scripts.package import create_package
 from scripts.upload import filecoin_upload
 
-db_path = os.path.join(os.getcwd(), "deplatformr_open_images_workflow.sqlite")
+db_path = os.path.join(os.getcwd(), "deplatformr_open_images_downloads.sqlite")
+downloads_db = sqlite3.connect(db_path)
+db_path = os.path.join(os.getcwd(), "deplatformr_open_images_downloads.sqlite")
 workflow_db = sqlite3.connect(db_path)
 db_path = os.path.join(
     os.getcwd(), "source_data/deplatformr_open_images_v6.sqlite")
@@ -30,7 +32,7 @@ if not os.path.exists(os.path.join(os.getcwd(), "source_data/geodata/")):
 
 
 def download():
-    cursor = workflow_db.cursor()
+    cursor = downloads_db.cursor()
     cursor.execute(
         "SELECT image_id FROM images WHERE download IS NULL LIMIT ?", (1,),)
     result = cursor.fetchone()
@@ -65,7 +67,7 @@ def get_download_directory():
 
 def verify():
     try:
-        cursor = workflow_db.cursor()
+        cursor = downloads_db.cursor()
         cursor.execute(
             "SELECT image_id, filepath FROM images WHERE download = ? AND verify_checksum IS NULL LIMIT ?", (1, 1,),)
         result = cursor.fetchone()
@@ -205,7 +207,8 @@ def upload():
 
 if __name__ == "__main__":
 
-    for i in range(1, 300):
+    for i in range(1, 1000):
+        print("Job # " + str(i))
         verify()
         extract()
         sidecar()

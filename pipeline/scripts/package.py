@@ -91,7 +91,7 @@ def create_package(images, batch_dir):
             workflow_db = sqlite3.connect(db_path)
             cursor = workflow_db.cursor()
             for image in images:
-                print("Linking image " + image[0] " to " + tarball_name + " in SQLite.")
+                print("Linking image " + image[0] + " to " + tarball_name + " in SQLite.")
                 cursor.execute(
                     "UPDATE images SET package_name = ? WHERE image_id = ?", (tarball_name, image[0],),)
             cursor.execute("INSERT INTO packages (name, size, timestamp) VALUES (?,?,?)",

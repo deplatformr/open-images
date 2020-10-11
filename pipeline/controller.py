@@ -192,7 +192,7 @@ def upload():
             "SELECT name FROM packages WHERE cid IS NULL LIMIT ?", (1,),)
         result = cursor.fetchone()
         if result is None:
-            print("No package ready yet for Filecoin upload.")
+            return()
         else:
             print("Uploading package " + result[0] + " to Filecoin.")
             filecoin_upload(result[0])

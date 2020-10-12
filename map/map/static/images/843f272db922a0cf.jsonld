@@ -1,0 +1,81 @@
+{
+    "@id": "openimages:843f272db922a0cf",
+    "contentUrl": "https://c8.staticflickr.com/9/8667/16277781025_e33456d79b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/9/8667/16277781025_01f6fec4bf_z.jpg",
+    "name": "Salmon lunch",
+    "image": "843f272db922a0cf.jpg",
+    "creator": "Simon_sees (https://www.flickr.com/people/39551170@N02/)",
+    "dateCreated": "2015:01:11 13:34:46",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.04 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1936",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "DoKwdCnL+Z6GgpQvZrl19A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-32.7774722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "152.035461111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05s28": "Parsley",
+            "/m/0mz_c": "Arugula",
+            "/m/0k0qpqb": "Spinach salad",
+            "/m/01mt0b": "Lime (Fruit)",
+            "/m/01_bhs": "Fast food",
+            "/m/02wbm": "Food",
+            "/m/05s2s": "Plant",
+            "/m/06nwz": "Seafood",
+            "/m/0grw1": "Salad"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0grw1": "Salad",
+                "confidence": "1",
+                "xMin": "0.080000",
+                "xMax": "0.823750",
+                "yMin": "0.000000",
+                "yMax": "0.997490",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/06nwz": "Seafood",
+                "confidence": "1",
+                "xMin": "0.401875",
+                "xMax": "0.696250",
+                "yMin": "0.148954",
+                "yMax": "0.851046",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:ef7c07e6f9b5902a",
+    "contentUrl": "https://c3.staticflickr.com/4/3670/12560672803_ac5d8e0021_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/4/3670/12560672803_acc5da51ab_z.jpg",
+    "name": "BrunoBrunan",
+    "image": "ef7c07e6f9b5902a.jpg",
+    "creator": "BrunoBrunan (https://www.flickr.com/people/brunodobrasil/)",
+    "dateCreated": "2014:02:15 17:23:13",
+    "description": "Processed with VSCOcam with m1 preset",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "982.40 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "2448",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "P0yk2GSFmZdCZj3ohR1i+A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-22.7520666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-47.3263194444445"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "399755/718"
+        }
+    ],
+    "about": {}
+}

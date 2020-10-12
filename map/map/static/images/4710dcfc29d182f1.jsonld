@@ -1,0 +1,83 @@
+{
+    "@id": "openimages:4710dcfc29d182f1",
+    "contentUrl": "https://farm2.staticflickr.com/7717/17178495427_12af4165ee_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/8/7717/17178495427_b5eda32430_z.jpg",
+    "name": "Former Giantway, Bay City",
+    "image": "4710dcfc29d182f1.jpg",
+    "creator": "Bobby P. (https://www.flickr.com/people/tenpoundhammer/)",
+    "dateCreated": "2015:05:02 08:51:24",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.29 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "KE9dl3PepZZsPCB27IhJCg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.6152277777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-83.9146944444445"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "20896/115"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0j72pxm": "Gmc",
+            "/m/03jxqr": "Ford e-series",
+            "/m/01prls": "Land vehicle",
+            "/m/03sds0": "Chevrolet suburban",
+            "/m/0k4j": "Car",
+            "/m/03tgnd": "Ford aerostar",
+            "/m/03jq7b": "Gmc savana",
+            "/m/0h2r6": "Van",
+            "/m/07yv9": "Vehicle",
+            "/m/01bjv": "Bus",
+            "/m/0xm0m9r": "Chevrolet"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0h2r6": "Van",
+                "confidence": "1",
+                "xMin": "0.534375",
+                "xMax": "0.856250",
+                "yMin": "0.416875",
+                "yMax": "0.621250",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/0h2r6": "Van",
+                "maskFile": "4710dcfc29d182f1_m0h2r6_3394cb71.png",
+                "boxId": "3394cb71",
+                "xMin": "0.534375",
+                "xMax": "0.85625",
+                "yMin": "0.416875",
+                "yMax": "0.62125",
+                "PredictedIoU": "0.89043",
+                "clicks": "0.54952 0.49456 1;0.61793 0.59158 0;0.82802 0.48478 1;0.56418 0.44849 1;0.56072 0.59908 1;0.81337 0.47013 0;0.84059 0.61293 1;0.53970 0.53031 1;0.59206 0.58846 0;0.81653 0.47067 0;0.83320 0.50289 0;0.58483 0.42955 0"
+            }
+        ]
+    }
+}

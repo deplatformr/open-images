@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:29dab013751e5cd5",
+    "contentUrl": "https://farm6.staticflickr.com/294/19317484859_f80c7520b7_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/1/294/19317484859_816a95e098_z.jpg",
+    "name": "There's no escaping Perth Prison; an iconic landmark on the edge of the South inch; of huge architectural importance",
+    "image": "29dab013751e5cd5.jpg",
+    "creator": "Ninian  Reid (https://www.flickr.com/people/ninian_reid/)",
+    "dateCreated": "2015:07:07 18:46:59",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.96 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3104",
+    "height": "1746",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "yvYu2OeNa0R8MphPP+nf4A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "56.38763425"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.43355844444444"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/038t8_": "Estate",
+            "/m/0199g": "Bicycle",
+            "/m/0csby": "Cloud",
+            "/m/01bqvp": "Sky",
+            "/m/02vx4": "Soccer",
+            "/m/07j7r": "Tree",
+            "/m/03jm5": "House",
+            "/m/037hz": "Golf"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:99cb62d9d9d2f0ac",
+    "contentUrl": "https://c5.staticflickr.com/4/3679/19261365831_77ce20f8b2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/4/3679/19261365831_4883afbc99_z.jpg",
+    "name": "DJI_0113 - 2015-0627 空拍毓繡美術館工地",
+    "image": "99cb62d9d9d2f0ac.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "",
+    "description": "DCIM\\100MEDIA\\DJI_0071.JPG",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.20 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "/+B2aZQmtObCEcASD8pjQQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "23.9921933333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "120.767231361111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "213/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03jm5": "House",
+            "/m/0k4j": "Car",
+            "/m/0cgh4": "Building"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "@id": "openimages:9bd9808cfebf5e13",
+    "contentUrl": "https://farm4.staticflickr.com/7354/9568843035_7657bb0dbc_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7354/9568843035_02daf93896_z.jpg",
+    "name": "Gramat 2013-1650",
+    "image": "9bd9808cfebf5e13.jpg",
+    "creator": "Lurcin (https://www.flickr.com/people/lurcinhead/)",
+    "dateCreated": "2013:08:12 17:13:23",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.07 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "RR9MKYtqf9pwORINHvuDBA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "44.80352"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.617395"
+        }
+    ],
+    "about": {}
+}

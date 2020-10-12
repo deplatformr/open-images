@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:1ad2ed2997036289",
+    "contentUrl": "https://c2.staticflickr.com/5/4133/4989831318_6dc5bbc9dd_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/5/4133/4989831318_8139b57ae4_z.jpg",
+    "name": "Inside Natarajar Temple",
+    "image": "1ad2ed2997036289.jpg",
+    "creator": "Sankara Subramanian (https://www.flickr.com/people/sankaracs/)",
+    "dateCreated": "2010:08:29 11:06:39",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "257.62 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2048",
+    "height": "1155",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "wXp4vAqbKlTAYm9OI7QR1w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "11.4003953933714"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "79.6930084228498"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02fw7w": "Gurdwara",
+            "/m/01rlnn": "Hacienda",
+            "/m/0csby": "Cloud",
+            "/m/01xgbj": "Turret",
+            "/m/04ffvn": "Presidential palace",
+            "/m/05czsy": "Official residence",
+            "/m/013_1c": "Statue",
+            "/m/0cgh4": "Building",
+            "/m/01bqvp": "Sky"
+        }
+    }
+}

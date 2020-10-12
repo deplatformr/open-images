@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:4a1e4edb2b69151c",
+    "contentUrl": "https://c5.staticflickr.com/8/7009/6673518771_5fcd63e715_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/8/7009/6673518771_96863b91f8_z.jpg",
+    "name": "The Needles chair lift.",
+    "image": "4a1e4edb2b69151c.jpg",
+    "creator": "Martyn Wright (https://www.flickr.com/people/martyn404/)",
+    "dateCreated": "2010:08:01 13:46:22",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "10.24 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "9921",
+    "height": "4724",
+    "resolution": "600 x 600",
+    "disambiguatingDescription": "nvzXZ1tfJ5G1okC5fn1NaQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.6686933333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-1.56828166666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "591/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01h_1n": "Playground",
+            "/m/0k4j": "Car",
+            "/m/0838f": "Water",
+            "/m/0b3yr": "Beach",
+            "/m/013xlm": "Tractor"
+        }
+    }
+}

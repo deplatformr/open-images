@@ -1,0 +1,52 @@
+{
+    "@id": "openimages:1ac75cfa0f4d4d34",
+    "contentUrl": "https://farm5.staticflickr.com/4095/4769408048_3d5ddfa745_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/5/4095/4769408048_b459307a7d_z.jpg",
+    "name": "Port of Helsingborg",
+    "image": "1ac75cfa0f4d4d34.jpg",
+    "creator": "Håkan Dahlström (https://www.flickr.com/people/dahlstroms/)",
+    "dateCreated": "2010:07:06 13:23:41",
+    "description": "<a href=\"http://365.dahlstroms.com/\">365</a>",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.98 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "04tiZ7yrAk5u/dZuIwmpIQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "56.0429736200333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "12.6868209900003"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "72383/2459"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/019jd": "Boat",
+            "/m/06q74": "Ship",
+            "/m/04h7h": "Lighthouse",
+            "/m/01bqvp": "Sky",
+            "/m/0838f": "Water",
+            "/m/0b48hv": "Rainbow",
+            "/m/0csby": "Cloud",
+            "/m/04h4w": "Lake",
+            "/m/07yv9": "Vehicle"
+        }
+    }
+}

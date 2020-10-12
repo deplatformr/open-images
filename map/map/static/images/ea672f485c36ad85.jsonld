@@ -1,0 +1,97 @@
+{
+    "@id": "openimages:ea672f485c36ad85",
+    "contentUrl": "https://farm6.staticflickr.com/3835/14396570728_965302fd8d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/4/3835/14396570728_c6902cd7ca_z.jpg",
+    "name": "Making Cleveland cassata cake",
+    "image": "ea672f485c36ad85.jpg",
+    "creator": "Joy (https://www.flickr.com/people/joyosity/)",
+    "dateCreated": "2014:07:04 09:57:20",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.18 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2411",
+    "height": "2411",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Smwdsc+Or3rxaf+jSuPg4Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.4194138888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.0940944444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "5686/919"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0mjqn": "Pie",
+            "/m/033rdq": "Custard pie",
+            "/m/03hfxc4": "Custard tart",
+            "/m/0hp3n": "Pavlova",
+            "/m/025tqsx": "Cherry pie",
+            "/m/01f79n": "Quiche",
+            "/m/01_bhs": "Fast food",
+            "/m/02zvsm": "Tart",
+            "/m/0dxqz7": "Strawberry pie",
+            "/m/01hn_d": "Sour cream",
+            "/m/01pd2g": "Raspberry",
+            "/m/03ct2_8": "Frutti di bosco",
+            "/m/06zrpw8": "Graham cracker crust",
+            "/m/0fbdb": "Strawberries",
+            "/m/07fdw7": "Alpine strawberry",
+            "/m/0cnp1y": "Crostata",
+            "/m/02mg4z": "Cheesecake",
+            "/m/05v67qc": "Quiche lorraine",
+            "/m/06wypr": "California-style pizza",
+            "/m/0gmg0c": "Sugar pie",
+            "/m/0bjdsn": "Rhubarb pie",
+            "/m/0278rf": "Condensed milk",
+            "/m/02yz14": "Fruit cake",
+            "/m/0gzn_w": "Tayberry",
+            "/m/0fl3p": "Rhubarb"
+        },
+        "trainingBoxes": [
+            {
+                "/m/02zvsm": "Tart",
+                "confidence": "1",
+                "xMin": "0.014375",
+                "xMax": "0.968125",
+                "yMin": "0.028125",
+                "yMax": "0.973750",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/02zvsm": "Tart",
+                "maskFile": "ea672f485c36ad85_m02zvsm_471002e0.png",
+                "boxId": "471002e0",
+                "xMin": "0.014375",
+                "xMax": "0.968125",
+                "yMin": "0.028125",
+                "yMax": "0.97375",
+                "PredictedIoU": "0.92129",
+                "clicks": "0.08230 0.31501 1;0.47010 0.05598 1;0.89084 0.27459 1;0.28892 0.87501 1;0.56245 0.96402 0;0.93963 0.71665 0;0.92739 0.26108 0;0.29793 0.11903 1;0.91544 0.42710 1;0.51246 0.91890 1;0.05519 0.39749 1;0.87761 0.71494 1"
+            }
+        ]
+    }
+}

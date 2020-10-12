@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:786bfbc655f2a6f2",
+    "contentUrl": "https://farm3.staticflickr.com/3545/3356995702_19df5c0623_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/4/3545/3356995702_67d56a3106_z.jpg",
+    "name": "Let's gather at the tower",
+    "image": "786bfbc655f2a6f2.jpg",
+    "creator": "heiwa4126 (https://www.flickr.com/people/heiwa4126/)",
+    "dateCreated": "2008:12:20 15:28:37",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.60 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "6000",
+    "height": "3000",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "LdC2pcy0suDQEQIJDn5taA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.6826498617691"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.701683186373"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/079cl": "Skyscraper",
+            "/m/014xcs": "Pedestrian crossing",
+            "/m/017kvv": "Infrastructure",
+            "/m/0cgh4": "Building"
+        }
+    }
+}

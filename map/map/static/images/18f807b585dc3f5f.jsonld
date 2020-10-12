@@ -1,0 +1,79 @@
+{
+    "@id": "openimages:18f807b585dc3f5f",
+    "contentUrl": "https://c8.staticflickr.com/1/398/20248946229_6d47fc2b59_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/1/398/20248946229_04ccccee60_z.jpg",
+    "name": "Mexico City",
+    "image": "18f807b585dc3f5f.jpg",
+    "creator": "TJ DeGroat (https://www.flickr.com/people/tjdegroat/)",
+    "dateCreated": "2015:08:06 20:30:15",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.14 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "aucu3WAuYG9gGbWNEnVbAA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "19.4279166666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-99.13665"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1151489/512"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07qnx6": "Riq",
+            "/m/025ys1": "Watchmaker",
+            "/m/014zz1": "Hurdy gurdy",
+            "/m/04dr76w": "Bottle",
+            "/m/02wbm": "Food",
+            "/m/05r655": "Girl",
+            "/m/01bdy": "Bowling"
+        },
+        "trainingBoxes": [
+            {
+                "/m/02wbm": "Food",
+                "confidence": "1",
+                "xMin": "0.555000",
+                "xMax": "0.651875",
+                "yMin": "0.605000",
+                "yMax": "0.808333",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/02wbm": "Food",
+                "confidence": "1",
+                "xMin": "0.564375",
+                "xMax": "0.728125",
+                "yMin": "0.436667",
+                "yMax": "0.717500",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

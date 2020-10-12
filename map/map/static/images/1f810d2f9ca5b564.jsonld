@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:1f810d2f9ca5b564",
+    "contentUrl": "https://farm5.staticflickr.com/5092/5520800410_d12a3d8f01_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/6/5092/5520800410_1fb06aa7c8_z.jpg",
+    "name": "Missa Mario Covas 12-03-2011 12-36",
+    "image": "1f810d2f9ca5b564.jpg",
+    "creator": "Bruno Covas (https://www.flickr.com/people/brunocovas/)",
+    "dateCreated": "2011:03:12 12:36:09",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "526.47 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1452",
+    "height": "972",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "s5/g37zDJI30l0yOMmgihg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-23.5438556671143"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-46.6338729858398"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/019nj4": "Smile",
+            "/m/026bk": "Dance"
+        }
+    }
+}

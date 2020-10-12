@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:235b756d2210d2b3",
+    "contentUrl": "https://farm4.staticflickr.com/8094/8474106883_553b4a25e1_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8094/8474106883_eb51936bf9_z.jpg",
+    "name": "Off to the Wedding Party",
+    "image": "235b756d2210d2b3.jpg",
+    "creator": "Mikey (https://www.flickr.com/people/raver_mikey/)",
+    "dateCreated": "2013:02:09 13:12:17",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.75 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "CJ3j/qoHoTliJzVIS3zmZQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.4796694444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.244125"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05ygf_": "Bugatti type 32",
+            "/m/03n9vx": "Double-decker bus",
+            "/m/07yv9": "Vehicle",
+            "/m/01bqvp": "Sky",
+            "/m/0f7h3j": "Austin 12",
+            "/m/01bjv": "Bus",
+            "/m/07jdr": "Train",
+            "/m/025vq0g": "Peugeot 202",
+            "/m/05jj4l": "Bugatti type 57",
+            "/m/0413drl": "Alvis ta 14",
+            "/m/0bhv65": "Morris eight",
+            "/m/02pzlrk": "Bus garage",
+            "/m/0b1k6b": "Mg j-type",
+            "/m/0k4j": "Car"
+        }
+    }
+}

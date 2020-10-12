@@ -1,0 +1,38 @@
+{
+    "@id": "openimages:5073b4309330297c",
+    "contentUrl": "https://c5.staticflickr.com/9/8031/7902766774_cecc58ec5d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8031/7902766774_0a98c8a12f_z.jpg",
+    "name": "a_IMG_2099",
+    "image": "5073b4309330297c.jpg",
+    "creator": "Peter (https://www.flickr.com/people/acidka/)",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "508.04 KiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "duOxk+mrGl4GJ79G/MwZhg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.0172617299942"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "90.3364562999724"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car",
+            "/m/09d_r": "Mountain"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:206d7526a60f78d6",
+    "contentUrl": "https://farm7.staticflickr.com/8424/7840269860_69b748609c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8424/7840269860_631613abfc_z.jpg",
+    "name": "Sintra",
+    "image": "206d7526a60f78d6.jpg",
+    "creator": "Aapo Haapanen (https://www.flickr.com/people/decade_null/)",
+    "dateCreated": "2012:07:26 18:07:16",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.10 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4026",
+    "height": "2684",
+    "resolution": "1342 x 1342",
+    "disambiguatingDescription": "nl5qur2TOzZDukvaODvzIw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.792275739986"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-9.3899698599997"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0j2kx": "Waterfall",
+            "/m/01bqvp": "Sky",
+            "/m/0cgh4": "Building",
+            "/m/09d_r": "Mountain",
+            "/m/0csby": "Cloud",
+            "/m/01yrx": "Cat"
+        }
+    }
+}

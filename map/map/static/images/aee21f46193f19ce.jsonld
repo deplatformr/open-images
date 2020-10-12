@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:aee21f46193f19ce",
+    "contentUrl": "https://c7.staticflickr.com/6/5604/15411729417_9747ec060c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/6/5604/15411729417_e8040e73a4_z.jpg",
+    "name": "20141003 55th Party with Tmen and Monkey 48.jpg",
+    "image": "aee21f46193f19ce.jpg",
+    "creator": "Miles Gehm (https://www.flickr.com/people/milesgehm/)",
+    "dateCreated": "2014:10:04 00:09:11",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.82 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4896",
+    "height": "3672",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "nWkU/N4v9DS1iLZgHZxB+A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.336325"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.040397220012"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05b086": "Television studio",
+            "/m/054k0": "Film studio"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "@id": "openimages:a57d9d012f863c45",
+    "contentUrl": "https://farm6.staticflickr.com/7337/10723674636_962093c106_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7337/10723674636_6ca9fe3183_z.jpg",
+    "name": "Thalis: grilled seasonal fish, seafood stew, daily dal, turmeric rice, brussels sprouts, raita & naan",
+    "image": "a57d9d012f863c45.jpg",
+    "creator": "T.Tseng (https://www.flickr.com/people/68147320@N02/)",
+    "dateCreated": "2013:11:05 20:34:58",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.72 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "gZ2+dCPz4rso8WdXglewJg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "29.7415361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-95.4193888888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "12842/521"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/066gx0": "Papadum",
+            "/m/01j3ck": "Chapati",
+            "/m/05c62s6": "Tortilla",
+            "/m/027sjkl": "Spiced rice",
+            "/m/0405cd": "Raita",
+            "/m/02wbm": "Food",
+            "/m/047f4s1": "Dal baati",
+            "/m/0gw_tdr": "Laal maans",
+            "/m/0b3qxj": "Achaar",
+            "/m/03h0892": "Chicken 65",
+            "/m/027ggs": "Roti",
+            "/m/027ggc": "Naan",
+            "/m/0118n_nl": "Unleavened bread",
+            "/m/0d101p": "Jolada rotti",
+            "/m/08nj45": "Chana masala",
+            "/m/0dj2h6": "Kadhi",
+            "/m/04vhd0": "Bhakri",
+            "/m/09_pt2": "Dal bhat",
+            "/m/06x6d7": "Paratha",
+            "/m/06h5z4": "Kombdi vade"
+        }
+    }
+}

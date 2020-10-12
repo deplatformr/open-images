@@ -1,0 +1,78 @@
+{
+    "@id": "openimages:f5946a68ad2fcb16",
+    "contentUrl": "https://farm7.staticflickr.com/6214/7021988793_f073ba0b3c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/7/6214/7021988793_d562f3cd39_z.jpg",
+    "name": "Ollie the Kitchen Hand",
+    "image": "f5946a68ad2fcb16.jpg",
+    "creator": "Flying Cloud (https://www.flickr.com/people/flying_cloud/)",
+    "dateCreated": "2012:02:23 16:10:37",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1023.21 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1728",
+    "height": "2592",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "pjpvZjuMMyir5Sw++w2jEw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-37.8767777777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "145.002233333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01mr6j": "Cookware and bakeware",
+            "/m/0d4wf": "Kitchen",
+            "/m/02jz0l": "Tap",
+            "/m/0h99cwc": "Kitchen appliance",
+            "/m/04y7xr": "Cook",
+            "/m/03pqt3": "Concierge",
+            "/m/019dx1": "Home appliance",
+            "/m/01s105": "Cabinetry",
+            "/m/0h8ntm9": "Cooktop",
+            "/m/0b3fp9": "Countertop",
+            "/m/01mtb": "Cooking",
+            "/m/02wv84t": "Gas stove",
+            "/m/0h8n5zs": "Sauté pan",
+            "/m/0fx9l": "Microwave oven",
+            "/m/02pdnx": "Cafeteria",
+            "/m/02pv4v7": "Chief cook",
+            "/m/0c0t2j": "Chef's uniform",
+            "/m/03_5sv": "Laboratory equipment",
+            "/m/0f748": "Apron",
+            "/m/02pkr5": "Plumbing fixture",
+            "/m/017clw": "Laboratory",
+            "/m/03mw1c": "Exhaust hood",
+            "/m/029bxz": "Oven",
+            "/m/01pn0r": "Chef",
+            "/m/04v6l4": "Frying pan",
+            "/m/035j03": "Pastry chef",
+            "/m/05kyg_": "Chest of drawers",
+            "/m/087krf": "Research institute",
+            "/m/017z18": "Small appliance",
+            "/m/04gf49c": "Restaurateur",
+            "/m/02vjn0": "Food processing",
+            "/m/0h8lpvm": "Kitchen sink",
+            "/m/0h8nttn": "Saucepan",
+            "/m/0c3z6s0": "Under-cabinet lighting"
+        }
+    }
+}

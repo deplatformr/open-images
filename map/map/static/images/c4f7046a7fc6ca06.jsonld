@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:c4f7046a7fc6ca06",
+    "contentUrl": "https://farm7.staticflickr.com/2890/12284663095_b377083516_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/3/2890/12284663095_3bec4b504e_z.jpg",
+    "name": "Samsung Curved TV",
+    "image": "c4f7046a7fc6ca06.jpg",
+    "creator": "Kārlis Dambrāns (https://www.flickr.com/people/janitors/)",
+    "dateCreated": "2014:01:27 12:11:04",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.40 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4384",
+    "height": "2928",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "GveB1cUBzYiqm2NAOHeUzQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "36.7048416666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-4.46001666666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bx_y3w": "Television set",
+            "/m/01919d": "Home cinema",
+            "/m/03qh03g": "Media",
+            "/m/05p37dx": "Led-backlit lcd display",
+            "/m/01qwsw": "Flat panel display",
+            "/m/0f2f9": "Television program",
+            "/m/0vpsd3h": "Television presenter",
+            "/m/06q1l_": "Entertainment center"
+        }
+    }
+}

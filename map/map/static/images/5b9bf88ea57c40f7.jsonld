@@ -1,0 +1,66 @@
+{
+    "@id": "openimages:5b9bf88ea57c40f7",
+    "contentUrl": "https://farm8.staticflickr.com/6025/5961746317_6486ac46a4_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/7/6025/5961746317_33fabed09d_z.jpg",
+    "name": "2011-07-19 09-16-58_0159",
+    "image": "5b9bf88ea57c40f7.jpg",
+    "creator": "Peter Long (https://www.flickr.com/people/peterlong/)",
+    "dateCreated": "2011:07:19 09:16:58",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.68 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "5iuPsa+EgkEd916luUd6kQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.5906833333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-105.873116666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01y6dg": "Walking stick insect",
+            "/m/019h78": "Centipede",
+            "/m/03xxp": "Invertebrate",
+            "/m/09x984": "Puddle",
+            "/m/0_k2": "Ant",
+            "/m/01jm2n": "Walkway",
+            "/m/06gg86": "Band winged grasshoppers",
+            "/m/0jbk": "Animal",
+            "/m/06fpdb": "Firebrat",
+            "/m/07j41f": "Cockroach",
+            "/m/0d6_mr": "Pygmy Rattlesnake",
+            "/m/0f7sw": "Cicada",
+            "/m/02yrp": "Fossil",
+            "/m/0ft9s": "Dragonfly",
+            "/m/09xqv": "Cricket (Insect)",
+            "/m/03vt0": "Insect",
+            "/m/078jl": "Snake",
+            "/m/0j8mx": "Cricket-like insect",
+            "/m/03hl4l9": "Marine invertebrates",
+            "/m/030brp": "Viper",
+            "/m/05s2s": "Plant",
+            "/m/07j7r": "Tree",
+            "/m/0jtkg": "Locust",
+            "/m/04hgv": "Limestone",
+            "/m/03w_k6": "Hide beetles",
+            "/m/020jm": "Beetle",
+            "/m/0zkm": "Arthropod"
+        }
+    }
+}

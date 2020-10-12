@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:61c5967de3a970f1",
+    "contentUrl": "https://farm2.staticflickr.com/5478/14258412753_8db3d9d592_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/6/5478/14258412753_3048bf7e29_z.jpg",
+    "name": "D261FUL-1 180514 CPS",
+    "image": "61c5967de3a970f1.jpg",
+    "creator": "Chris Sampson (https://www.flickr.com/people/lodekka/)",
+    "dateCreated": "2014:05:18 13:10:53",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.88 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "6000",
+    "height": "4000",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "/G7zpYKBoFVJGc/23wWnJg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "52.0121230000884"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "0.563412"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "64260/661"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/013xlm": "Tractor",
+            "/m/07yv9": "Vehicle",
+            "/m/0425h3": "Mazda titan",
+            "/m/01bjv": "Bus",
+            "/m/0k4j": "Car"
+        }
+    }
+}

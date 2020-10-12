@@ -1,0 +1,54 @@
+{
+    "@id": "openimages:392c3bb7741a0dd9",
+    "contentUrl": "https://c2.staticflickr.com/9/8600/16407923147_e201ce9e02_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/9/8600/16407923147_86969afb32_z.jpg",
+    "name": "Easter 1975",
+    "image": "392c3bb7741a0dd9.jpg",
+    "creator": "Andy Powell (https://www.flickr.com/people/andypowe11/)",
+    "dateCreated": "2015:02:22 14:20:49",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "960.48 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "GZWN3sXzlsi9r4UNUzPjng==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 90
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.9139361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.04104722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "8810/813"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05j36_": "Index card",
+            "/m/0bt_c3": "Book",
+            "/m/0gkxy13": "Handwriting",
+            "/m/04zwwv": "Ring binder",
+            "/m/02gsv": "Diary",
+            "/m/016vv0": "Notebook",
+            "/m/040v7z": "Scrapbooking",
+            "/m/0k1tl": "Pen",
+            "/m/04gcl9": "Receipt",
+            "/m/018m62": "Clipboard"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:ef99f43391fe196d",
+    "contentUrl": "https://c6.staticflickr.com/9/8363/8336445195_dcd58140dd_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/9/8363/8336445195_8f98d0fdd5_z.jpg",
+    "name": "311220127120",
+    "image": "ef99f43391fe196d.jpg",
+    "creator": "Antti T. Nissinen (https://www.flickr.com/people/veisto/)",
+    "dateCreated": "2012:12:31 11:33:56",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.04 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "BYO4RnKHIQETfS2uhNLTlg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.0167474647222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "135.670551042528"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "357/2"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0199g": "Bicycle",
+            "/m/06wbnr": "Blue gum",
+            "/m/062bcj": "Canopy walkway",
+            "/m/0250t7": "Cane",
+            "/m/09qw8": "Bamboo"
+        }
+    }
+}

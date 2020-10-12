@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:7060777dc10aa4a1",
+    "contentUrl": "https://farm2.staticflickr.com/8705/16308500794_4f7d0c42c9_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/9/8705/16308500794_36a5566d91_z.jpg",
+    "name": "Plymouth Citybus 023 R123OFJ",
+    "image": "7060777dc10aa4a1.jpg",
+    "creator": "Graham Richardson (https://www.flickr.com/people/didbygraham/)",
+    "dateCreated": "2015:03:17 13:59:10",
+    "description": "23\nR123OFJ\nPlymouth Citybus Ltd\nDennis Dart SLF\nPlaxton Pointer 2\nB39F\nPlymouth Citybus (swoop)\nL1000613\n\n17 March 2015\nWestern Approach\nRoute-33\n\n",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.51 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2936",
+    "height": "1704",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "R3mIjGYaisN2JaCsTzA9cg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.3731061100239"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-4.14651275001348"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car",
+            "/m/03qk36c": "Airport bus",
+            "/m/05j5z9": "Dennis dart",
+            "/m/07yv9": "Vehicle",
+            "/m/01bjv": "Bus"
+        }
+    }
+}

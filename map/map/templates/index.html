@@ -2,21 +2,104 @@
 
 {% block content %}
 
-<h1 class="header">Deplatformr liberates your data</h1>
+<div id="mapid"></div>
 
-<ol>
-    <li>Select a content platform from the menu on the left.</li>
-    <li>Follow instructions on how to export and deplatform your content.</li>
-    <li>Upload your content to Deplatformr.</li>
-    <li>Deplatformr will re-process your content and move it to decentralized storage on the Filecoin network.</li>
-    <li>All your metadata, content, and AI models are encrypted. Only you have access to the decryption keys.</li>
-    <li>You can view and manage content from each individual platform using the menus on the left.</li>
-    <li>You can also access all your files from across all of the platforms via the Filecoin menu.</li>
-    <li>Export your Filecoin information. You can always retrieve the files from the decentralized network yourself if you no longer want to use Deplatformr.
-    <li>Your Deplatformr subscription pays for storing content on Filecoin. Click on your user name in the top right menu to view and/or top up your account balance.</li>
-    <li>Click on the Filecoin menu to see information about the storage deals that Deplatformr has made for you on the Filecoin network, along with your current Filecoin wallet balance.</li>
-</ol>
-<hr>
+<div class="container" style="max-width: 100%;">
+<div class="row" style="margin-top: 20px; width: 100%;">
+
+<div class="col">
+    
+<a href="static/images/{{ photo[21] }}"><img class="img-fluid" src="static/images/{{ photo[21] }}" /></a>
+</div> <!-- column -->
+
+<div class="col">
+
+<!-- TODO: auto-lookup -->
+<strong>Place: </strong>Paris, France<br />
+{% if photo[7] != "None" %}
+<strong>Title: </strong>{{photo[7]}}<br />
+{% endif %}
+{% if photo[6] != "None" %}
+<strong>Creator: </strong>{{photo[6]}}<br />
+{% endif %}
+{% if created !="None" %}
+<strong>Creation date: </strong>{{ created }}<br />
+{% endif %}
+{% if photo[13] != "None" %}
+<strong>Description: </strong>{{photo[13]}}<br />
+{% endif %}
+{% if photo[8] != "None" %}
+<strong>File size: </strong>{{ photo[8] | filesizeformat(true) }}<br />
+{% endif %}
+{% if photo[15] != "None" %}
+<strong>Width: </strong>{{ photo[15] }}<br />
+{% endif %}
+{% if photo[16] != "None" %}
+<strong>Height: </strong>{{ photo[16] }}<br />
+{% endif %}
+{% if photo[17] != "None" %}
+<strong>Resolution: </strong>{{ photo[17] }}<br />
+{% endif %}
+{% if photo[14] != "None" %}
+<strong>Mimetype: </strong>{{ photo[14] }}<br />
+{% endif %}
+{% if photo[18] != "None" %}
+<strong>Latitude: </strong>{{photo[18]}}<br />
+{% endif %}
+{% if photo[19] != "None" %}
+<strong>Longitude: </strong>{{photo[19]}}<br />
+{% endif %}
+{% if photo[20] != "None" %}
+<strong>Altitude: </strong>{{photo[20]}}<br />
+{% endif %}
+{% if photo[4] != "None" %}
+<strong>License: </strong>{{ photo[4] }}<br />
+{% endif %}
+{% if photo[22] != "None" %}
+<strong>Package: </strong>{{ photo[22] }}<br />
+{% endif %}
+<strong>Manifest: </strong><a href="static/images/{{ jsonld }}">{{ jsonld }}</a>
+
+</div> <!-- column -->
+</div> <!-- row -->
+</div> <!-- container -->
+
+<div class="row" style="margin: 20px 20px 20px 20px;">
+<div class="col">
+<h4>Machine learning annotations</h4>
+<strong>Type: </strong>tags <br />
+<strong>Function: </strong>training <br />
+{% for annotation in annotations %}
+
+
+<a href="#"><span class="tag">{{ annotation[2] }}</span></a>
+
+{% endfor %}
+</div> <!-- column -->
+<div class="col">
+</div> <!-- column -->
+</div> <!-- row -->
 
 {% endblock %}
 
+{% block extra_js %}
+<script>
+
+    var mymap = L.map('mapid').setView([48.8612333333333, 2.33483055555556], 18);
+
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGV0ZXItdmciLCJhIjoiY2tnNXhvZmI1MHhvbTJybXN2dmZtMW4wdiJ9.hf_TPGvkWbgo4TweQGuDZA', {
+        maxZoom: 20,
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+            'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        id: 'mapbox/satellite-streets-v11',
+        tileSize: 512,
+        zoomOffset: -1
+    }).addTo(mymap);
+
+    var marker = L.marker([48.8612333333333, 2.33483055555556]).addTo(mymap);
+
+</script>
+
+
+{% endblock %}

@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:57645a8189db138b",
+    "contentUrl": "https://c4.staticflickr.com/8/7042/13889976764_8094783844_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/8/7042/13889976764_15573e7b5e_z.jpg",
+    "name": "ABC South Brisbane",
+    "image": "57645a8189db138b.jpg",
+    "creator": "Ash Kyd (https://www.flickr.com/people/ashkyd/)",
+    "dateCreated": "2014:04:16 17:51:04",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.77 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3200",
+    "height": "2368",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "pUiSQZjBS8LwpRKZE6XfKQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-27.4750866666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "153.020675833333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "62"
+        }
+    ],
+    "about": {}
+}

@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:aa23fef7793e7111",
+    "contentUrl": "https://farm2.staticflickr.com/5794/19949552493_db7fbdf050_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/6/5794/19949552493_748725d702_z.jpg",
+    "name": "Sydney 2015 Aug 15 01:28",
+    "image": "aa23fef7793e7111.jpg",
+    "creator": "Climate Change Research Centre (https://www.flickr.com/people/ccrc_weather/)",
+    "dateCreated": "2015:08:15 01:27:44",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.90 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1944",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "fnsMlYsVcRSDk1O3xPoWRg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-33.9177138888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "151.2347"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/020ys5": "Condominium",
+            "/m/03jm5": "House",
+            "/m/05t0z3q": "Bank (Geography)",
+            "/m/079cl": "Skyscraper"
+        }
+    }
+}

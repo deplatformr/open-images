@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:986a0c112301653b",
+    "contentUrl": "https://c4.staticflickr.com/6/5325/9020001238_ab8d271777_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5325/9020001238_30c54e6349_z.jpg",
+    "name": "Laser Filtration replacements",
+    "image": "986a0c112301653b.jpg",
+    "creator": "Solarbotics (https://www.flickr.com/people/solarbotics/)",
+    "dateCreated": "2013:06:11 14:10:46",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.50 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4128",
+    "height": "3096",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "eKb1V70e3j1ydDDxaMhYQw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.0858421111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-114.034225444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1063"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04kjl7": "Slate"
+        }
+    }
+}

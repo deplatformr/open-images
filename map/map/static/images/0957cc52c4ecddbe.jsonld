@@ -1,0 +1,71 @@
+{
+    "@id": "openimages:0957cc52c4ecddbe",
+    "contentUrl": "https://c7.staticflickr.com/8/7548/15845118279_5d20a521af_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/8/7548/15845118279_cb3792f563_z.jpg",
+    "name": "Panathenaic stadium",
+    "image": "0957cc52c4ecddbe.jpg",
+    "creator": "Darren Foreman (https://www.flickr.com/people/dsf/)",
+    "dateCreated": "2014:12:13 12:26:24",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.01 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "YQ17eVOlm2a1Ag1iMHZdMg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.9679361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "23.7409361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "84541/1001"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01gl72": "Skatepark",
+            "/m/03mr6": "Hockey",
+            "/m/018w8": "Basketball (Sport)",
+            "/m/0fnrbc": "Solar panel",
+            "/m/04lhq": "Long jump",
+            "/m/0cgh4": "Building",
+            "/m/0838f": "Water",
+            "/m/07bs0": "Tennis",
+            "/m/0bd7td": "Bouleuterion",
+            "/m/018jz": "Baseball",
+            "/m/0f48p": "Amphitheatre",
+            "/m/06q74": "Ship",
+            "/m/0jm_": "American football",
+            "/m/0csby": "Cloud",
+            "/m/0k4j": "Car",
+            "/m/07y4q7": "Community centre",
+            "/m/09d_r": "Mountain",
+            "/m/06882p": "4 × 400 metres relay",
+            "/m/0c9ph5": "Flower",
+            "/m/01bqvp": "Sky",
+            "/m/0404y4": "Soccer-specific stadium",
+            "/m/03_04d": "Pesäpallo",
+            "/m/02qg91d": "Field house",
+            "/m/06dsww": "Bullring",
+            "/m/02vx4": "Soccer",
+            "/m/07j7r": "Tree",
+            "/m/015p6": "Bird"
+        }
+    }
+}

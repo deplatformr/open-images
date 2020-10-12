@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:47fd55346f614168",
+    "contentUrl": "https://c1.staticflickr.com/6/5294/5546658936_657ecf55ab_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5294/5546658936_b5c8cfeede_z.jpg",
+    "name": "2011-03-05 03-13 Madeira 692 Ponta de São Lourenço",
+    "image": "47fd55346f614168.jpg",
+    "creator": "Allie_Caulfield (https://www.flickr.com/people/wm_archiv/)",
+    "dateCreated": "2011:03:12 15:10:14",
+    "description": "SONY DSC                       ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.40 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4912",
+    "height": "3264",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "sMGW6ornboovws3eLGDQrg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "32.7487833333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-16.7130313888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1191/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/019jd": "Boat",
+            "/m/04h4w": "Lake",
+            "/m/0b3yr": "Beach",
+            "/m/09d_r": "Mountain",
+            "/m/01bqvp": "Sky",
+            "/m/0838f": "Water",
+            "/m/0bt_c3": "Book",
+            "/m/06q74": "Ship"
+        }
+    }
+}

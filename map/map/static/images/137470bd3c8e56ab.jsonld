@@ -1,0 +1,51 @@
+{
+    "@id": "openimages:137470bd3c8e56ab",
+    "contentUrl": "https://c4.staticflickr.com/6/5589/15132863438_0856546d8e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/6/5589/15132863438_55d33cae94_z.jpg",
+    "name": "2014-09-22_08-21-12",
+    "image": "137470bd3c8e56ab.jpg",
+    "creator": "Ty Nigh (https://www.flickr.com/people/tynigh/)",
+    "dateCreated": "2014:09:22 15:22:29",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.35 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "2432",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "IRCG2jHyQlfRSb1Qhcz5tg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-26.6877944444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "152.892177777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "422"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bqvp": "Sky",
+            "/m/09d_r": "Mountain",
+            "/m/0csby": "Cloud",
+            "/m/07j7r": "Tree",
+            "/m/0cgh4": "Building",
+            "/m/02wbm": "Food",
+            "/m/0c9ph5": "Flower"
+        }
+    }
+}

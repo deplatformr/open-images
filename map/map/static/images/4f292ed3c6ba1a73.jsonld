@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:4f292ed3c6ba1a73",
+    "contentUrl": "https://farm4.staticflickr.com/8455/8070547485_617b79aa0d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/9/8455/8070547485_934d45ae98_z.jpg",
+    "name": "Haiti Weekend 014",
+    "image": "4f292ed3c6ba1a73.jpg",
+    "creator": "Stefan Krasowski (https://www.flickr.com/people/rapidtravelchai/)",
+    "dateCreated": "2012:10:07 01:21:20",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "891.88 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2816",
+    "height": "2112",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "HnZ5iDfw/cRuPbzEn6P5vw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "19.7631015777588"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-72.197868347168"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0130jx": "Sink",
+            "/m/0c9ph5": "Flower",
+            "/m/02wbm": "Food",
+            "/m/094gjs": "Wedding favors"
+        }
+    }
+}

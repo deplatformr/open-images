@@ -1,0 +1,62 @@
+{
+    "@id": "openimages:ebfc19761cd65311",
+    "contentUrl": "https://farm2.staticflickr.com/7467/15844710255_0245edc616_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/8/7467/15844710255_20ab449152_z.jpg",
+    "name": "IMG_6205",
+    "image": "ebfc19761cd65311.jpg",
+    "creator": "Robert Gray (https://www.flickr.com/people/55063261@N06/)",
+    "dateCreated": "2014:11:18 11:33:37",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.57 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "3264",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "UO7K5Y/G7LSdOhorIcEFrg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "31.9749416666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-111.068930555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "21137/20"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0c_jw": "Furniture",
+            "/m/0cgh4": "Building",
+            "/m/04z_y4": "Pergola"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0c_jw": "Furniture",
+                "confidence": "1",
+                "xMin": "0.870000",
+                "xMax": "0.999167",
+                "yMin": "0.733750",
+                "yMax": "0.905000",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

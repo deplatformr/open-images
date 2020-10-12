@@ -1,0 +1,71 @@
+{
+    "@id": "openimages:e905f3e91d5f6ba9",
+    "contentUrl": "https://c2.staticflickr.com/9/8572/16245822917_9aa4561f4e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8572/16245822917_3de5c2f348_z.jpg",
+    "name": "3082 - Etihad Campus",
+    "image": "e905f3e91d5f6ba9.jpg",
+    "creator": "Mikey (https://www.flickr.com/people/raver_mikey/)",
+    "dateCreated": "2014:09:30 16:20:58",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.33 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "ZEMFq+DKTB0QPkoG0fo0Ig==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.4904194444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.09773333333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/033j3c": "Lane",
+            "/m/022pgh": "Electric locomotive",
+            "/m/01g50p": "Railroad car",
+            "/m/033rq4": "Street light",
+            "/m/07kfm": "Tram",
+            "/m/06m28d": "Transport corridor",
+            "/m/07jdr": "Train",
+            "/m/025s53m": "Rolling stock",
+            "/m/0py27": "Train station",
+            "/m/01pmdg": "Electric vehicle",
+            "/m/02lts": "Electricity",
+            "/m/04t7l": "Metal",
+            "/m/07bsy": "Transport",
+            "/m/02519": "Cable car (Transportation System)",
+            "/m/0195fx": "Metro",
+            "/m/0467y7": "Passenger car",
+            "/m/020s4p": "Cleanliness",
+            "/m/016znt": "Public utility",
+            "/m/07s6bqg": "Cable car",
+            "/m/02lxj": "Electrical network",
+            "/m/0fkwjg": "Commercial vehicle",
+            "/m/01p3xl": "Metro station",
+            "/m/025rw19": "Iron (Material)",
+            "/m/02nfxt": "Residential area",
+            "/m/0cb0xm": "Passenger",
+            "/m/02607v9": "Transport hub",
+            "/m/01vk9q": "Track",
+            "/m/06d_3": "Railway",
+            "/m/027vj2v": "Aluminium",
+            "/m/07q3ylx": "Signaling device",
+            "/m/04h5c": "Locomotive",
+            "/m/05zdp": "Public transport"
+        }
+    }
+}

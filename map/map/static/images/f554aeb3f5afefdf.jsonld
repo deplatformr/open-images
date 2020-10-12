@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:f554aeb3f5afefdf",
+    "contentUrl": "https://c8.staticflickr.com/6/5587/14108528466_d231abee1a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/6/5587/14108528466_2393192cbd_z.jpg",
+    "name": "Untitled",
+    "image": "f554aeb3f5afefdf.jpg",
+    "creator": "Lucas (https://www.flickr.com/people/ancientartpodcast/)",
+    "dateCreated": "2010:02:14 10:43:08",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.32 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "ikf9WGLFGoLJiFhvkFbjYQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "28.5577611111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "33.9737555555556"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cl63": "Hay",
+            "/m/03d1rd": "Ruins",
+            "/m/0dkxm": "Mold",
+            "/m/01czv3": "Fortification",
+            "/m/0c1ml": "Slate",
+            "/m/04hgv": "Limestone",
+            "/m/026gr8": "Cob",
+            "/m/01vzvy": "Mortar (Construction)",
+            "/m/01lynh": "Stairs",
+            "/m/0bysjw": "Stone wall",
+            "/m/0q0d2": "Thatching",
+            "/m/012ww9": "Archaeological site",
+            "/m/0cl6l": "Straw"
+        }
+    }
+}

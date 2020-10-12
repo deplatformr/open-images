@@ -1,0 +1,83 @@
+{
+    "@id": "openimages:384497916a21ae08",
+    "contentUrl": "https://c1.staticflickr.com/1/507/18361874338_1afb5114aa_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/1/507/18361874338_d1d531254a_z.jpg",
+    "name": "Sydney 2015 Jun 07 15:33",
+    "image": "384497916a21ae08.jpg",
+    "creator": "Climate Change Research Centre (https://www.flickr.com/people/ccrc_weather/)",
+    "dateCreated": "2015:06:07 15:33:00",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.28 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1944",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "s5aHt/nJnCkebZfAASqXsg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-33.9177138888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "151.2347"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07j7r": "Tree",
+            "/m/01bqvp": "Sky",
+            "/m/0csby": "Cloud"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.613750",
+                "yMin": "0.885833",
+                "yMax": "0.999167",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.615000",
+                "xMax": "0.755625",
+                "yMin": "0.880833",
+                "yMax": "0.999167",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.766250",
+                "xMax": "0.999375",
+                "yMin": "0.832500",
+                "yMax": "0.999167",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

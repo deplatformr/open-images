@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:9cde74a2733ae678",
+    "contentUrl": "https://c1.staticflickr.com/4/3867/15192826841_8951cc9153_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/4/3867/15192826841_cda71bb514_z.jpg",
+    "name": "Moscow, MKZD railway line. Kutuzovo station",
+    "image": "9cde74a2733ae678.jpg",
+    "creator": "Artem Svetlov (https://www.flickr.com/people/trolleway/)",
+    "dateCreated": "2014:09:07 18:40:16",
+    "description": "b'\\xd0\\xe5\\xea\\xee\\xed\\xf1\\xf2\\xf0\\xf3\\xea\\xf6\\xe8\\xff \\xcc\\xca\\xcc\\xc6\\xc4 , ... ]",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "429.24 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1024",
+    "height": "680",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "mrnNkStyc1J08H9vEWL6Xg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "55.7381166700154"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "37.5355625200128"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bg0t": "Schematic",
+            "/m/079cl": "Skyscraper",
+            "/m/07jdr": "Train",
+            "/m/04_tb": "Map",
+            "/m/01zbnw": "Screenshot"
+        }
+    }
+}

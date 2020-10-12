@@ -1,0 +1,69 @@
+{
+    "@id": "openimages:c21970b93629957f",
+    "contentUrl": "https://c8.staticflickr.com/8/7413/12320751044_43244c9127_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/8/7413/12320751044_eaefa25097_z.jpg",
+    "name": "Emirates - pre kick-off",
+    "image": "c21970b93629957f.jpg",
+    "creator": "Ronnie Macdonald (https://www.flickr.com/people/ronmacphotos/)",
+    "dateCreated": "2014:02:02 16:51:32",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.93 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5184",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "pAtFA/wXfvNnZYfrUFyZoA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.5550055555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.109725"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0c8jzx": "Tied-arch bridge",
+            "/m/013x8v": "Fan",
+            "/m/054v6y": "Box girder bridge",
+            "/m/02607v9": "Transport hub",
+            "/m/0cz_0": "Highway",
+            "/m/012sbd": "Tournament",
+            "/m/02gr4y": "Swing bridge",
+            "/m/054v5w": "Plate girder bridge",
+            "/m/0fr_mv": "Vierendeel bridge",
+            "/m/05mf2t": "Concrete bridge",
+            "/m/03120": "Flag",
+            "/m/03lzkv": "Cantilever bridge",
+            "/m/029zz6": "Display device",
+            "/m/0bkqqh": "Signage",
+            "/m/0p29m": "Bailey bridge",
+            "/m/0522cz4": "Electronic signage",
+            "/m/051gs3": "Fixed link",
+            "/m/02vzx9": "Player",
+            "/m/02500f": "Overpass",
+            "/m/04s_kv": "Self-anchored suspension bridge",
+            "/m/03c2qfl": "Mabey logistic support bridge",
+            "/m/054v5h": "Beam bridge",
+            "/m/0bt9lr": "Dog",
+            "/m/01phq4": "Pier",
+            "/m/01zbnw": "Screenshot",
+            "/m/015kr": "Bridge",
+            "/m/01knjb": "Billboard",
+            "/m/0csy8": "Suspension bridge",
+            "/m/06m28d": "Transport corridor",
+            "/m/0d0h0h": "Girder bridge"
+        }
+    }
+}

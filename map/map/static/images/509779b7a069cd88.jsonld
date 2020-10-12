@@ -1,0 +1,105 @@
+{
+    "@id": "openimages:509779b7a069cd88",
+    "contentUrl": "https://c1.staticflickr.com/6/5579/15133784756_69db808522_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/6/5579/15133784756_104e9b81e8_z.jpg",
+    "name": "foto 2(1)",
+    "image": "509779b7a069cd88.jpg",
+    "creator": "roy_meijer (https://www.flickr.com/people/24859240@N05/)",
+    "dateCreated": "2014:09:06 14:53:11",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.81 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "PaCPA6YjY1y/WJBKpxcJbQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "52.0865333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "5.06761111111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/09j2d": "Clothing",
+            "/m/05s2s": "Plant",
+            "/m/0c9ph5": "Flower",
+            "/m/02_nmk": "Mayweed",
+            "/m/05cmcg": "Chamaemelum nobile",
+            "/m/0dx4k5": "English marigold",
+            "/m/0gh6nsc": "Common zinnia",
+            "/m/011bc8hg": "Camomile",
+            "/m/04qk0d": "Bee pollen",
+            "/m/02qq55k": "New york aster",
+            "/m/043lk88": "European michaelmas daisy",
+            "/m/036ljr": "Wood Anemone",
+            "/m/05660t6": "Field marigold",
+            "/m/02pvpx7": "Heath aster",
+            "/m/05p50t_": "Marguerite daisy",
+            "/m/02m2tv": "African daisy",
+            "/m/0cdjgl": "Chrysanthemum coronarium",
+            "/m/02_nmy": "Chamomile",
+            "/m/0_qksy6": "Bushy aster",
+            "/m/01fpbm": "Daisy",
+            "/m/0646bg": "Pericallis",
+            "/m/0cb1hv": "Tanacetum balsamita",
+            "/m/04c38s": "Common Daisy",
+            "/m/0g3nz3": "Sea aster",
+            "/m/02qvnf": "Oxeye daisy",
+            "/m/08b9f0": "Garden cosmos",
+            "/m/03d3d4r": "Small white aster",
+            "/m/08wxjl": "Woolly sunflower",
+            "/m/01bg5t": "Coneflower",
+            "/m/058sq5": "Tanacetum parthenium",
+            "/m/043lkbp": "Aster tongolensis",
+            "/m/027txv9": "Sulfur Cosmos",
+            "/m/03m6bc1": "Spanish daisy"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.041875",
+                "xMax": "1.000000",
+                "yMin": "0.000000",
+                "yMax": "0.924167",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/0c9ph5": "Flower",
+                "maskFile": "509779b7a069cd88_m0c9ph5_40957536.png",
+                "boxId": "40957536",
+                "xMin": "0.041875",
+                "xMax": "1.0",
+                "yMin": "0.0",
+                "yMax": "0.924167",
+                "PredictedIoU": "0.93387",
+                "clicks": "0.67284 0.08983 1;0.98929 0.79087 1;0.83601 0.98427 1;0.02179 0.96668 1;0.00697 0.98163 1;0.49595 0.01043 1;0.67636 1.00046 1;0.01203 0.01492 1"
+            }
+        ]
+    }
+}

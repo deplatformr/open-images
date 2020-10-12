@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:9175dd11616c94a6",
+    "contentUrl": "https://farm7.staticflickr.com/5001/14040035931_679b3d7032_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5001/14040035931_b82536472c_z.jpg",
+    "name": "Untitled",
+    "image": "9175dd11616c94a6.jpg",
+    "creator": "Kyle Brazil (https://www.flickr.com/people/kjbrazil/)",
+    "dateCreated": "2014:04:20 17:33:48",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.48 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "5Ds+HHaRPgxuQTobDFIspw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "39.9850305555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "116.490058333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "39910/963"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0199g": "Bicycle",
+            "/m/0k4j": "Car"
+        }
+    }
+}

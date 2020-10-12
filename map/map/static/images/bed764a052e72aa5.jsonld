@@ -1,0 +1,75 @@
+{
+    "@id": "openimages:bed764a052e72aa5",
+    "contentUrl": "https://farm6.staticflickr.com/8130/10186293363_dab69f3efe_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8130/10186293363_e1beca79ba_z.jpg",
+    "name": "Volkswagen Golf Variant 2013",
+    "image": "bed764a052e72aa5.jpg",
+    "creator": "Kārlis Dambrāns (https://www.flickr.com/people/janitors/)",
+    "dateCreated": "2013:09:22 18:51:15",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "11.06 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4576",
+    "height": "3056",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "j8uHkX3sHPyte0vnyaxTWg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "57.0040027777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "24.0877916666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car",
+            "/m/01prls": "Land vehicle",
+            "/m/07k1x": "Tool",
+            "/m/07yv9": "Vehicle",
+            "/m/08dz3q": "Auto part",
+            "/m/0fmzb3": "Trip computer",
+            "/m/07zm1k": "Gear shift",
+            "/m/05kc0j": "Gauge",
+            "/m/0bmd84": "Fuel gauge",
+            "/m/0hn_2": "Satellite radio",
+            "/m/07ywl": "Volkswagen",
+            "/m/09by2v": "Toyota mark x",
+            "/m/0fy8r0": "Center console",
+            "/m/02rs44": "Speedometer",
+            "/m/01hyhj": "Tachometer",
+            "/m/0kgy7": "Vehicle audio",
+            "/m/0jmbc": "Odometer",
+            "/m/0h8ln73": "Automotive interior lighting",
+            "/m/0d99pf": "Control panel",
+            "/m/056hv": "Measuring instrument",
+            "/m/016g8_": "Tarmac"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.917500",
+                "yMin": "0.009363",
+                "yMax": "1.000000",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "1"
+            }
+        ]
+    }
+}

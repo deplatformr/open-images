@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:bda4cbf225cb5019",
+    "contentUrl": "https://c2.staticflickr.com/9/8236/8372709701_35483295b3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/9/8236/8372709701_3b05a3da0b_z.jpg",
+    "name": "Break Off",
+    "image": "bda4cbf225cb5019.jpg",
+    "creator": "Damian Gadal (https://www.flickr.com/people/23024164@N06/)",
+    "dateCreated": "2011:01:15 17:23:03",
+    "description": "California Sunset",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "948.55 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1800",
+    "height": "1205",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "WkmBKpNIPBbjQHQqyepgcg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.3999405000669"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-119.7361855"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "61130/1343"
+        }
+    ],
+    "about": {}
+}

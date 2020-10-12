@@ -1,0 +1,39 @@
+{
+    "@id": "openimages:71a910edf00080b8",
+    "contentUrl": "https://c1.staticflickr.com/5/4029/4436674133_ed5de4b759_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/5/4029/4436674133_79d1eb0100_z.jpg",
+    "name": "San Diego downtown",
+    "image": "71a910edf00080b8.jpg",
+    "creator": "Vrysxy (https://www.flickr.com/people/vrysxy/)",
+    "dateCreated": "2010:03:15 20:52:15",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.96 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "None x None",
+    "disambiguatingDescription": "jL05jMhfAHpYPFNnmSf4fg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "32.6021525"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-117.087001666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car",
+            "/m/079cl": "Skyscraper"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:dc7d010ac4905152",
+    "contentUrl": "https://farm3.staticflickr.com/8265/8679726475_501ca6865a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8265/8679726475_7cb57d3ca7_z.jpg",
+    "name": "Barry Mulcahy Makes His Point",
+    "image": "dc7d010ac4905152.jpg",
+    "creator": "Bernard Goldbach (https://www.flickr.com/people/topgold/)",
+    "dateCreated": "2013:04:25 10:06:00",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.29 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "h3sgSLc0gbK7Y+10SqGuuQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "52.3638616666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-7.70503361111111"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0ggnq": "Peripheral",
+            "/m/01c648": "Laptop",
+            "/m/020lf": "Computer mouse",
+            "/m/04c2cp": "Dispatcher",
+            "/m/01m3v": "Computer"
+        }
+    }
+}

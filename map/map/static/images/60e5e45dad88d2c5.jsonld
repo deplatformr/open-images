@@ -1,0 +1,54 @@
+{
+    "@id": "openimages:60e5e45dad88d2c5",
+    "contentUrl": "https://farm6.staticflickr.com/3666/11496165753_98bb40f7c7_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/4/3666/11496165753_8170f7fb2f_z.jpg",
+    "name": "December 2013 Ice Storm",
+    "image": "60e5e45dad88d2c5.jpg",
+    "creator": "Wesley Fryer (https://www.flickr.com/people/wfryer/)",
+    "dateCreated": "2013:12:21 13:10:26",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.50 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "DMNHnlxWNgpwGZ9LSiQgbg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.5872583333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-97.5734416666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "49809/139"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01c648": "Laptop",
+            "/m/02wbm": "Food",
+            "/m/036bks": "Gingerbread",
+            "/m/0zg7256": "Gingerbread house",
+            "/m/01m3v": "Computer",
+            "/m/054_l": "Mirror",
+            "/m/07rzxh": "Windsor chair",
+            "/m/02czv8": "Birthday cake",
+            "/m/01bgsw": "Toddler",
+            "/m/019nj4": "Smile"
+        }
+    }
+}

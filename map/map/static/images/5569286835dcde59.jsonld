@@ -1,0 +1,65 @@
+{
+    "@id": "openimages:5569286835dcde59",
+    "contentUrl": "https://c2.staticflickr.com/6/5756/21333154784_d0b42ddf83_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/6/5756/21333154784_cf3645d320_z.jpg",
+    "name": "Happy Raining",
+    "image": "5569286835dcde59.jpg",
+    "creator": "Jun Seita (https://www.flickr.com/people/jseita/)",
+    "dateCreated": "2015:09:30 11:40:16",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.94 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "ZunP7xPkhahKEFdix7aPFQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 180
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.4277"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.147736111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "4391/628"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0hsgr": "Chestnut",
+            "/m/064nzjm": "Salt Marsh Moth",
+            "/m/0ffhy": "Clam",
+            "/m/0cqkwn": "Stable fly",
+            "/m/032ghl": "House fly",
+            "/m/03q7vc": "Acorn",
+            "/m/02h9z3": "Mealybug",
+            "/m/035vxb": "Isopod",
+            "/m/075wr6": "Codling moth",
+            "/m/065kj_": "Madagascar hissing cockroach",
+            "/m/01gllr": "Beehive",
+            "/m/0f9_l": "Snail",
+            "/m/05y6jx": "Eastern tent caterpillar",
+            "/m/0dntg1": "Human body louse",
+            "/m/0cwzbl": "Ceratitis capitata",
+            "/m/02pgspm": "Curculio",
+            "/m/03kf99": "Boisea trivittata",
+            "/m/018g8j": "Snails and slugs",
+            "/m/04zz87w": "Auriculariales",
+            "/m/03swrd": "Bed bug",
+            "/m/016yzl": "Gypsy moth"
+        }
+    }
+}

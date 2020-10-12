@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:b02c5534bee31cfc",
+    "contentUrl": "https://c5.staticflickr.com/5/4072/4547816732_6a290c6041_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/5/4072/4547816732_9611466357_z.jpg",
+    "name": "Tsunami escape route",
+    "image": "b02c5534bee31cfc.jpg",
+    "creator": "Karl Baron (https://www.flickr.com/people/kalleboo/)",
+    "dateCreated": "2010:04:24 15:15:45",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.56 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "deqNZ+4udrm9jqWM8QCjgw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.3698611111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "141.068586111111"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0199g": "Bicycle",
+            "/m/09f_2": "Crocodile",
+            "/m/01knjb": "Billboard",
+            "/m/0gms8": "Lightning"
+        }
+    }
+}

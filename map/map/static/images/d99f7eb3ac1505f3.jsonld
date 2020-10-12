@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:d99f7eb3ac1505f3",
+    "contentUrl": "https://farm4.staticflickr.com/8419/15544461090_f2e09dc87b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/9/8419/15544461090_92143eaa5f_z.jpg",
+    "name": "IMG_8324 - 2014-0311 筱原聰子逢甲建築系演講",
+    "image": "d99f7eb3ac1505f3.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "2014:03:11 11:34:56",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.23 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "PQjvU/mN6gHfDuMgV3Nn7w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "24.1800722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "120.646766666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "30559/263"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/026qbn5": "Studio couch",
+            "/m/0g2z8": "Fog",
+            "/m/025sbr0": "Waiting room",
+            "/m/03m3pdh": "Sofa bed"
+        }
+    }
+}

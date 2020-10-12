@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deplatformr - Prototype</title>
+
+<link rel="shortcut icon" href="{{ url_for('static', filename='assets/favicon.ico') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fontawesome/css/all.min.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]-->
+
+{# *** Allow sub-templates to insert extra html to the head section *** #}
+{% block extra_css %}{% endblock %}
+</head>
+<body>
+
+<div class="navbar navbar-expand fixed-top" id="mainNav">
+    <div class="navbar-brand">
+    <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='assets/deplatformr-open-images.png') }}"/></a>
+    </div>
+
+
+   <div class="navbar-collapse" id="navbarNavDropdown">
+
+      <div class="dropdown" style="padding-left: 100px;">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">label</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="addtags">
+            {% for tag in tags %}
+            <a class="dropdown-item" href="#" id="{{tag[0]}}">{{tag[0]}}</a>
+            {% endfor %}
+        </div>
+      </div>
+
+      <div class="dropdown" style="padding: 0 20px 0 20px;">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">country</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="addtags">
+            {% for country in countries %}
+            <a class="dropdown-item" href="#" id=""></a>
+            {% endfor %}
+        </div>
+      </div>
+
+    <div>
+    <span class="topmenu-icon" style="margin-left: 40px;"><a href="https://github.com/deplatformr/open-images"><i class="fa fa-wrench fa-lg"></i></a> Under Construction - come back soon</span>
+    </div>
+
+    </div>
+
+
+
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <span class="topmenu-icon"><a href="https://github.com/deplatformr/open-images"><i class="fa fa-question-circle fa-lg"></i></a></span>
+        </li>
+    </ul>
+    
+</div>
+
+
+<div class="container-fluid" style="margin: 100px 15px 15px 15px;">
+{% block main %}
+
+    {% block flash_messages %}
+        {%- with messages = get_flashed_messages(with_categories=true) -%}
+            {% if messages %}
+                {% for category, message in messages %}
+                <div class="alert alert-dismissible 
+                {% if category == 'success' %} alert-success {% else %} {{ category }} {% endif %}" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                {{ message }}
+                </div>
+                {% endfor %}
+            {% endif %}
+        {%- endwith %}
+    {% endblock %}
+
+    {% block content %}{% endblock %}
+
+{% endblock %}
+
+</div> 
+
+
+
+<script src="{{ url_for('static', filename='js/jquery-3.5.0.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+{# *** Allow sub-templates to insert extra html to the bottom of the body *** #}
+{% block extra_js %}{% endblock %}
+
+</body>
+</html>

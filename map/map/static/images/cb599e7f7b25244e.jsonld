@@ -1,0 +1,55 @@
+{
+    "@id": "openimages:cb599e7f7b25244e",
+    "contentUrl": "https://c7.staticflickr.com/6/5460/9760899665_2a02cd966a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/6/5460/9760899665_cd9913dfde_z.jpg",
+    "name": "Watertown Dam Blue Heron 2 - 2013-09-15",
+    "image": "cb599e7f7b25244e.jpg",
+    "creator": "Bill  Damon (https://www.flickr.com/people/billdamon/)",
+    "dateCreated": "2013:09:15 09:49:25",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.48 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3100",
+    "height": "1998",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "KI/njetkWtTKagrW0ssEFQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.3656972222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.1889"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/08_h24": "Great heron",
+            "/m/01d7ng": "Pelecaniformes",
+            "/m/01n_1n": "Green heron",
+            "/m/01fd4b": "Brown Pelican",
+            "/m/0fswb": "Predation",
+            "/m/080zb1": "Goliath heron",
+            "/m/0123gb": "Egret",
+            "/m/01y2w": "Ciconiiformes",
+            "/m/0jj_h": "Tributary",
+            "/m/0j4rl": "Pelican",
+            "/m/01p_bk": "Marabou stork",
+            "/m/02vntz": "Greater Siren",
+            "/m/015p6": "Bird",
+            "/m/01c5w8": "Great blue heron",
+            "/m/01c43w": "Crane (Bird)",
+            "/m/05kq4": "Ocean"
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "@id": "openimages:2700331e7931ae95",
+    "contentUrl": "https://farm6.staticflickr.com/757/21715724542_f4f5b2bd73_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/1/757/21715724542_9caaaf30c5_z.jpg",
+    "name": "Alice Springs, Australia.",
+    "image": "2700331e7931ae95.jpg",
+    "creator": "Lynda (https://www.flickr.com/people/27948818@N05/)",
+    "dateCreated": "2015:04:02 14:28:54",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.03 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "6sYmQOPW8pvk3eMqyCBxIg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-23.694785"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "133.881998333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "564"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bqvp": "Sky",
+            "/m/0csby": "Cloud",
+            "/m/03jm5": "House",
+            "/m/0cgh4": "Building",
+            "/m/07j7r": "Tree",
+            "/m/09d_r": "Mountain"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.009375",
+                "xMax": "0.182500",
+                "yMin": "0.472500",
+                "yMax": "0.965833",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.171250",
+                "xMax": "0.999375",
+                "yMin": "0.500000",
+                "yMax": "0.923333",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0cgh4": "Building",
+                "confidence": "1",
+                "xMin": "0.024375",
+                "xMax": "0.999375",
+                "yMin": "0.569167",
+                "yMax": "0.999167",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

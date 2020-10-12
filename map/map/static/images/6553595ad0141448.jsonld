@@ -1,0 +1,68 @@
+{
+    "@id": "openimages:6553595ad0141448",
+    "contentUrl": "https://c1.staticflickr.com/8/7426/14099502235_03a5017b97_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/8/7426/14099502235_880aab9aba_z.jpg",
+    "name": "Untitled",
+    "image": "6553595ad0141448.jpg",
+    "creator": "Lauren Michell Rabaino (https://www.flickr.com/people/lauren_michell/)",
+    "dateCreated": "2014:05:02 18:52:53",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.80 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "6ScZ7HhXmG5AjotNpWkl2w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.7490119722222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.9860610833333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0152cj": "Melba toast",
+            "/m/01_bhs": "Fast food",
+            "/m/02pb9jl": "Brown bread",
+            "/m/0130jx": "Sink",
+            "/m/02wv746": "Kitchen stove",
+            "/m/079fdw": "Biga",
+            "/m/05y5kt": "Texas toast",
+            "/m/04dr76w": "Bottle",
+            "/m/09728": "Bread",
+            "/m/017z0v": "Toast",
+            "/m/0cmbf0p": "Whole wheat bread",
+            "/m/02w5fsn": "Hard dough bread",
+            "/m/0h8lpvm": "Kitchen sink",
+            "/m/0265r2": "Zwieback",
+            "/m/04tdfk": "Ciabatta",
+            "/m/07qmlj": "Rye bread",
+            "/m/0chyh": "Butter",
+            "/m/01l99n": "Sliced bread",
+            "/m/03dnxh": "White bread",
+            "/m/0ky7b": "Dishwasher",
+            "/m/01k6s3": "Toaster",
+            "/m/02wbm": "Food",
+            "/m/02q8hl7": "Plain loaf",
+            "/m/027cb0": "Graham bread"
+        }
+    }
+}

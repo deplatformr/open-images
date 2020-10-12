@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:4787bc18b682c164",
+    "contentUrl": "https://farm5.staticflickr.com/8589/15981182970_35599a8a01_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8589/15981182970_cefa3b41b4_z.jpg",
+    "name": "Mousehole",
+    "image": "4787bc18b682c164.jpg",
+    "creator": "Alex Liivet (https://www.flickr.com/people/alexmartin81/)",
+    "dateCreated": "2015:01:01 20:01:28",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.09 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "8xkA49O9ShAVJc8SUWk46A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.0837033333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-5.53791666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "61/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04h4w": "Lake",
+            "/m/02clw3": "Lantern festival",
+            "/m/019jd": "Boat",
+            "/m/0838f": "Water",
+            "/m/06q74": "Ship"
+        }
+    }
+}

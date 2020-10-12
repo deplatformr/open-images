@@ -1,0 +1,1630 @@
+{
+    "@id": "openimages:374efed6709bf0e2",
+    "contentUrl": "https://farm3.staticflickr.com/5224/5675627646_7829d5613b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/6/5224/5675627646_1ea1e042b4_z.jpg",
+    "name": "Vernazza, Cinque Terre, Italy",
+    "image": "374efed6709bf0e2.jpg",
+    "creator": "Kylie &amp; Rob (and Helen) (https://www.flickr.com/people/hell28k/)",
+    "dateCreated": "2010:09:19 16:03:00",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.91 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3888",
+    "height": "2592",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "a41uLn94pb6rPAnvzYAIxQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "44.1356471944444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "9.68487775"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0csby": "Cloud",
+            "/m/0dzct": "Human face",
+            "/m/0d4v4": "Window",
+            "/m/0199g": "Bicycle",
+            "/m/0cgh4": "Building",
+            "/m/05r655": "Girl",
+            "/m/04yx4": "Man",
+            "/m/03jm5": "House",
+            "/m/03bt1vf": "Woman",
+            "/m/01g317": "Person"
+        },
+        "trainingBoxes": [
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.088750",
+                "xMax": "0.111875",
+                "yMin": "0.803002",
+                "yMax": "0.841463",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.201250",
+                "xMax": "0.231875",
+                "yMin": "0.904315",
+                "yMax": "0.986867",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.276875",
+                "xMax": "0.315000",
+                "yMin": "0.885553",
+                "yMax": "0.999062",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.306250",
+                "xMax": "0.335625",
+                "yMin": "0.909006",
+                "yMax": "0.997186",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.339375",
+                "xMax": "0.360000",
+                "yMin": "0.875235",
+                "yMax": "0.917448",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.345000",
+                "xMax": "0.389375",
+                "yMin": "0.895872",
+                "yMax": "0.999062",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.384375",
+                "xMax": "0.396875",
+                "yMin": "0.877111",
+                "yMax": "0.911820",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.599375",
+                "xMax": "0.617500",
+                "yMin": "0.863977",
+                "yMax": "0.900563",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.646875",
+                "xMax": "0.686875",
+                "yMin": "0.905253",
+                "yMax": "0.999062",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.695625",
+                "xMax": "0.729375",
+                "yMin": "0.940901",
+                "yMax": "0.999062",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.783125",
+                "xMax": "0.798125",
+                "yMin": "0.863977",
+                "yMax": "0.893058",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.820000",
+                "xMax": "0.841875",
+                "yMin": "0.850844",
+                "yMax": "0.893058",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.840625",
+                "xMax": "0.865000",
+                "yMin": "0.852720",
+                "yMax": "0.893058",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03jm5": "House",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.297500",
+                "yMin": "0.209193",
+                "yMax": "0.838649",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03jm5": "House",
+                "confidence": "1",
+                "xMin": "0.215625",
+                "xMax": "0.453750",
+                "yMin": "0.124765",
+                "yMax": "0.274859",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03jm5": "House",
+                "confidence": "1",
+                "xMin": "0.285000",
+                "xMax": "0.474375",
+                "yMin": "0.236398",
+                "yMax": "0.919325",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03jm5": "House",
+                "confidence": "1",
+                "xMin": "0.469375",
+                "xMax": "0.610000",
+                "yMin": "0.190432",
+                "yMax": "0.911820",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03jm5": "House",
+                "confidence": "1",
+                "xMin": "0.585625",
+                "xMax": "0.825625",
+                "yMin": "0.063790",
+                "yMax": "0.893996",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03jm5": "House",
+                "confidence": "1",
+                "xMin": "0.805000",
+                "xMax": "0.999375",
+                "yMin": "0.082552",
+                "yMax": "0.892120",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.051875",
+                "yMin": "0.606942",
+                "yMax": "0.777674",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.123125",
+                "xMax": "0.166250",
+                "yMin": "0.861163",
+                "yMax": "0.997186",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.153125",
+                "xMax": "0.183125",
+                "yMin": "0.868668",
+                "yMax": "0.999062",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.572500",
+                "xMax": "0.628750",
+                "yMin": "0.894934",
+                "yMax": "0.999062",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.276875",
+                "xMax": "0.316875",
+                "yMin": "0.895872",
+                "yMax": "0.995310",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.347500",
+                "xMax": "0.390000",
+                "yMin": "0.907129",
+                "yMax": "0.999062",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.455000",
+                "xMax": "0.576875",
+                "yMin": "0.835835",
+                "yMax": "0.999062",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.026250",
+                "xMax": "0.049375",
+                "yMin": "0.494371",
+                "yMax": "0.565666",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.030000",
+                "xMax": "0.055625",
+                "yMin": "0.375235",
+                "yMax": "0.461538",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.055625",
+                "xMax": "0.086250",
+                "yMin": "0.325516",
+                "yMax": "0.351782",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.072500",
+                "xMax": "0.106875",
+                "yMin": "0.486867",
+                "yMax": "0.587242",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.085000",
+                "xMax": "0.111875",
+                "yMin": "0.371482",
+                "yMax": "0.440901",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.099375",
+                "xMax": "0.137500",
+                "yMin": "0.323640",
+                "yMax": "0.351782",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.128750",
+                "xMax": "0.172500",
+                "yMin": "0.356473",
+                "yMax": "0.435272",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.133750",
+                "xMax": "0.175000",
+                "yMin": "0.486867",
+                "yMax": "0.567542",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.177500",
+                "xMax": "0.237500",
+                "yMin": "0.615385",
+                "yMax": "0.708255",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.190000",
+                "xMax": "0.237500",
+                "yMin": "0.475610",
+                "yMax": "0.556285",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.198125",
+                "xMax": "0.222500",
+                "yMin": "0.351782",
+                "yMax": "0.433396",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.269375",
+                "xMax": "0.286250",
+                "yMin": "0.171670",
+                "yMax": "0.244841",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.290000",
+                "xMax": "0.331250",
+                "yMin": "0.496248",
+                "yMax": "0.576923",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.292500",
+                "xMax": "0.326250",
+                "yMin": "0.627580",
+                "yMax": "0.712008",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.293750",
+                "xMax": "0.325000",
+                "yMin": "0.756098",
+                "yMax": "0.796435",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.300625",
+                "xMax": "0.325000",
+                "yMin": "0.375235",
+                "yMax": "0.448405",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.342500",
+                "xMax": "0.403125",
+                "yMin": "0.362101",
+                "yMax": "0.439024",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.351875",
+                "xMax": "0.383750",
+                "yMin": "0.481238",
+                "yMax": "0.576923",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.356875",
+                "xMax": "0.393750",
+                "yMin": "0.646341",
+                "yMax": "0.744841",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.415625",
+                "xMax": "0.445000",
+                "yMin": "0.346154",
+                "yMax": "0.423077",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.416875",
+                "xMax": "0.456875",
+                "yMin": "0.629456",
+                "yMax": "0.725141",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.419375",
+                "xMax": "0.445000",
+                "yMin": "0.463415",
+                "yMax": "0.560037",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.497500",
+                "xMax": "0.520625",
+                "yMin": "0.227017",
+                "yMax": "0.279550",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.498750",
+                "xMax": "0.535000",
+                "yMin": "0.452158",
+                "yMax": "0.573171",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.503125",
+                "xMax": "0.524375",
+                "yMin": "0.327392",
+                "yMax": "0.409944",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.503125",
+                "xMax": "0.536250",
+                "yMin": "0.621013",
+                "yMax": "0.704503",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.508125",
+                "xMax": "0.538750",
+                "yMin": "0.763602",
+                "yMax": "0.838649",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.547500",
+                "xMax": "0.575625",
+                "yMin": "0.621013",
+                "yMax": "0.704503",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.586250",
+                "xMax": "0.625625",
+                "yMin": "0.290807",
+                "yMax": "0.358349",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.620625",
+                "xMax": "0.698750",
+                "yMin": "0.556285",
+                "yMax": "0.669794",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.631250",
+                "xMax": "0.686250",
+                "yMin": "0.411820",
+                "yMax": "0.505629",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.637500",
+                "xMax": "0.671875",
+                "yMin": "0.256098",
+                "yMax": "0.365854",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.640000",
+                "xMax": "0.679375",
+                "yMin": "0.704503",
+                "yMax": "0.803940",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.698750",
+                "xMax": "0.781875",
+                "yMin": "0.285178",
+                "yMax": "0.375235",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.715625",
+                "xMax": "0.788750",
+                "yMin": "0.392120",
+                "yMax": "0.510319",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.718125",
+                "xMax": "0.752500",
+                "yMin": "0.146341",
+                "yMax": "0.232645",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.728125",
+                "xMax": "0.769375",
+                "yMin": "0.563790",
+                "yMax": "0.659475",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.728125",
+                "xMax": "0.793750",
+                "yMin": "0.717636",
+                "yMax": "0.803940",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.802500",
+                "xMax": "0.910000",
+                "yMin": "0.450281",
+                "yMax": "0.569418",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.824375",
+                "xMax": "0.852500",
+                "yMin": "0.300188",
+                "yMax": "0.373358",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.842500",
+                "xMax": "0.888750",
+                "yMin": "0.653846",
+                "yMax": "0.756098",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.881875",
+                "xMax": "0.907500",
+                "yMin": "0.161351",
+                "yMax": "0.192308",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.890000",
+                "xMax": "0.916875",
+                "yMin": "0.197936",
+                "yMax": "0.241088",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.893750",
+                "xMax": "0.933125",
+                "yMin": "0.290807",
+                "yMax": "0.362101",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.896250",
+                "xMax": "0.973125",
+                "yMin": "0.442777",
+                "yMax": "0.575047",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.916875",
+                "xMax": "0.969375",
+                "yMin": "0.640713",
+                "yMax": "0.752345",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.955000",
+                "xMax": "0.999375",
+                "yMin": "0.197936",
+                "yMax": "0.252345",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.971875",
+                "xMax": "0.999375",
+                "yMin": "0.437148",
+                "yMax": "0.569418",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.985625",
+                "xMax": "0.999375",
+                "yMin": "0.276735",
+                "yMax": "0.371482",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0dzct": "Human face",
+                "confidence": "1",
+                "xMin": "0.356250",
+                "xMax": "0.370000",
+                "yMin": "0.907129",
+                "yMax": "0.938086",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0dzct": "Human face",
+                "confidence": "1",
+                "xMin": "0.505625",
+                "xMax": "0.546250",
+                "yMin": "0.848030",
+                "yMax": "0.948405",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0dzct": "Human face",
+                "confidence": "1",
+                "xMin": "0.587500",
+                "xMax": "0.601875",
+                "yMin": "0.909944",
+                "yMax": "0.934334",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0dzct": "Human face",
+                "confidence": "1",
+                "xMin": "0.700625",
+                "xMax": "0.713750",
+                "yMin": "0.951219",
+                "yMax": "0.971857",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.088750",
+                    "xMax": "0.111875",
+                    "yMin": "0.803002",
+                    "yMax": "0.841463"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.088750",
+                    "xMax": "0.111875",
+                    "yMin": "0.803002",
+                    "yMax": "0.841463"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.201250",
+                    "xMax": "0.231875",
+                    "yMin": "0.904315",
+                    "yMax": "0.986867"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.201250",
+                    "xMax": "0.231875",
+                    "yMin": "0.904315",
+                    "yMax": "0.986867"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.276875",
+                    "xMax": "0.315000",
+                    "yMin": "0.885553",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.276875",
+                    "xMax": "0.315000",
+                    "yMin": "0.885553",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.306250",
+                    "xMax": "0.335625",
+                    "yMin": "0.909006",
+                    "yMax": "0.997186"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.306250",
+                    "xMax": "0.335625",
+                    "yMin": "0.909006",
+                    "yMax": "0.997186"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.339375",
+                    "xMax": "0.360000",
+                    "yMin": "0.875235",
+                    "yMax": "0.917448"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.339375",
+                    "xMax": "0.360000",
+                    "yMin": "0.875235",
+                    "yMax": "0.917448"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.345000",
+                    "xMax": "0.389375",
+                    "yMin": "0.895872",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.345000",
+                    "xMax": "0.389375",
+                    "yMin": "0.895872",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.384375",
+                    "xMax": "0.396875",
+                    "yMin": "0.877111",
+                    "yMax": "0.911820"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.384375",
+                    "xMax": "0.396875",
+                    "yMin": "0.877111",
+                    "yMax": "0.911820"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.599375",
+                    "xMax": "0.617500",
+                    "yMin": "0.863977",
+                    "yMax": "0.900563"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.599375",
+                    "xMax": "0.617500",
+                    "yMin": "0.863977",
+                    "yMax": "0.900563"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.646875",
+                    "xMax": "0.686875",
+                    "yMin": "0.905253",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.646875",
+                    "xMax": "0.686875",
+                    "yMin": "0.905253",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.695625",
+                    "xMax": "0.729375",
+                    "yMin": "0.940901",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.695625",
+                    "xMax": "0.729375",
+                    "yMin": "0.940901",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.783125",
+                    "xMax": "0.798125",
+                    "yMin": "0.863977",
+                    "yMax": "0.893058"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.783125",
+                    "xMax": "0.798125",
+                    "yMin": "0.863977",
+                    "yMax": "0.893058"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.820000",
+                    "xMax": "0.841875",
+                    "yMin": "0.850844",
+                    "yMax": "0.893058"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.820000",
+                    "xMax": "0.841875",
+                    "yMin": "0.850844",
+                    "yMax": "0.893058"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.840625",
+                    "xMax": "0.865000",
+                    "yMin": "0.852720",
+                    "yMax": "0.893058"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.840625",
+                    "xMax": "0.865000",
+                    "yMin": "0.852720",
+                    "yMax": "0.893058"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.123125",
+                    "xMax": "0.166250",
+                    "yMin": "0.861163",
+                    "yMax": "0.997186"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.123125",
+                    "xMax": "0.166250",
+                    "yMin": "0.861163",
+                    "yMax": "0.997186"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.276875",
+                    "xMax": "0.316875",
+                    "yMin": "0.895872",
+                    "yMax": "0.995310"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.276875",
+                    "xMax": "0.316875",
+                    "yMin": "0.895872",
+                    "yMax": "0.995310"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.347500",
+                    "xMax": "0.390000",
+                    "yMin": "0.907129",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.347500",
+                    "xMax": "0.390000",
+                    "yMin": "0.907129",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.201250",
+                    "xMax": "0.231875",
+                    "yMin": "0.904315",
+                    "yMax": "0.986867"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.201250",
+                    "xMax": "0.231875",
+                    "yMin": "0.904315",
+                    "yMax": "0.986867"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.276875",
+                    "xMax": "0.315000",
+                    "yMin": "0.885553",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.276875",
+                    "xMax": "0.315000",
+                    "yMin": "0.885553",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.306250",
+                    "xMax": "0.335625",
+                    "yMin": "0.909006",
+                    "yMax": "0.997186"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.306250",
+                    "xMax": "0.335625",
+                    "yMin": "0.909006",
+                    "yMax": "0.997186"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.345000",
+                    "xMax": "0.389375",
+                    "yMin": "0.895872",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.345000",
+                    "xMax": "0.389375",
+                    "yMin": "0.895872",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.646875",
+                    "xMax": "0.686875",
+                    "yMin": "0.905253",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.646875",
+                    "xMax": "0.686875",
+                    "yMin": "0.905253",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Man is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.000000",
+                    "xMax": "0.051875",
+                    "yMin": "0.606942",
+                    "yMax": "0.777674"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.000000",
+                    "xMax": "0.051875",
+                    "yMin": "0.606942",
+                    "yMax": "0.777674"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.123125",
+                    "xMax": "0.166250",
+                    "yMin": "0.861163",
+                    "yMax": "0.997186"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.123125",
+                    "xMax": "0.166250",
+                    "yMin": "0.861163",
+                    "yMax": "0.997186"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.153125",
+                    "xMax": "0.183125",
+                    "yMin": "0.868668",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.153125",
+                    "xMax": "0.183125",
+                    "yMin": "0.868668",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.572500",
+                    "xMax": "0.628750",
+                    "yMin": "0.894934",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.572500",
+                    "xMax": "0.628750",
+                    "yMin": "0.894934",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.276875",
+                    "xMax": "0.316875",
+                    "yMin": "0.895872",
+                    "yMax": "0.995310"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.276875",
+                    "xMax": "0.316875",
+                    "yMin": "0.895872",
+                    "yMax": "0.995310"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.347500",
+                    "xMax": "0.390000",
+                    "yMin": "0.907129",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.347500",
+                    "xMax": "0.390000",
+                    "yMin": "0.907129",
+                    "yMax": "0.999062"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.455000",
+                    "xMax": "0.576875",
+                    "yMin": "0.835835",
+                    "yMax": "0.999062"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.455000",
+                    "xMax": "0.576875",
+                    "yMin": "0.835835",
+                    "yMax": "0.999062"
+                }
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/05r655": "Girl",
+                "maskFile": "374efed6709bf0e2_m05r655_8b8e4b68.png",
+                "boxId": "8b8e4b68",
+                "xMin": "0.3475",
+                "xMax": "0.39",
+                "yMin": "0.907129",
+                "yMax": "0.999062",
+                "PredictedIoU": "0.72748",
+                "clicks": "0.36749 0.95559 0;0.34795 0.94259 0;0.37155 0.98326 0;0.35864 0.91049 1;0.35132 0.96997 1;0.38838 0.96767 1;0.35813 0.92861 0;0.35880 0.99706 1;0.35033 0.94509 1;0.38292 0.94573 1;0.38092 0.97976 0;0.37090 0.99765 1"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "maskFile": "374efed6709bf0e2_m03bt1vf_9697e8cf.png",
+                "boxId": "9697e8cf",
+                "xMin": "0.20125",
+                "xMax": "0.231875",
+                "yMin": "0.904315",
+                "yMax": "0.986867",
+                "PredictedIoU": "0.4055",
+                "clicks": "0.21194 0.94626 0;0.21369 0.91922 0;0.22836 0.92271 1;0.22589 0.98267 1;0.21836 0.91198 1;0.21447 0.95871 1;0.20346 0.93962 0;0.22529 0.94632 1;0.20735 0.92922 1;0.21494 0.90785 0;0.22149 0.95102 0;0.22918 0.94489 0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "maskFile": "374efed6709bf0e2_m05r655_a34dfa09.png",
+                "boxId": "a34dfa09",
+                "xMin": "0.455",
+                "xMax": "0.576875",
+                "yMin": "0.835835",
+                "yMax": "0.999062",
+                "PredictedIoU": "0.8398",
+                "clicks": "0.50196 0.92577 1;0.53014 0.98994 1;0.54553 0.85608 1;0.57317 0.96766 1;0.53656 0.93138 1;0.48617 0.99209 0;0.55384 0.99872 1;0.45344 0.99958 1;0.51378 0.99359 1;0.52617 0.92429 0;0.45062 0.98939 1"
+            },
+            {
+                "/m/05r655": "Girl",
+                "maskFile": "374efed6709bf0e2_m05r655_6c9b93fb.png",
+                "boxId": "6c9b93fb",
+                "xMin": "0.276875",
+                "xMax": "0.316875",
+                "yMin": "0.895872",
+                "yMax": "0.99531",
+                "PredictedIoU": "0.72206",
+                "clicks": "0.29100 0.92522 1;0.31432 0.95829 0;0.31317 0.99543 1;0.27526 0.97847 1;0.28165 0.93789 1;0.30052 0.99866 1;0.30132 0.89224 1;0.30750 0.99042 0;0.28614 0.96870 1;0.31248 0.95323 1;0.30592 0.99745 1;0.29176 0.92042 0"
+            }
+        ]
+    }
+}

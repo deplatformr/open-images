@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:bd970ae490b508c6",
+    "contentUrl": "https://farm7.staticflickr.com/3673/12482752164_4fd41db7f8_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/4/3673/12482752164_878590c71f_z.jpg",
+    "name": "Cubierta del estadio del CD Guadalcacín (Antonio Fernández Marchán)",
+    "image": "bd970ae490b508c6.jpg",
+    "creator": "Guadalcacín Construcciones (https://www.flickr.com/people/guadalcacinconstrucciones/)",
+    "dateCreated": "2013:12:11 15:10:03",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.19 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "smVMn9Bq/aCfCb8sneIG5Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "36.7109527777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-6.08771111111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "26"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02vx4": "Soccer",
+            "/m/02c3nd": "Indoor soccer",
+            "/m/012sbd": "Tournament"
+        }
+    }
+}

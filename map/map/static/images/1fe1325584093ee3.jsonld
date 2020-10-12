@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:1fe1325584093ee3",
+    "contentUrl": "https://farm4.staticflickr.com/8700/16497323704_13ef78d4bd_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8700/16497323704_157a61a92e_z.jpg",
+    "name": "View of ash station",
+    "image": "1fe1325584093ee3.jpg",
+    "creator": "HackBitz (https://www.flickr.com/people/mgewalden/)",
+    "dateCreated": "2015:04:12 11:16:03",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.32 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "orRgk6KJ0OQr2j3rQV0vJw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 180
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.2499055555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.710897222222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "39"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04h4w": "Lake",
+            "/m/0838f": "Water"
+        }
+    }
+}

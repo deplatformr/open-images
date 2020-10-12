@@ -1,0 +1,38 @@
+{
+    "@id": "openimages:2b1b7b3df11d6da5",
+    "contentUrl": "https://farm6.staticflickr.com/5003/5302013053_4e08b4aa4b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5003/5302013053_637d2c1155_z.jpg",
+    "name": "The Courtyard at Hotel La Concha",
+    "image": "2b1b7b3df11d6da5.jpg",
+    "creator": "vxla (https://www.flickr.com/people/vxla/)",
+    "dateCreated": "2010:12:20 19:08:07",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.27 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1536",
+    "height": "2048",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "SIDfywj3ZQ6eqAvn8RUJ2A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "18.4574999722222"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/025nd": "Christmas tree",
+            "/m/0k4j": "Car",
+            "/m/018w1s": "Public library",
+            "/m/079cl": "Skyscraper"
+        }
+    }
+}

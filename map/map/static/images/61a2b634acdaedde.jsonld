@@ -1,0 +1,52 @@
+{
+    "@id": "openimages:61a2b634acdaedde",
+    "contentUrl": "https://c7.staticflickr.com/6/5282/5686866941_0603f1dc6e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/6/5282/5686866941_d74e24a6a1_z.jpg",
+    "name": "3LUR-3 010511 CPS",
+    "image": "61a2b634acdaedde.jpg",
+    "creator": "Chris Sampson (https://www.flickr.com/people/lodekka/)",
+    "dateCreated": "2011:05:01 15:03:53",
+    "description": "SONY DSC                       ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.06 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4592",
+    "height": "3056",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "ogECinKTxDzmiWgkXB9Lew==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.956096"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.343317"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1354167/31250"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01h5hb": "Kei car",
+            "/m/0k4j": "Car",
+            "/m/07yv9": "Vehicle",
+            "/m/01sdr3": "Hubcap",
+            "/m/0bt9lr": "Dog",
+            "/m/03jm5": "House",
+            "/m/0hf35": "Volkswagen beetle"
+        }
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "@id": "openimages:9d18272c17b3ad21",
+    "contentUrl": "https://farm2.staticflickr.com/7613/16552048867_5404408731_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7613/16552048867_e7fbec4676_z.jpg",
+    "name": "IMAG8764.jpg",
+    "image": "9d18272c17b3ad21.jpg",
+    "creator": "charlene mcbride (https://www.flickr.com/people/ursonate/)",
+    "dateCreated": "2015:02:06 07:14:45",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.11 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2688",
+    "height": "1520",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "gqRg1uKw/9Vss1+q3SMtow==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.6408195277778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.3168258611111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "187/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04xw0j": "Snow removal",
+            "/m/013xlm": "Tractor",
+            "/m/01prls": "Land vehicle",
+            "/m/07j7r": "Tree",
+            "/m/07yv9": "Vehicle",
+            "/m/0k4j": "Car",
+            "/m/06_dn": "Snow"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.066250",
+                "xMax": "0.285625",
+                "yMin": "0.155973",
+                "yMax": "0.353982",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.002500",
+                "xMax": "0.086875",
+                "yMin": "0.000000",
+                "yMax": "0.198009",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.652500",
+                "xMax": "0.890625",
+                "yMin": "0.007743",
+                "yMax": "0.317478",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.840000",
+                "xMax": "0.999375",
+                "yMin": "0.000000",
+                "yMax": "0.299779",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.078125",
+                "xMax": "0.116875",
+                "yMin": "0.178097",
+                "yMax": "0.216814",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.298750",
+                "xMax": "0.389375",
+                "yMin": "0.212389",
+                "yMax": "0.293142",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.362500",
+                "xMax": "0.426875",
+                "yMin": "0.202434",
+                "yMax": "0.268805",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.435625",
+                "xMax": "0.503750",
+                "yMin": "0.205752",
+                "yMax": "0.279867",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.530625",
+                "xMax": "0.571250",
+                "yMin": "0.219027",
+                "yMax": "0.264381",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.610000",
+                "xMax": "0.648125",
+                "yMin": "0.205752",
+                "yMax": "0.227876",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.672500",
+                "xMax": "0.706250",
+                "yMin": "0.207965",
+                "yMax": "0.245575",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/0k4j": "Car",
+                "maskFile": "9d18272c17b3ad21_m0k4j_83f6a932.png",
+                "boxId": "83f6a932",
+                "xMin": "0.3625",
+                "xMax": "0.426875",
+                "yMin": "0.202434",
+                "yMax": "0.268805",
+                "PredictedIoU": "0.83725",
+                "clicks": "0.38655 0.25970 0;0.42466 0.24356 1;0.41645 0.26365 1;0.36963 0.22132 0;0.40135 0.26355 0;0.38150 0.23945 0;0.37679 0.23462 1;0.38391 0.24870 1;0.39066 0.26087 1;0.41177 0.26151 0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "maskFile": "9d18272c17b3ad21_m0k4j_453c5df6.png",
+                "boxId": "453c5df6",
+                "xMin": "0.06625",
+                "xMax": "0.285625",
+                "yMin": "0.155973",
+                "yMax": "0.353982",
+                "PredictedIoU": "0.75552",
+                "clicks": "0.11922 0.34472 1;0.20900 0.35917 1;0.14604 0.20921 0;0.27740 0.26424 0;0.15136 0.22748 1;0.19035 0.21542 1;0.09154 0.25361 0;0.24373 0.23351 1;0.07063 0.31973 1;0.25613 0.25256 1;0.29098 0.30602 1;0.21779 0.34577 1"
+            },
+            {
+                "/m/0k4j": "Car",
+                "maskFile": "9d18272c17b3ad21_m0k4j_d53e5450.png",
+                "boxId": "d53e5450",
+                "xMin": "0.435625",
+                "xMax": "0.50375",
+                "yMin": "0.205752",
+                "yMax": "0.279867",
+                "PredictedIoU": "0.86913",
+                "clicks": "0.48804 0.25389 0;0.44480 0.27055 0;0.47029 0.25769 0;0.46641 0.25682 1;0.44568 0.27217 0;0.50179 0.24853 1;0.45985 0.21701 0;0.44177 0.27111 1;0.49127 0.26254 1;0.49788 0.24248 1;0.46080 0.26020 0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "maskFile": "9d18272c17b3ad21_m0k4j_cccbd98f.png",
+                "boxId": "cccbd98f",
+                "xMin": "0.29875",
+                "xMax": "0.389375",
+                "yMin": "0.212389",
+                "yMax": "0.293142",
+                "PredictedIoU": "0.87164",
+                "clicks": "0.35971 0.29673 1;0.36954 0.28968 0;0.38459 0.28532 1;0.30140 0.27757 1;0.38172 0.23994 1;0.37744 0.28927 1;0.35728 0.29838 1"
+            }
+        ]
+    }
+}

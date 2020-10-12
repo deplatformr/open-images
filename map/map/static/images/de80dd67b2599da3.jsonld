@@ -1,0 +1,60 @@
+{
+    "@id": "openimages:de80dd67b2599da3",
+    "contentUrl": "https://farm4.staticflickr.com/2903/14394474177_5178ff99b7_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/3/2903/14394474177_996c917f02_z.jpg",
+    "name": "Le Tour de France Buttertubs 2014",
+    "image": "de80dd67b2599da3.jpg",
+    "creator": "Dave Haygarth (https://www.flickr.com/people/minnellium/)",
+    "dateCreated": "2014:07:05 14:32:47",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.57 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "SFBvB/9rxsUP3xkfWVfzgQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "54.3051138888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.20511666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "47904/119"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01l43p": "Queue area",
+            "/m/019jd": "Boat",
+            "/m/0hf58v5": "Luggage and bags",
+            "/m/01kt56": "Picnic",
+            "/m/08863x": "Bird's-eye view",
+            "/m/0gm8670": "Planking",
+            "/m/0hgs9bq": "Walking shoe",
+            "/m/0dfbw": "Racing",
+            "/m/03qtwd": "Crowd",
+            "/m/01w5c_": "Aerial photography",
+            "/m/03m4wn": "Boating",
+            "/m/027k4k": "Athletic shoe",
+            "/m/054xkw": "Personal flotation device",
+            "/m/0ytgt": "Child",
+            "/m/0c02pp7": "Athletics",
+            "/m/03hfn0": "Backpacking"
+        }
+    }
+}

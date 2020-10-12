@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:d56c7fbe712fa09b",
+    "contentUrl": "https://c4.staticflickr.com/8/7421/9297511330_513dd2e6f9_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7421/9297511330_ab8cbae8b1_z.jpg",
+    "name": "Waltham waterfall 2",
+    "image": "d56c7fbe712fa09b.jpg",
+    "creator": "Bill  Damon (https://www.flickr.com/people/billdamon/)",
+    "dateCreated": "2013:07:15 12:21:06",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "11.09 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5184",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "RQTTP4Tn1VSe6xsJIw7clA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.3729"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.2365972222222"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0dl8m": "Dam",
+            "/m/0csby": "Cloud"
+        }
+    }
+}

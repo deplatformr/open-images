@@ -1,0 +1,59 @@
+{
+    "@id": "openimages:3f6802ea4c910ee2",
+    "contentUrl": "https://farm3.staticflickr.com/8725/16951514338_394b42b156_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/9/8725/16951514338_960449830f_z.jpg",
+    "name": "Evelyn Hotel, NYC",
+    "image": "3f6802ea4c910ee2.jpg",
+    "creator": "Daniel X. O&#x27;Neil (https://www.flickr.com/people/juggernautco/)",
+    "dateCreated": "2015:04:13 17:56:55",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.00 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5312",
+    "height": "2988",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "x23ks+Ui+Fe4utgUNAeklg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.7440871944444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.9872512777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01j2bj": "Bathroom",
+            "/m/03jm5": "House",
+            "/m/02z51p": "Nightstand",
+            "/m/0h70h_": "Bed frame",
+            "/m/054_l": "Mirror",
+            "/m/01h_rs": "Hostel",
+            "/m/03dg8j": "Mattress",
+            "/m/0130jx": "Sink",
+            "/m/0bh8hyx": "Bed skirt",
+            "/m/06ztwvs": "Mattress pad",
+            "/m/0h8lh7c": "Duvet cover",
+            "/m/035m2c": "Dead bolt",
+            "/m/052l6z": "Box-spring",
+            "/m/02f9f_": "Shower",
+            "/m/034c16": "Pillow"
+        }
+    }
+}

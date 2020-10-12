@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:ec8c5a8d106a824e",
+    "contentUrl": "https://c7.staticflickr.com/8/7628/16703952199_479416dce2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/8/7628/16703952199_a1950e262d_z.jpg",
+    "name": "Restringing the Beast. Ehh...Beauty.",
+    "image": "ec8c5a8d106a824e.jpg",
+    "creator": "Bart (https://www.flickr.com/people/89246112@N00/)",
+    "dateCreated": "2015:03:21 11:07:54",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.70 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5312",
+    "height": "2988",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "mcpzy2psfPUIemXJlSgOQw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 180
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "52.2946510277778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "4.8555875"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "59"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01vfsf": "Guitar amplifier",
+            "/m/01c648": "Laptop"
+        }
+    }
+}

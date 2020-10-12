@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:ee4233024b32411f",
+    "contentUrl": "https://c8.staticflickr.com/9/8047/8122476317_1e6b31443d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8047/8122476317_d6355c8cbc_z.jpg",
+    "name": "La Noche Blanca, 2011",
+    "image": "ee4233024b32411f.jpg",
+    "creator": "Nacho (https://www.flickr.com/people/gonmi/)",
+    "dateCreated": "2012:10:14 17:48:17",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "265.95 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1600",
+    "height": "1067",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "QzQ0G05LoHssVRbJN4049g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.3610583333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-5.84929722222222"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0h8nyp3": "Cd/dvd organizer",
+            "/m/0225hd": "Magneto-optical drive",
+            "/m/0174nj": "Vinyl record",
+            "/m/01www": "CD",
+            "/m/02y8g": "Floppy disk",
+            "/m/06_6r": "Data storage device",
+            "/m/029j_": "Dvd",
+            "/m/0h8kwjk": "Jewel case"
+        }
+    }
+}

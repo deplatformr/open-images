@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:4c00a81df5540f0d",
+    "contentUrl": "https://c6.staticflickr.com/3/2809/9686262655_14cca5447c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/3/2809/9686262655_82b4534281_z.jpg",
+    "name": "Seine Innopolis",
+    "image": "4c00a81df5540f0d.jpg",
+    "creator": "Frédéric BISSON (https://www.flickr.com/people/zigazou76/)",
+    "dateCreated": "2013:09:05 18:23:10",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.41 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "/fTDc2fQ7syOSNC6hg87bw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.4285666203704"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.06588328703704"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "7"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01zbnw": "Screenshot"
+        }
+    }
+}

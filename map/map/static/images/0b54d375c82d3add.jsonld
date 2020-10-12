@@ -1,0 +1,62 @@
+{
+    "@id": "openimages:0b54d375c82d3add",
+    "contentUrl": "https://c6.staticflickr.com/3/2920/14325208665_ba36a49f88_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/3/2920/14325208665_49b3266c9e_z.jpg",
+    "name": "IMG_20140531_103833 (1280x957)",
+    "image": "0b54d375c82d3add.jpg",
+    "creator": "Ron Bailey (https://www.flickr.com/people/rjbailey/)",
+    "dateCreated": "2014:05:31 10:38:31",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "440.28 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2042",
+    "height": "1526",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "vLqW1L3Ch3IbbKlPtGM2hw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.1575433333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-83.1179930555555"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1128/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07j7r": "Tree",
+            "/m/01n5jq": "Poster",
+            "/m/0j2kx": "Waterfall",
+            "/m/019nj4": "Smile",
+            "/m/09d_r": "Mountain",
+            "/m/0838f": "Water",
+            "/m/01bqvp": "Sky",
+            "/m/02wbm": "Food",
+            "/m/04_tb": "Map",
+            "/m/04h4w": "Lake",
+            "/m/0c9ph5": "Flower",
+            "/m/01yrx": "Cat",
+            "/m/01knjb": "Billboard",
+            "/m/01zbnw": "Screenshot",
+            "/m/0csby": "Cloud",
+            "/m/0194d": "Badminton",
+            "/m/0bt9lr": "Dog",
+            "/m/0jjw": "Art"
+        }
+    }
+}

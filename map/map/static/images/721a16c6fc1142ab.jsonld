@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:721a16c6fc1142ab",
+    "contentUrl": "https://c4.staticflickr.com/9/8859/16754755313_d46c65b39f_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8859/16754755313_83b2a05ab1_z.jpg",
+    "name": "260",
+    "image": "721a16c6fc1142ab.jpg",
+    "creator": "Jefe Le Gran (https://www.flickr.com/people/jefelegran/)",
+    "dateCreated": "2015:01:18 09:23:08",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.29 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "3264",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "0mF99LmnOVeVj9wi+uAFEw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "47.8775361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-120.159661111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "40822/121"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06by7v": "Glacial lake",
+            "/m/0j85": "Arctic ocean",
+            "/m/0b48hv": "Rainbow",
+            "/m/09d_r": "Mountain",
+            "/m/04h4w": "Lake"
+        }
+    }
+}

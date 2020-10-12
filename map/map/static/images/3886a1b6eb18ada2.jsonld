@@ -1,0 +1,80 @@
+{
+    "@id": "openimages:3886a1b6eb18ada2",
+    "contentUrl": "https://farm3.staticflickr.com/7675/16956524058_73b1951591_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7675/16956524058_49f6b2d982_z.jpg",
+    "name": "IMG_7110",
+    "image": "3886a1b6eb18ada2.jpg",
+    "creator": "Kai Hendry (https://www.flickr.com/people/hendry/)",
+    "dateCreated": "2015:04:08 11:26:21",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.00 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "nGYgibTxBnaH2jlu6/qgjg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "1.31334722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "103.881277777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "14450/713"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02lxj": "Electrical network",
+            "/m/0194d": "Badminton",
+            "/m/02dwgb": "Input device",
+            "/m/0bmz2": "Cable",
+            "/m/0h8l4fh": "Light bulb",
+            "/m/0h8m_8q": "Semiconductor",
+            "/m/046glt": "Electrical wiring",
+            "/m/01b7fy": "Headphones",
+            "/m/01g1rg": "Electronic engineering",
+            "/m/03x851": "Hardware programmer",
+            "/m/058v5": "Microcontroller",
+            "/m/0h8mzmc": "Circuit prototyping",
+            "/m/0cvt8m": "Capacitor",
+            "/m/02bwwq": "Power strip",
+            "/m/01q2h": "Computer networking",
+            "/m/083kv": "Wire",
+            "/m/0h8mjtj": "Passive circuit component",
+            "/m/03cfcnf": "Cable management",
+            "/m/06h01": "Read-only memory",
+            "/m/06f8q": "Resistor",
+            "/m/07md3": "Thermocouple",
+            "/m/07c_2": "Transistor",
+            "/m/029d4": "Diode",
+            "/m/0_2bn": "Optoelectronics",
+            "/m/063syt": "Electronic component",
+            "/m/013xbf": "Electrical connector",
+            "/m/0h8mv94": "Circuit component",
+            "/m/07m5rf": "Heat-shrink tubing",
+            "/m/0h8j_fc": "Storage cable",
+            "/m/011xn7": "Laser diode",
+            "/m/02ssyp": "Circuit diagram",
+            "/m/04cykm_": "Potentiometer",
+            "/m/05q3k": "Operational amplifier",
+            "/m/04myn": "Light-emitting diode",
+            "/m/0kwn5": "Breadboard",
+            "/m/01j7cq": "Sensor"
+        }
+    }
+}

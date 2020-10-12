@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:b511a91f73a94a2a",
+    "contentUrl": "https://c3.staticflickr.com/6/5521/11212132414_82bc5d63b7_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5521/11212132414_59b765fb09_z.jpg",
+    "name": "Big foot",
+    "image": "b511a91f73a94a2a.jpg",
+    "creator": "Tristan Schmurr (https://www.flickr.com/people/kewl/)",
+    "dateCreated": "2013:12:03 15:45:26",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.92 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "6016",
+    "height": "4016",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "zwjNeSs4AmcDqiOCcPIdvw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.75042919"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "6.641817705"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "14001/100"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/013_1c": "Statue"
+        }
+    }
+}

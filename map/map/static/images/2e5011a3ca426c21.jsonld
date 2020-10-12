@@ -1,0 +1,194 @@
+{
+    "@id": "openimages:2e5011a3ca426c21",
+    "contentUrl": "https://farm2.staticflickr.com/5591/14714128298_bb09ed30a2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/6/5591/14714128298_dc0531e359_z.jpg",
+    "name": "IMG_2363",
+    "image": "2e5011a3ca426c21.jpg",
+    "creator": "Mr Thinktank (https://www.flickr.com/people/tahini/)",
+    "dateCreated": "2014:08:12 16:45:55",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.05 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "BZjt7cv6VawxRg6+v6dvtQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "62.9132566666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "15.2365966666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "993/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cgh4": "Building",
+            "/m/03jm5": "House",
+            "/m/04bcr3": "Table",
+            "/m/04m6gz": "Porch",
+            "/m/078n6m": "Coffee table",
+            "/m/09j2d": "Clothing",
+            "/m/0c_jw": "Furniture",
+            "/m/0d4v4": "Window",
+            "/m/01mzpv": "Chair",
+            "/m/02s195": "Vase",
+            "/m/030zdz": "Slipcover",
+            "/m/09g6pvd": "Den",
+            "/m/02crq1": "Couch"
+        },
+        "trainingBoxes": [
+            {
+                "/m/01mzpv": "Chair",
+                "confidence": "1",
+                "xMin": "0.403750",
+                "xMax": "0.683125",
+                "yMin": "0.384444",
+                "yMax": "0.843333",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/078n6m": "Coffee table",
+                "confidence": "1",
+                "xMin": "0.618750",
+                "xMax": "0.793125",
+                "yMin": "0.610000",
+                "yMax": "0.981111",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01mzpv": "Chair",
+                "confidence": "1",
+                "xMin": "0.197500",
+                "xMax": "0.579375",
+                "yMin": "0.586667",
+                "yMax": "0.998889",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01mzpv": "Chair",
+                "confidence": "1",
+                "xMin": "0.730625",
+                "xMax": "0.999375",
+                "yMin": "0.500000",
+                "yMax": "0.998889",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.168125",
+                "xMax": "0.402500",
+                "yMin": "0.000000",
+                "yMax": "0.517778",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.534375",
+                "xMax": "0.935625",
+                "yMin": "0.000000",
+                "yMax": "0.408889",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Chair at Coffee table",
+                "relationshipLabel": "at",
+                "box1": {
+                    "/m/01mzpv": "Chair",
+                    "xMin": "0.197500",
+                    "xMax": "0.579375",
+                    "yMin": "0.586667",
+                    "yMax": "0.998889"
+                },
+                "box2": {
+                    "/m/078n6m": "Coffee table",
+                    "xMin": "0.618750",
+                    "xMax": "0.793125",
+                    "yMin": "0.610000",
+                    "yMax": "0.981111"
+                }
+            },
+            {
+                "relationship": "Chair at Coffee table",
+                "relationshipLabel": "at",
+                "box1": {
+                    "/m/01mzpv": "Chair",
+                    "xMin": "0.403750",
+                    "xMax": "0.683125",
+                    "yMin": "0.384444",
+                    "yMax": "0.843333"
+                },
+                "box2": {
+                    "/m/078n6m": "Coffee table",
+                    "xMin": "0.618750",
+                    "xMax": "0.793125",
+                    "yMin": "0.610000",
+                    "yMax": "0.981111"
+                }
+            },
+            {
+                "relationship": "Chair at Coffee table",
+                "relationshipLabel": "at",
+                "box1": {
+                    "/m/01mzpv": "Chair",
+                    "xMin": "0.730625",
+                    "xMax": "0.999375",
+                    "yMin": "0.500000",
+                    "yMax": "0.998889"
+                },
+                "box2": {
+                    "/m/078n6m": "Coffee table",
+                    "xMin": "0.618750",
+                    "xMax": "0.793125",
+                    "yMin": "0.610000",
+                    "yMax": "0.981111"
+                }
+            }
+        ]
+    }
+}

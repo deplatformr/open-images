@@ -1,0 +1,37 @@
+{
+    "@id": "openimages:6997962ae906f648",
+    "contentUrl": "https://c1.staticflickr.com/3/2842/10029140624_f6323f6ab2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/3/2842/10029140624_dae1089a3d_z.jpg",
+    "name": "Mena Creek - Paronella Park",
+    "image": "6997962ae906f648.jpg",
+    "creator": "peter boer (https://www.flickr.com/people/minuseleven/)",
+    "dateCreated": "2013:05:24 15:31:00",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "175.42 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "853",
+    "height": "1280",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "gcGphiWYGZ7W8H0W5Fuutw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-17.6524138888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "145.957452777778"
+        }
+    ],
+    "about": {}
+}

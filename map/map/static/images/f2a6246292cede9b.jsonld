@@ -1,0 +1,37 @@
+{
+    "@id": "openimages:f2a6246292cede9b",
+    "contentUrl": "https://c4.staticflickr.com/9/8665/16670265805_65de1b1c65_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/9/8665/16670265805_b3b62fd78b_z.jpg",
+    "name": "Jardín Botánico de Madrid en febrero",
+    "image": "f2a6246292cede9b.jpg",
+    "creator": "Manuel (https://www.flickr.com/people/martius/)",
+    "dateCreated": "2015:02:24 16:13:28",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.37 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2460",
+    "height": "3210",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "frgs04eNF61pgyxbzxghIw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.4111061096191"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.69112706184387"
+        }
+    ],
+    "about": {}
+}

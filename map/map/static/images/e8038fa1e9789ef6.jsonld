@@ -1,0 +1,76 @@
+{
+    "@id": "openimages:e8038fa1e9789ef6",
+    "contentUrl": "https://farm7.staticflickr.com/7356/16437514321_38dc16060a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7356/16437514321_6a38250360_z.jpg",
+    "name": "Untitled",
+    "image": "e8038fa1e9789ef6.jpg",
+    "creator": "Damian Gadal (https://www.flickr.com/people/23024164@N06/)",
+    "dateCreated": "2015:02:03 12:47:54",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.76 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2471",
+    "height": "3287",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "DNApLlgEharxamVEXeVbVA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.4038138888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-119.692808333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/047rtk": "Scroll",
+            "/m/04mg54": "Crocosmia",
+            "/m/0gkxy13": "Handwriting",
+            "/m/05s2s": "Plant",
+            "/m/07clf": "Thyme",
+            "/m/02s195": "Vase",
+            "/m/0c9ph5": "Flower",
+            "/m/09j2d": "Clothing",
+            "/m/07j7r": "Tree"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.150582",
+                "xMax": "0.794509",
+                "yMin": "0.076250",
+                "yMax": "0.341250",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.276206",
+                "xMax": "0.318636",
+                "yMin": "0.135625",
+                "yMax": "0.162500",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

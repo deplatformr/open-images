@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:4140822ab79d6974",
+    "contentUrl": "https://farm5.staticflickr.com/3283/3143527951_127cf3b6e6_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3283/3143527951_faf1106a00_z.jpg",
+    "name": "Party at Alex, Nicosia",
+    "image": "4140822ab79d6974.jpg",
+    "creator": "George M. Groutas (https://www.flickr.com/people/jorge-11/)",
+    "dateCreated": "2008:12:26 23:20:24",
+    "description": "Boxing Day Party",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.76 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3872",
+    "height": "2592",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "iCV/BLXgVOLr9+oBn5/Ndw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.1759582223738"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "33.3343661704618"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bt_c3": "Book",
+            "/m/02wbm": "Food",
+            "/m/04dr76w": "Bottle",
+            "/m/04bcr3": "Table"
+        }
+    }
+}

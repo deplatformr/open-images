@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:af8094bd8600cb74",
+    "contentUrl": "https://farm5.staticflickr.com/437/19585730256_96a119c6ec_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/1/437/19585730256_da7cd7ecb0_z.jpg",
+    "name": "Storychasers Student News Workshop",
+    "image": "af8094bd8600cb74.jpg",
+    "creator": "Wesley Fryer (https://www.flickr.com/people/wfryer/)",
+    "dateCreated": "2015:07:10 13:43:22",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.26 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "4Np7z0eQ0PpGE6ZKuxNkDw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 180
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.6088972222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-97.5270611111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "22924/67"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0h8n8sw": "Waste containment"
+        }
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "@id": "openimages:cc36e400f555d567",
+    "contentUrl": "https://farm8.staticflickr.com/8433/7722529770_ba97e75807_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8433/7722529770_03fc6407d1_z.jpg",
+    "name": "Untitled",
+    "image": "cc36e400f555d567.jpg",
+    "creator": "Jeff Dlouhy (https://www.flickr.com/people/jdlouhy/)",
+    "dateCreated": "2012:08:05 17:00:55",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.23 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3776",
+    "height": "2520",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "oUvb4CQ8eqUu+PdGREsaaw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.752"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.4466"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05r655": "Girl",
+            "/m/04yx4": "Man",
+            "/m/01g317": "Person",
+            "/m/079cl": "Skyscraper",
+            "/m/09j2d": "Clothing",
+            "/m/012v4j": "Hiking"
+        },
+        "trainingBoxes": [
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.451875",
+                "xMax": "0.645625",
+                "yMin": "0.275539",
+                "yMax": "0.999063",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.528750",
+                "xMax": "0.665625",
+                "yMin": "0.260544",
+                "yMax": "0.640112",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j2d": "Clothing",
+                "confidence": "1",
+                "xMin": "0.478125",
+                "xMax": "0.663750",
+                "yMin": "0.439550",
+                "yMax": "0.999063",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j2d": "Clothing",
+                "confidence": "1",
+                "xMin": "0.596250",
+                "xMax": "0.830625",
+                "yMin": "0.483599",
+                "yMax": "0.999063",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.451875",
+                    "xMax": "0.645625",
+                    "yMin": "0.275539",
+                    "yMax": "0.999063"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.451875",
+                    "xMax": "0.645625",
+                    "yMin": "0.275539",
+                    "yMax": "0.999063"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.528750",
+                    "xMax": "0.665625",
+                    "yMin": "0.260544",
+                    "yMax": "0.640112"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.528750",
+                    "xMax": "0.665625",
+                    "yMin": "0.260544",
+                    "yMax": "0.640112"
+                }
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/04yx4": "Man",
+                "maskFile": "cc36e400f555d567_m04yx4_787c883c.png",
+                "boxId": "787c883c",
+                "xMin": "0.52875",
+                "xMax": "0.665625",
+                "yMin": "0.260544",
+                "yMax": "0.640112",
+                "PredictedIoU": "0.62227",
+                "clicks": "0.57106 0.53987 1;0.50013 0.77809 1;0.56940 0.76566 1;0.54829 0.55311 1;0.58672 0.72597 1;0.54523 0.79865 1;0.64828 0.57603 1;0.55173 0.47372 1;0.53978 0.70926 1;0.54805 0.82910 1;0.65415 0.54397 0"
+            },
+            {
+                "/m/09j2d": "Clothing",
+                "maskFile": "cc36e400f555d567_m09j2d_54a96a36.png",
+                "boxId": "54a96a36",
+                "xMin": "0.59625",
+                "xMax": "0.830625",
+                "yMin": "0.483599",
+                "yMax": "0.999063",
+                "PredictedIoU": "0.77423",
+                "clicks": "0.64135 0.55988 0;0.75000 0.84967 1;0.61820 0.75619 0;0.76247 0.48911 1;0.61553 0.71479 1;0.79720 0.84165 0;0.69479 0.83364 1;0.66273 0.55321 0;0.67180 0.51349 1;0.68074 0.81014 0;0.62497 0.85905 1;0.67548 1.00007 1"
+            }
+        ]
+    }
+}

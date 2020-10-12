@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:903af2afc600b528",
+    "contentUrl": "https://c1.staticflickr.com/8/7172/6631995177_17de23f428_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7172/6631995177_dacd689b94_z.jpg",
+    "name": "Miami in December",
+    "image": "903af2afc600b528.jpg",
+    "creator": "John Spade (https://www.flickr.com/people/john-spade/)",
+    "dateCreated": "2011:12:29 14:29:18",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "972.02 KiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "0aYzt/WuKCw2HgD9TQv0Ig==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "25.7552185058594"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-80.1804504394531"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/079cl": "Skyscraper",
+            "/m/0838f": "Water",
+            "/m/056mk": "Metropolis",
+            "/m/01n32": "City",
+            "/m/0cgh4": "Building",
+            "/m/0csby": "Cloud",
+            "/m/01bqvp": "Sky"
+        }
+    }
+}

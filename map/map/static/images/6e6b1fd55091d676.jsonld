@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:6e6b1fd55091d676",
+    "contentUrl": "https://farm7.staticflickr.com/4120/4807258388_7fe444c0b2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/5/4120/4807258388_b21f59bae8_z.jpg",
+    "name": "Bryan St (Bryant)",
+    "image": "6e6b1fd55091d676.jpg",
+    "creator": "Eric Fischer (https://www.flickr.com/people/walkingsf/)",
+    "dateCreated": "2010:07:18 16:05:04",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.48 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "96 x 96",
+    "disambiguatingDescription": "0tf7/+ScN3sO6pQFqYuncQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.7805"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.396791666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01ynw": "Cement"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:ea6f704bf3b5b6e6",
+    "contentUrl": "https://farm7.staticflickr.com/8586/16683968501_4193d451e5_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/9/8586/16683968501_20df1b5ed7_z.jpg",
+    "name": "2014 Mini Cooper Coupe",
+    "image": "ea6f704bf3b5b6e6.jpg",
+    "creator": "amateur photography by michel (https://www.flickr.com/people/119886413@N05/)",
+    "dateCreated": "2015:03:01 11:30:22",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.09 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5312",
+    "height": "2988",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "HE1iaV6i31jz8bOY4Er0cQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "28.0564136388889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-82.7394103888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "20"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02y9p5": "Chrysler crossfire",
+            "/m/03wnb0c": "Audi cabriolet",
+            "/m/0k4j": "Car",
+            "/m/0hf2p": "Mini cooper",
+            "/m/07yv9": "Vehicle",
+            "/m/0h5z5kg": "Opel"
+        }
+    }
+}

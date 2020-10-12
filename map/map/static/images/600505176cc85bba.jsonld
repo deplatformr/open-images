@@ -1,0 +1,66 @@
+{
+    "@id": "openimages:600505176cc85bba",
+    "contentUrl": "https://c3.staticflickr.com/8/7560/15725885660_647e238b6e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7560/15725885660_7740cd791e_z.jpg",
+    "name": "すべての写真-17",
+    "image": "600505176cc85bba.jpg",
+    "creator": "yamada kazuyuki (https://www.flickr.com/people/yamakazz/)",
+    "dateCreated": "2013:10:12 16:19:38",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "728.46 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "WowAdyqpq7JjmMi/0YW2JQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.1593138888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "136.899505555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "12389/577"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01f5gx": "Eating",
+            "/m/012xzr": "Tempura",
+            "/m/02wwzm8": "Okazu",
+            "/m/0dzd2h": "Vatapá",
+            "/m/06gf2f": "Carrot cake",
+            "/m/0k3p6k9": "Biting",
+            "/m/050gv4": "Plate",
+            "/m/01_bhs": "Fast food",
+            "/m/02qhwc4": "Full breakfast",
+            "/m/02czv8": "Birthday cake",
+            "/m/02r_57s": "Cake decorating",
+            "/m/047vl80": "Whipped cream",
+            "/m/03__z0": "Bookcase",
+            "/m/01sy7q": "Mascarpone",
+            "/m/0b76y0": "Food craving",
+            "/m/027s1sh": "Kids' meal",
+            "/m/0jnvp": "Baby",
+            "/m/0l515": "Sandwich",
+            "/m/03q5c7": "Saucer",
+            "/m/01bgsw": "Toddler",
+            "/m/02wbm": "Food",
+            "/m/05qzrf": "Cream pie"
+        }
+    }
+}

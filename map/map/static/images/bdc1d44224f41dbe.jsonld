@@ -1,0 +1,37 @@
+{
+    "@id": "openimages:bdc1d44224f41dbe",
+    "contentUrl": "https://c7.staticflickr.com/4/3711/10029164404_68ae2a7f62_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/4/3711/10029164404_d2fc74f641_z.jpg",
+    "name": "Whitsundays - Whitehaven Beach",
+    "image": "bdc1d44224f41dbe.jpg",
+    "creator": "peter boer (https://www.flickr.com/people/minuseleven/)",
+    "dateCreated": "2013:06:10 12:53:08",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "203.64 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "853",
+    "height": "1280",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "wQlX5IqnEoAGkQBxMXJMiw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-20.2654527777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "149.018875"
+        }
+    ],
+    "about": {}
+}

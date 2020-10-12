@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:84e4988053faf092",
+    "contentUrl": "https://farm3.staticflickr.com/7617/16791128391_7ec888d6a2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7617/16791128391_7641d33412_z.jpg",
+    "name": "Loch Lomond from Rowardennan",
+    "image": "84e4988053faf092.jpg",
+    "creator": "Ronnie Macdonald (https://www.flickr.com/people/ronmacphotos/)",
+    "dateCreated": "2014:03:26 15:06:00",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.35 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4944",
+    "height": "3296",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "LivkjtJpDPhKZqW3quMvZw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "56.1531638888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-4.64207222222222"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04h4w": "Lake",
+            "/m/0csby": "Cloud",
+            "/m/0b3yr": "Beach",
+            "/m/0125ny": "Lake district",
+            "/m/04p25": "Loch",
+            "/m/02ntq6": "Tarn",
+            "/m/0by0z": "Fjord",
+            "/m/09d_r": "Mountain"
+        }
+    }
+}

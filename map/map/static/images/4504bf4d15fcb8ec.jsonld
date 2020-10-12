@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:4504bf4d15fcb8ec",
+    "contentUrl": "https://c5.staticflickr.com/6/5031/14351865844_d555ed2c1f_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/6/5031/14351865844_9f3554cfce_z.jpg",
+    "name": "Eye For Travel",
+    "image": "4504bf4d15fcb8ec.jpg",
+    "creator": "CPXi (https://www.flickr.com/people/cpxinteractive/)",
+    "dateCreated": "2014:06:02 09:52:16",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "91.26 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Y4TAkL2ags6NdDp6fmWtuQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "25.73085"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-80.2376333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "5452/1213"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bt_c3": "Book",
+            "/m/01m3v": "Computer"
+        }
+    }
+}

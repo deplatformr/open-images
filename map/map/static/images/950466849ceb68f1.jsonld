@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:950466849ceb68f1",
+    "contentUrl": "https://farm2.staticflickr.com/536/19292123948_73ced904d9_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/1/536/19292123948_f2c40217b7_z.jpg",
+    "name": "Audi A1 TDI",
+    "image": "950466849ceb68f1.jpg",
+    "creator": "amateur photography by michel (https://www.flickr.com/people/119886413@N05/)",
+    "dateCreated": "2015:07:04 14:33:42",
+    "description": "Audi A1 TDI",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.49 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5312",
+    "height": "2988",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "DckbmN33GZUfpCDJZAIxLg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.5533599722222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-5.92556519444445"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "85"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car",
+            "/m/01zbnw": "Screenshot"
+        }
+    }
+}

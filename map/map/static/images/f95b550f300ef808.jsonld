@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:f95b550f300ef808",
+    "contentUrl": "https://c1.staticflickr.com/5/4090/5170773694_e43d02027c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/5/4090/5170773694_781fceb363_z.jpg",
+    "name": "Monaco has its carnival elements too. Felt like the Jersey Shore.",
+    "image": "f95b550f300ef808.jpg",
+    "creator": "Jennifer 8. Lee (https://www.flickr.com/people/jenny8lee/)",
+    "dateCreated": "2010:11:12 16:40:39",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "710.34 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1835",
+    "height": "1376",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "sHfjcbgNTgJwkhELS6X2Og==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.733325"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "7.42212777777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "62"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0h8n1hm": "Bath toy",
+            "/m/0h8n8r0": "Candy & chocolate mold",
+            "/m/0lgjz": "Peeps",
+            "/m/09b5t": "Chicken",
+            "/m/05z87": "Plastic",
+            "/m/0nb7ylv": "Angry birds",
+            "/m/01bdy": "Bowling",
+            "/m/02v3z_": "Rubber ducky",
+            "/m/015p6": "Bird"
+        }
+    }
+}

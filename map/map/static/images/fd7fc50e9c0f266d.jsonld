@@ -1,0 +1,36 @@
+{
+    "@id": "openimages:fd7fc50e9c0f266d",
+    "contentUrl": "https://c6.staticflickr.com/6/5608/15641871611_d3acfc865d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5608/15641871611_73f1a066a4_z.jpg",
+    "name": "IMG_4494",
+    "image": "fd7fc50e9c0f266d.jpg",
+    "creator": "bgormley (https://www.flickr.com/people/27789490@N00/)",
+    "dateCreated": "2014:10:27 13:42:18",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.04 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3648",
+    "height": "2736",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "bP/kka0ESgK94XqFkiBG7Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.3027496337891"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-6.23318815231323"
+        }
+    ],
+    "about": {}
+}

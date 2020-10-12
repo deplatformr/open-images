@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:c67fd1bb3c94a3c7",
+    "contentUrl": "https://farm8.staticflickr.com/5342/7082265487_227da2f187_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/6/5342/7082265487_78c0b1fddc_z.jpg",
+    "name": "Image 22957.",
+    "image": "c67fd1bb3c94a3c7.jpg",
+    "creator": "Vlad Butsky (https://www.flickr.com/people/butsky/)",
+    "dateCreated": "2012:04:07 20:49:03",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.44 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3456",
+    "height": "5184",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "6PvSw+4eL7W20Nt2k1T/7w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.1379432678223"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-118.125061035156"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/026bk": "Dance"
+        }
+    }
+}

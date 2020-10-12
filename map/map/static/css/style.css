@@ -2,31 +2,7 @@ body {
   background-color: #FFF;
   color: #000;
   font-family: "Montserrat", sans-serif;
-  font-size: 120%;
-}
-
-.help-block {
-    color: red;
-}
-
-/* from flask_user - still needed? */
-hr { border-color: #cccccc; margin: 0; }
-.no-margins { margin: 0px; }
-.with-margins { margin: 10px; }
-.col-centered { float: none; margin: 0 auto; }
-
-.col-xs-6 {
-    width: 50%;
-    padding: 0 15px;
-}
-
-a {
-    color: #379683;
-}
-
-.btn-primary {
-    color: #FFF;
-    background-color: #379683;
+  font-size: 100%;
 }
 
 #mainNav {
@@ -35,302 +11,36 @@ a {
     color: #FFF;
 }
 
-#mainNav a {
-    color: #FFF;
-}
-
-#mainNav a:hover{
-    text-decoration: none;
-    color: #379683;
-}
-
 .navbar-brand {
     margin-left: 30px;
 }
 
-.topmenu-icon {
-    margin: 0 5px 0 20px;
+#mainNav a {
 }
 
-.topmenu-title {
-    visibility: visible;
-    font-size: 90%;
+#mainNav a:hover{
 }
 
-#wrapper {
-    padding-left: 0;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
-    overflow: hidden;
-}
-
-@media (min-width: 992px) {
-    #wrapper {
-        padding-left: 225px;
-    }
-}
-
-@media (min-width: 992px) {
-    #wrapper #sidebar-wrapper {
-        width: 225px;
-    }
-}
-
-#page-content-wrapper{
-    margin: 0 30px 0 0;
-    padding-top: 75px;
-    padding-bottom: 100px;
-}
-
-#page-content-wrapper a{
-    color: #379683;
-}
-
-#sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    left: 225px;
-    width: 0;
-    height: 100%;
-    margin-left: -225px;
-    margin-top: 75px;
-    overflow-y: auto;
-    overflow: hidden;
-    background-color: #FFF;
-    border-right: 1px solid #e9ecef;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
-}
-
-#sidebar-wrapper .sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 225px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#sidebar-wrapper .sidebar-nav li {
-    text-indent: 0;
-    line-height: 45px;
-}
-
-#sidebar-wrapper .sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    background: #FFF;
-    color: #000;
-
-}
-
-#sidebar-wrapper .sidebar-nav li a:hover {
-    color: #379683;
-}
-
-a.submenu {
-    background: #FFF;
-    color: #000;
-}
-
-#sidebar-wrapper .sidebar-nav li a .sidebar-icon {
-    width: 45px;
-    height: 45px;
-    font-size: 14px;
-    padding: 0 2px;
-    display: inline-block;
-    text-indent: 7px;
-    color: #000;
-    float: left;
-}
-
-#sidebar-wrapper .sidebar-nav li a .caret {
-  position: absolute;
-  right: 23px;
-  top: auto;
-  margin-top: 20px;
-}
-
-#sidebar-wrapper .sidebar-nav li ul.panel-collapse {
-    list-style: none;
-    -moz-padding-start: 0;
-    -webkit-padding-start: 0;
-    -khtml-padding-start: 0;
-    -o-padding-start: 0;
-    padding-start: 0;
-    padding: 0;
-}
-
-#sidebar-wrapper .sidebar-nav li ul.panel-collapse li i {
-    margin-right: 10px;
-}
-
-#sidebar-wrapper .sidebar-nav li ul.panel-collapse li {
-    text-indent: 15px;
-}
-
-@media (max-width: 992px) {
-    body {
-        font-size: 100%;
-    }
-    #wrapper #sidebar-wrapper {
-        width: 45px;
-    }
-    #wrapper #page-content-wrapper{
-        margin-left: 60px;
-    }
-    #wrapper #sidebar-wrapper #sidebar #sidemenu li ul {
-        position: fixed;
-        left: 45px;
-        margin-top: -45px;
-        z-index: 1000;
-        width: 250px;
-        height: 0;
-    }
-    .topmenu-title {
-        visibility: hidden;
-        display: inline-block;
-        width:0px;
-    }
-    .topmenu-icon {
-        margin: 0 10px 0 0;
-    }
-}
-
-#filecoin-logo{
-    width: 30px;
-    margin-left: 10px;
-    margin-right: 5px;
-}
-
-#filecoin-logo{
-    width: 28px;
-    margin-bottom: 5px;
-}
-
-.banner {
+.topmenu-icon a {
     color: #FFF;
-    background-color: #379683;
-    padding: 50px;
-    text-align: center;
-    border-radius: .5rem;
 }
 
-.banner h1{
-    font-weight: bold;
+.col {
+    padding-left: 0 !important;
 }
 
-.header{
-    background-color: #FFF;
-    color: #000;
-    padding: 15px;
-    border: 2px solid #379683;
-    margin-bottom: 20px;
-    border-radius: .5rem;
+.tag {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: .5rem;
+  max-width: auto;
+  float: left;
 }
 
-.breadcrumbs
-{
-    font-size: 100%;
-    background-color: #e9ecef;
-    color: #999;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: .5rem;
-}
 
-.instructions{
-    max-height: 400px;
-    border: 1px solid black; 
-    margin: 20px 0;
-}
 
-.highlight{
-    background-color: #8EE4AF;
-    color: #000;
-    padding: 1px 10px;
-    border-radius: .5rem;
-}
-
-#facebook-upload{
-    max-width: 800px;
-}
-
-#upload-button{
-    font-size: 100%;
-    color: #FFF;
-    background-color: #379683;
-    border: 1px solid #999;
-}
-
-#upload-button:hover {
-    background-color: #007bff;
-}
-
-/* Facebook Memories */
-
-.header-green {
-    background-color: #379683;
-    color: #FFF;
-    text-align: center;
-    padding: 20px 0;
-    margin-bottom: 20px;
-    border-radius: .5rem;
-}
-
-.feed {
-    text-align: center;
-    margin-bottom: 100px;
-    padding: 0 100px;
-}
-
-.post {
-    margin-bottom: 50px;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border: 2px solid #dfe3ee;
-    max-width: 900px;
-}
-
-.post img{
-    border: 1px solid #dfe3ee;
-    margin-bottom: 10px;
-}
-
-#on-this-day{
-    margin-bottom: 20px;
-    color: #379683;
-}
-
-.description{
-  max-width: 800px;
-  font-size: 120%;
-  margin-bottom: 20px;
-}
-
-#more-posts {
-    display: none;
-}
-
-#albums {
-
-}
-.album {
-    max-width: 400px;
-    float: left;
-    margin: 10px 30px;
-}
-
-.small_note {
-    font-size: 80%;
-    color: #999;
-    margin-top: 5px;
-}
-
-.page-item.active a.page-link {
-    color: #FFF !important;
-}
+#mapid { height: 700px; width: 97%; }

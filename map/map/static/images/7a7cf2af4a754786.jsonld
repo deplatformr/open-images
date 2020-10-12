@@ -1,0 +1,61 @@
+{
+    "@id": "openimages:7a7cf2af4a754786",
+    "contentUrl": "https://farm7.staticflickr.com/4114/4910322980_c59494243c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/5/4114/4910322980_007f59229a_z.jpg",
+    "name": "JJ Kavanagh 08WD11",
+    "image": "7a7cf2af4a754786.jpg",
+    "creator": "Graham Richardson (https://www.flickr.com/people/didbygraham/)",
+    "dateCreated": "2010:08:17 15:59:42",
+    "description": "08WD11\tKa S416GT-HD WKK63213423105855\tKa  \tC51Ft\t4/2008  \tKavanagh JJ,Urlingford\n\nMarsh Mills Plymouth 17 Aug 2010",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.13 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3383",
+    "height": "2176",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "8CrG1D/AlBGmm/W4hUimAw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.3893205300047"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-4.08870042002252"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cz_0": "Highway",
+            "/m/0300d": "Fare",
+            "/m/045jsc": "Minibus",
+            "/m/0fkwjg": "Commercial vehicle",
+            "/m/01jfm_": "Vehicle registration plate",
+            "/m/0bk5m9": "Bus driver",
+            "/m/01lrnl": "Windshield",
+            "/m/03qk36c": "Airport bus",
+            "/m/026t_c7": "Hybrid electric vehicle",
+            "/m/02w11w8": "Tour bus service",
+            "/m/0h8lj0p": "Automotive fog light",
+            "/m/0h2r6": "Van",
+            "/m/01bjv": "Bus",
+            "/m/0blws": "Hyundai",
+            "/m/07r04": "Truck",
+            "/m/07yv9": "Vehicle"
+        }
+    }
+}

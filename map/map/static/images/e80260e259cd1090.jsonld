@@ -1,0 +1,64 @@
+{
+    "@id": "openimages:e80260e259cd1090",
+    "contentUrl": "https://farm1.staticflickr.com/7445/10603885313_15328f7db0_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7445/10603885313_386052b9b6_z.jpg",
+    "name": "Medicago sativa leaf1",
+    "image": "e80260e259cd1090.jpg",
+    "creator": "Harry Rose (https://www.flickr.com/people/macleaygrassman/)",
+    "dateCreated": "2011:10:18 10:34:50",
+    "description": "SONY DSC                       ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.25 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4912",
+    "height": "3264",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "EXFq2MlnReq+6DeuNtIQKA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-29.43016"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "149.882433333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "421/2"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0gzhw": "Burclover",
+            "/m/0dzct": "Human face",
+            "/m/02vqx7": "Tumbleweed",
+            "/m/02vmcl9": "Zigzag clover",
+            "/m/031n1": "Human foot",
+            "/m/043rf9": "New england aster",
+            "/m/02xwb": "Fruit",
+            "/m/0dgn43p": "Catfoot cudweed",
+            "/m/0bht5d": "White sweet clover",
+            "/m/08scd8": "Cudweed",
+            "/m/0403mwp": "Thorns, spines, and prickles",
+            "/m/0gsrgx": "Showy Tick trefoil",
+            "/m/077cwy": "Old field clover",
+            "/m/027_l3": "Common sage",
+            "/m/07b4dx": "Prairie turnip",
+            "/m/08p5c6": "White cockle",
+            "/m/05660t6": "Field marigold",
+            "/m/051lhp": "Apple mint",
+            "/m/02w7p0z": "Western pussy willow"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "@id": "openimages:3b94ced395ba0908",
+    "contentUrl": "https://c1.staticflickr.com/9/8692/16625699934_af8efebeeb_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8692/16625699934_0488223c4d_z.jpg",
+    "name": "Tattoo In Progress",
+    "image": "3b94ced395ba0908.jpg",
+    "creator": "Tony Alter (https://www.flickr.com/people/78428166@N00/)",
+    "dateCreated": "2015:04:23 15:50:36",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.14 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "kO32Jw1dJMVy1/unm5kWyQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.0350833333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-76.4118583333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "4929/721"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07j2f": "Tattoo",
+            "/m/0dly90": "Leather jacket",
+            "/m/03yx9r": "Medical glove",
+            "/m/0c9ph5": "Flower",
+            "/m/0jjw": "Art",
+            "/m/01xlvy": "Ankle",
+            "/m/01p1pl": "Henna",
+            "/m/017h0w": "Tattoo machine",
+            "/m/02mtw0": "Mehndi",
+            "/m/07s5sp1": "Tattoo artist"
+        }
+    }
+}

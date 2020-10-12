@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:fa37348e27f50e87",
+    "contentUrl": "https://farm8.staticflickr.com/8509/8492081336_98020a029d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8509/8492081336_91a585bce9_z.jpg",
+    "name": "Kid on a paddle board",
+    "image": "fa37348e27f50e87.jpg",
+    "creator": "Don DeBold (https://www.flickr.com/people/ddebold/)",
+    "dateCreated": "2013:02:16 17:12:35",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.19 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4288",
+    "height": "2848",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "oQR8zBKpTIJzirw+jEo8bg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.4328583333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.088255555556"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02h665b": "Surfer",
+            "/m/0dxnmb": "Surface water sports",
+            "/m/04h4w": "Lake",
+            "/m/019jd": "Boat",
+            "/m/0838f": "Water",
+            "/m/027cfwk": "Stand up paddle surfing",
+            "/m/06_g7": "Surfing",
+            "/m/019w40": "Surfboard"
+        }
+    }
+}

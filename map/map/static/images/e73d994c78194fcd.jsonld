@@ -1,0 +1,36 @@
+{
+    "@id": "openimages:e73d994c78194fcd",
+    "contentUrl": "https://c6.staticflickr.com/9/8300/7983515861_70a11e2476_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8300/7983515861_512acb2d76_z.jpg",
+    "name": "Leipzig Hauptbahnhof",
+    "image": "e73d994c78194fcd.jpg",
+    "creator": "jocki84 (https://www.flickr.com/people/jocki84/)",
+    "dateCreated": "2012:07:12 18:54:19",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "186.81 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1024",
+    "height": "682",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "ZRSprJPeXqxN9IDGD1Rb5w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.3376194444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "12.379175"
+        }
+    ],
+    "about": {}
+}

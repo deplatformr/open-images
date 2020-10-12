@@ -1,0 +1,58 @@
+{
+    "@id": "openimages:513b5694bcf7494d",
+    "contentUrl": "https://c6.staticflickr.com/8/7572/15960594250_6e57c25851_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/8/7572/15960594250_519219f07e_z.jpg",
+    "name": "IMG_3325 - 2013-1003 大都會歌劇院工地",
+    "image": "513b5694bcf7494d.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "2013:10:03 17:39:59",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.49 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "FG1bNBI8e5Grmcz+P3PzXA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "24.1629611111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "120.640572222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "20435/166"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02wv8fd": "Rope bridge",
+            "/m/01f6pd": "American crow",
+            "/m/0339_l": "Foundation",
+            "/m/04c2h8": "Rake",
+            "/m/025xdlg": "Cristal baschet",
+            "/m/0j4rl": "Pelican",
+            "/m/015p6": "Bird",
+            "/m/0123gb": "Egret",
+            "/m/01q8_b": "Hammock",
+            "/m/0csy8": "Suspension bridge",
+            "/m/0h29c": "Peafowl",
+            "/m/01c08f": "Rock dove",
+            "/m/0h0rv": "Pigeons and doves",
+            "/m/01n8wt": "Lari"
+        }
+    }
+}

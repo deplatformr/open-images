@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:ded301939844a141",
+    "contentUrl": "https://farm2.staticflickr.com/5511/10544848194_2e2a89228d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/6/5511/10544848194_3d5f169838_z.jpg",
+    "name": "ドリームカフェ",
+    "image": "ded301939844a141.jpg",
+    "creator": "Kentaro Ohno (https://www.flickr.com/people/inucara/)",
+    "dateCreated": "2013:10:14 12:53:52",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.10 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "6000",
+    "height": "4000",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "zd0NZI14r/+0SqDkFhOO3Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.4230116670324"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "134.055265"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "167/5"
+        }
+    ],
+    "about": {}
+}

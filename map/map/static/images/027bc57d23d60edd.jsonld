@@ -1,0 +1,79 @@
+{
+    "@id": "openimages:027bc57d23d60edd",
+    "contentUrl": "https://c6.staticflickr.com/4/3934/15334282199_94c1463110_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/4/3934/15334282199_8172ffe1f4_z.jpg",
+    "name": "Flatiron",
+    "image": "027bc57d23d60edd.jpg",
+    "creator": "Celsim Junior (https://www.flickr.com/people/celsim/)",
+    "dateCreated": "2014:08:21 15:09:51",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.50 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5616",
+    "height": "3744",
+    "resolution": "None x None",
+    "disambiguatingDescription": "Q5SJWqYntuqI6i7cXFUS5g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.7410472222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.9896666666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cgh4": "Building",
+            "/m/019jd": "Boat",
+            "/m/03jm5": "House",
+            "/m/079cl": "Skyscraper",
+            "/m/013_1c": "Statue",
+            "/m/01c648": "Laptop",
+            "/m/0blz9": "Fence",
+            "/m/02wbm": "Food",
+            "/m/06_dn": "Snow",
+            "/m/0bt9lr": "Dog",
+            "/m/021yby": "Seat of local government",
+            "/m/09v6kpg": "Minecraft",
+            "/m/025nd": "Christmas tree",
+            "/m/04dr76w": "Bottle",
+            "/m/04h7h": "Lighthouse",
+            "/m/01zbnw": "Screenshot",
+            "/m/01knjb": "Billboard",
+            "/m/0pr_h": "Obelisk",
+            "/m/0k4j": "Car",
+            "/m/019nj4": "Smile",
+            "/m/04h4w": "Lake",
+            "/m/0b48hv": "Rainbow",
+            "/m/01m3v": "Computer",
+            "/m/01bqvp": "Sky",
+            "/m/054_l": "Mirror",
+            "/m/04wv_": "Moon",
+            "/m/06q74": "Ship",
+            "/m/0csby": "Cloud",
+            "/m/07yv9": "Vehicle",
+            "/m/09d_r": "Mountain",
+            "/m/015p6": "Bird",
+            "/m/0gkxy13": "Handwriting",
+            "/m/05qdh": "Painting",
+            "/m/0838f": "Water",
+            "/m/01xgbj": "Turret",
+            "/m/06msq": "Sculpture",
+            "/m/04ndr": "Lego",
+            "/m/0c9ph5": "Flower",
+            "/m/0h36z": "Cemetery",
+            "/m/0b3yr": "Beach"
+        }
+    }
+}

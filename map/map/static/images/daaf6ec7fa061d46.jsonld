@@ -1,0 +1,209 @@
+{
+    "@id": "openimages:daaf6ec7fa061d46",
+    "contentUrl": "https://farm7.staticflickr.com/8597/15920184815_caec187e47_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/9/8597/15920184815_b8e42c85a5_z.jpg",
+    "name": "Fort Pierce - Atlantic Ocean - Erin",
+    "image": "daaf6ec7fa061d46.jpg",
+    "creator": "Jared (https://www.flickr.com/people/jared422/)",
+    "dateCreated": "2014:09:01 14:38:41",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.19 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2428",
+    "height": "2913",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "TPQ/uk/jLD4KzEs7QLt67A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "27.4137166666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-80.2690805555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1707/1673"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0fly7": "Jeans",
+            "/m/0b3yr": "Beach",
+            "/m/0dzct": "Human face",
+            "/m/09j5n": "Footwear",
+            "/m/09j2d": "Clothing",
+            "/m/05r655": "Girl",
+            "/m/04yx4": "Man",
+            "/m/03bt1vf": "Woman",
+            "/m/01g317": "Person",
+            "/m/01bl7v": "Boy",
+            "/m/01bqvp": "Sky"
+        },
+        "trainingBoxes": [
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.387847",
+                "xMax": "0.618905",
+                "yMin": "0.393125",
+                "yMax": "0.863750",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.430608",
+                "xMax": "0.542386",
+                "yMin": "0.781875",
+                "yMax": "0.878125",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.393098",
+                "xMax": "0.609152",
+                "yMin": "0.377500",
+                "yMax": "0.881250",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.489872",
+                "xMax": "0.540885",
+                "yMin": "0.825625",
+                "yMax": "0.875625",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0dzct": "Human face",
+                "confidence": "1",
+                "xMin": "0.476369",
+                "xMax": "0.533383",
+                "yMin": "0.388750",
+                "yMax": "0.460000",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Woman is Smile",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.387847",
+                    "xMax": "0.618905",
+                    "yMin": "0.393125",
+                    "yMax": "0.863750"
+                },
+                "box2": {
+                    "/m/019nj4": "Smile",
+                    "xMin": "0.387847",
+                    "xMax": "0.618905",
+                    "yMin": "0.393125",
+                    "yMax": "0.863750"
+                }
+            },
+            {
+                "relationship": "Woman is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.387847",
+                    "xMax": "0.618905",
+                    "yMin": "0.393125",
+                    "yMax": "0.863750"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.387847",
+                    "xMax": "0.618905",
+                    "yMin": "0.393125",
+                    "yMax": "0.863750"
+                }
+            },
+            {
+                "relationship": "Girl is Smile",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.393098",
+                    "xMax": "0.609152",
+                    "yMin": "0.377500",
+                    "yMax": "0.881250"
+                },
+                "box2": {
+                    "/m/019nj4": "Smile",
+                    "xMin": "0.393098",
+                    "xMax": "0.609152",
+                    "yMin": "0.377500",
+                    "yMax": "0.881250"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.393098",
+                    "xMax": "0.609152",
+                    "yMin": "0.377500",
+                    "yMax": "0.881250"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.393098",
+                    "xMax": "0.609152",
+                    "yMin": "0.377500",
+                    "yMax": "0.881250"
+                }
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/05r655": "Girl",
+                "maskFile": "daaf6ec7fa061d46_m05r655_132f0ac7.png",
+                "boxId": "132f0ac7",
+                "xMin": "0.393098",
+                "xMax": "0.609152",
+                "yMin": "0.3775",
+                "yMax": "0.88125",
+                "PredictedIoU": "0.86644",
+                "clicks": "0.59566 0.59178 1;0.52349 0.86435 1;0.40641 0.58109 1;0.44972 0.79754 1;0.50064 0.80609 0;0.54663 0.44848 0;0.43792 0.79796 0;0.44636 0.86853 1;0.49090 0.81867 0;0.46724 0.44407 0;0.54937 0.85346 0"
+            }
+        ]
+    }
+}

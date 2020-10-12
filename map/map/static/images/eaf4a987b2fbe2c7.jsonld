@@ -1,0 +1,39 @@
+{
+    "@id": "openimages:eaf4a987b2fbe2c7",
+    "contentUrl": "https://farm8.staticflickr.com/7629/16763052449_ca5901b240_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7629/16763052449_2203349c3f_z.jpg",
+    "name": "Chantier de la chapelle Corneille",
+    "image": "eaf4a987b2fbe2c7.jpg",
+    "creator": "Frédéric BISSON (https://www.flickr.com/people/zigazou76/)",
+    "dateCreated": "2015:03:27 16:30:48",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "8.58 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "yBvIumzR+JwQdBBiJ54nvw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.4447499537037"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.10023333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "28"
+        }
+    ],
+    "about": {}
+}

@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:a09f567ab3688e52",
+    "contentUrl": "https://farm3.staticflickr.com/5450/17571295015_79d057be3a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5450/17571295015_cfd634322d_z.jpg",
+    "name": "The Hague",
+    "image": "a09f567ab3688e52.jpg",
+    "creator": "Gabriela Avram (https://www.flickr.com/people/coniecto/)",
+    "dateCreated": "2015:05:12 18:37:23",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.22 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2048",
+    "height": "1152",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "OwDfLjJqc9IEC0nDZNUfyQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "52.0792808333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "4.31319616666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "101"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0h8nqmc": "Outdoor bench",
+            "/m/07tf8": "University",
+            "/m/01klb9": "Plaza",
+            "/m/0bt9lr": "Dog",
+            "/m/03011x": "Leash",
+            "/m/0cvnqh": "Bench",
+            "/m/0sy84": "Stately home",
+            "/m/0lf0n": "Courtyard",
+            "/m/01yrx": "Cat"
+        }
+    }
+}

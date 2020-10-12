@@ -1,0 +1,86 @@
+{
+    "@id": "openimages:5e78c0027532dea2",
+    "contentUrl": "https://farm3.staticflickr.com/455/18534459076_e92fc4a005_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/1/455/18534459076_c6048f220b_z.jpg",
+    "name": "2015-06-07 20.05.02",
+    "image": "5e78c0027532dea2.jpg",
+    "creator": "fto mizno (https://www.flickr.com/people/ftomiz/)",
+    "dateCreated": "2015:06:07 20:05:02",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.44 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "yKW9fbUeIZQVttfdW78zDg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.6630666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.899352777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "6049/727"
+        }
+    ],
+    "about": {
+        "testingLabels": {
+            "/m/02vdjb": "White rice",
+            "/m/036qh8": "Produce",
+            "/m/01dttb": "Glutinous rice",
+            "/m/0ch47tv": "Food grain",
+            "/m/0dzf4": "Human arm",
+            "/m/0g9vs81": "Steamed rice",
+            "/m/09j5n": "Footwear",
+            "/m/02wbm": "Food",
+            "/m/02q08p0": "Dish",
+            "/m/05s2s": "Plant",
+            "/m/0h9mv": "Tire",
+            "/m/0djtd": "Coconut",
+            "/m/09759": "Rice",
+            "/m/01ykh": "Cuisine"
+        },
+        "testingBoxes": [
+            {
+                "/m/02wbm": "Food",
+                "confidence": "1",
+                "xMin": "0.2359375",
+                "xMax": "1",
+                "yMin": "0",
+                "yMax": "1",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/02wbm": "Food",
+                "confidence": "1",
+                "xMin": "0.546875",
+                "xMax": "0.853125",
+                "yMin": "0.24791667",
+                "yMax": "0.64375",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

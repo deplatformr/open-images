@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:79657251b2132c3f",
+    "contentUrl": "https://c8.staticflickr.com/9/8592/16572524519_553e84abf8_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8592/16572524519_ea47714da1_z.jpg",
+    "name": "Sunset in LA",
+    "image": "79657251b2132c3f.jpg",
+    "creator": "Brad Fults (https://www.flickr.com/people/h3h/)",
+    "dateCreated": "2014:12:21 17:04:55",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.43 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "LffX/y+YEC0+e+vTJ5TYvQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.1608388888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-118.510558333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "43772/177"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bqvp": "Sky",
+            "/m/013vs": "Afterglow",
+            "/m/0csby": "Cloud"
+        }
+    }
+}

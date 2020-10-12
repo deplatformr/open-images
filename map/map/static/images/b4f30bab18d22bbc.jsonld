@@ -1,0 +1,51 @@
+{
+    "@id": "openimages:b4f30bab18d22bbc",
+    "contentUrl": "https://c5.staticflickr.com/9/8472/8124548683_1dc2097f83_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8472/8124548683_6da464b8e9_z.jpg",
+    "name": "Amanite tue-mouches (Amanita muscaria)",
+    "image": "b4f30bab18d22bbc.jpg",
+    "creator": "Thomas Bresson (https://www.flickr.com/people/computerhotline/)",
+    "dateCreated": "2012:10:25 16:02:25",
+    "description": "Amanite tue-mouches (Amanita muscaria) (HDR).",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.14 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3647",
+    "height": "2735",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "rAU8SB34yIdA6YWbNFeJUA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "47.6886274660627"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "6.80400355234742"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "393"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0b74tkh": "Russula integra",
+            "/m/071bgc": "Agaric",
+            "/m/052sf": "Mushroom",
+            "/m/0277rq": "Penny bun",
+            "/m/03hg06": "Agaricaceae",
+            "/m/039_px": "Bolete"
+        }
+    }
+}

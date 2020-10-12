@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:162a32eab5c60d4d",
+    "contentUrl": "https://c6.staticflickr.com/4/3724/13315168993_9690407d4f_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/4/3724/13315168993_68697d4129_z.jpg",
+    "name": "The new Rochdale Bus Station",
+    "image": "162a32eab5c60d4d.jpg",
+    "creator": "Mikey (https://www.flickr.com/people/raver_mikey/)",
+    "dateCreated": "2014:02:15 14:02:43",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.62 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2560",
+    "height": "1920",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "0bmotRhsuznIPfaYMjxZnw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.6173444444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.15555277777778"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06q74": "Ship",
+            "/m/07yv9": "Vehicle",
+            "/m/01bjv": "Bus",
+            "/m/0k4j": "Car",
+            "/m/0838f": "Water",
+            "/m/018w8": "Basketball (Sport)",
+            "/m/054_l": "Mirror",
+            "/m/06_dn": "Snow",
+            "/m/0csby": "Cloud",
+            "/m/0cgh4": "Building",
+            "/m/0199g": "Bicycle",
+            "/m/07jdr": "Train",
+            "/m/0b3yr": "Beach",
+            "/m/01bqvp": "Sky"
+        }
+    }
+}

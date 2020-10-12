@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:91ac939a0c1d7d80",
+    "contentUrl": "https://farm1.staticflickr.com/6039/6297749652_828e7a7c5d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/7/6039/6297749652_82cf2b091c_z.jpg",
+    "name": "2011-10-15 10-23 Sierra Nevada 003 Coarsegold",
+    "image": "91ac939a0c1d7d80.jpg",
+    "creator": "Allie_Caulfield (https://www.flickr.com/people/wm_archiv/)",
+    "dateCreated": "2011:10:15 15:59:56",
+    "description": "SONY DSC                       ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "8.62 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4912",
+    "height": "3264",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "7RaHSNmJJaef5GnxubOnKw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.2619713888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-119.698708333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "3396/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car"
+        }
+    }
+}

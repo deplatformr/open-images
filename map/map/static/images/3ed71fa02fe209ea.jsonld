@@ -1,0 +1,66 @@
+{
+    "@id": "openimages:3ed71fa02fe209ea",
+    "contentUrl": "https://c3.staticflickr.com/3/2844/9017373439_20b41106a0_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/3/2844/9017373439_f7b6ebcc09_z.jpg",
+    "name": "DSC00268",
+    "image": "3ed71fa02fe209ea.jpg",
+    "creator": "Mark Gstohl (https://www.flickr.com/people/howieluvzus/)",
+    "dateCreated": "2013:06:04 13:24:04",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "7.09 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4896",
+    "height": "3672",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "yPa5RXZXRZIKZ6l5PgSTeg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "19.8090763888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-155.093681388889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "106"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/088vv": "Zingiberales",
+            "/m/0262mx0": "Banana leaf",
+            "/m/02vyr27": "Christmas Orchid",
+            "/m/065_m8m": "Epidendrum nocturnum",
+            "/m/0c9ph5": "Flower",
+            "/m/01yv4s": "Elaeis",
+            "/m/08c5mh": "Qantu",
+            "/m/0fm3zh": "Flowerpot",
+            "/m/0ch2wk": "Fire-star orchid",
+            "/m/0j_4l0f": "Orchids of the philippines",
+            "/m/026hrpv": "Billbergia nutans",
+            "/m/03h4ryq": "Acianthera",
+            "/m/0grfz": "Spurge",
+            "/m/0jt211b": "Cattleya elongata",
+            "/m/07wmhs": "Bromelia",
+            "/m/013yjr": "Ensete",
+            "/m/04q3y8": "Red ginger",
+            "/m/0cngpg": "Pride of burma",
+            "/m/0nb0p53": "Cattlianthe jewel box",
+            "/m/0674gf": "Epiphyllum",
+            "/m/04mg54": "Crocosmia"
+        }
+    }
+}

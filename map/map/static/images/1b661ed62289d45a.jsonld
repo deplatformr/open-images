@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:1b661ed62289d45a",
+    "contentUrl": "https://c3.staticflickr.com/3/2690/4075403104_dfd9c42e78_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/3/2690/4075403104_21837a0170_z.jpg",
+    "name": "hitachi seaside park_09",
+    "image": "1b661ed62289d45a.jpg",
+    "creator": "ajari (https://www.flickr.com/people/ajari/)",
+    "dateCreated": "2009:10:24 13:38:52",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "8.70 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4288",
+    "height": "2848",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "QMi5eQ4uQoNXui5ljvzHXA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "36.4057083129722"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "140.599945068333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02wbm": "Food",
+            "/m/0b93n8": "Chocolote cosmos",
+            "/m/015fyw": "Poppy",
+            "/m/0c9ph5": "Flower",
+            "/m/03c5g7m": "Pink evening primrose",
+            "/m/01tl0v": "Cosmos",
+            "/m/06m8v4": "Pinkladies",
+            "/m/0gh6nsc": "Common zinnia",
+            "/m/01bqvp": "Sky",
+            "/m/01fpbm": "Daisy"
+        }
+    }
+}

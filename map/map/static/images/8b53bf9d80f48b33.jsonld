@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:8b53bf9d80f48b33",
+    "contentUrl": "https://farm4.staticflickr.com/3751/11387117863_8149dcfbc0_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/4/3751/11387117863_a9900a9a89_z.jpg",
+    "name": "Viggo, post-snow storm",
+    "image": "8b53bf9d80f48b33.jpg",
+    "creator": "Juhan Sonin (https://www.flickr.com/people/juhansonin/)",
+    "dateCreated": "2013:12:15 11:46:53",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.44 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "AwUppUWbAvhfjlB6MylacQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.4234777777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.1807472222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "33787/605"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06_dn": "Snow"
+        }
+    }
+}

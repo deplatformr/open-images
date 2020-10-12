@@ -1,0 +1,54 @@
+{
+    "@id": "openimages:6173bc72268dce4e",
+    "contentUrl": "https://c7.staticflickr.com/3/2875/9376122643_d43194ed8c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/3/2875/9376122643_e3b87fd9d0_z.jpg",
+    "name": "IMG_4024",
+    "image": "6173bc72268dce4e.jpg",
+    "creator": "Marko Kudjerski (https://www.flickr.com/people/marko8904/)",
+    "dateCreated": "2012:08:05 13:01:49",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.46 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5184",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "yKppM8rhha6bC/XrQX1Ycg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.397125"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.989261111111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "25"
+        }
+    ],
+    "about": {
+        "testingLabels": {
+            "/m/01__sk": "Brickwork",
+            "/m/0cgh4": "Building",
+            "/m/04rky": "Mammal",
+            "/m/01g0g": "Brick",
+            "/m/03d1rd": "Ruins",
+            "/m/08g_yr": "Temple (Body Part)",
+            "/m/09qqq": "Wall",
+            "/m/03jm5": "House",
+            "/m/01w_gm": "Plaster",
+            "/m/0djmp": "Ancient history"
+        }
+    }
+}

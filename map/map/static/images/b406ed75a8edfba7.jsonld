@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:b406ed75a8edfba7",
+    "contentUrl": "https://farm8.staticflickr.com/7397/14029989725_7f553bea25_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/8/7397/14029989725_5bec7338dd_z.jpg",
+    "name": "テニスコートからの桜と河口湖",
+    "image": "b406ed75a8edfba7.jpg",
+    "creator": "Takeshi Suzuki (https://www.flickr.com/people/tockrock/)",
+    "dateCreated": "2014:04:27 15:36:43",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.73 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "IS4xUHoxCk45a/Nqny9WIw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.5076444444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "138.736891666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "100089/116"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0194d": "Badminton",
+            "/m/01bqvp": "Sky"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:31f1ac77895223c9",
+    "contentUrl": "https://c2.staticflickr.com/6/5162/5220878312_29efbfe3b1_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5162/5220878312_5bbb3a6256_z.jpg",
+    "name": "Lonely at the top",
+    "image": "31f1ac77895223c9.jpg",
+    "creator": "Damian Gadal (https://www.flickr.com/people/23024164@N06/)",
+    "dateCreated": "2010:11:27 12:43:25",
+    "description": "Christmas Tree",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "645.88 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "803",
+    "height": "1200",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "kf9HIjXE1RWU0v4SIsNbAg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.438183"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-119.747498"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "801119/19988"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06_dn": "Snow",
+            "/m/02wbm": "Food",
+            "/m/0csby": "Cloud",
+            "/m/025nd": "Christmas tree",
+            "/m/02k5jz": "Virginia pine"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "@id": "openimages:a2fdc497976fd246",
+    "contentUrl": "https://farm7.staticflickr.com/197/494738814_ecdb468375_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/1/197/494738814_abdf95c6e5_z.jpg",
+    "name": "Kung Fu Corner",
+    "image": "a2fdc497976fd246.jpg",
+    "creator": "Jonas Bengtsson (https://www.flickr.com/people/jonasb/)",
+    "dateCreated": "2007:05:06 08:17:42",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.39 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1660",
+    "height": "2273",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "LBpqs+nZ8cty00uRIVGdFA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "22.2991305555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "114.171122222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01jr9x": "Shaolin kung fu",
+            "/m/0606mz": "Zui quan",
+            "/m/02vpwc": "Xing yi quan",
+            "/m/026bk": "Dance",
+            "/m/02wszfz": "Martial artist",
+            "/m/07k4r": "T'ai chi ch'uan",
+            "/m/05kc29": "Combat sport",
+            "/m/06fxvg": "Hip-hop dance",
+            "/m/0h8n1jq": "Martial arts uniform",
+            "/m/099t47": "Wushu",
+            "/m/01f235": "Baguazhang",
+            "/m/02g597": "Chinese Martial Arts",
+            "/m/020d_t": "Street dance",
+            "/m/04xsv": "Martial arts",
+            "/m/0243gp": "Northern Praying Mantis (martial art)",
+            "/m/0d4cc3": "Waving"
+        }
+    }
+}

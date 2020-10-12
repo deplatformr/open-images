@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:474a7f983dd54991",
+    "contentUrl": "https://farm2.staticflickr.com/372/18431411639_e66fea4b63_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/1/372/18431411639_309aa2a0e9_z.jpg",
+    "name": "Two styles of bike stencil on brick roadway",
+    "image": "474a7f983dd54991.jpg",
+    "creator": "Eric Fischer (https://www.flickr.com/people/walkingsf/)",
+    "dateCreated": "2015:05:25 12:10:58",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.17 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1944",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "pwVqkuhpHe3xA6XzC8I5Dw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.3650411111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "2.10219527777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0199g": "Bicycle",
+            "/m/0k4j": "Car",
+            "/m/0dmq2": "Scooter",
+            "/m/0250bv": "Manhole cover",
+            "/m/07yv9": "Vehicle"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:7e23834dfbcdc4da",
+    "contentUrl": "https://c3.staticflickr.com/6/5590/14940502105_41d731f6b7_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5590/14940502105_203c6dbaf9_z.jpg",
+    "name": "Nasturtium and Ganesh",
+    "image": "7e23834dfbcdc4da.jpg",
+    "creator": "Christine Rondeau (https://www.flickr.com/people/crondeau/)",
+    "dateCreated": "2014:06:24 17:44:37",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.31 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "3264",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "J3iOjj/l6fBNVHSEBBN5hw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.2640333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-123.102027777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "31"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03hw_2": "Nasturtium",
+            "/m/045j61": "Parlour maple",
+            "/m/0c9ph5": "Flower",
+            "/m/02wwg0_": "Lantana camara"
+        }
+    }
+}

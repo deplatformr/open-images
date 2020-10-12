@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:aa56968c22d11869",
+    "contentUrl": "https://c2.staticflickr.com/4/3746/11176211486_e2787b96eb_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/4/3746/11176211486_028065e9c2_z.jpg",
+    "name": "Laibach, SPB, 2013-12-01",
+    "image": "aa56968c22d11869.jpg",
+    "creator": "cat_collector (https://www.flickr.com/people/fruitsofkarma/)",
+    "dateCreated": "2013:12:01 20:54:03",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.43 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4905",
+    "height": "3270",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "3YWocb9Pjmz7vmemrTgqyw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "59.956278"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "30.342788"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05r5c": "Piano",
+            "/m/0h8mg_9": "Musical keyboard stand",
+            "/m/01jddz": "Concert",
+            "/m/01b30l": "Organist",
+            "/m/01s0ps": "Electric piano",
+            "/m/03qsdgp": "Jazz pianist"
+        }
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "@id": "openimages:246881b5f45ed9ac",
+    "contentUrl": "https://c5.staticflickr.com/3/2128/2346635878_796823868e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/3/2128/2346635878_87be347449_z.jpg",
+    "name": "Angels on the Rio di San Alvise",
+    "image": "246881b5f45ed9ac.jpg",
+    "creator": "Graeme Churchard (https://www.flickr.com/people/graeme/)",
+    "dateCreated": "2008:03:10 13:33:51",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.21 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3888",
+    "height": "2592",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "0hOy1qjAfXzgbeZMyXvJ/w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "45.4470750000079"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "12.3287610000041"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "15331859/4194304"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07yv9": "Vehicle",
+            "/m/0838f": "Water",
+            "/m/02qbh9r": "Long-tail boat",
+            "/m/0b3yr": "Beach",
+            "/m/06q74": "Ship",
+            "/m/019jd": "Boat",
+            "/m/01g317": "Person",
+            "/m/01rzcn": "Watercraft",
+            "/m/04h4w": "Lake",
+            "/m/09j2d": "Clothing"
+        },
+        "trainingBoxes": [
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.261875",
+                "xMax": "0.573750",
+                "yMin": "0.134146",
+                "yMax": "0.319887",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.380000",
+                "xMax": "0.473125",
+                "yMin": "0.095685",
+                "yMax": "0.181989",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j2d": "Clothing",
+                "confidence": "1",
+                "xMin": "0.370625",
+                "xMax": "0.482500",
+                "yMin": "0.104128",
+                "yMax": "0.177298",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.426875",
+                "yMin": "0.000000",
+                "yMax": "0.268293",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.562500",
+                "xMax": "0.999375",
+                "yMin": "0.303940",
+                "yMax": "0.999062",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.765000",
+                "xMax": "0.999375",
+                "yMin": "0.000000",
+                "yMax": "0.353659",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

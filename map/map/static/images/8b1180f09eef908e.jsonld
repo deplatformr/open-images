@@ -1,0 +1,86 @@
+{
+    "@id": "openimages:8b1180f09eef908e",
+    "contentUrl": "https://c7.staticflickr.com/4/3772/11273750545_37817c63b2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/4/3772/11273750545_6480aa6394_z.jpg",
+    "name": "Castello di Amorosa Winery, Napa Valley, California, USA",
+    "image": "8b1180f09eef908e.jpg",
+    "creator": "Jim G (https://www.flickr.com/people/jimg944/)",
+    "dateCreated": "2011:08:06 12:26:26",
+    "description": "Castello di Amorosa Winery, Napa Valley, California, USA",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.37 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3240",
+    "height": "4320",
+    "resolution": "96 x 96",
+    "disambiguatingDescription": "8AN4dci8m3weVcWbFABzwg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.5581811111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.542108611111"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bp4w": "Lemongrass",
+            "/m/0d5gx": "Castle",
+            "/m/0cgh4": "Building",
+            "/m/01g317": "Person",
+            "/m/05jsyz": "Wheatgrass"
+        },
+        "trainingBoxes": [
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.100000",
+                "xMax": "0.152500",
+                "yMin": "0.558125",
+                "yMax": "0.609375",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.168333",
+                "xMax": "0.206667",
+                "yMin": "0.513750",
+                "yMax": "0.594375",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d5gx": "Castle",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.999167",
+                "yMin": "0.033750",
+                "yMax": "0.725625",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

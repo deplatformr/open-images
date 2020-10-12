@@ -1,0 +1,65 @@
+{
+    "@id": "openimages:4e969c009eef760a",
+    "contentUrl": "https://c3.staticflickr.com/8/7710/17119625738_dd7f109e7c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/8/7710/17119625738_bb5509ec9e_z.jpg",
+    "name": "Violet",
+    "image": "4e969c009eef760a.jpg",
+    "creator": "Peter Stevens (https://www.flickr.com/people/nordique/)",
+    "dateCreated": "2015:04:28 13:03:08",
+    "description": "          ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.34 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2826",
+    "height": "1747",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "12yWS724ypH9UJoaYeijHg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "46.9489333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-120.664527777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1083"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0kg13c3": "Algerian iris",
+            "/m/06p9y": "Solanales",
+            "/m/03hmqv7": "Prairie pasqueflower",
+            "/m/04n_tw": "Orris root",
+            "/m/0c9ph5": "Flower",
+            "/m/0kbgyjp": "Iris reticulata",
+            "/m/02vkqnx": "Longstem marsh violet",
+            "/m/0g7dk": "Crocus",
+            "/m/0flfpd": "Evening stock",
+            "/m/06j_np": "Solanum lycocarpum",
+            "/m/0f2mbx": "Blue violet",
+            "/m/034v_": "Gardening",
+            "/m/0k3bt": "Pansy",
+            "/m/02t5wz": "Wild pansy",
+            "/m/025st_8": "Meadow",
+            "/m/09k4y6_": "Siberian fawn lily",
+            "/m/07ryq": "Trillium",
+            "/m/02805fj": "Sego lily",
+            "/m/026lhl_": "Crowfoot violet",
+            "/m/09rf8m": "Iris versicolor"
+        }
+    }
+}

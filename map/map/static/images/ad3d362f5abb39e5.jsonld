@@ -1,0 +1,151 @@
+{
+    "@id": "openimages:ad3d362f5abb39e5",
+    "contentUrl": "https://farm6.staticflickr.com/5720/21163261942_4ab31fb58f_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5720/21163261942_111cd59568_z.jpg",
+    "name": "Jersey City Triathlon",
+    "image": "ad3d362f5abb39e5.jpg",
+    "creator": "Alec Perkins (https://www.flickr.com/people/alecperkins/)",
+    "dateCreated": "2015:08:23 07:11:29",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.03 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4274",
+    "height": "2844",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "WkWUDm1bSDlnv7mWUb7PUA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.7115166666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-74.0323194444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/079cl": "Skyscraper",
+            "/m/05y5lj": "Sports equipment",
+            "/m/01rzcn": "Watercraft",
+            "/m/019jd": "Boat",
+            "/m/014y4n": "Paddle",
+            "/m/07yv9": "Vehicle",
+            "/m/025sylx": "Kayaking",
+            "/m/01bqvp": "Sky",
+            "/m/01rw_4": "Sea kayak",
+            "/m/04fdw": "Kayak",
+            "/m/0838f": "Water",
+            "/m/04h4w": "Lake",
+            "/m/056ks2": "Watercraft rowing",
+            "/m/01psvn": "Canoeing"
+        },
+        "trainingBoxes": [
+            {
+                "/m/079cl": "Skyscraper",
+                "confidence": "1",
+                "xMin": "0.831250",
+                "xMax": "0.965000",
+                "yMin": "0.265038",
+                "yMax": "0.602444",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/014y4n": "Paddle",
+                "confidence": "1",
+                "xMin": "0.208125",
+                "xMax": "0.220000",
+                "yMin": "0.599624",
+                "yMax": "0.700188",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/014y4n": "Paddle",
+                "confidence": "1",
+                "xMin": "0.819375",
+                "xMax": "0.850625",
+                "yMin": "0.636278",
+                "yMax": "0.721804",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.115625",
+                "xMax": "0.308750",
+                "yMin": "0.690789",
+                "yMax": "0.710526",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.727500",
+                "xMax": "0.927500",
+                "yMin": "0.676692",
+                "yMax": "0.722744",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/079cl": "Skyscraper",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.999375",
+                "yMin": "0.037594",
+                "yMax": "0.644737",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/079cl": "Skyscraper",
+                "maskFile": "ad3d362f5abb39e5_m079cl_9e90ba15.png",
+                "boxId": "9e90ba15",
+                "xMin": "0.83125",
+                "xMax": "0.965",
+                "yMin": "0.265038",
+                "yMax": "0.602444",
+                "PredictedIoU": "0.84151",
+                "clicks": "0.84156 0.29981 1;0.93435 0.54279 0;0.88086 0.28339 0;0.88397 0.28258 1;0.94850 0.48937 0;0.90266 0.55565 0;0.84166 0.51005 0;0.90622 0.28660 1;0.84912 0.51463 1;0.94428 0.49247 1"
+            }
+        ]
+    }
+}

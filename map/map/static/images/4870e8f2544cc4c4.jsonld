@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:4870e8f2544cc4c4",
+    "contentUrl": "https://farm5.staticflickr.com/4023/4354960182_e3e238d412_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/5/4023/4354960182_59981be8c1_z.jpg",
+    "name": "Blue Eyes",
+    "image": "4870e8f2544cc4c4.jpg",
+    "creator": "Clemens v. Vogelsang (https://www.flickr.com/people/vauvau/)",
+    "dateCreated": "2010:02:13 13:09:01",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.56 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3872",
+    "height": "2592",
+    "resolution": "None x None",
+    "disambiguatingDescription": "vxLG3XUGVGeaA6RO2doKQg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "47.8131586005943"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "9.63536730659775"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "494422/959"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0jnvp": "Baby",
+            "/m/07jdr": "Train",
+            "/m/01bgsw": "Toddler",
+            "/m/0n073": "Common cold"
+        }
+    }
+}

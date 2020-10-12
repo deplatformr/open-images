@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:2d825c6a874df1ad",
+    "contentUrl": "https://c6.staticflickr.com/8/7329/11357331845_0e90bf5d29_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7329/11357331845_229d3c13b7_z.jpg",
+    "name": "Wandelen van de 4 trappen naar het klimduin - Schoorlse duinen - Schoorl {december 2013}",
+    "image": "2d825c6a874df1ad.jpg",
+    "creator": "Esther Westerveld (https://www.flickr.com/people/westher/)",
+    "dateCreated": "2013:12:13 15:39:30",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.23 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4608",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "wKL+wghzwyjHw/1ohzTwbA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 90
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "52.6961911111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "4.68271222222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "4529/250"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0g2z8": "Fog",
+            "/m/0f6rkr": "Devil's bridge"
+        }
+    }
+}

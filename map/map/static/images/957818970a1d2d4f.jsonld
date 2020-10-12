@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:957818970a1d2d4f",
+    "contentUrl": "https://c8.staticflickr.com/9/8201/8242212868_b1b5909e6a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/9/8201/8242212868_0297a2b2ce_z.jpg",
+    "name": "DSC_0972.JPG",
+    "image": "957818970a1d2d4f.jpg",
+    "creator": "Stephen Chin (https://www.flickr.com/people/steveonjava/)",
+    "dateCreated": "2012:04:16 15:14:29",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.57 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "7360",
+    "height": "4912",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "WdgRi6qjrn1gF61lX+oHDA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-23.6172"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-46.6491"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car"
+        }
+    }
+}

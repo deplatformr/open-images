@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:e3c7b017174d2505",
+    "contentUrl": "https://farm6.staticflickr.com/7454/8927407218_df3730c420_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7454/8927407218_9cb5ee08fd_z.jpg",
+    "name": "Untitled",
+    "image": "e3c7b017174d2505.jpg",
+    "creator": "James Cridland (https://www.flickr.com/people/jamescridland/)",
+    "dateCreated": "2013:05:28 19:35:55",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.85 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1944",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "9W8lR8ZyFZoEvdYkqdz3Eg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "1.47786444444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "124.832615833333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {}
+}

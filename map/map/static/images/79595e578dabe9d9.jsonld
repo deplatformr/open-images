@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:79595e578dabe9d9",
+    "contentUrl": "https://c2.staticflickr.com/4/3693/20049304520_1d07bed866_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3693/20049304520_b6db2d6270_z.jpg",
+    "name": "Serra de les Torretes: Castell de Rosanes",
+    "image": "79595e578dabe9d9.jpg",
+    "creator": "Jorge Franganillo (https://www.flickr.com/people/franganillo/)",
+    "dateCreated": "2015:08:02 14:27:20",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.43 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3888",
+    "height": "2592",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "CM3rAhfVV7ezubANCMBJ6g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.4664917099728"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.93048238993711"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04lwkj": "Two needle pinyon pine",
+            "/m/09d_r": "Mountain"
+        }
+    }
+}

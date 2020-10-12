@@ -1,0 +1,81 @@
+{
+    "@id": "openimages:cc98ccb88e7130ff",
+    "contentUrl": "https://c8.staticflickr.com/7/6191/6077400822_d722d795c8_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/7/6191/6077400822_ecc0024628_z.jpg",
+    "name": "Cheesecake au chocolat",
+    "image": "cc98ccb88e7130ff.jpg",
+    "creator": "Frédéric BISSON (https://www.flickr.com/people/zigazou76/)",
+    "dateCreated": "2011:08:24 18:28:26",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.03 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "XtKHLzlrPzCYdlT0fNdPrg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.4425216666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.0885512962963"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "433/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/055vs5": "Chocolate pudding",
+            "/m/07pmh3k": "Chocolatier",
+            "/m/0463p_g": "Lekach",
+            "/m/0hmvxxv": "Soy ice cream",
+            "/m/02vxqxj": "Cocoa solids",
+            "/m/06j8mw": "Cajeta",
+            "/m/02vy_6k": "Giri choco",
+            "/m/06hr0k": "Chocolate syrup",
+            "/m/08h6mq": "Chocolate-coated peanut",
+            "/m/0264_72": "Dodol",
+            "/m/0bjpvy": "Petit gâteau",
+            "/m/0f0wvs": "Nocilla",
+            "/m/06dg4d": "Chocolate spread",
+            "/m/01qfcj": "Peanut butter",
+            "/m/04gg3x": "Chess pie",
+            "/m/0fwd9h": "Caramel shortbread",
+            "/m/020vl": "Chocolate",
+            "/m/07kff6l": "Rum cake",
+            "/m/08k870": "Sticky toffee pudding",
+            "/m/0dxnxn": "Semifreddo",
+            "/m/03m7wd": "Sachertorte",
+            "/m/0gq9q0": "Butter pie",
+            "/m/04bhvm": "German chocolate cake",
+            "/m/02w6jk": "Sponge cake",
+            "/m/02hlnc": "Chocolate brownie",
+            "/m/03cpkpj": "Flourless chocolate cake",
+            "/m/0_vpmtw": "Dark chocolate",
+            "/m/02czv8": "Birthday cake",
+            "/m/01b7zv": "Pudding",
+            "/m/079dl7": "Chocolate cake",
+            "/m/06gxzt": "Muscovado",
+            "/m/02wryl": "Fudge",
+            "/m/09b732": "Parkin",
+            "/m/0cfk35": "Chocolate truffle",
+            "/m/04j5br": "Chocolate liquor",
+            "/m/04jdnw1": "Rigó jancsi",
+            "/m/0gpg2w": "Tiffin",
+            "/m/0cbv8b": "Inipit",
+            "/m/05bqtc": "Torta caprese"
+        }
+    }
+}

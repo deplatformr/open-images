@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:eb79a919bce8369b",
+    "contentUrl": "https://c4.staticflickr.com/9/8276/8829903714_6e118100a2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8276/8829903714_a01df38c7d_z.jpg",
+    "name": "Bike PSA submitters",
+    "image": "eb79a919bce8369b.jpg",
+    "creator": "Steven Vance (https://www.flickr.com/people/jamesbondsv/)",
+    "dateCreated": "2012:06:12 20:38:25",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.57 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3200",
+    "height": "2133",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "gM+WYWf0kf8E11+j3gI/1g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.8827388888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-87.6220777777778"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01jddz": "Concert"
+        }
+    }
+}

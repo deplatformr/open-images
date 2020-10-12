@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:e73e8a8f0af2ddbf",
+    "contentUrl": "https://c8.staticflickr.com/4/3237/2751975241_9cba90b404_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/4/3237/2751975241_7883b57b50_z.jpg",
+    "name": "Castello Aragonese, Ischia Ponte",
+    "image": "e73e8a8f0af2ddbf.jpg",
+    "creator": "Jimmy Harris (https://www.flickr.com/people/jimmyharris/)",
+    "dateCreated": "2008:06:01 18:10:32",
+    "description": " ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.81 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3072",
+    "height": "2048",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "+U2G0Zrr86jATr8HU9CUVA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.732275"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "13.95974"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "19153/1315"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/09qhk": "Aqueduct",
+            "/m/01jnfv": "Viaduct",
+            "/m/06jlgc": "Cliff dwelling"
+        }
+    }
+}

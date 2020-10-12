@@ -1,0 +1,52 @@
+{
+    "@id": "openimages:17a11e8f12bf99c5",
+    "contentUrl": "https://farm6.staticflickr.com/7217/14024579162_332d55cbf5_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7217/14024579162_0d0be8faf9_z.jpg",
+    "name": "St Peter's Cathedral memorial garden",
+    "image": "17a11e8f12bf99c5.jpg",
+    "creator": "pru_mitchell (https://www.flickr.com/people/pru/)",
+    "dateCreated": "2014:04:27 12:14:13",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.67 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1936",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "d9UwhGW7YP2QMHVPV2X01Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-34.9129777777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "138.598069444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "15585/409"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07j7r": "Tree",
+            "/m/0g6b5": "Fireworks",
+            "/m/02wbm": "Food",
+            "/m/0838f": "Water",
+            "/m/0c9ph5": "Flower",
+            "/m/0b48hv": "Rainbow",
+            "/m/0cyf8": "Butterfly",
+            "/m/04h4w": "Lake"
+        }
+    }
+}

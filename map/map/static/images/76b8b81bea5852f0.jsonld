@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:76b8b81bea5852f0",
+    "contentUrl": "https://farm1.staticflickr.com/8624/16392431201_7254f5a6dd_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/9/8624/16392431201_62c8000f98_z.jpg",
+    "name": "Skiing in Kitzbühel, Austria",
+    "image": "76b8b81bea5852f0.jpg",
+    "creator": "Mark Hodson Photos (https://www.flickr.com/people/markhodson/)",
+    "dateCreated": "2015:01:22 15:59:27",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.11 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "9X9A+2zhYM+9Fd1XosCOsg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "47.4086083333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "12.3579083333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "220706/131"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/078hm": "Slope",
+            "/m/071k0": "Skiing",
+            "/m/09d_r": "Mountain",
+            "/m/04l3v7": "Yellow fir",
+            "/m/06_dn": "Snow"
+        }
+    }
+}

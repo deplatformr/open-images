@@ -1,0 +1,125 @@
+{
+    "@id": "openimages:9652cdaf3ee1a584",
+    "contentUrl": "https://farm5.staticflickr.com/8485/8245544394_e660878877_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/9/8485/8245544394_aaac45d8ff_z.jpg",
+    "name": "Parque de Invierno",
+    "image": "9652cdaf3ee1a584.jpg",
+    "creator": "Nacho (https://www.flickr.com/people/gonmi/)",
+    "dateCreated": "2012:11:20 13:39:21",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "734.09 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1400",
+    "height": "2487",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "vnrxH+eniNJplftFMy1QOg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.3510916666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-5.84885833333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cffdh": "Maple",
+            "/m/079cl": "Skyscraper",
+            "/m/05s2s": "Plant",
+            "/m/07j7r": "Tree",
+            "/m/0c9ph5": "Flower",
+            "/m/0cgh4": "Building"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.390000",
+                "xMax": "0.517778",
+                "yMin": "0.272500",
+                "yMax": "0.336875",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0cffdh": "Maple",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.413333",
+                "yMin": "0.241875",
+                "yMax": "0.795625",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0cffdh": "Maple",
+                "confidence": "1",
+                "xMin": "0.344444",
+                "xMax": "0.781111",
+                "yMin": "0.267500",
+                "yMax": "0.807500",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0cffdh": "Maple",
+                "confidence": "1",
+                "xMin": "0.493333",
+                "xMax": "0.998889",
+                "yMin": "0.183750",
+                "yMax": "0.791875",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0cgh4": "Building",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.490000",
+                "yMin": "0.111250",
+                "yMax": "0.424375",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0cgh4": "Building",
+                "confidence": "1",
+                "xMin": "0.474444",
+                "xMax": "0.998889",
+                "yMin": "0.014375",
+                "yMax": "0.455000",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "@id": "openimages:b5360de2f525590a",
+    "contentUrl": "https://c3.staticflickr.com/6/5577/14997647826_5c47b51866_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5577/14997647826_63ab5cbd5a_z.jpg",
+    "name": "Opening a wine bottle with a shoe",
+    "image": "b5360de2f525590a.jpg",
+    "creator": "Kai Hendry (https://www.flickr.com/people/hendry/)",
+    "dateCreated": "2014:08:23 22:44:57",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.57 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "mW8vRP92GR4whutvaRQS4g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 180
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "1.28130555555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "103.827294444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "26745/524"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01jp3p": "Tradesman",
+            "/m/080kstp": "Flip (acrobatic)",
+            "/m/0dm6dl": "Barechested",
+            "/m/0h8nzzj": "Decor",
+            "/m/04gt040": "Shower head",
+            "/m/03r1mx": "Handstand",
+            "/m/02qf1h5": "Electric fan",
+            "/m/020s4p": "Cleanliness",
+            "/m/0b_zf": "Plumbing",
+            "/m/0sgh53y": "Selfie",
+            "/m/0130jx": "Sink",
+            "/m/02f9f_": "Shower",
+            "/m/0h99cwc": "Kitchen appliance",
+            "/m/0h8lr6f": "Tile flooring",
+            "/m/01j2bj": "Bathroom",
+            "/m/054_l": "Mirror",
+            "/m/091_9x": "Handyman",
+            "/m/09g1w": "Toilet",
+            "/m/017_cz": "Major appliance",
+            "/m/040b_t": "Refrigerator",
+            "/m/02x984l": "Mechanical fan",
+            "/m/036d30": "Bathing",
+            "/m/02w0815": "Drain",
+            "/m/02pkr5": "Plumbing fixture",
+            "/m/04x0wb": "Handle",
+            "/m/0162_1": "Towel",
+            "/m/01ln6f": "Washing",
+            "/m/02jz0l": "Tap",
+            "/m/03dnzn": "Bathtub",
+            "/m/041x_j": "Restroom",
+            "/m/0d4wf": "Kitchen"
+        }
+    }
+}

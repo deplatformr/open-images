@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:c94c9b452fa7259a",
+    "contentUrl": "https://c3.staticflickr.com/4/3880/14499713745_431b3873f7_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/4/3880/14499713745_23fcc37fa1_z.jpg",
+    "name": "Greame Street, Moss Side",
+    "image": "c94c9b452fa7259a.jpg",
+    "creator": "Mikey (https://www.flickr.com/people/raver_mikey/)",
+    "dateCreated": "2014:05:06 14:20:14",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.56 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2560",
+    "height": "1920",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "fgiofy+1lGHOzIIa1Tjr5w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.4551166666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.24875833333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01xxn0": "Hedge",
+            "/m/0172pk": "Thuya"
+        }
+    }
+}

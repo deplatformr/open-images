@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:2af5050db3403395",
+    "contentUrl": "https://farm6.staticflickr.com/3666/12268172646_10a2359c92_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3666/12268172646_3d7579100c_z.jpg",
+    "name": "Statue of Jesus Christ",
+    "image": "2af5050db3403395.jpg",
+    "creator": "Eximius84 (https://www.flickr.com/people/100459781@N04/)",
+    "dateCreated": "2013:05:24 13:34:08",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "7.49 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "PV2cDC1gJ5j7YY7Pq93Z4A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "48.2189777777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "16.3759416666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bqvp": "Sky",
+            "/m/01bs7h": "Trident",
+            "/m/0csby": "Cloud",
+            "/m/06msq": "Sculpture"
+        }
+    }
+}

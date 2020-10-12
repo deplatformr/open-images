@@ -1,0 +1,60 @@
+{
+    "@id": "openimages:503109209be2264d",
+    "contentUrl": "https://c6.staticflickr.com/7/6048/5890273215_32bf2ff469_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/7/6048/5890273215_c0e7601a55_z.jpg",
+    "name": "Alpin flower",
+    "image": "503109209be2264d.jpg",
+    "creator": "Eva (https://www.flickr.com/people/30204823@N00/)",
+    "dateCreated": "2011:06:24 13:51:58",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "105.00 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "800",
+    "height": "600",
+    "resolution": "96 x 96",
+    "disambiguatingDescription": "4BY9Hm8vzghExSUTJfkbSQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "47.3120861111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "11.3862138888889"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01f4qx": "Lesser celandine",
+            "/m/08wxjl": "Woolly sunflower",
+            "/m/09d_r": "Mountain",
+            "/m/06p_c": "Saxifragales",
+            "/m/015vt": "Brassicales",
+            "/m/057xpf": "Breckland thyme",
+            "/m/04gqyd": "Monkey-flower",
+            "/m/01lql6": "Cinquefoil",
+            "/m/03jdcl": "Common purslane",
+            "/m/05p1fb": "Gagea",
+            "/m/07j7r": "Tree",
+            "/m/06xvpd": "Germanders",
+            "/m/0dc2mm": "Goldmoss stonecrop",
+            "/m/0bjryw": "Felty germander",
+            "/m/0c9ph5": "Flower",
+            "/m/03kpt_": "Wild buckwheat",
+            "/m/02t24m": "Aubretia",
+            "/m/05k3py": "Douglas' meadowfoam",
+            "/m/04jm_3": "Ononis",
+            "/m/0grfz": "Spurge",
+            "/m/02c6fb": "Sea kale"
+        }
+    }
+}

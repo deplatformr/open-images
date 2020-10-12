@@ -1,0 +1,60 @@
+{
+    "@id": "openimages:dd4f398ce0a4713a",
+    "contentUrl": "https://c3.staticflickr.com/3/2907/13922447421_fa773baf0a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/3/2907/13922447421_08e8b6f1e6_z.jpg",
+    "name": "Easter Epic Fireworks :)",
+    "image": "dd4f398ce0a4713a.jpg",
+    "creator": "Epic Fireworks (https://www.flickr.com/people/epicfireworks/)",
+    "dateCreated": "2014:04:19 09:21:07",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.00 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "SI3Rb7MhieEfflb1gGvQcw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.4907583333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-1.49293333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "29845/186"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0138tl": "Toy",
+            "/m/0gjbv4m": "Aluminum can",
+            "/m/01xf2l": "Sports drink",
+            "/m/03c5_gn": "5-hour energy",
+            "/m/0203vw": "Energy drink",
+            "/m/04cn_l": "Automotive battery",
+            "/m/019plg": "Shopping cart",
+            "/m/0gvrl5w": "Go-kart",
+            "/m/07yv9": "Vehicle",
+            "/m/05sy38p": "Energy shot",
+            "/m/01prls": "Land vehicle",
+            "/m/014tl": "Ammunition",
+            "/m/0gfg3cq": "Energy gel",
+            "/m/0k4j": "Car",
+            "/m/03j7xx": "Truggy",
+            "/m/06vplw": "Toolbox"
+        }
+    }
+}

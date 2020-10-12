@@ -1,0 +1,59 @@
+{
+    "@id": "openimages:0dc07878a79b1535",
+    "contentUrl": "https://farm6.staticflickr.com/7614/17039821391_90ac9b12fd_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/8/7614/17039821391_4f012fed02_z.jpg",
+    "name": "Trerice - Kestle Mill",
+    "image": "0dc07878a79b1535.jpg",
+    "creator": "Esther Westerveld (https://www.flickr.com/people/westher/)",
+    "dateCreated": "2015:03:30 10:38:15",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.59 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4608",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "8AB/J9vT0OIf0mI8pRHswQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.3865766666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-5.03772"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "29749/1000"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0sy84": "Stately home",
+            "/m/03jm5": "House",
+            "/m/0k4j": "Car",
+            "/m/038t8_": "Estate",
+            "/m/02wbm": "Food",
+            "/m/0c9ph5": "Flower",
+            "/m/07j7r": "Tree",
+            "/m/039_j3": "Manor house",
+            "/m/037hz": "Golf",
+            "/m/01yrx": "Cat",
+            "/m/0cgh4": "Building",
+            "/m/01n5jq": "Poster",
+            "/m/0csby": "Cloud",
+            "/m/01bqvp": "Sky"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:691fe1cf39ff7c90",
+    "contentUrl": "https://farm1.staticflickr.com/8263/8683816316_00a87e8856_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/9/8263/8683816316_16f8e43012_z.jpg",
+    "name": "R1161888.JPG",
+    "image": "691fe1cf39ff7c90.jpg",
+    "creator": "coloredby (https://www.flickr.com/people/74881150@N00/)",
+    "dateCreated": "2013:04:26 12:54:17",
+    "description": "Exif_JPEG_PICTURE                                              ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.18 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3456",
+    "height": "2592",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "TmjU9nmgTxca6x0m1x2PhQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "33.5640963000794"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "130.227051970003"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03gr4fz": "Chinese magnolia",
+            "/m/0c9ph5": "Flower",
+            "/m/01tl7y": "Red bud",
+            "/m/01nmyj": "Fuchsia"
+        }
+    }
+}

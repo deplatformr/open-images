@@ -1,0 +1,37 @@
+{
+    "@id": "openimages:ffbc5f22170f0f4d",
+    "contentUrl": "https://c6.staticflickr.com/8/7558/15533286858_df8292b5d6_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7558/15533286858_634792c1be_z.jpg",
+    "name": "unos retazos de Aranjuez",
+    "image": "ffbc5f22170f0f4d.jpg",
+    "creator": "Manuel (https://www.flickr.com/people/martius/)",
+    "dateCreated": "2014:11:05 15:52:54",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.39 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4205",
+    "height": "3024",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "ZxtjMiJAVZ66ZoWixm3tWA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.0305023193359"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.60405302047729"
+        }
+    ],
+    "about": {}
+}

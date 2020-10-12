@@ -1,0 +1,82 @@
+{
+    "@id": "openimages:9984b0a00fe68e28",
+    "contentUrl": "https://c1.staticflickr.com/6/5566/14384697866_50ba35248f_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/6/5566/14384697866_bbe0ddc714_z.jpg",
+    "name": "Petra's pastries",
+    "image": "9984b0a00fe68e28.jpg",
+    "creator": "Jeremy Keith (https://www.flickr.com/people/adactio/)",
+    "dateCreated": "2014:06:05 17:08:04",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.52 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "nOh57vkQBRhRCpEY45QcaA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.5005083333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-81.6908027777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1009/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06zkd9": "Kolach",
+            "/m/0gk49c": "Glaze",
+            "/m/0fc_rc": "Manakish",
+            "/m/09gpkl7": "Ciambella",
+            "/m/04jdhxy": "Superfood",
+            "/m/05b0gp": "Ganache",
+            "/m/05v2t3": "Sufganiyah",
+            "/m/0hnyx": "Pastry",
+            "/m/025vd_8": "Patty",
+            "/m/06hs2r": "Whole grain",
+            "/m/02hh08": "Canapé",
+            "/m/01tqs1": "Biscuit",
+            "/m/02wv6th": "Bakery",
+            "/m/06g_rz": "Bake sale",
+            "/m/0cxn2": "Ice cream",
+            "/m/03f6kb": "Caviar",
+            "/m/0jy4k": "Doughnut",
+            "/m/01llwg": "Necklace",
+            "/m/010ls_cv": "Sandwich Cookies",
+            "/m/017ftj": "Sunglasses",
+            "/m/02rgjnz": "Sfiha",
+            "/m/09728": "Bread",
+            "/m/0cdn1": "Hamburger",
+            "/m/036knn": "Sprinkles",
+            "/m/05y5kt": "Texas toast",
+            "/m/01_bhs": "Fast food",
+            "/m/0cn1w": "Mince pie",
+            "/m/09gq6gr": "Tortita negra",
+            "/m/05c5_4k": "Poppy seed",
+            "/m/02zvsm": "Tart",
+            "/m/01fb_0": "Bagel",
+            "/m/02rt8fd": "Bánh",
+            "/m/0gjxqj": "Bangs",
+            "/m/03fw2": "Gluten",
+            "/m/0b76y0": "Food craving",
+            "/m/02wbm": "Food",
+            "/m/0c9zf0": "Chametz",
+            "/m/0c5yy": "Confectionery"
+        }
+    }
+}

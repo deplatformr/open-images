@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:7f724f9fb53a7bcb",
+    "contentUrl": "https://c4.staticflickr.com/9/8582/16664225006_29fe5e639e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8582/16664225006_20ff86e480_z.jpg",
+    "name": "DSC07658 - 2015-0228 台中文學館謝文泰建築師",
+    "image": "7f724f9fb53a7bcb.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "2015:02:28 15:40:16",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.92 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5472",
+    "height": "3648",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "eDuwMfHi3P1vDTSA5yV3uA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "24.139809"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "120.671829"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1002899/9997"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04w67_": "Post box",
+            "/m/019nj4": "Smile",
+            "/m/039m_z": "Portable toilet"
+        }
+    }
+}

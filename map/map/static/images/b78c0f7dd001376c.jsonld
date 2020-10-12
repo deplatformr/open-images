@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:b78c0f7dd001376c",
+    "contentUrl": "https://c5.staticflickr.com/3/2240/2348937649_1a8afb8440_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/3/2240/2348937649_ae7dd8953d_z.jpg",
+    "name": "Magnetic Sunset",
+    "image": "b78c0f7dd001376c.jpg",
+    "creator": "NeilsPhotography (https://www.flickr.com/people/neilspicys/)",
+    "dateCreated": "2004:08:10 06:44:18",
+    "description": "Magnetic Sunset\nSunset with magnetic termite mound silhouette. Check the horizon.",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "117.84 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2032",
+    "height": "1524",
+    "resolution": "230 x 230",
+    "disambiguatingDescription": "7LKFZqNgFBm5eNTjKNvkcg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-12.9175680300044"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "130.75378417998"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "94"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/079cl": "Skyscraper"
+        }
+    }
+}

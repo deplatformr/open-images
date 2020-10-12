@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:ac175e8eb60b0b74",
+    "contentUrl": "https://farm5.staticflickr.com/3781/11697928504_e7852d4b02_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/4/3781/11697928504_581e00e046_z.jpg",
+    "name": "Tree at Edison & Ford Winter Estates",
+    "image": "ac175e8eb60b0b74.jpg",
+    "creator": "sporst (https://www.flickr.com/people/sporst/)",
+    "dateCreated": "2013:12:26 12:20:03",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.50 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3200",
+    "height": "2368",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "z1bwgHaP/0rNtnKt0Y/cYw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "26.6326058333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-81.8798522222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02qc_h": "Adansonia",
+            "/m/07j7r": "Tree",
+            "/m/02wbm": "Food",
+            "/m/02dpzq": "Southern live oak"
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "@id": "openimages:093ff9539100dcce",
+    "contentUrl": "https://c7.staticflickr.com/4/3903/14833851291_620dd210ac_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/4/3903/14833851291_4eb91c80c3_z.jpg",
+    "name": "Steve B bike",
+    "image": "093ff9539100dcce.jpg",
+    "creator": "Virginia State Parks (https://www.flickr.com/people/vastateparksstaff/)",
+    "dateCreated": "2014:07:19 15:12:04",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "108.52 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "640",
+    "height": "480",
+    "resolution": "None x None",
+    "disambiguatingDescription": "/EShIuGrotAJd1Y/zO9eHg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.5407055555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-77.5205388888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "81"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04rtyk": "Honda passport",
+            "/m/09hkc": "Bicycle motocross",
+            "/m/03m8938": "Honda stepwgn",
+            "/m/04grkv": "Honda pilot",
+            "/m/01zbnw": "Screenshot",
+            "/m/060sss": "Flatland bmx",
+            "/m/0bmf50": "Toyota fortuner",
+            "/m/02qhdxw": "Honda mobilio spike",
+            "/m/0bshcc": "Honda vamos",
+            "/m/01bqvp": "Sky",
+            "/m/05y929": "Kia sorento",
+            "/m/02pnd__": "Honda crossroad",
+            "/m/060xfc": "Honda stream",
+            "/m/0c3f90": "Honda s-mx",
+            "/m/0gmc617": "Honda odyssey",
+            "/m/0838f": "Water",
+            "/m/026gs6n": "Honda mobilio",
+            "/m/0h8lnc2": "Automotive bicycle rack",
+            "/m/0b3yr": "Beach",
+            "/m/03kr0": "Honda",
+            "/m/0h9x38r": "Honda crosstour",
+            "/m/0199g": "Bicycle",
+            "/m/07yv9": "Vehicle",
+            "/m/0bjyj5": "Waste container",
+            "/m/01prls": "Land vehicle",
+            "/m/083wq": "Wheel",
+            "/m/026m5xt": "Honda that's",
+            "/m/0bjfsl": "Honda life",
+            "/m/0k4j": "Car",
+            "/m/05vlpz": "Honda z",
+            "/m/019nj4": "Smile",
+            "/m/02t3zr": "Honda element",
+            "/m/02p8n9v": "Toyota land cruiser prado",
+            "/m/048mgd": "Honda ridgeline",
+            "/m/03mkll": "Honda city",
+            "/m/0gwc56": "Honda zest"
+        },
+        "trainingBoxes": [
+            {
+                "/m/01prls": "Land vehicle",
+                "confidence": "1",
+                "xMin": "0.078125",
+                "xMax": "0.989062",
+                "yMin": "0.112500",
+                "yMax": "0.850000",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01prls": "Land vehicle",
+                "confidence": "1",
+                "xMin": "0.137500",
+                "xMax": "0.918750",
+                "yMin": "0.000000",
+                "yMax": "0.508333",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

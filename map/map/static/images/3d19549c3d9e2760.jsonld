@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:3d19549c3d9e2760",
+    "contentUrl": "https://farm1.staticflickr.com/5590/15169946202_2266ff5032_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/6/5590/15169946202_c83c47a35c_z.jpg",
+    "name": "Fuld fart på løbecyklen",
+    "image": "3d19549c3d9e2760.jpg",
+    "creator": "andreas hagerman (https://www.flickr.com/people/andreashagerman/)",
+    "dateCreated": "2014:09:05 17:17:03",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.42 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "hwXyYHl2r8RJy2y9wQEY7g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "55.6707833333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "12.5575083333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "5593/713"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bgsw": "Toddler",
+            "/m/0199g": "Bicycle"
+        }
+    }
+}

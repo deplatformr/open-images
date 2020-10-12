@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:221065ba5c6bf5bb",
+    "contentUrl": "https://c4.staticflickr.com/9/8258/8672577317_80baa6cc4b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/9/8258/8672577317_630585c352_z.jpg",
+    "name": "Jamie Raven (43964).  A redhead between two pretty blondes.",
+    "image": "221065ba5c6bf5bb.jpg",
+    "creator": "JULIAN MASON (https://www.flickr.com/people/meandmyshadow/)",
+    "dateCreated": "2013:04:21 13:05:28",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.25 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4240",
+    "height": "2832",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "EWqJOdQBGFtpOchsd4QSUQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.4950669444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.0255511111111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1123/125"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bt9lr": "Dog",
+            "/m/0199g": "Bicycle",
+            "/m/02wbm": "Food",
+            "/m/0hgntgw": "Active tank",
+            "/m/019nj4": "Smile"
+        }
+    }
+}

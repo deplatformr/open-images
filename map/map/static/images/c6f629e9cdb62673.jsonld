@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:c6f629e9cdb62673",
+    "contentUrl": "https://farm4.staticflickr.com/1308/4664809914_e94bc2ecc2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/2/1308/4664809914_074d7a338f_z.jpg",
+    "name": "Morning at Union Station Rail Yard (Washington, DC)",
+    "image": "c6f629e9cdb62673.jpg",
+    "creator": "takomabibelot (https://www.flickr.com/people/takomabibelot/)",
+    "dateCreated": "2010:05:27 09:16:12",
+    "description": "Morning at Union Station Rail Yard (Washington, DC)",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.57 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "None x None",
+    "disambiguatingDescription": "HnrGYQ2Ret48WXRsoGeZNw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.9022302299937"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-77.0046222200049"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "46422/3571"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07jdr": "Train"
+        }
+    }
+}

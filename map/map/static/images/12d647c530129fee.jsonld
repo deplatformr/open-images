@@ -1,0 +1,55 @@
+{
+    "@id": "openimages:12d647c530129fee",
+    "contentUrl": "https://c7.staticflickr.com/4/3389/3261058898_12a6786019_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "name": "image",
+    "image": "12d647c530129fee.jpg",
+    "creator": "Grant Barrett (https://www.flickr.com/people/grantbarrett/)",
+    "dateCreated": "2009:02:07 13:01:22",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "157.50 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "512",
+    "height": "384",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "0EfdDts8dgFgt8KhEw/4XQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.6872805555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.9746416666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05kvpd": "Stottie cake",
+            "/m/01bgsw": "Toddler",
+            "/m/019nj4": "Smile",
+            "/m/05f_dx": "Sealed crustless sandwich",
+            "/m/03gj44": "Crew cut",
+            "/m/02wbm": "Food",
+            "/m/0jnvp": "Baby",
+            "/m/07wr4v": "Saltine cracker",
+            "/m/01yrx": "Cat",
+            "/m/02rhk6": "Crisp bread",
+            "/m/02czv8": "Birthday cake",
+            "/m/0206ky": "Hardtack"
+        }
+    }
+}

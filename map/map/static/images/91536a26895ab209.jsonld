@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:91536a26895ab209",
+    "contentUrl": "https://c2.staticflickr.com/6/5474/14032090184_59f97f5123_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/6/5474/14032090184_a44dff971b_z.jpg",
+    "name": "la 'Madunina'",
+    "image": "91536a26895ab209.jpg",
+    "creator": "nociveglia (https://www.flickr.com/people/40385177@N07/)",
+    "dateCreated": "2014:04:26 19:40:04",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.63 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2432",
+    "height": "4320",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "PEh1GqcN5lNlCPCbf9g71A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "45.4638333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "9.18946388888889"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/013_1c": "Statue"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "@id": "openimages:b3075c7df4c50c89",
+    "contentUrl": "https://c2.staticflickr.com/6/5248/5356688343_02f49bac42_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/6/5248/5356688343_3c80414330_z.jpg",
+    "name": "Jerusalem day",
+    "image": "b3075c7df4c50c89.jpg",
+    "creator": "Jack Shainsky (https://www.flickr.com/people/ifyr/)",
+    "dateCreated": "2010:07:25 18:33:49",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.11 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3405",
+    "height": "2586",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "WYoWoiPtXGBmltYtCDexLg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "31.7803134918213"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "35.2177658081055"
+        }
+    ],
+    "about": {}
+}

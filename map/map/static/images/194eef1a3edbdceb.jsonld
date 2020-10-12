@@ -1,0 +1,131 @@
+{
+    "@id": "openimages:194eef1a3edbdceb",
+    "contentUrl": "https://c4.staticflickr.com/7/6059/6320587409_7e70c6d50f_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/7/6059/6320587409_ea6bdc8267_z.jpg",
+    "name": "Panoramic from our room",
+    "image": "194eef1a3edbdceb.jpg",
+    "creator": "Dave Lonsdale (https://www.flickr.com/people/davelonsdale/)",
+    "dateCreated": "2011:09:01 07:12:00",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.88 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3866",
+    "height": "1080",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "34b/bXWIRohr+1M1538M9A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-0.503246388888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-78.4706033333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "34461/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0blz9": "Fence",
+            "/m/0280nh": "Fell",
+            "/m/06p15y": "Croft",
+            "/m/0pcm_": "Larch",
+            "/m/09d_r": "Mountain",
+            "/m/01gd91": "Pasture",
+            "/m/06_dn": "Snow",
+            "/m/07j7r": "Tree",
+            "/m/012v4j": "Hiking",
+            "/m/01bqvp": "Sky",
+            "/m/02_vs6": "Arête",
+            "/m/0rcp1": "Mountain village",
+            "/m/0b3yr": "Beach",
+            "/m/08w8zl": "Ranch",
+            "/m/0csby": "Cloud",
+            "/m/07rld4": "Split-rail fence",
+            "/m/04_tb": "Map",
+            "/m/020wcz": "Mountain pass",
+            "/m/017rtb": "Panorama"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.159375",
+                "xMax": "0.251250",
+                "yMin": "0.573991",
+                "yMax": "0.831839",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.893125",
+                "xMax": "0.921250",
+                "yMin": "0.502242",
+                "yMax": "0.659193",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.926250",
+                "xMax": "0.966250",
+                "yMin": "0.446188",
+                "yMax": "0.558296",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.930000",
+                "xMax": "0.951875",
+                "yMin": "0.533632",
+                "yMax": "0.695067",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.959375",
+                "xMax": "0.990625",
+                "yMin": "0.484305",
+                "yMax": "0.721973",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

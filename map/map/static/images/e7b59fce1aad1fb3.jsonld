@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:e7b59fce1aad1fb3",
+    "contentUrl": "https://farm4.staticflickr.com/7394/12328295863_9830ab250b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7394/12328295863_61e12eae48_z.jpg",
+    "name": "Chantier des quais bas rive gauche",
+    "image": "e7b59fce1aad1fb3.jpg",
+    "creator": "Frédéric BISSON (https://www.flickr.com/people/zigazou76/)",
+    "dateCreated": "2014:02:05 13:25:26",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.58 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "G8uFwdIe/KNGASCsZcW09w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.435355"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.0942612962963"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "149/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/015p6": "Bird",
+            "/m/02gr4y": "Swing bridge",
+            "/m/021gxj": "Pontoon bridge",
+            "/m/054v5w": "Plate girder bridge",
+            "/m/077swl": "Submersible bridge",
+            "/m/07jdr": "Train",
+            "/m/02qzxk5": "Pile bridge",
+            "/m/02500f": "Overpass"
+        }
+    }
+}

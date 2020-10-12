@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:1c10087211f73961",
+    "contentUrl": "https://farm2.staticflickr.com/7257/7667168496_5103698dfe_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/8/7257/7667168496_ee763c5893_z.jpg",
+    "name": "photo bomb",
+    "image": "1c10087211f73961.jpg",
+    "creator": "velkr0 (https://www.flickr.com/people/velkr0/)",
+    "dateCreated": "2012:07:28 22:12:41",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.05 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1936",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "/CZs+uWkBuqSZprEnyYUxg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.2801666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-123.119666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "13879/320"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car",
+            "/m/019nj4": "Smile",
+            "/m/01jddz": "Concert",
+            "/m/0jjw": "Art"
+        }
+    }
+}

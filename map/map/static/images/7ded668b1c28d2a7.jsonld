@@ -1,0 +1,52 @@
+{
+    "@id": "openimages:7ded668b1c28d2a7",
+    "contentUrl": "https://farm8.staticflickr.com/5677/21836353849_e4492d1081_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/6/5677/21836353849_5179aa1861_z.jpg",
+    "name": "Alliance",
+    "image": "7ded668b1c28d2a7.jpg",
+    "creator": "Cambodia4kids.org Beth Kanter (https://www.flickr.com/people/cambodia4kidsorg/)",
+    "dateCreated": "2015:10:07 09:52:43",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.00 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4032",
+    "height": "3024",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "UiKQqIwQJm5nYAiYeimpJA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "45.5120277777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.684713888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "43741/1012"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04_tb": "Map",
+            "/m/037s3z": "Fête de la musique",
+            "/m/0gkxy13": "Handwriting",
+            "/m/02d9qx": "Whiteboard",
+            "/m/02csf": "Drawing",
+            "/m/01zbnw": "Screenshot",
+            "/m/06h5_j": "Child art",
+            "/m/0215n": "Cartoon"
+        }
+    }
+}

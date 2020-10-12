@@ -1,0 +1,56 @@
+{
+    "@id": "openimages:854f5c23146dd97c",
+    "contentUrl": "https://c5.staticflickr.com/6/5600/15237131909_0105eb15df_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/6/5600/15237131909_479d6a7440_z.jpg",
+    "name": "Ultimarc MiniGrip Handle Too Low #1",
+    "image": "854f5c23146dd97c.jpg",
+    "creator": "Justin Elliott (https://www.flickr.com/people/flightgeek/)",
+    "dateCreated": "2014:10:02 20:05:09",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "985.89 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "iyeIay1mnVjz8O3ngc5v5Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.7700166666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-77.8891833333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "58233/151"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07lg66": "Rotary tool",
+            "/m/03n5j1": "Drilling",
+            "/m/059_52": "Laminate trimmer",
+            "/m/0h8lkj8": "Corded phone",
+            "/m/01b7fy": "Headphones",
+            "/m/07r_3p": "Sharpening jig",
+            "/m/09c4c1": "Cutting tool",
+            "/m/01hr6f": "Rubber stamp",
+            "/m/044fq": "Joystick",
+            "/m/0j25fgx": "Allen",
+            "/m/02rs8sy": "Jig",
+            "/m/025t3jt": "Numeric keypad"
+        }
+    }
+}

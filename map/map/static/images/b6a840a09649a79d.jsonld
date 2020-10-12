@@ -1,0 +1,66 @@
+{
+    "@id": "openimages:b6a840a09649a79d",
+    "contentUrl": "https://c6.staticflickr.com/9/8356/8367271116_be219f4f4b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/9/8356/8367271116_7565e19ea5_z.jpg",
+    "name": "Nissan Silvia",
+    "image": "b6a840a09649a79d.jpg",
+    "creator": "FotoSleuth (https://www.flickr.com/people/51811543@N08/)",
+    "dateCreated": "2012:12:03 13:12:47",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.91 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3000",
+    "height": "2864",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "EnqQlC1xqzAAuSkX9G73FQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-33.8863377777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "151.208543611111"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0208ny": "Nissan lucino",
+            "/m/0k4j": "Car",
+            "/m/033hlf": "Nissan 240sx",
+            "/m/04lp85": "Toyota cressida",
+            "/m/043r0_s": "Venturi atlantique",
+            "/m/01s5v5": "Honda cr-x",
+            "/m/03sfx5": "Acura legend",
+            "/m/09c2rm": "Nissan nx",
+            "/m/047nbwv": "Toyota carina ed",
+            "/m/0466qg8": "Toyota corolla e90",
+            "/m/0640dyt": "Nissan bluebird (u12)",
+            "/m/0466qgn": "Toyota corolla e100",
+            "/m/04lfj3q": "Toyota corolla levin and toyota sprinter trueno",
+            "/m/0bkzv8": "Nissan leopard",
+            "/m/027wz5": "Honda prelude",
+            "/m/01sjty": "Honda integra",
+            "/m/01l3zn": "Mazda rx-7",
+            "/m/06mr9c": "Trunk (Automobile)",
+            "/m/047ty6m": "Toyota corona exiv",
+            "/m/0c0hvg": "Hyundai marcia",
+            "/m/0371q5": "Toyota camry",
+            "/m/030dhx": "Toyota mr2",
+            "/m/03bx2w_": "Toyota sprinter",
+            "/m/03p71h": "Toyota soarer",
+            "/m/050_mqg": "Nissan 300zx",
+            "/m/07yv9": "Vehicle",
+            "/m/04cx7w5": "Toyota cresta"
+        }
+    }
+}

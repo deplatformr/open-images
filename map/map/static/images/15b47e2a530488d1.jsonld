@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:15b47e2a530488d1",
+    "contentUrl": "https://farm2.staticflickr.com/6216/6293135491_11027a46b0_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/7/6216/6293135491_59285286ac_z.jpg",
+    "name": "10282011203",
+    "image": "15b47e2a530488d1.jpg",
+    "creator": "Al Pavangkanan (https://www.flickr.com/people/drtran/)",
+    "dateCreated": "2011:10:28 21:37:18",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.61 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3000",
+    "height": "4000",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "r1RF3VdRJesihyIYCeCsjw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.0453551597778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-118.264978799083"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "250"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0643t": "Personal computer",
+            "/m/02d9qx": "Whiteboard",
+            "/m/01knjb": "Billboard",
+            "/m/0c7mv": "Fiat S.p.A.",
+            "/m/04_tb": "Map",
+            "/m/01m3v": "Computer"
+        }
+    }
+}

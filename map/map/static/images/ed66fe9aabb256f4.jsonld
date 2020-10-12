@@ -1,0 +1,52 @@
+{
+    "@id": "openimages:ed66fe9aabb256f4",
+    "contentUrl": "https://farm5.staticflickr.com/5292/5547165736_1945e24c7b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/6/5292/5547165736_36d1b4ed34_z.jpg",
+    "name": "Living wall is living!",
+    "image": "ed66fe9aabb256f4.jpg",
+    "creator": "mannewaar (https://www.flickr.com/people/mannewaar/)",
+    "dateCreated": "2011:03:21 17:24:48",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "989.67 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1552",
+    "height": "2592",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "0X83Ijsq2b6AcPBXeswyPg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "60.1960055555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "24.9592583333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02dgv": "Door",
+            "/m/0ql23": "Pollinator",
+            "/m/0130jx": "Sink",
+            "/m/0c9ph5": "Flower",
+            "/m/02f9f_": "Shower",
+            "/m/02pkr5": "Plumbing fixture",
+            "/m/07j7r": "Tree",
+            "/m/0_k2": "Ant"
+        }
+    }
+}

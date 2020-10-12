@@ -1,0 +1,39 @@
+{
+    "@id": "openimages:8eb4c534782f39b6",
+    "contentUrl": "https://farm7.staticflickr.com/3766/9252145563_70b3031316_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3766/9252145563_2c28c7cca5_z.jpg",
+    "name": "Verger de l’abbaye Saint-Georges-de-Boscherville",
+    "image": "8eb4c534782f39b6.jpg",
+    "creator": "Frédéric BISSON (https://www.flickr.com/people/zigazou76/)",
+    "dateCreated": "2013:07:09 15:03:57",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.71 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "iwH3111HqaeSWBGj/vL9Jg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.4441866203704"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "0.965576666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "112/5"
+        }
+    ],
+    "about": {}
+}

@@ -1,0 +1,66 @@
+{
+    "@id": "openimages:985e227485e1dffb",
+    "contentUrl": "https://c4.staticflickr.com/1/762/20836131900_44d39f5b60_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/1/762/20836131900_7533bd6d00_z.jpg",
+    "name": "Very rough rendering of Downtown Dallas with planned twin 1,080' Harwood Forum towers and 900' Perot Hillwood Urban tower",
+    "image": "985e227485e1dffb.jpg",
+    "creator": "skys the limit2 (https://www.flickr.com/people/52949402@N03/)",
+    "dateCreated": "",
+    "description": "DCIM\\100MEDIA\\DJI_0116.JPG",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "285.02 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2048",
+    "height": "676",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "+6TGjyOMTmtZbwYO95tKjQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "32.7698556388889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-96.8141421388889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "951/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/079cl": "Skyscraper",
+            "/m/0204fg": "Skyline",
+            "/m/019jd": "Boat",
+            "/m/0vlys": "Tower block",
+            "/m/034z7h": "Cityscape",
+            "/m/06m28d": "Transport corridor",
+            "/m/056mk": "Metropolis",
+            "/m/01w5c_": "Aerial photography",
+            "/m/0j_s4": "Metropolitan area",
+            "/m/01nblt": "Apartment",
+            "/m/05hg54": "Commercial building",
+            "/m/017rtb": "Panorama",
+            "/m/0cz_0": "Highway",
+            "/m/01lxd": "Coast",
+            "/m/0cgh4": "Building",
+            "/m/01fdzj": "Tower",
+            "/m/08863x": "Bird's-eye view",
+            "/m/017m8l": "Waterway",
+            "/m/020ys5": "Condominium",
+            "/m/039jbq": "Urban area",
+            "/m/01n32": "City"
+        }
+    }
+}

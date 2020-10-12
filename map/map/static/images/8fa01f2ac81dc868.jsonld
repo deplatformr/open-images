@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:8fa01f2ac81dc868",
+    "contentUrl": "https://c1.staticflickr.com/9/8563/15223101323_c8af9dbae5_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/9/8563/15223101323_bd6df36139_z.jpg",
+    "name": "Pose longue à la foire Saint-Romain",
+    "image": "8fa01f2ac81dc868.jpg",
+    "creator": "Frédéric BISSON (https://www.flickr.com/people/zigazou76/)",
+    "dateCreated": "2014:11:20 22:49:57",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.27 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "mtFz2kO8h4UOKq4Bq5vwbQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.438665"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.08851828703704"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "177/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/078s_": "Structural biology",
+            "/m/0194d": "Badminton"
+        }
+    }
+}

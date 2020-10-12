@@ -1,0 +1,68 @@
+{
+    "@id": "openimages:d4329189d622a0ef",
+    "contentUrl": "https://c8.staticflickr.com/9/8665/15657227839_3f65fd626d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/9/8665/15657227839_6d4e5e5c61_z.jpg",
+    "name": "grilled guinea hen with pine mushrooms, hay toasted in brown butter",
+    "image": "d4329189d622a0ef.jpg",
+    "creator": "T.Tseng (https://www.flickr.com/people/68147320@N02/)",
+    "dateCreated": "2014:11:19 21:28:22",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.78 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "RwrKQQagHzXejdob79wSEw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.8247694444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.254988888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "11832/499"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0clh9v": "Steak au poivre",
+            "/m/07z2l": "Veal",
+            "/m/05v1q7": "Red meat",
+            "/m/07l2x3": "Gremolata",
+            "/m/05zwyyh": "Tournedos rossini",
+            "/m/0dt3t": "Fork",
+            "/m/03jmrd": "Beef tenderloin",
+            "/m/0fh1cm": "Boeuf à la mode",
+            "/m/050gv4": "Plate",
+            "/m/0grw1": "Salad",
+            "/m/0h8n27j": "Serving tray",
+            "/m/04ctx": "Knife",
+            "/m/01jc75": "Root vegetable",
+            "/m/08jj0f": "Delmonico steak",
+            "/m/04n6jtr": "Table knife",
+            "/m/02wbm": "Food",
+            "/m/0272hln": "Rinderbraten",
+            "/m/040cm2": "Kaiseki",
+            "/m/04v6l4": "Frying pan",
+            "/m/026633x": "Collops",
+            "/m/08w_11": "Mishima beef",
+            "/m/01tc53": "Venison",
+            "/m/09swcp": "Household silver",
+            "/m/084rd": "Wok"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:46919d46d303f130",
+    "contentUrl": "https://farm1.staticflickr.com/8533/8696902283_ca104fc676_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8533/8696902283_3660a6bd34_z.jpg",
+    "name": "Times Square",
+    "image": "46919d46d303f130.jpg",
+    "creator": "Celsim Junior (https://www.flickr.com/people/celsim/)",
+    "dateCreated": "2012:08:18 21:15:19",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.03 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1024",
+    "height": "683",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "COYzLEVOzdqnJxLuFAOKpA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.7578"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.9857027777778"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01knjb": "Billboard",
+            "/m/056mk": "Metropolis",
+            "/m/079cl": "Skyscraper",
+            "/m/0cgh4": "Building"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:4e12ee2029a08e5d",
+    "contentUrl": "https://c6.staticflickr.com/6/5608/15373156519_9feb4b8798_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/6/5608/15373156519_7b1649260b_z.jpg",
+    "name": "Spookyville 2014",
+    "image": "4e12ee2029a08e5d.jpg",
+    "creator": "Kevin Dooley (https://www.flickr.com/people/pagedooley/)",
+    "dateCreated": "2014:10:04 22:27:34",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "102.80 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "640",
+    "height": "640",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "SmXgEZ9fpZMM4laf9Wq2Vw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "33.3148722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-111.935783333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04wv_": "Moon"
+        }
+    }
+}

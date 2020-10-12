@@ -1,0 +1,64 @@
+{
+    "@id": "openimages:acd74c0c5e558bdb",
+    "contentUrl": "https://c4.staticflickr.com/8/7143/6775663611_73eda8a4d8_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/8/7143/6775663611_c6ca0a82f8_z.jpg",
+    "name": "dsc07581.jpg",
+    "image": "acd74c0c5e558bdb.jpg",
+    "creator": "Alberto (https://www.flickr.com/people/mardytardi/)",
+    "dateCreated": "2012:01:10 22:52:03",
+    "description": "SONY DSC",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "336.96 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4288",
+    "height": "2856",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "DsHJLU2wkG0lK5DF17aZcw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "47.501775"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "19.0349888888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "180"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cgh4": "Building",
+            "/m/026gg32": "Water castle",
+            "/m/090pbr": "Landscape lighting",
+            "/m/03qwvw": "Moonlight"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0cgh4": "Building",
+                "confidence": "1",
+                "xMin": "0.670625",
+                "xMax": "0.933125",
+                "yMin": "0.353991",
+                "yMax": "0.538967",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:d91426a3415b1221",
+    "contentUrl": "https://farm2.staticflickr.com/3897/14949841777_10ce3e8e7a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/4/3897/14949841777_37d44f7550_z.jpg",
+    "name": "Life sux if ur girlfriend doesn’t !",
+    "image": "d91426a3415b1221.jpg",
+    "creator": "Frédéric BISSON (https://www.flickr.com/people/zigazou76/)",
+    "dateCreated": "2014:09:01 17:40:53",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "12.58 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "Ag5TAZmcD7BkxKJXLn4fNg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.4376483333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.0959062962963"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "159/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0gkxy13": "Handwriting",
+            "/m/02csf": "Drawing",
+            "/m/06h5_j": "Child art"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "@id": "openimages:a06ba03ab8c83e07",
+    "contentUrl": "https://farm8.staticflickr.com/3872/14866359037_4ac7b5c5c9_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/4/3872/14866359037_9cb26dc8bd_z.jpg",
+    "name": "Untitled",
+    "image": "a06ba03ab8c83e07.jpg",
+    "creator": "mauroguanandi (https://www.flickr.com/people/mauroguanandi/)",
+    "dateCreated": "2014:08:27 09:53:23",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.00 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "x04/1+kfUXYIQ2FEki9sZQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-23.5461027777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-46.5589361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "792"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/09dv7": "Soil",
+            "/m/0dfzmm": "Myrciaria",
+            "/m/049m95": "Lecythidaceae",
+            "/m/0f9kh": "Dew",
+            "/m/03y7nm": "Tasmannia",
+            "/m/02zvp0": "Sourwood",
+            "/m/029wg5": "Hypericum",
+            "/m/02qly5": "Syzygium samarangense",
+            "/m/0388q": "Grape",
+            "/m/02d8_9": "Large-flowered cactus",
+            "/m/0clq3_": "Syzygium jambos",
+            "/m/07y0fm": "Weberocereus",
+            "/m/08f1tl": "Lemon myrtle",
+            "/m/0dxb5": "Berry",
+            "/m/0f382": "Fouquieria",
+            "/m/01rb6t": "Chrysanths",
+            "/m/02bctl": "Scallion",
+            "/m/07y090": "Moonlight cactus",
+            "/m/02c66t": "Wedding dress",
+            "/m/0c9ph5": "Flower"
+        }
+    }
+}

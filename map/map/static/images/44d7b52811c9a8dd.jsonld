@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:44d7b52811c9a8dd",
+    "contentUrl": "https://c6.staticflickr.com/9/8201/8166222941_3772d5c7fb_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8201/8166222941_0393338533_z.jpg",
+    "name": "安藤忠雄2012年11月23日亞洲大學演講門票03",
+    "image": "44d7b52811c9a8dd.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "2012:11:08 16:40:32",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.11 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "9k2hrC9emm5gwdXfNJqKZQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "24.1421666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "120.680166638889"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04gcl9": "Receipt",
+            "/m/0c6s_2": "Taiwan passport",
+            "/m/0bt_c3": "Book"
+        }
+    }
+}

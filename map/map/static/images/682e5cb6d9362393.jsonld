@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:682e5cb6d9362393",
+    "contentUrl": "https://farm4.staticflickr.com/7052/6799641682_ece65d01ee_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/8/7052/6799641682_4b5e6a578f_z.jpg",
+    "name": "Dragon Fly Red Cropped",
+    "image": "682e5cb6d9362393.jpg",
+    "creator": "Antony Grossy (https://www.flickr.com/people/atony/)",
+    "dateCreated": "2012:03:02 09:10:47",
+    "description": "SONY DSC",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.13 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3056",
+    "height": "1920",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "CDCnR0TvpK2dFZDmrkWJnQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "10.0968233333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "76.2841663888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "3/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0ft9s": "Dragonfly",
+            "/m/017bst": "Drosophila melanogaster",
+            "/m/0947n4": "Robber flies",
+            "/m/0f1mq": "Dragonflies and damseflies",
+            "/m/0h8xdq1": "Wire fencing",
+            "/m/03hhcb": "Hawker dragonflies",
+            "/m/0hgmckj": "Riding gear",
+            "/m/0h9h0": "Damselfly"
+        }
+    }
+}

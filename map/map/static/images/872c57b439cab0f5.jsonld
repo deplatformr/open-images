@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:872c57b439cab0f5",
+    "contentUrl": "https://farm6.staticflickr.com/8704/16764878037_bc6bf9de2b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/9/8704/16764878037_81380c2282_z.jpg",
+    "name": "Todd Carey",
+    "image": "872c57b439cab0f5.jpg",
+    "creator": "David Shamma (https://www.flickr.com/people/ayman/)",
+    "dateCreated": "2015:03:27 12:16:36",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.94 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5472",
+    "height": "3648",
+    "resolution": "None x None",
+    "disambiguatingDescription": "ot0xayt7iQhenIvzNqfRwg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.768875"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.41925"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02jjt": "Entertainment",
+            "/m/03_vpw": "Backing vocalist",
+            "/m/0838f": "Water",
+            "/m/01jddz": "Concert"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:273579a11b89c9cc",
+    "contentUrl": "https://c5.staticflickr.com/1/88/232281481_5a201fafb6_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/1/88/232281481_5a201fafb6_z.jpg?zz=1",
+    "name": "Taking to the Streets Culture-1",
+    "image": "273579a11b89c9cc.jpg",
+    "creator": "David Jackmanson (https://www.flickr.com/people/djackmanson/)",
+    "dateCreated": "2005:01:04 05:10:37",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "76.05 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1728",
+    "height": "2304",
+    "resolution": "230 x 230",
+    "disambiguatingDescription": "3L9lg9DAZJyCPsJM28OzwA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-27.4690111111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "153.0239"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0c9ph5": "Flower",
+            "/m/0gkxy13": "Handwriting",
+            "/m/024gjb": "Menu",
+            "/m/02tzth": "Post-it note"
+        }
+    }
+}

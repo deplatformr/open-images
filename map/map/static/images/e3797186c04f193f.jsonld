@@ -1,0 +1,167 @@
+{
+    "@id": "openimages:e3797186c04f193f",
+    "contentUrl": "https://c8.staticflickr.com/9/8255/8946604444_3ccdf9bfab_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8255/8946604444_dd4c115036_z.jpg",
+    "name": "Naranjas",
+    "image": "e3797186c04f193f.jpg",
+    "creator": "Nacho (https://www.flickr.com/people/gonmi/)",
+    "dateCreated": "2013:05:11 11:37:17",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "453.97 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1200",
+    "height": "2132",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "yMRrqrdRrxzzh61IbcgwpQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.3622944444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-5.84596666666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0711_5": "Stall",
+            "/m/011jbn": "Gourd",
+            "/m/020h7v": "Tangelo",
+            "/m/021fl7": "Pomelo",
+            "/m/05lvkd": "Peach palm",
+            "/m/01z562": "Basket",
+            "/m/0dqb5": "Citrus",
+            "/m/01jc75": "Root vegetable",
+            "/m/0f7gf": "Citric acid",
+            "/m/0ckwm9": "Peel",
+            "/m/0l7hb": "Clementine",
+            "/m/03lnzv": "Calabaza",
+            "/m/06p9g": "Sapindales",
+            "/m/08l60s": "Attic",
+            "/m/012c4n": "Cucurbita",
+            "/m/020csw": "Bitter orange",
+            "/m/0bv0f7": "Valencia orange",
+            "/m/01ydzk": "Grocer",
+            "/m/01jy1_": "Tangerine",
+            "/m/01b4k8": "Mandarin orange",
+            "/m/05y1k_": "Shack",
+            "/m/03hk59": "Greengrocer",
+            "/m/053wn": "Corn",
+            "/m/0545nx": "Blood orange",
+            "/m/0fn3z": "Calamondin",
+            "/m/04klfb": "Meyer lemon",
+            "/m/0h8nt_x": "Storage basket",
+            "/m/01j61q": "Tent",
+            "/m/0d4v4": "Window",
+            "/m/07j7r": "Tree",
+            "/m/05s2s": "Plant",
+            "/m/01g317": "Person",
+            "/m/02xwb": "Fruit",
+            "/m/02wbm": "Food",
+            "/m/04m6gz": "Porch"
+        },
+        "trainingBoxes": [
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.038889",
+                "xMax": "0.303333",
+                "yMin": "0.370625",
+                "yMax": "0.510000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/02xwb": "Fruit",
+                "confidence": "1",
+                "xMin": "0.118889",
+                "xMax": "0.504444",
+                "yMin": "0.593750",
+                "yMax": "0.752500",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01j61q": "Tent",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.998889",
+                "yMin": "0.000000",
+                "yMax": "0.422500",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/02xwb": "Fruit",
+                "confidence": "1",
+                "xMin": "0.315556",
+                "xMax": "0.400000",
+                "yMin": "0.641875",
+                "yMax": "0.689375",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.322222",
+                "xMax": "0.425556",
+                "yMin": "0.233125",
+                "yMax": "0.280625",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0d4v4": "Window",
+                "confidence": "1",
+                "xMin": "0.441111",
+                "xMax": "0.547778",
+                "yMin": "0.220625",
+                "yMax": "0.280625",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/01g317": "Person",
+                "maskFile": "e3797186c04f193f_m01g317_fd0c47a7.png",
+                "boxId": "fd0c47a7",
+                "xMin": "0.038889",
+                "xMax": "0.303333",
+                "yMin": "0.370625",
+                "yMax": "0.51",
+                "PredictedIoU": "0.69777",
+                "clicks": "0.15063 0.48297 0;0.29493 0.48297 0;0.35317 0.40131 1;0.34795 0.46145 1;0.32590 0.40735 1;0.05025 0.46129 1;0.13950 0.50099 1;0.30556 0.49001 1;0.32773 0.48641 0;0.20456 0.47477 1;0.07154 0.49556 1;0.20604 0.38221 1"
+            }
+        ]
+    }
+}

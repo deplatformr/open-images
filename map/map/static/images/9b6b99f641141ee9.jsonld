@@ -1,0 +1,151 @@
+{
+    "@id": "openimages:9b6b99f641141ee9",
+    "contentUrl": "https://c2.staticflickr.com/9/8543/8698429313_244bbc2411_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8543/8698429313_7d31fe4738_z.jpg",
+    "name": "Koningsdag",
+    "image": "9b6b99f641141ee9.jpg",
+    "creator": "inyucho (https://www.flickr.com/people/inyucho/)",
+    "dateCreated": "2013:04:30 15:15:15",
+    "description": "",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.94 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "O0ObpBuH6PHfZ8iAXR0GmA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "52.3674916666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "4.88703888888889"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01g317": "Person",
+            "/m/05s2s": "Plant",
+            "/m/07j7r": "Tree",
+            "/m/0cgh4": "Building",
+            "/m/0199g": "Bicycle"
+        },
+        "trainingBoxes": [
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.903750",
+                "xMax": "0.969375",
+                "yMin": "0.545000",
+                "yMax": "0.763333",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.400625",
+                "xMax": "0.917500",
+                "yMin": "0.043333",
+                "yMax": "0.680000",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.367500",
+                "xMax": "0.395000",
+                "yMin": "0.585833",
+                "yMax": "0.680833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.710000",
+                "xMax": "0.740000",
+                "yMin": "0.575833",
+                "yMax": "0.639167",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.890000",
+                "xMax": "0.999375",
+                "yMin": "0.330833",
+                "yMax": "0.540833",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.892500",
+                "xMax": "0.999375",
+                "yMin": "0.000000",
+                "yMax": "0.358333",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0cgh4": "Building",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.382500",
+                "yMin": "0.000000",
+                "yMax": "0.947500",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0cgh4": "Building",
+                "confidence": "1",
+                "xMin": "0.603125",
+                "xMax": "0.999375",
+                "yMin": "0.375833",
+                "yMax": "0.624167",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

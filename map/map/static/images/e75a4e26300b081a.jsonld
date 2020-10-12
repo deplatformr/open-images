@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:e75a4e26300b081a",
+    "contentUrl": "https://c3.staticflickr.com/4/3881/14384847361_62287f55b3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/4/3881/14384847361_a12c17e24f_z.jpg",
+    "name": "Baglio Donna Franca",
+    "image": "e75a4e26300b081a.jpg",
+    "creator": "Jameson Fink (https://www.flickr.com/people/jamesonfink/)",
+    "dateCreated": "2014:05:26 08:49:21",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.99 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "/mPA1y1kaTdGTQsNaguYUA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 180
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.85405"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "12.5403416666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "138"
+        }
+    ],
+    "about": {}
+}

@@ -1,0 +1,61 @@
+{
+    "@id": "openimages:124d34ba9f893a5e",
+    "contentUrl": "https://c7.staticflickr.com/6/5447/9803903446_a0c997f444_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/6/5447/9803903446_cce89147d8_z.jpg",
+    "name": "Bicycling on the Dearborn Street bike lane",
+    "image": "124d34ba9f893a5e.jpg",
+    "creator": "Steven Vance (https://www.flickr.com/people/jamesbondsv/)",
+    "dateCreated": "2012:10:30 17:19:01",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.16 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3200",
+    "height": "2133",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "EenD2aPPJyRHrYPH+Bq9sw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.8930166666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-87.6297083333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02mjln": "Ford escape hybrid",
+            "/m/0cgh4": "Building",
+            "/m/0277x1n": "Scion xd",
+            "/m/0413pc": "Chevrolet uplander",
+            "/m/04n7g0b": "Chevrolet orlando",
+            "/m/0btp2": "Traffic",
+            "/m/0199g": "Bicycle",
+            "/m/03hv00": "Saturn vue",
+            "/m/04grkv": "Honda pilot",
+            "/m/015g8h": "Saturn",
+            "/m/01j0ry": "Traffic congestion",
+            "/m/01v9np": "Dodge caravan",
+            "/m/03kr0": "Honda",
+            "/m/079cl": "Skyscraper",
+            "/m/02rlq8d": "Dodge journey",
+            "/m/02q6gxg": "Ford flex",
+            "/m/02t3zr": "Honda element",
+            "/m/07yv9": "Vehicle",
+            "/m/01bqvp": "Sky",
+            "/m/03llr3": "Land rover freelander",
+            "/m/03gqk3z": "Gmc terrain",
+            "/m/0k4j": "Car"
+        }
+    }
+}

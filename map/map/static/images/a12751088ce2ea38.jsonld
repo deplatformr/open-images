@@ -1,0 +1,418 @@
+{
+    "@id": "openimages:a12751088ce2ea38",
+    "contentUrl": "https://c1.staticflickr.com/5/4074/4884079921_48162fdfe5_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/5/4074/4884079921_33011d6a25_z.jpg",
+    "name": "Coas visitas de terraceo",
+    "image": "a12751088ce2ea38.jpg",
+    "creator": "6MPasos (https://www.flickr.com/people/6mpasos/)",
+    "dateCreated": "2010:08:11 20:09:55",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "913.31 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1944",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "rl25YQsH85ZPL8f8aDcI/Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.0512845488889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "19.9456200343056"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "507/2"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/09kjlm": "Sneakers",
+            "/m/047_c_": "Rocking chair",
+            "/m/06rrc": "Shoe",
+            "/m/0c_jw": "Furniture",
+            "/m/09j2d": "Clothing",
+            "/m/05r655": "Girl",
+            "/m/04yx4": "Man",
+            "/m/03bt1vf": "Woman",
+            "/m/01g317": "Person",
+            "/m/09j5n": "Footwear"
+        },
+        "trainingBoxes": [
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.582500",
+                "xMax": "0.708125",
+                "yMin": "0.827500",
+                "yMax": "0.962500",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03bt1vf": "Woman",
+                "confidence": "1",
+                "xMin": "0.228125",
+                "xMax": "0.438750",
+                "yMin": "0.176667",
+                "yMax": "0.844167",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.038125",
+                "xMax": "0.595000",
+                "yMin": "0.059167",
+                "yMax": "0.976667",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.401250",
+                "xMax": "0.451250",
+                "yMin": "0.179167",
+                "yMax": "0.343333",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "1",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.460625",
+                "xMax": "0.518750",
+                "yMin": "0.174167",
+                "yMax": "0.325833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "1",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.561250",
+                "xMax": "0.990000",
+                "yMin": "0.057500",
+                "yMax": "0.945833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.236250",
+                "xMax": "0.436250",
+                "yMin": "0.180833",
+                "yMax": "0.865000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.293125",
+                "xMax": "0.330625",
+                "yMin": "0.783333",
+                "yMax": "0.865833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.325625",
+                "xMax": "0.427500",
+                "yMin": "0.752500",
+                "yMax": "0.840000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.423750",
+                "xMax": "0.593125",
+                "yMin": "0.885000",
+                "yMax": "0.978333",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.501250",
+                "xMax": "0.608750",
+                "yMin": "0.755833",
+                "yMax": "0.870000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.628125",
+                "xMax": "0.685000",
+                "yMin": "0.726667",
+                "yMax": "0.818333",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c_jw": "Furniture",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.373125",
+                "yMin": "0.269167",
+                "yMax": "0.861667",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c_jw": "Furniture",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.432500",
+                "yMin": "0.326667",
+                "yMax": "0.999167",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c_jw": "Furniture",
+                "confidence": "1",
+                "xMin": "0.425625",
+                "xMax": "0.613125",
+                "yMin": "0.407500",
+                "yMax": "0.798333",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c_jw": "Furniture",
+                "confidence": "1",
+                "xMin": "0.606875",
+                "xMax": "0.792500",
+                "yMin": "0.298333",
+                "yMax": "0.725833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c_jw": "Furniture",
+                "confidence": "1",
+                "xMin": "0.758750",
+                "xMax": "0.999375",
+                "yMin": "0.352500",
+                "yMax": "0.906667",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Woman is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.228125",
+                    "xMax": "0.438750",
+                    "yMin": "0.176667",
+                    "yMax": "0.844167"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.228125",
+                    "xMax": "0.438750",
+                    "yMin": "0.176667",
+                    "yMax": "0.844167"
+                }
+            },
+            {
+                "relationship": "Woman is Smile",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/03bt1vf": "Woman",
+                    "xMin": "0.228125",
+                    "xMax": "0.438750",
+                    "yMin": "0.176667",
+                    "yMax": "0.844167"
+                },
+                "box2": {
+                    "/m/019nj4": "Smile",
+                    "xMin": "0.228125",
+                    "xMax": "0.438750",
+                    "yMin": "0.176667",
+                    "yMax": "0.844167"
+                }
+            },
+            {
+                "relationship": "Man is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.038125",
+                    "xMax": "0.595000",
+                    "yMin": "0.059167",
+                    "yMax": "0.976667"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.038125",
+                    "xMax": "0.595000",
+                    "yMin": "0.059167",
+                    "yMax": "0.976667"
+                }
+            },
+            {
+                "relationship": "Man is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.561250",
+                    "xMax": "0.990000",
+                    "yMin": "0.057500",
+                    "yMax": "0.945833"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.561250",
+                    "xMax": "0.990000",
+                    "yMin": "0.057500",
+                    "yMax": "0.945833"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.401250",
+                    "xMax": "0.451250",
+                    "yMin": "0.179167",
+                    "yMax": "0.343333"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.401250",
+                    "xMax": "0.451250",
+                    "yMin": "0.179167",
+                    "yMax": "0.343333"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.460625",
+                    "xMax": "0.518750",
+                    "yMin": "0.174167",
+                    "yMax": "0.325833"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.460625",
+                    "xMax": "0.518750",
+                    "yMin": "0.174167",
+                    "yMax": "0.325833"
+                }
+            },
+            {
+                "relationship": "Girl is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.236250",
+                    "xMax": "0.436250",
+                    "yMin": "0.180833",
+                    "yMax": "0.865000"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.236250",
+                    "xMax": "0.436250",
+                    "yMin": "0.180833",
+                    "yMax": "0.865000"
+                }
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/05r655": "Girl",
+                "maskFile": "a12751088ce2ea38_m05r655_9becb95f.png",
+                "boxId": "9becb95f",
+                "xMin": "0.23625",
+                "xMax": "0.43625",
+                "yMin": "0.180833",
+                "yMax": "0.865",
+                "PredictedIoU": "0.4134",
+                "clicks": "0.30732 0.35420 0;0.37343 0.29843 0;0.31137 0.81116 1;0.24795 0.29124 0;0.31141 0.33813 0;0.25279 0.32730 1;0.30239 0.47040 1;0.41423 0.57623 0;0.26819 0.37039 0;0.27763 0.25166 1;0.30732 0.51072 0;0.36399 0.33082 1"
+            }
+        ]
+    }
+}

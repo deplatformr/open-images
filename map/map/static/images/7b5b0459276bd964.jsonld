@@ -1,0 +1,58 @@
+{
+    "@id": "openimages:7b5b0459276bd964",
+    "contentUrl": "https://farm5.staticflickr.com/8680/16168253371_b6c950d01d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8680/16168253371_c577af9b05_z.jpg",
+    "name": "PC072603 chickadee 20131207",
+    "image": "7b5b0459276bd964.jpg",
+    "creator": "Sarah Sammis (https://www.flickr.com/people/pussreboots/)",
+    "dateCreated": "2013:12:07 17:17:13",
+    "description": "Chickadee at dusk",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.01 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4032",
+    "height": "3024",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "nvT8lmj3TGnNtad8E0aROQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.6805694444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.058463888889"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/025s_5": "Least Flycatcher",
+            "/m/083kv": "Wire",
+            "/m/05s2s": "Plant",
+            "/m/01ynbc": "Fox Sparrow",
+            "/m/01m0p1": "Cardinal (Animal)",
+            "/m/01tgcy": "Northern Cardinal",
+            "/m/0jbk": "Animal",
+            "/m/01515d": "Flight",
+            "/m/016nqt": "Twig",
+            "/m/07j7r": "Tree",
+            "/m/01z9lm": "Eastern Bluebird",
+            "/m/01dy8n": "Woodpecker",
+            "/m/0d73b5": "Cercidium microphyllum",
+            "/m/01bqq_": "Belted Kingfisher",
+            "/m/01xr4p": "Dark eyed Junco",
+            "/m/02g1j4": "Junco",
+            "/m/0hscv": "American robin",
+            "/m/0cffdh": "Maple"
+        }
+    }
+}

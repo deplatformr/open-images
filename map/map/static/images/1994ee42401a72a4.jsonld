@@ -1,0 +1,94 @@
+{
+    "@id": "openimages:1994ee42401a72a4",
+    "contentUrl": "https://farm5.staticflickr.com/7539/16068412880_960cb0fd0e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/8/7539/16068412880_eff42ff00f_z.jpg",
+    "name": "L1003463",
+    "image": "1994ee42401a72a4.jpg",
+    "creator": "Zengame (https://www.flickr.com/people/zengame/)",
+    "dateCreated": "2015:01:11 22:39:02",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.09 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3968",
+    "height": "5952",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "489cW5nd8XyoHJxtPwHeXw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.7099611111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.810722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01fdzj": "Tower",
+            "/m/079cl": "Skyscraper",
+            "/m/07j7r": "Tree",
+            "/m/09j5n": "Footwear",
+            "/m/0cgh4": "Building",
+            "/m/04wv_": "Moon",
+            "/m/018zg": "Bastille day",
+            "/m/01bqvp": "Sky",
+            "/m/02y_3gd": "Wonders of the world"
+        },
+        "trainingBoxes": [
+            {
+                "/m/079cl": "Skyscraper",
+                "confidence": "1",
+                "xMin": "0.306754",
+                "xMax": "0.695122",
+                "yMin": "0.091875",
+                "yMax": "0.943750",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01fdzj": "Tower",
+                "confidence": "1",
+                "xMin": "0.374296",
+                "xMax": "0.669794",
+                "yMin": "0.058125",
+                "yMax": "0.999375",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/079cl": "Skyscraper",
+                "maskFile": "1994ee42401a72a4_m079cl_a7454662.png",
+                "boxId": "a7454662",
+                "xMin": "0.306754",
+                "xMax": "0.695122",
+                "yMin": "0.091875",
+                "yMax": "0.94375",
+                "PredictedIoU": "0.75873",
+                "clicks": "0.44948 0.85423 0;0.65341 0.95503 1;0.44948 0.22893 0;0.50211 0.08722 1;0.42654 0.26741 1;0.59889 0.92936 1;0.57101 0.36197 0;0.45001 0.26157 1;0.54713 0.09901 0;0.55661 0.90393 0;0.69164 0.92918 0"
+            }
+        ]
+    }
+}

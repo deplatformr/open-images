@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:d19e4dabe66b69b4",
+    "contentUrl": "https://farm5.staticflickr.com/1431/4723062391_9dbec3697c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/2/1431/4723062391_e9b0751089_z.jpg",
+    "name": "Clark Murphy of the Spokane Indians",
+    "image": "d19e4dabe66b69b4.jpg",
+    "creator": "Richard Eriksson (https://www.flickr.com/people/sillygwailo/)",
+    "dateCreated": "2010:06:21 19:28:12",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.56 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "p3zQ2EOjgDS37JVp+xxXIQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.2431666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-123.106883333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/018jz": "Baseball"
+        }
+    }
+}

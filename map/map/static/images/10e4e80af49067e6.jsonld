@@ -1,0 +1,68 @@
+{
+    "@id": "openimages:10e4e80af49067e6",
+    "contentUrl": "https://farm7.staticflickr.com/7406/9503712023_52a3c0ef93_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/8/7406/9503712023_38470631ba_z.jpg",
+    "name": "IMG_20130727_133849",
+    "image": "10e4e80af49067e6.jpg",
+    "creator": "Christian Heilmann (https://www.flickr.com/people/codepo8/)",
+    "dateCreated": "2013:07:27 13:38:49",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.70 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "6LPILbHBFeylMkXa2BlQRw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.7680015555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.420211777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01knjb": "Billboard",
+            "/m/07j7r": "Tree",
+            "/m/0cgh4": "Building",
+            "/m/079cl": "Skyscraper",
+            "/m/033rq4": "Street light",
+            "/m/015qff": "Traffic light",
+            "/m/04wv_": "Moon",
+            "/m/0csby": "Cloud",
+            "/m/01bqvp": "Sky"
+        },
+        "trainingBoxes": [
+            {
+                "/m/033rq4": "Street light",
+                "confidence": "1",
+                "xMin": "0.671875",
+                "xMax": "0.910000",
+                "yMin": "0.150000",
+                "yMax": "0.964167",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

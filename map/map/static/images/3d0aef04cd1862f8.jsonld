@@ -1,0 +1,63 @@
+{
+    "@id": "openimages:3d0aef04cd1862f8",
+    "contentUrl": "https://c1.staticflickr.com/8/7368/9728715525_abb0e42eda_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7368/9728715525_63aabf9774_z.jpg",
+    "name": "echeveria @ chicago botanic gardens",
+    "image": "3d0aef04cd1862f8.jpg",
+    "creator": "stephen boisvert (https://www.flickr.com/people/srboisvert/)",
+    "dateCreated": "2013:07:20 12:44:27",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.94 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2560",
+    "height": "1920",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "z4p/X0f+pPkZvm2yTFClrw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.1471263888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-87.7902052777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "166199/1000"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0j7jq86": "Pachyphytum",
+            "/m/04blfc": "Echeveria",
+            "/m/037tzr": "Agave azul",
+            "/m/02rz26": "Artichoke thistle",
+            "/m/0c9ph5": "Flower",
+            "/m/0407yyq": "Desert paintbrush",
+            "/m/025rm5": "Prickly pear",
+            "/m/0ctvs2": "Agave nectar",
+            "/m/0ql48kn": "Aechmea blue tango",
+            "/m/06pd59": "Ti plant",
+            "/m/0mcn4": "Succulent plant",
+            "/m/065_p97": "White mexican rose",
+            "/m/0h36z": "Cemetery",
+            "/m/04cxygx": "Coral aloe",
+            "/m/047np3m": "Puya alpestris",
+            "/m/07s8b87": "Mesemb",
+            "/m/0j01": "Agave",
+            "/m/02sp_1": "Eastern prickly pear",
+            "/m/05f4302": "Puya venusta"
+        }
+    }
+}

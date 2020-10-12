@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:b17ecc350f466c27",
+    "contentUrl": "https://farm8.staticflickr.com/6201/6028025822_d4e53cfb06_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/7/6201/6028025822_169d3760af_z.jpg",
+    "name": "Dancing Baby Blue",
+    "image": "b17ecc350f466c27.jpg",
+    "creator": "Damian Gadal (https://www.flickr.com/people/23024164@N06/)",
+    "dateCreated": "2011:08:02 19:59:31",
+    "description": "Fiesta Dancers",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "947.21 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1400",
+    "height": "937",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "XpteFXjTHHB8DicsskLLsw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.438255"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-119.712814"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "784175/7992"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/026bk": "Dance",
+            "/m/013_1c": "Statue"
+        }
+    }
+}

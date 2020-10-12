@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:f1da916e0720a4eb",
+    "contentUrl": "https://c4.staticflickr.com/6/5008/5367473541_5e6c6cf6b0_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/6/5008/5367473541_b86ea2969a_z.jpg",
+    "name": "Mrauk-U_2785p",
+    "image": "f1da916e0720a4eb.jpg",
+    "creator": "Stefan Munder (https://www.flickr.com/people/insmu74/)",
+    "dateCreated": "2010:12:16 07:28:13",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.57 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5184",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "CXeknBJlXrZEMzR0o1+dKA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "20.5948597620036"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "93.1937215474584"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "533/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/012n4x": "Firefighter"
+        }
+    }
+}

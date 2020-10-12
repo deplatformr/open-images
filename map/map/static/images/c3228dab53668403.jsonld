@@ -1,0 +1,37 @@
+{
+    "@id": "openimages:c3228dab53668403",
+    "contentUrl": "https://farm4.staticflickr.com/3864/14951699859_26058a8feb_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/4/3864/14951699859_b7cfb7e21f_z.jpg",
+    "name": "大雲山 龍安寺 / Ryoanji Temple",
+    "image": "c3228dab53668403.jpg",
+    "creator": "Kentaro Ohno (https://www.flickr.com/people/inucara/)",
+    "dateCreated": "2014:08:31 11:56:09",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "9.54 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "6000",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "i4ZBYYtbWYy6Nt6wjOfTjw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.0337888888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "135.717480555556"
+        }
+    ],
+    "about": {}
+}

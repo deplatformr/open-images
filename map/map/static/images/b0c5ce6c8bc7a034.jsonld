@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:b0c5ce6c8bc7a034",
+    "contentUrl": "https://farm5.staticflickr.com/1001/1016258795_a9065be15e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/2/1001/1016258795_6e4eaeeb63_z.jpg",
+    "name": "The blue towers",
+    "image": "b0c5ce6c8bc7a034.jpg",
+    "creator": "Balaji Dutt M V (https://www.flickr.com/people/mvbalaji/)",
+    "dateCreated": "2006:12:08 13:03:51",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.59 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2048",
+    "height": "1536",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "heqvr1BEdy72Kkzz6JC9fg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "1.28025"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "103.849233333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/079cl": "Skyscraper",
+            "/m/0cgh4": "Building"
+        }
+    }
+}

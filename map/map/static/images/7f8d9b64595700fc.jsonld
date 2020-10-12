@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:7f8d9b64595700fc",
+    "contentUrl": "https://c5.staticflickr.com/4/3933/15378489807_6bc8325eee_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/4/3933/15378489807_9f6971897f_z.jpg",
+    "name": "Ehem. Werkswohnungen Krautfabrik Patria",
+    "image": "7f8d9b64595700fc.jpg",
+    "creator": "Kimba Reimer (https://www.flickr.com/people/127023326@N06/)",
+    "dateCreated": "2014:06:21 14:29:39",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.18 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "1375",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "180A7VOt8rk95DUuuRMGiA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.7995869998827"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "6.774274"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "40"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0csby": "Cloud",
+            "/m/0k4j": "Car",
+            "/m/03jm5": "House",
+            "/m/01bqvp": "Sky"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "@id": "openimages:b396f036737fc20e",
+    "contentUrl": "https://c7.staticflickr.com/3/2831/9041678138_cd93cd790a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/3/2831/9041678138_955924152c_z.jpg",
+    "name": "Singer Vogue Estate rear view",
+    "image": "b396f036737fc20e.jpg",
+    "creator": "John Morris (https://www.flickr.com/people/jonjee/)",
+    "dateCreated": "2013:04:20 13:56:03",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.45 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1728",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "1Tj50n35yx/1JxOW1v5jwA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "54.6644611111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.35919444444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04_gk1": "Studebaker wagonaire",
+            "/m/03g4zg": "Ford zephyr",
+            "/m/02z3j65": "Humber hawk",
+            "/m/05s9pk": "Austin westminster",
+            "/m/0d3vs3": "Lancia flaminia",
+            "/m/0fvndp": "Fiat 2300",
+            "/m/05ggzxg": "Mercedes-benz 200",
+            "/m/09y8cg": "Austin 3-litre",
+            "/m/02z1zzy": "Seat 1500",
+            "/m/04kq44": "Renault 8",
+            "/m/0pg52": "Taxi",
+            "/m/0c0xs5": "Rambler rebel",
+            "/m/05s_0cx": "Checker aerobus",
+            "/m/02tlv4": "Hillman minx",
+            "/m/03g_24d": "Hillman super minx",
+            "/m/072xlw": "Checker marathon",
+            "/m/05t4n9": "Rover p6",
+            "/m/07bt9f": "Devrim",
+            "/m/0410vsl": "Wolseley 24/80",
+            "/m/05s988": "Wolseley 15/60",
+            "/m/05t959": "Rover p5",
+            "/m/04cjrw": "Jeep wagoneer",
+            "/m/06p5ly": "Rolls-royce silver shadow",
+            "/m/0k4j": "Car",
+            "/m/05crph9": "Humber snipe",
+            "/m/07ghrw": "Austin fx4",
+            "/m/03dmcd": "Volkswagen type 3",
+            "/m/05zmkk": "Humber super snipe",
+            "/m/0254qt": "Volvo 164",
+            "/m/03wdpdm": "Gaz-21",
+            "/m/0269hq0": "Holden special",
+            "/m/025shvl": "Mercedes-benz w111",
+            "/m/016ms7": "Ford anglia",
+            "/m/016gvg": "Station wagon",
+            "/m/02xw85": "Mercedes-benz w201",
+            "/m/064v63": "Morris oxford",
+            "/m/091fxn": "Premier padmini",
+            "/m/03gs240": "Fiat 1800/2100"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "@id": "openimages:6e1d5fd4a29034c7",
+    "contentUrl": "https://farm8.staticflickr.com/3687/12656484444_526ce2bf0a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/4/3687/12656484444_325af3dac1_z.jpg",
+    "name": "Stuffed Animal Sleepover at Pikesville Branch",
+    "image": "6e1d5fd4a29034c7.jpg",
+    "creator": "Baltimore County Public Library (https://www.flickr.com/people/bcplphoto/)",
+    "dateCreated": "2014:02:18 19:53:16",
+    "description": "",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "476.37 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1686",
+    "height": "1862",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "wXVbBztjgubZTFfrwExx4w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "39.3754611111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-76.7235805555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "17613/116"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02j_4": "Easter",
+            "/m/021mh_": "Stuffed toy",
+            "/m/0cx37": "Hare",
+            "/m/06mf6": "Rabbit",
+            "/m/0cpfn": "Easter bunny",
+            "/m/03__z0": "Bookcase",
+            "/m/0bt9lr": "Dog",
+            "/m/019dxh": "Rabbits and Hares",
+            "/m/025rgl": "Plush",
+            "/m/06bs13": "Domestic rabbit",
+            "/m/0cm3fq4": "Baby toys",
+            "/m/0215n": "Cartoon"
+        }
+    }
+}

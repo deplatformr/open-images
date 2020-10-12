@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:a00b4ee20efc7591",
+    "contentUrl": "https://farm2.staticflickr.com/3925/15071910065_227baecfd9_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/4/3925/15071910065_2a2d7bb8ef_z.jpg",
+    "name": "Torri",
+    "image": "a00b4ee20efc7591.jpg",
+    "creator": "Ștefan Jurcă (https://www.flickr.com/people/stefanjurca/)",
+    "dateCreated": "2014:08:20 16:53:06",
+    "description": "OLYMPUS DIGITAL CAMERA         ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.70 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4608",
+    "height": "2592",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Libl9INQz13fjVNGuv3Pvg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "45.60892"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "10.686075"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bt9lr": "Dog",
+            "/m/01rd5z": "Aisle",
+            "/m/01bqgn": "Bicycle frame",
+            "/m/01bqk0": "Bicycle wheel",
+            "/m/01lwf0": "Alley",
+            "/m/04_sv": "Motorcycle",
+            "/m/07jb1c": "Security lighting"
+        }
+    }
+}

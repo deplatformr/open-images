@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:a337cb3ef7dc6164",
+    "contentUrl": "https://farm5.staticflickr.com/1330/5116310962_00cfde1765_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/2/1330/5116310962_132fa46ea9_z.jpg",
+    "name": "2010台灣建築獎實勘 基督救恩之光教會 31.jpg",
+    "image": "a337cb3ef7dc6164.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "2010:10:24 13:19:03",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "157.94 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2120",
+    "height": "3184",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "VGo3gCbF8eIn6R3E5zqhVw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "24.1566203675326"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "120.694631866141"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0b_hy9": "Subway",
+            "/m/01lynh": "Stairs"
+        }
+    }
+}

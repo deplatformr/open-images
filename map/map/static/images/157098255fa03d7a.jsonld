@@ -1,0 +1,67 @@
+{
+    "@id": "openimages:157098255fa03d7a",
+    "contentUrl": "https://c3.staticflickr.com/5/4097/4863346534_1f953fefbe_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/5/4097/4863346534_d9c55b8d94_z.jpg",
+    "name": "Return Of The Mutant Blumenkübel",
+    "image": "157098255fa03d7a.jpg",
+    "creator": "Walljet (https://www.flickr.com/people/walljet/)",
+    "dateCreated": "2010:08:05 16:29:37",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.04 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "None x None",
+    "disambiguatingDescription": "7OKOeXwqpCcTJkdZiSKCcQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.9457919444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "6.90437055555556"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0ddrt": "Boba fett",
+            "/m/0h8m62y": "Interlocking block",
+            "/m/0bt_c3": "Book",
+            "/m/0btmb": "Superhero",
+            "/m/01yrx": "Cat",
+            "/m/0k4j": "Car",
+            "/m/013_1c": "Statue",
+            "/m/02czv8": "Birthday cake",
+            "/m/0152hh": "Snowman",
+            "/m/09j2d": "Clothing",
+            "/m/04ndr": "Lego",
+            "/m/0ftf13": "Playset",
+            "/m/02wbm": "Food",
+            "/m/0ck7l": "Ninja",
+            "/m/0250x": "Costume",
+            "/m/0bzwl": "Teenage mutant ninja turtles",
+            "/m/01g317": "Person",
+            "/m/0c9ph5": "Flower",
+            "/m/06fgw": "Robot",
+            "/m/043k931": "Suit actor",
+            "/m/0138tl": "Toy",
+            "/m/0215n": "Cartoon",
+            "/m/0121ww": "Leprechaun",
+            "/m/019nj4": "Smile",
+            "/m/01twlh": "Avengers",
+            "/m/01vq3": "Christmas",
+            "/m/03hm_vd": "Wind-up toy",
+            "/m/0d84n": "Present",
+            "/m/05542": "Mecha",
+            "/m/0g_tb": "Yoda"
+        }
+    }
+}

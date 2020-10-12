@@ -1,0 +1,112 @@
+{
+    "@id": "openimages:5c39669f4cb03c08",
+    "contentUrl": "https://c1.staticflickr.com/6/5561/14378986205_f937a4beba_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/6/5561/14378986205_9b0a808e74_z.jpg",
+    "name": "Container ship",
+    "image": "5c39669f4cb03c08.jpg",
+    "creator": "Peter Stevens (https://www.flickr.com/people/nordique/)",
+    "dateCreated": "2014:06:08 13:51:50",
+    "description": "          ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.53 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4847",
+    "height": "1879",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "sjy3KkFX7Y4v/xAA4MzYsg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "47.6618638888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.434341666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "12/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07zs3l": "Keelboat",
+            "/m/02vxb3b": "Ms island escape",
+            "/m/07bsk8": "Lighter aboard ship",
+            "/m/04h4w": "Lake",
+            "/m/04wk59": "Training ship",
+            "/m/0838f": "Water",
+            "/m/03m9tm": "Royal mail ship",
+            "/m/01tq2l": "Cruise ship",
+            "/m/0b3yr": "Beach",
+            "/m/09_j3b": "Cruiseferry",
+            "/m/019jd": "Boat",
+            "/m/01rzcn": "Watercraft",
+            "/m/07yv9": "Vehicle"
+        },
+        "trainingBoxes": [
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.128125",
+                "xMax": "0.376875",
+                "yMin": "0.424194",
+                "yMax": "0.619355",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.318125",
+                "xMax": "0.368125",
+                "yMin": "0.575806",
+                "yMax": "0.625806",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.665625",
+                "xMax": "0.674375",
+                "yMin": "0.537097",
+                "yMax": "0.603226",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.840000",
+                "xMax": "0.902500",
+                "yMin": "0.319355",
+                "yMax": "0.662903",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

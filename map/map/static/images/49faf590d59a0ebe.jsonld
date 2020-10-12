@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:49faf590d59a0ebe",
+    "contentUrl": "https://c7.staticflickr.com/8/7353/15948182904_ffba80d9e2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/8/7353/15948182904_3756b6b8bd_z.jpg",
+    "name": "Bath, Feb 2015",
+    "image": "49faf590d59a0ebe.jpg",
+    "creator": "Afshin Darian (https://www.flickr.com/people/micronova/)",
+    "dateCreated": "2015:02:14 15:21:34",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "871.76 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "PQ0PjCtNoRJbkCDHvsOGdw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.3815194444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.35893333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "34017/1168"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05qgc": "Poetry",
+            "/m/0bt_c3": "Book",
+            "/m/0hdln": "Ruler",
+            "/m/04gcl9": "Receipt"
+        }
+    }
+}

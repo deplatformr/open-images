@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:c9d33279bb8f9b77",
+    "contentUrl": "https://farm8.staticflickr.com/8530/8683269092_050feb187d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/9/8530/8683269092_cb42f90a88_z.jpg",
+    "name": "The 5th station of the Cross (Jerusalem, Israël 2013)",
+    "image": "c9d33279bb8f9b77.jpg",
+    "creator": "Paul Arps (https://www.flickr.com/people/slapers/)",
+    "dateCreated": "2013:04:22 06:39:47",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "250.09 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "s6JJOKQ2/9CrcQ/WrC3Qxg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "31.7780305555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "35.2329944444444"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/013_1c": "Statue",
+            "/m/06msq": "Sculpture"
+        }
+    }
+}

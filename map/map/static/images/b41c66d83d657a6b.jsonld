@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:b41c66d83d657a6b",
+    "contentUrl": "https://c4.staticflickr.com/4/3693/20010060851_68b9b0de8b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/4/3693/20010060851_04409e6f2d_z.jpg",
+    "name": "IMG_20150711_160050",
+    "image": "b41c66d83d657a6b.jpg",
+    "creator": "Marty McGuire (https://www.flickr.com/people/schmarty/)",
+    "dateCreated": "2015:07:11 16:00:51",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.07 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1944",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "7k+NU18TF1VlTAYz+od6Tg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "39.2777290277778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-76.6123504444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bt9lr": "Dog",
+            "/m/06h5_j": "Child art",
+            "/m/026_f7": "Bean bag",
+            "/m/0_1h028": "Bean bag chair",
+            "/m/0f2y0": "Darth vader"
+        }
+    }
+}

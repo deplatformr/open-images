@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:cef77d3c0c02e1fc",
+    "contentUrl": "https://c5.staticflickr.com/4/3672/12492192164_b5f6bae2c3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3672/12492192164_da59b99a4e_z.jpg",
+    "name": "Guestroom of Somerset Hotel",
+    "image": "cef77d3c0c02e1fc.jpg",
+    "creator": "Masayuki (Yuki) Kawagishi (https://www.flickr.com/people/_yuki_k_/)",
+    "dateCreated": "2014:02:11 14:58:45",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.46 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Id+mNJmweNsnxdzWOoviqA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.5232416666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.159827777777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "14141/417"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03jbxj": "Light switch",
+            "/m/0h8lz_m": "Paper towel holder",
+            "/m/04983s": "Toilet roll holder",
+            "/m/06g3fd": "Tissue paper"
+        }
+    }
+}

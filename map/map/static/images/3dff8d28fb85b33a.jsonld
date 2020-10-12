@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:3dff8d28fb85b33a",
+    "contentUrl": "https://c3.staticflickr.com/4/3077/2533189863_24beb1d18e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3077/2533189863_08604c77f4_z.jpg",
+    "name": "St Paul's Cathedral",
+    "image": "3dff8d28fb85b33a.jpg",
+    "creator": "Jimmy Harris (https://www.flickr.com/people/jimmyharris/)",
+    "dateCreated": "2008:05:21 12:17:00",
+    "description": " ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.96 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3072",
+    "height": "2048",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "cVLDdBPfE+VpuZVnHXVpdA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.513945"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.100558"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "85271/3174"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0csby": "Cloud",
+            "/m/02wbm": "Food",
+            "/m/01bqvp": "Sky",
+            "/m/01x3z": "Clock"
+        }
+    }
+}

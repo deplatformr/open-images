@@ -1,0 +1,84 @@
+{
+    "@id": "openimages:f4ff085b05e8774b",
+    "contentUrl": "https://c4.staticflickr.com/6/5154/14259934713_e1ecc656d3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/6/5154/14259934713_dbc7934729_z.jpg",
+    "name": "'Celia Stripey-tail'",
+    "image": "f4ff085b05e8774b.jpg",
+    "creator": "Peter Trimming (https://www.flickr.com/people/peter-trimming/)",
+    "dateCreated": "2014:05:21 10:55:16",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.01 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5338",
+    "height": "3559",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "NAj8RaBvIPh493ym5BipVw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "54.3841344444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.32992194444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "18559/1000"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/089v3": "Zoo",
+            "/m/01dqkc": "Pest",
+            "/m/03_pfn": "Liver (Color)",
+            "/m/0fg0m": "Peanut",
+            "/m/02021": "Chipmunk",
+            "/m/03rrz8": "Douglas' squirrel",
+            "/m/06s908": "Fox squirrel",
+            "/m/01280g": "Wildlife",
+            "/m/0jbk": "Animal",
+            "/m/02wbn_p": "Ground squirrels",
+            "/m/06z_nw": "Tail",
+            "/m/071qp": "Squirrel",
+            "/m/06hps": "Rodent",
+            "/m/05mqq3": "Snout",
+            "/m/08g_yr": "Temple (Body Part)",
+            "/m/01c7cq": "Grassland",
+            "/m/023kp2": "Paw",
+            "/m/08r0cl": "Abert's squirrel",
+            "/m/01d_ff": "Toe",
+            "/m/0cvnqh": "Bench",
+            "/m/0cnmr": "Fur",
+            "/m/0h8m7cs": "Animal figure",
+            "/m/0jlk7": "Claw",
+            "/m/05nnm": "Organism",
+            "/m/037p5b": "Cheek",
+            "/m/028mzr": "Hair coloring",
+            "/m/036p57": "Perennial plant",
+            "/m/014sv8": "Human eye",
+            "/m/09cx8": "Finger",
+            "/m/0fbf1m": "Terrestrial animal",
+            "/m/0h8npcp": "Small animal food",
+            "/m/01f5gx": "Eating",
+            "/m/01l7qd": "Whiskers",
+            "/m/02q_bfg": "Tints and shades",
+            "/m/02zf0n": "Eurasian Red Squirrel",
+            "/m/01lbxg": "Nut (Food)",
+            "/m/024qb2": "Grey squirrel",
+            "/m/0h8nm83": "Small animal supply",
+            "/m/016nqt": "Twig"
+        }
+    }
+}

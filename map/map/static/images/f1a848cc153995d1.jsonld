@@ -1,0 +1,62 @@
+{
+    "@id": "openimages:f1a848cc153995d1",
+    "contentUrl": "https://farm2.staticflickr.com/6044/7030478991_92672bcbfe_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/7/6044/7030478991_c350d66fd1_z.jpg",
+    "name": "Discovery Center",
+    "image": "f1a848cc153995d1.jpg",
+    "creator": "Andy Arthur (https://www.flickr.com/people/andyarthur/)",
+    "dateCreated": "2012:03:24 16:59:00",
+    "description": "Discovery Center",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "373.00 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3088",
+    "height": "2056",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "PhEnxpA8UuJ1fRe1wVKgbQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.7189111111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.86545"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0/0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cgh4": "Building",
+            "/m/03jm5": "House"
+        },
+        "trainingBoxes": [
+            {
+                "/m/03jm5": "House",
+                "confidence": "1",
+                "xMin": "0.079102",
+                "xMax": "0.999023",
+                "yMin": "0.217009",
+                "yMax": "0.838710",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

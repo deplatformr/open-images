@@ -1,0 +1,161 @@
+{
+    "@id": "openimages:735009b2b993490c",
+    "contentUrl": "https://c5.staticflickr.com/9/8524/8500859089_d8860f38cc_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8524/8500859089_1c6a783be4_z.jpg",
+    "name": "people in India: little boy, asking for school pens",
+    "image": "735009b2b993490c.jpg",
+    "creator": "Romtomtom (https://www.flickr.com/people/romtomtom/)",
+    "dateCreated": "2013:01:02 16:18:57",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "469.18 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1280",
+    "height": "961",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "GdxZPjT64O2Tkt/E3wij9Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "8.35774836996706"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "77.0211982700136"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05r655": "Girl",
+            "/m/01bgsw": "Toddler",
+            "/m/09j2d": "Clothing",
+            "/m/07j7r": "Tree",
+            "/m/0dzct": "Human face",
+            "/m/01bl7v": "Boy",
+            "/m/01g317": "Person",
+            "/m/04yx4": "Man",
+            "/m/05s2s": "Plant"
+        },
+        "trainingBoxes": [
+            {
+                "/m/09j2d": "Clothing",
+                "confidence": "1",
+                "xMin": "0.190625",
+                "xMax": "0.414062",
+                "yMin": "0.190427",
+                "yMax": "0.663892",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "confidence": "1",
+                "xMin": "0.217187",
+                "xMax": "0.491406",
+                "yMin": "0.090531",
+                "yMax": "0.979188",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.239063",
+                "yMin": "0.000000",
+                "yMax": "0.411030",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.340625",
+                "xMax": "0.481250",
+                "yMin": "0.000000",
+                "yMax": "0.172737",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.746094",
+                "xMax": "0.971094",
+                "yMin": "0.000000",
+                "yMax": "0.411030",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0dzct": "Human face",
+                "confidence": "1",
+                "xMin": "0.257812",
+                "xMax": "0.338281",
+                "yMin": "0.120708",
+                "yMax": "0.252862",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Boy is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/01bl7v": "Boy",
+                    "xMin": "0.217187",
+                    "xMax": "0.491406",
+                    "yMin": "0.090531",
+                    "yMax": "0.979188"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.217187",
+                    "xMax": "0.491406",
+                    "yMin": "0.090531",
+                    "yMax": "0.979188"
+                }
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/01bl7v": "Boy",
+                "maskFile": "735009b2b993490c_m01bl7v_9b7a4f67.png",
+                "boxId": "9b7a4f67",
+                "xMin": "0.217187",
+                "xMax": "0.491406",
+                "yMin": "0.090531",
+                "yMax": "0.979188",
+                "PredictedIoU": "0.66134",
+                "clicks": "0.24883 0.13638 1;0.33426 0.81452 0;0.30424 0.96061 1;0.22343 0.59924 1;0.41571 0.84514 1;0.42896 0.60105 1;0.33181 0.12465 1;0.32739 0.70692 0;0.29270 0.70842 1;0.36659 0.92985 0;0.44740 0.96522 1;0.35620 0.12407 0"
+            }
+        ]
+    }
+}

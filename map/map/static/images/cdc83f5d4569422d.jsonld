@@ -1,0 +1,52 @@
+{
+    "@id": "openimages:cdc83f5d4569422d",
+    "contentUrl": "https://c6.staticflickr.com/8/7152/6704450193_0bf96db57c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7152/6704450193_9773d0e9ac_z.jpg",
+    "name": "2012-01-15-036",
+    "image": "cdc83f5d4569422d.jpg",
+    "creator": "Al Pavangkanan (https://www.flickr.com/people/drtran/)",
+    "dateCreated": "2012:01:15 12:22:39",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.00 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "wY+NgEc/iBI7arWiWfLAiw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "14.0266287803889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "101.176890715639"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "17"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0199g": "Bicycle",
+            "/m/0cx45": "Temple",
+            "/m/01j51": "Balloon",
+            "/m/018p4k": "Cart",
+            "/m/011q46kg": "Container",
+            "/m/01pns0": "Fire hydrant",
+            "/m/06y47": "Sphere",
+            "/m/0c9ph5": "Flower"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "@id": "openimages:b73fe51446d82e19",
+    "contentUrl": "https://c2.staticflickr.com/8/7453/11194871314_91681bdc05_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/8/7453/11194871314_675b076d75_z.jpg",
+    "name": "End of season in Mamaia (AP4P0945)",
+    "image": "b73fe51446d82e19.jpg",
+    "creator": "Alexandru Panoiu (https://www.flickr.com/people/alexpanoiu/)",
+    "dateCreated": "2013:09:13 15:06:19",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.86 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "hDm2sGLe1hB3Kc5f5iDFpQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "44.2613477699742"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "28.6202418999824"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "276/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0b3yr": "Beach",
+            "/m/06z4ng": "Piste",
+            "/m/0csby": "Cloud",
+            "/m/0dd7d": "Oregon pine",
+            "/m/06_g7": "Surfing",
+            "/m/01bqvp": "Sky"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:8a6cee4dabd33315",
+    "contentUrl": "https://farm6.staticflickr.com/8698/17012057900_35e33ffb52_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/9/8698/17012057900_6949ab96ec_z.jpg",
+    "name": "Post No Bills",
+    "image": "8a6cee4dabd33315.jpg",
+    "creator": "Travis Wise (https://www.flickr.com/people/photographingtravis/)",
+    "dateCreated": "2008:05:16 18:28:47",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "404.92 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1600",
+    "height": "1200",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "q7nrMDyMm5yrMAdiTQ9sTg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.098343"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-118.326744"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/083wq": "Wheel",
+            "/m/0h9mv": "Tire",
+            "/m/04gcl9": "Receipt",
+            "/m/03q69": "Human hair",
+            "/m/014sv8": "Human eye",
+            "/m/04hgtk": "Human head"
+        }
+    }
+}

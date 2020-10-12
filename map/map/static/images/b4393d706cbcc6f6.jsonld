@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:b4393d706cbcc6f6",
+    "contentUrl": "https://farm7.staticflickr.com/3278/2956355921_ba5c1bca22_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3278/2956355921_b221f3830e_z.jpg",
+    "name": "From The Sidelines",
+    "image": "b4393d706cbcc6f6.jpg",
+    "creator": "Christopher Schmidt (https://www.flickr.com/people/crschmidt/)",
+    "dateCreated": "2008:10:19 15:58:28",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.10 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3456",
+    "height": "2304",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "dYOYPyZx/xs72GFggSWzpA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.3689793120008"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.1175715620021"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/054xkw": "Personal flotation device",
+            "/m/0b3yr": "Beach",
+            "/m/026dd": "Dune",
+            "/m/02p4bv": "Mudflat",
+            "/m/0c02w2": "Polar fleece",
+            "/m/05bhnr": "Hoodie"
+        }
+    }
+}

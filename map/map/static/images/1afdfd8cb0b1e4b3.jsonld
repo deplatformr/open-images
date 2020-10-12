@@ -1,0 +1,58 @@
+{
+    "@id": "openimages:1afdfd8cb0b1e4b3",
+    "contentUrl": "https://farm4.staticflickr.com/8222/8445523133_1d661b2bc2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/9/8222/8445523133_d10696ce8b_z.jpg",
+    "name": "Quadrocopter!",
+    "image": "1afdfd8cb0b1e4b3.jpg",
+    "creator": "Aaron Parecki (https://www.flickr.com/people/aaronpk/)",
+    "dateCreated": "2013:02:04 16:00:20",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.43 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "9tiXHIw5EqqkFnfW5GbClg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "45.5162"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.6757"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01y9k5": "Desk",
+            "/m/045_n7": "Bell x-22",
+            "/m/046d8_l": "Radio-controlled toy",
+            "/m/047j0r": "Filing cabinet",
+            "/m/015p6": "Bird",
+            "/m/053scx": "Radio-controlled aircraft",
+            "/m/074l3b": "Radio-controlled helicopter",
+            "/m/07yv9": "Vehicle",
+            "/m/01c648": "Laptop",
+            "/m/0h8mhmy": "Toy airplane",
+            "/m/0643t": "Personal computer",
+            "/m/0bjyj5": "Waste container",
+            "/m/0l8fl": "Model aircraft",
+            "/m/0g2bc": "Drone",
+            "/m/09ct_": "Helicopter",
+            "/m/0f8cd2": "Rotorcraft",
+            "/m/01m3v": "Computer",
+            "/m/054k0": "Film studio"
+        }
+    }
+}

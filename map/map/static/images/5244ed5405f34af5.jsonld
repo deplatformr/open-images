@@ -1,0 +1,66 @@
+{
+    "@id": "openimages:5244ed5405f34af5",
+    "contentUrl": "https://farm6.staticflickr.com/2510/4166212360_762dc988d3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/3/2510/4166212360_9808519122_z.jpg",
+    "name": "Street Furniture, Acland St, St Kilda, Melbourne, Australia 091207-1",
+    "image": "5244ed5405f34af5.jpg",
+    "creator": "David Jackmanson (https://www.flickr.com/people/djackmanson/)",
+    "dateCreated": "2009:12:07 11:17:56",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "476.93 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2062",
+    "height": "1207",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "KBZePMsgSQTa1RB06IULtA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-37.8672029288153"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "144.978568919628"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cvnqh": "Bench",
+            "/m/04bcr3": "Table",
+            "/m/05s2s": "Plant",
+            "/m/07j7r": "Tree",
+            "/m/0c_jw": "Furniture",
+            "/m/01mzpv": "Chair",
+            "/m/03hqlh": "Trunk (Container)"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.820000",
+                "xMax": "0.986875",
+                "yMin": "0.002137",
+                "yMax": "0.358974",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

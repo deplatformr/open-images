@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:6fd52655a74252eb",
+    "contentUrl": "https://c4.staticflickr.com/6/5580/14700024560_2fbfc3f323_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5580/14700024560_a81c7a89b4_z.jpg",
+    "name": "Trip to Japan 8/2014",
+    "image": "6fd52655a74252eb.jpg",
+    "creator": "Moto &quot;Club4AG&quot; Miwa (https://www.flickr.com/people/moto_club4ag/)",
+    "dateCreated": "2014:08:02 07:23:45",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "976.16 KiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "150 x 150",
+    "disambiguatingDescription": "9sv7xvoJYpXwso7cqlj04A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.1290166666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "138.918669444444"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/079cl": "Skyscraper",
+            "/m/0k4j": "Car",
+            "/m/07jdr": "Train"
+        }
+    }
+}

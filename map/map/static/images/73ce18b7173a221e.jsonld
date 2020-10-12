@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:73ce18b7173a221e",
+    "contentUrl": "https://c7.staticflickr.com/5/4046/4684467836_714275ccaf_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/5/4046/4684467836_de50bcccec_z.jpg",
+    "name": "Kids Giving you problems? Hire an Elephant",
+    "image": "73ce18b7173a221e.jpg",
+    "creator": "peasap (https://www.flickr.com/people/peasap/)",
+    "dateCreated": "2010:05:23 15:32:17",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.98 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5184",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "M9sadzKT6jPaNAZ1dZH91A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "32.7356986999509"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-117.151573181152"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bwd_0j": "Elephant",
+            "/m/07kbbhf": "Elephants and Mammoths"
+        }
+    }
+}

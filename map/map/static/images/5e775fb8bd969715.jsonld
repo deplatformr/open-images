@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:5e775fb8bd969715",
+    "contentUrl": "https://farm6.staticflickr.com/3746/10082067246_948f3fcbaf_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/4/3746/10082067246_7714f7e0dd_z.jpg",
+    "name": "Mama holds Riki",
+    "image": "5e775fb8bd969715.jpg",
+    "creator": "Sadasiv Swain (https://www.flickr.com/people/sswain_1999/)",
+    "dateCreated": "2013:10:04 14:10:44",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "512.17 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2100",
+    "height": "1533",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "p0YFD2AuQCBL+WAVWaJg8g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "22.2607716413611"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "84.8846130751945"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "154"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/025dq0": "Sari",
+            "/m/01bgsw": "Toddler",
+            "/m/08y7p8": "Abdomen"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:70d3383c8a8f7b26",
+    "contentUrl": "https://farm7.staticflickr.com/702/21443542528_5fcf418f3c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/1/702/21443542528_34f74a7260_z.jpg",
+    "name": "Pitcher Plant flower",
+    "image": "70d3383c8a8f7b26.jpg",
+    "creator": "Ruth Hartnup (https://www.flickr.com/people/ruthanddave/)",
+    "dateCreated": "2015:08:21 09:06:10",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "7.62 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "7712",
+    "height": "4352",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Jbg1ut7C8qF9kf31Om46ew==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.2391552777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-123.130048333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "165/2"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/047qy3x": "Yellow lady's slipper",
+            "/m/0bz9yt": "Senna",
+            "/m/0gz01": "Faboideae",
+            "/m/07_0xk": "Mustard (Food)",
+            "/m/07w1bn": "Lady's-slipper",
+            "/m/07yrgc": "Yellow iris",
+            "/m/0c9ph5": "Flower",
+            "/m/08v616": "Yellow Canada lily",
+            "/m/03xmn0": "Cowslip"
+        }
+    }
+}

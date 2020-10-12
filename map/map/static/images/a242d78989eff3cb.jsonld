@@ -1,0 +1,83 @@
+{
+    "@id": "openimages:a242d78989eff3cb",
+    "contentUrl": "https://c4.staticflickr.com/9/8191/8440945993_dc718364fa_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8191/8440945993_f029cdb105_z.jpg",
+    "name": "マダガスカルオオゴキブリ",
+    "image": "a242d78989eff3cb.jpg",
+    "creator": "Kentaro Ohno (https://www.flickr.com/people/inucara/)",
+    "dateCreated": "2012:12:23 11:05:31",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.06 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "6000",
+    "height": "4000",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "KWOR0YTRUfznoKtIn8lMow==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.083958333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "138.85823"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "131/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02_41": "Fire",
+            "/m/065kj_": "Madagascar hissing cockroach",
+            "/m/0h61": "Archaeology",
+            "/m/0149r": "Aquarium",
+            "/m/079qfs": "Zophobas morio",
+            "/m/035vxb": "Isopod",
+            "/m/03vt0": "Insect",
+            "/m/03xxp": "Invertebrate",
+            "/m/0jbk": "Animal",
+            "/m/06w6h": "Skeleton"
+        },
+        "trainingBoxes": [
+            {
+                "/m/035vxb": "Isopod",
+                "confidence": "1",
+                "xMin": "0.441875",
+                "xMax": "0.667500",
+                "yMin": "0.405253",
+                "yMax": "0.700750",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03vt0": "Insect",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.933750",
+                "yMin": "0.220450",
+                "yMax": "0.999062",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

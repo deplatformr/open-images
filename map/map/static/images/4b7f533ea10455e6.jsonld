@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:4b7f533ea10455e6",
+    "contentUrl": "https://farm7.staticflickr.com/8339/8208545839_2a5b12681a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/9/8339/8208545839_34cdb4dc2b_z.jpg",
+    "name": "Untitled",
+    "image": "4b7f533ea10455e6.jpg",
+    "creator": "Marko Kudjerski (https://www.flickr.com/people/marko8904/)",
+    "dateCreated": "2012:11:05 22:25:07",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.36 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5184",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "MQamqqAMF91VbTDoPiHxtw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "39.9403194444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "116.421566666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "219/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/013_1c": "Statue"
+        }
+    }
+}

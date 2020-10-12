@@ -1,0 +1,151 @@
+{
+    "@id": "openimages:5a049d0c7791341f",
+    "contentUrl": "https://c8.staticflickr.com/4/3606/5843993523_95d41b10f2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/4/3606/5843993523_0084539fe8_z.jpg",
+    "name": "日本通運・野村",
+    "image": "5a049d0c7791341f.jpg",
+    "creator": "boomer-44 (https://www.flickr.com/people/boomer44/)",
+    "dateCreated": "2011:06:18 13:30:31",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "121.19 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "640",
+    "height": "480",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "2hKOnORW4Dov2eI/RBzCaA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.6453"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "140.0304"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04yx4": "Man",
+            "/m/05s2s": "Plant",
+            "/m/02kdmz": "Pitch",
+            "/m/0b_6gk": "Vintage base ball",
+            "/m/018jz": "Baseball",
+            "/m/018kg": "Baseball positions",
+            "/m/0838f": "Water",
+            "/m/02vx4": "Soccer",
+            "/m/03grzl": "Baseball glove",
+            "/m/01g317": "Person",
+            "/m/018xm": "Ball",
+            "/m/0174n1": "Glove",
+            "/m/01226z": "Football",
+            "/m/05y5lj": "Sports equipment",
+            "/m/09j2d": "Clothing"
+        },
+        "trainingBoxes": [
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.253125",
+                "xMax": "0.632812",
+                "yMin": "0.293750",
+                "yMax": "0.950000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03grzl": "Baseball glove",
+                "confidence": "1",
+                "xMin": "0.315625",
+                "xMax": "0.409375",
+                "yMin": "0.570833",
+                "yMax": "0.708333",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.668750",
+                "xMax": "0.998438",
+                "yMin": "0.000000",
+                "yMax": "0.235417",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Man wears Baseball glove",
+                "relationshipLabel": "wears",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.253125",
+                    "xMax": "0.632813",
+                    "yMin": "0.293750",
+                    "yMax": "0.950000"
+                },
+                "box2": {
+                    "/m/03grzl": "Baseball glove",
+                    "xMin": "0.315625",
+                    "xMax": "0.410937",
+                    "yMin": "0.568750",
+                    "yMax": "0.708333"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.253125",
+                    "xMax": "0.632813",
+                    "yMin": "0.293750",
+                    "yMax": "0.950000"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.253125",
+                    "xMax": "0.632813",
+                    "yMin": "0.293750",
+                    "yMax": "0.950000"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.668750",
+                    "xMax": "0.998438",
+                    "yMin": "0.000000",
+                    "yMax": "0.235417"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.668750",
+                    "xMax": "0.998438",
+                    "yMin": "0.000000",
+                    "yMax": "0.235417"
+                }
+            }
+        ]
+    }
+}

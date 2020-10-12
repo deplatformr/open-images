@@ -1,0 +1,94 @@
+{
+    "@id": "openimages:2efb6dc46e7e05af",
+    "contentUrl": "https://c8.staticflickr.com/4/3786/12612888594_5dea297296_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/4/3786/12612888594_078ae10d34_z.jpg",
+    "name": "North Wales countryside",
+    "image": "2efb6dc46e7e05af.jpg",
+    "creator": "Iain Patterson (https://www.flickr.com/people/iaincpatterson/)",
+    "dateCreated": "2014:02:18 13:37:58",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.33 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "7152",
+    "height": "2494",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "6rcDJ+YsqoFietH/gyq3DQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.1793638888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.06798055555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "37693/267"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0c9ph5": "Flower",
+            "/m/05qdh": "Painting",
+            "/m/05s2s": "Plant",
+            "/m/0bxdx": "Windmill",
+            "/m/013xlm": "Tractor",
+            "/m/09d_r": "Mountain",
+            "/m/01bqvp": "Sky",
+            "/m/0csby": "Cloud",
+            "/m/07j7r": "Tree"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.595625",
+                "yMin": "0.382406",
+                "yMax": "0.694794",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.540000",
+                "xMax": "0.837500",
+                "yMin": "0.319569",
+                "yMax": "0.998205",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.859375",
+                "xMax": "0.996250",
+                "yMin": "0.323160",
+                "yMax": "0.579892",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

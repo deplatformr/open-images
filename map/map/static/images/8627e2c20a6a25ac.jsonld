@@ -1,0 +1,659 @@
+{
+    "@id": "openimages:8627e2c20a6a25ac",
+    "contentUrl": "https://c5.staticflickr.com/6/5477/10628208355_bc1fced04d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5477/10628208355_c40ba153b6_z.jpg",
+    "name": "Esquela Villa Maria, La Palmera, Costa Rica Jul 8, 2013, 3-025",
+    "image": "8627e2c20a6a25ac.jpg",
+    "creator": "F Delventhal (https://www.flickr.com/people/krossbow/)",
+    "dateCreated": "2013:07:08 15:03:54",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "553.40 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "640",
+    "height": "480",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "B0SJC7oqvsaf7IejieFWOA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "10.4620704650879"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-84.3901062011719"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01d40f": "Dress",
+            "/m/01bl7v": "Boy",
+            "/m/01g317": "Person",
+            "/m/039zd9": "Shōji",
+            "/m/03bt1vf": "Woman",
+            "/m/04yx4": "Man",
+            "/m/05r655": "Girl",
+            "/m/05s2s": "Plant",
+            "/m/07j7r": "Tree",
+            "/m/01bgsw": "Toddler",
+            "/m/09j5n": "Footwear",
+            "/m/09j2d": "Clothing",
+            "/m/06rrc": "Shoe",
+            "/m/01h_1n": "Playground"
+        },
+        "trainingBoxes": [
+            {
+                "/m/01bl7v": "Boy",
+                "confidence": "1",
+                "xMin": "0.384375",
+                "xMax": "0.506250",
+                "yMin": "0.739583",
+                "yMax": "0.981250",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "confidence": "1",
+                "xMin": "0.120312",
+                "xMax": "0.209375",
+                "yMin": "0.452083",
+                "yMax": "0.854167",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "confidence": "1",
+                "xMin": "0.137500",
+                "xMax": "0.271875",
+                "yMin": "0.720833",
+                "yMax": "0.952083",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "confidence": "1",
+                "xMin": "0.156250",
+                "xMax": "0.334375",
+                "yMin": "0.735417",
+                "yMax": "0.997917",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "confidence": "1",
+                "xMin": "0.176563",
+                "xMax": "0.254687",
+                "yMin": "0.412500",
+                "yMax": "0.716667",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "confidence": "1",
+                "xMin": "0.217187",
+                "xMax": "0.312500",
+                "yMin": "0.681250",
+                "yMax": "0.856250",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "confidence": "1",
+                "xMin": "0.300000",
+                "xMax": "0.420312",
+                "yMin": "0.708333",
+                "yMax": "0.931250",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "confidence": "1",
+                "xMin": "0.531250",
+                "xMax": "0.656250",
+                "yMin": "0.745833",
+                "yMax": "0.997917",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01d40f": "Dress",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.153125",
+                "yMin": "0.650000",
+                "yMax": "0.997917",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.035937",
+                "yMin": "0.427083",
+                "yMax": "0.668750",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.148438",
+                "yMin": "0.535417",
+                "yMax": "0.997917",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.034375",
+                "xMax": "0.126563",
+                "yMin": "0.416667",
+                "yMax": "0.752083",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.221875",
+                "xMax": "0.264062",
+                "yMin": "0.464583",
+                "yMax": "0.664583",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05r655": "Girl",
+                "confidence": "1",
+                "xMin": "0.425000",
+                "xMax": "0.532812",
+                "yMin": "0.439583",
+                "yMax": "0.700000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.235938",
+                "xMax": "0.239063",
+                "yMin": "0.654167",
+                "yMax": "0.664583",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.245312",
+                "xMax": "0.257812",
+                "yMin": "0.641667",
+                "yMax": "0.666667",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.262500",
+                "xMax": "0.332812",
+                "yMin": "0.941667",
+                "yMax": "0.993750",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j5n": "Footwear",
+                "confidence": "1",
+                "xMin": "0.479688",
+                "xMax": "0.517187",
+                "yMin": "0.681250",
+                "yMax": "0.700000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Boy is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/01bl7v": "Boy",
+                    "xMin": "0.137500",
+                    "xMax": "0.271875",
+                    "yMin": "0.720833",
+                    "yMax": "0.952083"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.137500",
+                    "xMax": "0.271875",
+                    "yMin": "0.720833",
+                    "yMax": "0.952083"
+                }
+            },
+            {
+                "relationship": "Boy is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/01bl7v": "Boy",
+                    "xMin": "0.156250",
+                    "xMax": "0.334375",
+                    "yMin": "0.735417",
+                    "yMax": "0.997917"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.156250",
+                    "xMax": "0.334375",
+                    "yMin": "0.735417",
+                    "yMax": "0.997917"
+                }
+            },
+            {
+                "relationship": "Boy is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/01bl7v": "Boy",
+                    "xMin": "0.217187",
+                    "xMax": "0.312500",
+                    "yMin": "0.681250",
+                    "yMax": "0.856250"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.217187",
+                    "xMax": "0.312500",
+                    "yMin": "0.681250",
+                    "yMax": "0.856250"
+                }
+            },
+            {
+                "relationship": "Boy is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/01bl7v": "Boy",
+                    "xMin": "0.300000",
+                    "xMax": "0.420312",
+                    "yMin": "0.708333",
+                    "yMax": "0.931250"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.300000",
+                    "xMax": "0.420312",
+                    "yMin": "0.708333",
+                    "yMax": "0.931250"
+                }
+            },
+            {
+                "relationship": "Boy is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/01bl7v": "Boy",
+                    "xMin": "0.384375",
+                    "xMax": "0.506250",
+                    "yMin": "0.739583",
+                    "yMax": "0.981250"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.384375",
+                    "xMax": "0.506250",
+                    "yMin": "0.739583",
+                    "yMax": "0.981250"
+                }
+            },
+            {
+                "relationship": "Boy is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/01bl7v": "Boy",
+                    "xMin": "0.531250",
+                    "xMax": "0.656250",
+                    "yMin": "0.745833",
+                    "yMax": "0.997917"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.531250",
+                    "xMax": "0.656250",
+                    "yMin": "0.745833",
+                    "yMax": "0.997917"
+                }
+            },
+            {
+                "relationship": "Boy is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/01bl7v": "Boy",
+                    "xMin": "0.120312",
+                    "xMax": "0.209375",
+                    "yMin": "0.452083",
+                    "yMax": "0.854167"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.120312",
+                    "xMax": "0.209375",
+                    "yMin": "0.452083",
+                    "yMax": "0.854167"
+                }
+            },
+            {
+                "relationship": "Boy is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/01bl7v": "Boy",
+                    "xMin": "0.176563",
+                    "xMax": "0.254687",
+                    "yMin": "0.412500",
+                    "yMax": "0.716667"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.176563",
+                    "xMax": "0.254687",
+                    "yMin": "0.412500",
+                    "yMax": "0.716667"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.000000",
+                    "xMax": "0.035937",
+                    "yMin": "0.427083",
+                    "yMax": "0.668750"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.000000",
+                    "xMax": "0.035937",
+                    "yMin": "0.427083",
+                    "yMax": "0.668750"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.000000",
+                    "xMax": "0.148438",
+                    "yMin": "0.535417",
+                    "yMax": "0.997917"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.000000",
+                    "xMax": "0.148438",
+                    "yMin": "0.535417",
+                    "yMax": "0.997917"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.034375",
+                    "xMax": "0.126563",
+                    "yMin": "0.416667",
+                    "yMax": "0.752083"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.034375",
+                    "xMax": "0.126563",
+                    "yMin": "0.416667",
+                    "yMax": "0.752083"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.221875",
+                    "xMax": "0.264062",
+                    "yMin": "0.464583",
+                    "yMax": "0.664583"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.221875",
+                    "xMax": "0.264062",
+                    "yMin": "0.464583",
+                    "yMax": "0.664583"
+                }
+            },
+            {
+                "relationship": "Girl is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/05r655": "Girl",
+                    "xMin": "0.425000",
+                    "xMax": "0.532812",
+                    "yMin": "0.439583",
+                    "yMax": "0.700000"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.425000",
+                    "xMax": "0.532812",
+                    "yMin": "0.439583",
+                    "yMax": "0.700000"
+                }
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/05r655": "Girl",
+                "maskFile": "8627e2c20a6a25ac_m05r655_148566ff.png",
+                "boxId": "148566ff",
+                "xMin": "0.034375",
+                "xMax": "0.126563",
+                "yMin": "0.416667",
+                "yMax": "0.752083",
+                "PredictedIoU": "0.68025",
+                "clicks": "0.03906 0.52566 1;0.08563 0.59233 0;0.11098 0.64986 1;0.11303 0.55489 1;0.06099 0.54170 0;0.04740 0.42992 1;0.11915 0.61320 0;0.12595 0.73706 1;0.04120 0.41847 0;0.11690 0.53865 0;0.04319 0.48819 0;0.10295 0.60572 1"
+            },
+            {
+                "/m/01d40f": "Dress",
+                "maskFile": "8627e2c20a6a25ac_m01d40f_0bbc05bd.png",
+                "boxId": "0bbc05bd",
+                "xMin": "0.0",
+                "xMax": "0.153125",
+                "yMin": "0.65",
+                "yMax": "0.997917",
+                "PredictedIoU": "0.79599",
+                "clicks": "0.00238 0.99362 1;0.09910 0.83765 0;0.10945 0.76086 1;0.11305 0.89588 0;0.11203 0.82196 1;0.06172 0.75009 1;0.10381 0.72818 1;0.12251 0.74435 0;0.02266 0.66737 1;0.07519 0.74687 0;0.00894 0.80618 0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "maskFile": "8627e2c20a6a25ac_m01bl7v_43a85fe6.png",
+                "boxId": "43a85fe6",
+                "xMin": "0.3",
+                "xMax": "0.420312",
+                "yMin": "0.708333",
+                "yMax": "0.93125",
+                "PredictedIoU": "0.8842",
+                "clicks": "0.36593 0.74595 1;0.41155 0.78739 0;0.42176 0.82024 0;0.41824 0.83245 1;0.37319 0.74891 0;0.41265 0.79555 1;0.30422 0.88361 1;0.36420 0.77363 0;0.30825 0.80016 1"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "maskFile": "8627e2c20a6a25ac_m01bl7v_f06c69ea.png",
+                "boxId": "f06c69ea",
+                "xMin": "0.15625",
+                "xMax": "0.334375",
+                "yMin": "0.735417",
+                "yMax": "0.997917",
+                "PredictedIoU": "0.86441",
+                "clicks": "0.23257 0.78702 1;0.29882 0.84389 0;0.29551 0.97420 1;0.18950 0.99574 1;0.18636 0.83622 0;0.27119 0.98597 1;0.25626 0.82762 0;0.31428 0.91539 1;0.22520 0.73997 0;0.25446 0.81567 1;0.28895 0.86816 1;0.32587 0.95269 1"
+            },
+            {
+                "/m/05r655": "Girl",
+                "maskFile": "8627e2c20a6a25ac_m05r655_d9ff74d4.png",
+                "boxId": "d9ff74d4",
+                "xMin": "0.0",
+                "xMax": "0.148438",
+                "yMin": "0.535417",
+                "yMax": "0.997917",
+                "PredictedIoU": "0.86685",
+                "clicks": "0.10943 0.64526 0;0.05382 0.61974 1;0.08300 0.56018 1;0.00459 0.80936 0;0.02607 0.64233 0;0.08362 0.64319 0;0.10818 0.75181 1;0.01638 0.80181 0;0.01515 0.82708 1;0.12130 0.73413 0;0.07298 0.64752 1;0.00802 0.58309 1"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "maskFile": "8627e2c20a6a25ac_m01bl7v_15e733d5.png",
+                "boxId": "15e733d5",
+                "xMin": "0.120312",
+                "xMax": "0.209375",
+                "yMin": "0.452083",
+                "yMax": "0.854167",
+                "PredictedIoU": "0.90683",
+                "clicks": "0.13513 0.85173 1;0.12978 0.60472 1;0.14102 0.50834 0;0.18064 0.49049 1;0.18866 0.48754 0;0.12846 0.64317 1;0.13370 0.53709 1"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "maskFile": "8627e2c20a6a25ac_m01bl7v_ef8322d1.png",
+                "boxId": "ef8322d1",
+                "xMin": "0.1375",
+                "xMax": "0.271875",
+                "yMin": "0.720833",
+                "yMax": "0.952083",
+                "PredictedIoU": "0.58632",
+                "clicks": "0.22472 0.79219 0;0.18581 0.77703 0;0.14421 0.93227 1;0.15019 0.84048 0;0.21215 0.73912 1;0.22322 0.82811 0;0.14301 0.87480 0;0.13433 0.89795 1;0.20304 0.78841 1;0.23813 0.75419 0;0.25892 0.83086 1;0.14359 0.86205 1"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "maskFile": "8627e2c20a6a25ac_m01bl7v_dc4b0b19.png",
+                "boxId": "dc4b0b19",
+                "xMin": "0.384375",
+                "xMax": "0.50625",
+                "yMin": "0.739583",
+                "yMax": "0.98125",
+                "PredictedIoU": "0.9046",
+                "clicks": "0.43134 0.80124 0;0.47078 0.80321 0;0.39006 0.88037 1;0.47000 0.80250 0;0.43516 0.80293 0;0.43055 0.78233 1;0.39406 0.85860 0;0.43597 0.81201 1;0.47254 0.78076 1"
+            },
+            {
+                "/m/05r655": "Girl",
+                "maskFile": "8627e2c20a6a25ac_m05r655_9f31c83b.png",
+                "boxId": "9f31c83b",
+                "xMin": "0.425",
+                "xMax": "0.532812",
+                "yMin": "0.439583",
+                "yMax": "0.7",
+                "PredictedIoU": "0.74662",
+                "clicks": "0.45094 0.53984 1;0.48560 0.44880 1;0.51560 0.69020 1;0.56422 0.63640 1;0.54600 0.63779 1;0.49294 0.70043 1;0.45474 0.54991 0;0.52674 0.52107 1;0.47620 0.44341 0;0.46870 0.55055 0;0.53084 0.65983 0;0.54262 0.66483 1"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "maskFile": "8627e2c20a6a25ac_m01bl7v_7ff36c5c.png",
+                "boxId": "7ff36c5c",
+                "xMin": "0.217187",
+                "xMax": "0.3125",
+                "yMin": "0.68125",
+                "yMax": "0.85625",
+                "PredictedIoU": "0.70756",
+                "clicks": "0.29184 0.77497 1;0.25049 0.81374 0;0.26623 0.74509 0;0.23234 0.73015 0;0.26427 0.75879 1;0.29601 0.81854 0;0.28907 0.81153 1;0.25589 0.75360 0;0.26938 0.72678 1;0.26467 0.81809 1"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "maskFile": "8627e2c20a6a25ac_m01bl7v_963e854d.png",
+                "boxId": "963e854d",
+                "xMin": "0.176563",
+                "xMax": "0.254687",
+                "yMin": "0.4125",
+                "yMax": "0.716667",
+                "PredictedIoU": "0.83279",
+                "clicks": "0.22092 0.67325 0;0.23191 0.49848 0;0.18794 0.47311 1;0.24756 0.43478 1;0.24168 0.64567 0;0.24402 0.46094 0;0.20997 0.64254 1;0.21702 0.60497 0;0.25360 0.43924 0;0.20230 0.60986 1;0.21554 0.59074 0;0.17858 0.46424 0"
+            },
+            {
+                "/m/01bl7v": "Boy",
+                "maskFile": "8627e2c20a6a25ac_m01bl7v_44b7f7fd.png",
+                "boxId": "44b7f7fd",
+                "xMin": "0.53125",
+                "xMax": "0.65625",
+                "yMin": "0.745833",
+                "yMax": "0.997917",
+                "PredictedIoU": "0.86334",
+                "clicks": "0.62917 0.84503 0;0.60455 0.80946 1;0.56078 0.81311 1;0.62268 0.97134 1;0.56198 0.83190 0;0.64486 0.90451 1;0.60401 0.83269 0;0.54185 0.95582 1;0.64284 0.87413 0;0.60602 0.84494 1;0.61298 0.99223 1;0.55775 0.82371 0"
+            }
+        ]
+    }
+}

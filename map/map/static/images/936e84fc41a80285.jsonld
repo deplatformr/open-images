@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:936e84fc41a80285",
+    "contentUrl": "https://farm6.staticflickr.com/7289/9401632574_900ea8a5d3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/8/7289/9401632574_ddee96097e_z.jpg",
+    "name": "Plymouth Citybus Enviro",
+    "image": "936e84fc41a80285.jpg",
+    "creator": "Graham Richardson (https://www.flickr.com/people/didbygraham/)",
+    "dateCreated": "2013:07:28 11:04:43",
+    "description": "WNPG Rally Plymouth Hoe 28 July 2013",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.52 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "Bw01fbEBQpRRKJKlpSPgBA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.3651405401438"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-4.14230704"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0g12jb": "Nissan civilian",
+            "/m/04jnfqv": "Paz-3205",
+            "/m/03qk36c": "Airport bus",
+            "/m/02pzlrk": "Bus garage",
+            "/m/0bk5m9": "Bus driver"
+        }
+    }
+}

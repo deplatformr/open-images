@@ -1,0 +1,109 @@
+{
+    "@id": "openimages:0f1c7b5f7ab6c4c0",
+    "contentUrl": "https://farm1.staticflickr.com/6082/6066640655_f94276f016_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/7/6082/6066640655_136f3df72d_z.jpg",
+    "name": "2011-07-06 07-08 Kanada, Ontario 060 Kitchener",
+    "image": "0f1c7b5f7ab6c4c0.jpg",
+    "creator": "Allie_Caulfield (https://www.flickr.com/people/wm_archiv/)",
+    "dateCreated": "2011:07:07 17:52:49",
+    "description": "SONY DSC                       ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.82 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4230",
+    "height": "2878",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "tEhoY1bKWdRvlgV1MKDJLA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.4513330555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-80.492845"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1931/5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0g03wp": "Toyota succeed",
+            "/m/04rv8v": "Acura slx",
+            "/m/04w2lx": "Isuzu vehicross",
+            "/m/02rp02l": "Kia mohave/borrego",
+            "/m/0ltfs": "Bride",
+            "/m/0680p_": "Lexus gx",
+            "/m/06ryb5": "Toyota highlander",
+            "/m/02tzkh": "Acura mdx",
+            "/m/063vjv": "Hyundai santa fe",
+            "/m/0ctrp": "Sport utility vehicle",
+            "/m/0h5wwjv": "Subaru",
+            "/m/0bryct": "Hyundai terracan",
+            "/m/04jq0p": "Ssangyong rodius",
+            "/m/04tnkz": "Toyota rav4",
+            "/m/03p66g": "Crossover suv",
+            "/m/09tnn6": "Suzuki xl7",
+            "/m/0680sk": "Lexus lx",
+            "/m/07_nj6": "Hyundai trajet",
+            "/m/0539n0": "Compact sport utility vehicle",
+            "/m/03l8v3": "Buick rainier",
+            "/m/0459p2": "Chevrolet tracker",
+            "/m/03d5m7": "Mazda tribute",
+            "/m/0g3bk3": "Hyundai veracruz",
+            "/m/0c1331": "Zotye 2008",
+            "/m/02bs52": "Subaru vivio",
+            "/m/040m7b": "Hyundai tucson",
+            "/m/08lqhv": "Hyundai entourage",
+            "/m/03hcy1d": "Mitsubishi",
+            "/m/04vmy8": "Nissan ad",
+            "/m/02qd843": "Subaru tribeca",
+            "/m/03qbc4": "Toyota rav4 ev",
+            "/m/04dn5x": "Isuzu ascender",
+            "/m/040m82": "Kia sportage",
+            "/m/0k4j": "Car",
+            "/m/07yv9": "Vehicle",
+            "/m/01prls": "Land vehicle"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.152500",
+                "xMax": "0.883125",
+                "yMin": "0.351103",
+                "yMax": "0.882353",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/0k4j": "Car",
+                "maskFile": "0f1c7b5f7ab6c4c0_m0k4j_89049a95.png",
+                "boxId": "89049a95",
+                "xMin": "0.1525",
+                "xMax": "0.883125",
+                "yMin": "0.351103",
+                "yMax": "0.882353",
+                "PredictedIoU": "0.89517",
+                "clicks": "0.20968 0.81949 1;0.89632 0.61826 1;0.61042 0.34515 1;0.41102 0.39196 1;0.75845 0.35986 1;0.13454 0.67818 1;0.61075 0.31826 0;0.91577 0.60690 0;0.81366 0.82533 1;0.47415 0.86629 1"
+            }
+        ]
+    }
+}

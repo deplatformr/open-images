@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:a09215b93b21418d",
+    "contentUrl": "https://c6.staticflickr.com/8/7100/7190701332_c2af96f95d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7100/7190701332_944dbc8a70_z.jpg",
+    "name": "&quot;Commercial lanes&quot;, Vancouver",
+    "image": "a09215b93b21418d.jpg",
+    "creator": "James Cridland (https://www.flickr.com/people/jamescridland/)",
+    "dateCreated": "2012:05:12 10:36:28",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.83 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1944",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "1hqJaD3AqroP1fV/kdj64w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.2704038888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-123.145859722222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "41"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0c9ph5": "Flower",
+            "/m/02lts": "Electricity"
+        }
+    }
+}

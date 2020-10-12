@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:a75834a08f285376",
+    "contentUrl": "https://farm7.staticflickr.com/7354/15881590013_285c8bd9eb_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7354/15881590013_28957fb098_z.jpg",
+    "name": "DSCF9422",
+    "image": "a75834a08f285376.jpg",
+    "creator": "Zengame (https://www.flickr.com/people/zengame/)",
+    "dateCreated": "2015:02:11 15:06:15",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.59 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4896",
+    "height": "3264",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Vkb2YSOrpfjMHDOeevlckg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.5816694444445"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.703572222222"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0c9ph5": "Flower"
+        }
+    }
+}

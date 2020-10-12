@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:ba6b8788ad47acb2",
+    "contentUrl": "https://farm3.staticflickr.com/8190/8398147119_bf3e67eb41_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/9/8190/8398147119_812ec61cb4_z.jpg",
+    "name": "GEDC0350.JPG",
+    "image": "ba6b8788ad47acb2.jpg",
+    "creator": "Mathieu Plourde (https://www.flickr.com/people/mathplourde/)",
+    "dateCreated": "2012:12:27 13:55:23",
+    "description": "GEDSC DIGITAL CAMERA",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.57 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4608",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "5DAVMGKVzJvtixwz/6T0Yg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.5172"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.0821"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/079cl": "Skyscraper",
+            "/m/02qd_7": "Clock tower",
+            "/m/01x3z": "Clock"
+        }
+    }
+}

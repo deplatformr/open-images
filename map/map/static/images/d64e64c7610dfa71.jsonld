@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:d64e64c7610dfa71",
+    "contentUrl": "https://farm2.staticflickr.com/8616/16518542616_c3dcbe1d65_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/9/8616/16518542616_5e600f22fc_z.jpg",
+    "name": "DSC04500 - 2015-0215 中央書局",
+    "image": "d64e64c7610dfa71.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "2015:02:15 14:17:26",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "6.13 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5472",
+    "height": "3648",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "PeOpHUdw/JT0NDrGJUK76Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "24.141535"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "120.680809000126"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "151850/1231"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bt_c3": "Book"
+        }
+    }
+}

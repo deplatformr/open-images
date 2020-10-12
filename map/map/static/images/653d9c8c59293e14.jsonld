@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:653d9c8c59293e14",
+    "contentUrl": "https://farm5.staticflickr.com/8665/16519289038_789219febf_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8665/16519289038_0cd03b50e2_z.jpg",
+    "name": "Hamilton-Artspace Hamilton Lofts (OHPTC)",
+    "image": "653d9c8c59293e14.jpg",
+    "creator": "Ohio Redevelopment Projects - ODSA (https://www.flickr.com/people/63837784@N08/)",
+    "dateCreated": "2015:02:27 14:18:54",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.78 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "3264",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "MJZTak/3z8jk4mLj3YHLhA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "39.3999527777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-84.5608"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "21782/119"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06hyd": "Roof",
+            "/m/065x_w": "Primer"
+        }
+    }
+}

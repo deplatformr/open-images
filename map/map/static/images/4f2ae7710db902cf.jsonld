@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:4f2ae7710db902cf",
+    "contentUrl": "https://c8.staticflickr.com/4/3137/2890265941_66cdfcff6e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/4/3137/2890265941_c55b3b2be4_z.jpg",
+    "name": "Leaving Old Town - Sacramento",
+    "image": "4f2ae7710db902cf.jpg",
+    "creator": "Rojer (https://www.flickr.com/people/rojer/)",
+    "dateCreated": "2008:09:26 12:24:33",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.87 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3072",
+    "height": "2304",
+    "resolution": "480 x 480",
+    "disambiguatingDescription": "c8zgcgxpBuzO/Tjz8yEaxQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.5814"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-121.5035"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06_dn": "Snow",
+            "/m/01bjv": "Bus",
+            "/m/049pk5": "Dukw",
+            "/m/014jrm": "Amphibious vehicle",
+            "/m/07jdr": "Train",
+            "/m/0k4j": "Car",
+            "/m/03qz9": "Humvee"
+        }
+    }
+}

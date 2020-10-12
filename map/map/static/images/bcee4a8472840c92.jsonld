@@ -1,0 +1,63 @@
+{
+    "@id": "openimages:bcee4a8472840c92",
+    "contentUrl": "https://farm3.staticflickr.com/7150/6414744337_319ddd7f67_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7150/6414744337_94d7e373ba_z.jpg",
+    "name": "First nose",
+    "image": "bcee4a8472840c92.jpg",
+    "creator": "kill (https://www.flickr.com/people/tazebeth/)",
+    "dateCreated": "2011:11:17 19:00:52",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "131.33 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "384",
+    "height": "640",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "hQugeZYSS2zsCOsZVyizuw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "33.9743083333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-118.0471"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03ct3": "Goth subculture",
+            "/m/01jtn": "Body piercing",
+            "/m/0k0pj": "Human nose",
+            "/m/066j5c": "Dimple"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0k0pj": "Human nose",
+                "confidence": "1",
+                "xMin": "0.098958",
+                "xMax": "0.635417",
+                "yMin": "0.159375",
+                "yMax": "0.593750",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

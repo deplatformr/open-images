@@ -1,0 +1,76 @@
+{
+    "@id": "openimages:3524ad455a60268c",
+    "contentUrl": "https://c5.staticflickr.com/4/3820/10781269525_ae6e5e4880_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/4/3820/10781269525_179993f830_z.jpg",
+    "name": "una mañana de otoño en El Retiro",
+    "image": "3524ad455a60268c.jpg",
+    "creator": "Manuel (https://www.flickr.com/people/martius/)",
+    "dateCreated": "2013:10:29 11:40:00",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.27 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3806",
+    "height": "2562",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "mOIEYWUrlHp7i/YzJylhjw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.4214248657227"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.68039298057556"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0134l": "Autumn",
+            "/m/0838f": "Water",
+            "/m/04h4w": "Lake",
+            "/m/03d28y3": "Natural landscape",
+            "/m/0184rb": "Pond",
+            "/m/0lvlk": "Swamp",
+            "/m/05s2s": "Plant",
+            "/m/07j7r": "Tree"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.208750",
+                "xMax": "0.958125",
+                "yMin": "0.014856",
+                "yMax": "0.844011",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "1",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.251875",
+                "yMin": "0.096565",
+                "yMax": "0.547818",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "1",
+                "isInside": "0"
+            }
+        ]
+    }
+}

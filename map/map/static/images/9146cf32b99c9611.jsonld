@@ -1,0 +1,189 @@
+{
+    "@id": "openimages:9146cf32b99c9611",
+    "contentUrl": "https://farm2.staticflickr.com/409/19913235989_4412792d5e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/1/409/19913235989_355db69a7e_z.jpg",
+    "name": "Ken",
+    "image": "9146cf32b99c9611.jpg",
+    "creator": "Kevin Dooley (https://www.flickr.com/people/pagedooley/)",
+    "dateCreated": "2015:07:10 19:14:48",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "115.49 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "640",
+    "height": "640",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "SK1uptddeLpPl3oHE7TiVg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.7333361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-86.906575"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02068x": "Gondola",
+            "/m/04yx4": "Man",
+            "/m/019jd": "Boat",
+            "/m/0dzct": "Human face",
+            "/m/09j2d": "Clothing",
+            "/m/017ftj": "Sunglasses",
+            "/m/07yv9": "Vehicle",
+            "/m/01g317": "Person",
+            "/m/0jyfg": "Glasses"
+        },
+        "trainingBoxes": [
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.123438",
+                "xMax": "0.710938",
+                "yMin": "0.304688",
+                "yMax": "0.967188",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/017ftj": "Sunglasses",
+                "confidence": "1",
+                "xMin": "0.350000",
+                "xMax": "0.481250",
+                "yMin": "0.403125",
+                "yMax": "0.439063",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/019jd": "Boat",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.998438",
+                "yMin": "0.000000",
+                "yMax": "0.998438",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0dzct": "Human face",
+                "confidence": "1",
+                "xMin": "0.343750",
+                "xMax": "0.476562",
+                "yMin": "0.348437",
+                "yMax": "0.534375",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Man is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.123438",
+                    "xMax": "0.710938",
+                    "yMin": "0.304688",
+                    "yMax": "0.967188"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.123438",
+                    "xMax": "0.710938",
+                    "yMin": "0.304688",
+                    "yMax": "0.967188"
+                }
+            },
+            {
+                "relationship": "Man is Smile",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.123438",
+                    "xMax": "0.710938",
+                    "yMin": "0.304688",
+                    "yMax": "0.967188"
+                },
+                "box2": {
+                    "/m/019nj4": "Smile",
+                    "xMin": "0.123438",
+                    "xMax": "0.710938",
+                    "yMin": "0.304688",
+                    "yMax": "0.967188"
+                }
+            },
+            {
+                "relationship": "Man wears Sunglasses",
+                "relationshipLabel": "wears",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.123438",
+                    "xMax": "0.710938",
+                    "yMin": "0.304688",
+                    "yMax": "0.967188"
+                },
+                "box2": {
+                    "/m/017ftj": "Sunglasses",
+                    "xMin": "0.350000",
+                    "xMax": "0.482812",
+                    "yMin": "0.403125",
+                    "yMax": "0.440625"
+                }
+            },
+            {
+                "relationship": "Man ride Boat",
+                "relationshipLabel": "ride",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.123438",
+                    "xMax": "0.710938",
+                    "yMin": "0.304688",
+                    "yMax": "0.967188"
+                },
+                "box2": {
+                    "/m/019jd": "Boat",
+                    "xMin": "0.000000",
+                    "xMax": "0.998438",
+                    "yMin": "0.000000",
+                    "yMax": "0.998438"
+                }
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/04yx4": "Man",
+                "maskFile": "9146cf32b99c9611_m04yx4_10571bfb.png",
+                "boxId": "10571bfb",
+                "xMin": "0.123438",
+                "xMax": "0.710938",
+                "yMin": "0.304688",
+                "yMax": "0.967188",
+                "PredictedIoU": "0.82142",
+                "clicks": "0.36787 0.76028 0;0.66182 0.71764 1;0.60089 0.84101 1;0.59023 0.91716 0;0.44428 0.69015 1;0.62398 0.76094 1;0.57316 0.71737 0;0.62580 0.95697 0;0.36623 0.64658 0;0.62762 0.71556 1;0.25006 0.55582 1;0.55319 0.95334 1"
+            }
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "@id": "openimages:71177d43d405c1bf",
+    "contentUrl": "https://c8.staticflickr.com/8/7621/16967647552_b7e6fa4e42_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7621/16967647552_a83c170941_z.jpg",
+    "name": "Cai Guo-Qiang: Unmanned Nature",
+    "image": "71177d43d405c1bf.jpg",
+    "creator": "John Lord (https://www.flickr.com/people/yellowbookltd/)",
+    "dateCreated": "2015:03:26 18:14:08",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.47 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4896",
+    "height": "2752",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "WkeSZGS3SUtsbScEMxSgZQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "17056881.853375"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "17056881.853375"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/09728": "Bread",
+            "/m/01sfb5": "Underwater",
+            "/m/081rb": "Writing",
+            "/m/015l_t": "Dust",
+            "/m/0gzznm": "Powder",
+            "/m/0dkxm": "Mold",
+            "/m/0_k2": "Ant",
+            "/m/0dzxxc": "Dried and salted cod",
+            "/m/0fkw3": "Flour",
+            "/m/06bt6": "Reptile",
+            "/m/0fq04wx": "Tadpole",
+            "/m/01x9mn": "Dough",
+            "/m/05qdh": "Painting",
+            "/m/06nmjv": "Dirt road",
+            "/m/03154": "Fungus",
+            "/m/0csj6s": "Stain"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:be131e15b81e2ad5",
+    "contentUrl": "https://farm6.staticflickr.com/7571/15996523310_6d8edd6955_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7571/15996523310_99cc5167e2_z.jpg",
+    "name": "DSCF5497",
+    "image": "be131e15b81e2ad5.jpg",
+    "creator": "Zengame (https://www.flickr.com/people/zengame/)",
+    "dateCreated": "2015:01:03 11:38:56",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.01 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4896",
+    "height": "3264",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "1ObdtsFESil+T2ilv+UUhg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.6613333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.76325"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/016c3c": "Graduation",
+            "/m/03k3r": "Horse",
+            "/m/014q3b": "Cape",
+            "/m/01xqvb": "Academic dress",
+            "/m/01k5yg": "Robe",
+            "/m/05km25g": "Scholar",
+            "/m/0bt9lr": "Dog",
+            "/m/04zx3q1": "Phd",
+            "/m/02vyz9n": "Kannushi"
+        }
+    }
+}

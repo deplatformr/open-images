@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:7723f1c2e1aad365",
+    "contentUrl": "https://farm6.staticflickr.com/7589/16756721232_fc1252bc95_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/8/7589/16756721232_16eb35629f_z.jpg",
+    "name": "Sayne",
+    "image": "7723f1c2e1aad365.jpg",
+    "creator": "Frédéric BISSON (https://www.flickr.com/people/zigazou76/)",
+    "dateCreated": "2015:03:08 19:00:02",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "8.07 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "c+nc290BEOztfuc0dq/iwQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.291105"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.05350796296296"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "307/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0jjw": "Art",
+            "/m/02q_bfg": "Tints and shades",
+            "/m/04rd7": "Mural",
+            "/m/034wh": "Graffiti",
+            "/m/07vwy6": "Street art"
+        }
+    }
+}

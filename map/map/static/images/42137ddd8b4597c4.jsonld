@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:42137ddd8b4597c4",
+    "contentUrl": "https://farm5.staticflickr.com/8608/16728056382_a0d5a18fd1_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8608/16728056382_0ff80fbc43_z.jpg",
+    "name": "Gwendolyn",
+    "image": "42137ddd8b4597c4.jpg",
+    "creator": "mrwynd (https://www.flickr.com/people/mrwynd/)",
+    "dateCreated": "2015:02:26 13:24:39",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.67 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "3264",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "uqHSfKbhsoUyBrOQeMa1Fw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "39.5601119722222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-104.894607527778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bgsw": "Toddler",
+            "/m/01j2bj": "Bathroom",
+            "/m/0jnvp": "Baby",
+            "/m/01yrx": "Cat"
+        }
+    }
+}

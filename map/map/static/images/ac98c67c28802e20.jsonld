@@ -1,0 +1,89 @@
+{
+    "@id": "openimages:ac98c67c28802e20",
+    "contentUrl": "https://farm1.staticflickr.com/6210/6100202116_c481dc1e7f_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/7/6210/6100202116_cfb0cb725c_z.jpg",
+    "name": "深生そばの天ぷら蕎麦 Tenpura Soba at Shinsho Soba",
+    "image": "ac98c67c28802e20.jpg",
+    "creator": "ume-y (https://www.flickr.com/people/ume-y/)",
+    "dateCreated": "2011:08:28 14:57:33",
+    "description": "SONY DSC                       ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.03 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4912",
+    "height": "3264",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "w6B+s8JOq4N3C5aXXG0RvA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.2005763888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.028053333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "7459/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/091jk8": "Rice vermicelli",
+            "/m/08d_8c": "Noodle soup",
+            "/m/018gzr": "Sōmen",
+            "/m/0d2xmz": "Wonton noodles",
+            "/m/012y1_": "Soba",
+            "/m/0f99t": "Tonkatsu",
+            "/m/02z80b4": "Kalguksu",
+            "/m/0cy8mp": "Thukpa",
+            "/m/0772h": "Spaghetti",
+            "/m/0b4rl8": "Fried prawn",
+            "/m/02hz3p": "Chinese noodles",
+            "/m/0b97cn": "Lamian",
+            "/m/026j3tg": "Karaage",
+            "/m/0x2y7sy": "Kake udon",
+            "/m/08h816": "Curry mee",
+            "/m/04v0d3": "Misua",
+            "/m/01z3j2": "Vermicelli",
+            "/m/0d88hh": "Manchow soup",
+            "/m/0169z_": "Dashi",
+            "/m/06nk8b": "Hae mee",
+            "/m/0bt9lr": "Dog",
+            "/m/07_1h6": "Banmian",
+            "/m/02z66r9": "Yi mein",
+            "/m/0mfnf": "Noodle",
+            "/m/03myyt": "Oyster vermicelli",
+            "/m/012xzr": "Tempura",
+            "/m/02r_4gm": "Crispy fried chicken",
+            "/m/0b960h": "Okinawa soba",
+            "/m/0c1vsn": "Panko",
+            "/m/04gkb7l": "Mami soup",
+            "/m/0797dp": "Katsudon",
+            "/m/01px4b": "Fried chicken",
+            "/m/0824x7": "Hot and sour soup",
+            "/m/033t__": "Saimin food",
+            "/m/0462w3c": "Guk",
+            "/m/02wbm": "Food",
+            "/m/04t8sg": "Al dente",
+            "/m/027mlyq": "Khao soi",
+            "/m/07k5tk": "Cart noodle",
+            "/m/0308gy": "Stock",
+            "/m/0t52nhp": "Feu",
+            "/m/09gms": "Ramen",
+            "/m/014vtw": "Tensoba",
+            "/m/0ddm59": "Asian soups"
+        }
+    }
+}

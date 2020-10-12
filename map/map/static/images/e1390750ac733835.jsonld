@@ -1,0 +1,228 @@
+{
+    "@id": "openimages:e1390750ac733835",
+    "contentUrl": "https://farm6.staticflickr.com/2897/14201477932_6e89875707_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/3/2897/14201477932_393e22a6dc_z.jpg",
+    "name": "Manchester City Fans - Blue Fireworks Required",
+    "image": "e1390750ac733835.jpg",
+    "creator": "Epic Fireworks (https://www.flickr.com/people/epicfireworks/)",
+    "dateCreated": "2014:05:17 09:33:28",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.08 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Qjt9SRBgFjq1pzcKv4nUzQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.4907416666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-1.49291111111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "52327/327"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01g317": "Person",
+            "/m/01prls": "Land vehicle",
+            "/m/07yv9": "Vehicle",
+            "/m/08dz3q": "Auto part",
+            "/m/09j2d": "Clothing",
+            "/m/0k4j": "Car",
+            "/m/04yx4": "Man",
+            "/m/047vlmn": "Outerwear"
+        },
+        "trainingBoxes": [
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.682500",
+                "xMax": "0.945000",
+                "yMin": "0.175833",
+                "yMax": "0.993333",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j2d": "Clothing",
+                "confidence": "1",
+                "xMin": "0.076250",
+                "xMax": "0.399375",
+                "yMin": "0.264167",
+                "yMax": "0.948333",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.026250",
+                "xMax": "0.403125",
+                "yMin": "0.205000",
+                "yMax": "0.999167",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j2d": "Clothing",
+                "confidence": "1",
+                "xMin": "0.678125",
+                "xMax": "0.949375",
+                "yMin": "0.272500",
+                "yMax": "0.999167",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.181875",
+                "xMax": "0.771875",
+                "yMin": "0.092500",
+                "yMax": "0.999167",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Man is Smile",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.026250",
+                    "xMax": "0.403125",
+                    "yMin": "0.205000",
+                    "yMax": "0.999167"
+                },
+                "box2": {
+                    "/m/019nj4": "Smile",
+                    "xMin": "0.026250",
+                    "xMax": "0.403125",
+                    "yMin": "0.205000",
+                    "yMax": "0.999167"
+                }
+            },
+            {
+                "relationship": "Man is Smile",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.682500",
+                    "xMax": "0.945000",
+                    "yMin": "0.175833",
+                    "yMax": "0.993333"
+                },
+                "box2": {
+                    "/m/019nj4": "Smile",
+                    "xMin": "0.682500",
+                    "xMax": "0.945000",
+                    "yMin": "0.175833",
+                    "yMax": "0.993333"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.026250",
+                    "xMax": "0.403125",
+                    "yMin": "0.205000",
+                    "yMax": "0.999167"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.026250",
+                    "xMax": "0.403125",
+                    "yMin": "0.205000",
+                    "yMax": "0.999167"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.682500",
+                    "xMax": "0.945000",
+                    "yMin": "0.175833",
+                    "yMax": "0.993333"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.682500",
+                    "xMax": "0.945000",
+                    "yMin": "0.175833",
+                    "yMax": "0.993333"
+                }
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/0k4j": "Car",
+                "maskFile": "e1390750ac733835_m0k4j_6afbe162.png",
+                "boxId": "6afbe162",
+                "xMin": "0.181875",
+                "xMax": "0.771875",
+                "yMin": "0.0925",
+                "yMax": "0.999167",
+                "PredictedIoU": "0.85365",
+                "clicks": "0.35605 0.37220 1;0.25986 0.95876 0;0.33963 0.98379 1;0.67749 0.46448 0;0.32860 0.22477 0;0.69117 0.27931 1;0.68559 0.53962 1;0.34720 0.58424 1;0.50999 0.97024 1;0.75319 0.85650 1;0.30499 0.31493 0;0.20568 0.18930 1"
+            },
+            {
+                "/m/04yx4": "Man",
+                "maskFile": "e1390750ac733835_m04yx4_6765e1a7.png",
+                "boxId": "6765e1a7",
+                "xMin": "0.6825",
+                "xMax": "0.945",
+                "yMin": "0.175833",
+                "yMax": "0.993333",
+                "PredictedIoU": "0.85412",
+                "clicks": "0.70798 0.34057 1;0.73679 0.74822 0;0.79882 0.21650 0;0.91520 0.80265 1;0.82223 0.30812 0;0.80245 0.99665 1;0.71838 0.27251 1;0.84316 0.33642 1;0.89844 0.95329 0;0.71217 0.70654 1;0.71818 0.25150 0"
+            },
+            {
+                "/m/09j2d": "Clothing",
+                "maskFile": "e1390750ac733835_m09j2d_6f1d1e01.png",
+                "boxId": "6f1d1e01",
+                "xMin": "0.07625",
+                "xMax": "0.399375",
+                "yMin": "0.264167",
+                "yMax": "0.948333",
+                "PredictedIoU": "0.87624",
+                "clicks": "0.12014 0.57042 0;0.07057 0.61553 1;0.27910 0.92295 1;0.27910 0.92295 1;0.05723 0.50142 1;0.24460 0.34929 1;0.38753 0.65836 1;0.34789 0.70961 0;0.12448 0.53900 0;0.32773 0.39003 1;0.32416 0.26325 0;0.13161 0.95262 1"
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:6b215488d46aa21e",
+    "contentUrl": "https://c7.staticflickr.com/9/8356/8398382421_fac880ec5b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8356/8398382421_eb6fbcc518_z.jpg",
+    "name": "CERN",
+    "image": "6b215488d46aa21e.jpg",
+    "creator": "Nacho (https://www.flickr.com/people/gonmi/)",
+    "dateCreated": "2013:01:20 13:04:14",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "343.39 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1600",
+    "height": "1200",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "oo98S7RFUEMn6rJzdPfhpQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.3590722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-5.84878888888889"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01n5jq": "Poster",
+            "/m/02f9f_": "Shower",
+            "/m/01nvr_": "Bulletin board",
+            "/m/03dnzn": "Bathtub",
+            "/m/0h8lr5r": "Bathroom sink",
+            "/m/04_tb": "Map",
+            "/m/01qbk5": "Hall of fame",
+            "/m/0k0pj": "Human nose",
+            "/m/01j2bj": "Bathroom",
+            "/m/02p0tk3": "Human body",
+            "/m/0130jx": "Sink"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "@id": "openimages:e0db91c163484eb2",
+    "contentUrl": "https://farm3.staticflickr.com/8308/7861099866_6663b5c487_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/9/8308/7861099866_213cdcfd72_z.jpg",
+    "name": "The Minnesota Bound dog",
+    "image": "e0db91c163484eb2.jpg",
+    "creator": "m01229 (https://www.flickr.com/people/39908901@N06/)",
+    "dateCreated": "2012:08:25 16:06:33",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.72 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "zo6hECUobxK8sUODJG8s2Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "44.9850388888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-93.1687777777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "300"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0838f": "Water",
+            "/m/0gz0j": "Gordon setter",
+            "/m/02wbgd": "English cocker spaniel",
+            "/m/05q778": "Dog collar",
+            "/m/02wcn0z": "Russian spaniel",
+            "/m/02pxllv": "Blue picardy spaniel",
+            "/m/020g49": "Hardwood",
+            "/m/03yddhn": "Borador",
+            "/m/0286h_": "Bow tie",
+            "/m/02fpy0": "Teenage puppy love",
+            "/m/0h8nlvj": "Dog clothes",
+            "/m/0285t83": "German spaniel",
+            "/m/03g_78s": "Gaddi kutta",
+            "/m/0bt9lr": "Dog",
+            "/m/04m6gz": "Porch",
+            "/m/01rkbr": "Tie",
+            "/m/01z404": "Newfoundland",
+            "/m/02qx_df": "Picardy spaniel",
+            "/m/0km3f": "Labrador retriever",
+            "/m/0341wr": "Alpine dachsbracke",
+            "/m/0c02w2": "Polar fleece",
+            "/m/01d7mc": "Black and tan coonhound",
+            "/m/07blj0": "Large münsterländer",
+            "/m/09141t": "Collar (Animal)",
+            "/m/01d7qq": "Coonhound",
+            "/m/08s0ws": "Boykin spaniel",
+            "/m/02r97r": "Pointing breed",
+            "/m/01p314": "Montenegrin mountain hound",
+            "/m/03ht9m": "Field spaniel",
+            "/m/02r8l4l": "Giant dog breed",
+            "/m/0119x27p": "Cocker spaniel",
+            "/m/02y_3dj": "Sad"
+        }
+    }
+}

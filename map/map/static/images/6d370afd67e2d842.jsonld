@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:6d370afd67e2d842",
+    "contentUrl": "https://farm3.staticflickr.com/5483/11636722175_84ac512812_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/6/5483/11636722175_a65921d14e_z.jpg",
+    "name": "06 Chihully Montreal CA 2952",
+    "image": "6d370afd67e2d842.jpg",
+    "creator": "bobistraveling (https://www.flickr.com/people/bobistraveling/)",
+    "dateCreated": "2013:08:22 15:18:11",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.01 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "yKsHjVg7nrXzFXcFD5gRKg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "45.4988288879395"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.5802154541016"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03xx54": "Paper lantern",
+            "/m/027dwg0": "Lobby",
+            "/m/025nd": "Christmas tree"
+        }
+    }
+}

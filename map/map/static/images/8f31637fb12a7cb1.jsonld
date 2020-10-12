@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:8f31637fb12a7cb1",
+    "contentUrl": "https://farm2.staticflickr.com/7494/15746120618_d4d92a52e7_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/8/7494/15746120618_846ab7fa85_z.jpg",
+    "name": "Contributor to the Mess",
+    "image": "8f31637fb12a7cb1.jpg",
+    "creator": "Tony Alter (https://www.flickr.com/people/78428166@N00/)",
+    "dateCreated": "2014:12:02 16:35:07",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.15 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1936",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "aflK2FqjoBiyBppbj+RuyA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.0418611111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-76.46965"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "24"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car",
+            "/m/0511_p": "Audi s4",
+            "/m/0gm3m": "Filling station",
+            "/m/0213tg": "Combination lock"
+        }
+    }
+}

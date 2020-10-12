@@ -1,0 +1,74 @@
+{
+    "@id": "openimages:39e7e0fecfe48e4a",
+    "contentUrl": "https://c3.staticflickr.com/6/5601/15016880923_992ddb1c27_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5601/15016880923_4192e0b792_z.jpg",
+    "name": "Christine",
+    "image": "39e7e0fecfe48e4a.jpg",
+    "creator": "amateur photography by michel (https://www.flickr.com/people/119886413@N05/)",
+    "dateCreated": "2014:10:25 12:02:51",
+    "description": "Christine",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.81 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "1836",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "pF8XuZvVYnRYEPltYSm6MA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "28.4793796388889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-81.4573287777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car",
+            "/m/07yv9": "Vehicle",
+            "/m/01prls": "Land vehicle",
+            "/m/081tx_": "1957 chevrolet",
+            "/m/053mcp": "Plymouth savoy",
+            "/m/0cykbp": "Chevrolet 150",
+            "/m/03crxk8": "Chrysler royal (1957)",
+            "/m/050tn6": "Plymouth belvedere",
+            "/m/04fvsn": "Plymouth fury",
+            "/m/0bs_x": "Dodge",
+            "/m/0br6lk": "Desoto firesweep",
+            "/m/053ly1": "Plymouth plaza",
+            "/m/024ncv": "Chevrolet bel air",
+            "/m/0544zt": "Dodge mayfair"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.006875",
+                "xMax": "0.981875",
+                "yMin": "0.317778",
+                "yMax": "0.903333",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

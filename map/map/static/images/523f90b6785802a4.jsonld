@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:523f90b6785802a4",
+    "contentUrl": "https://farm5.staticflickr.com/3755/18691798913_8390dc4a91_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/4/3755/18691798913_4e6ee48e0f_z.jpg",
+    "name": "IMG_7673",
+    "image": "523f90b6785802a4.jpg",
+    "creator": "Kai Hendry (https://www.flickr.com/people/hendry/)",
+    "dateCreated": "2015:06:13 12:02:15",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.59 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "WAuJsqCeluv21eDxe37HMA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 180
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.5052416666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-4.65749722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "151811/898"
+        }
+    ],
+    "about": {}
+}

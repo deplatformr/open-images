@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:fa5ec74896fa0641",
+    "contentUrl": "https://farm2.staticflickr.com/8591/15825862848_095ea11439_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8591/15825862848_e44bf6e964_z.jpg",
+    "name": "IMG_6011",
+    "image": "fa5ec74896fa0641.jpg",
+    "creator": "Jenny Laird (https://www.flickr.com/people/99095055@N04/)",
+    "dateCreated": "2014:10:28 16:48:11",
+    "description": "Processed with VSCOcam with f2 preset",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "895.47 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "D9BQc997mFzr7COam5m+vw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "56.2799555555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.00688888888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "128"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06m_p": "Sun"
+        }
+    }
+}

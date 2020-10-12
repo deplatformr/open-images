@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:509d5353186a5f27",
+    "contentUrl": "https://farm8.staticflickr.com/7779/18147069296_c2cb78394b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/8/7779/18147069296_72ff785219_z.jpg",
+    "name": "Hay Bluff",
+    "image": "509d5353186a5f27.jpg",
+    "creator": "shellac (https://www.flickr.com/people/pldms/)",
+    "dateCreated": "2015:05:26 16:50:12",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.61 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "T0Qjk87xyek5+BwoVhIKTA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "52.0396583055556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.11075833333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/09d_r": "Mountain",
+            "/m/07j7r": "Tree",
+            "/m/0csby": "Cloud"
+        }
+    }
+}

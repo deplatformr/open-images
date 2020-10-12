@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:ea5537fb6029ed5c",
+    "contentUrl": "https://c5.staticflickr.com/9/8234/8484851656_10399c9c68_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/9/8234/8484851656_84c486180c_z.jpg",
+    "name": "犬吠埼",
+    "image": "ea5537fb6029ed5c.jpg",
+    "creator": "IbaGeo (https://www.flickr.com/people/49798772@N03/)",
+    "dateCreated": "2013:02:17 14:10:25",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "159.55 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3920",
+    "height": "2940",
+    "resolution": "None x None",
+    "disambiguatingDescription": "YGa51Zeh/fS5F6HZTC3TSw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.7068972222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "140.867304722222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "6"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0b3yr": "Beach"
+        }
+    }
+}

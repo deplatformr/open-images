@@ -1,0 +1,36 @@
+{
+    "@id": "openimages:9be08749d092b550",
+    "contentUrl": "https://farm1.staticflickr.com/8775/17134118756_1bd4c64540_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/9/8775/17134118756_0659ec55fb_z.jpg",
+    "name": "Depending on the prevailing wind, the prisoners of Perth will be able to sniff the fast food denied to them because of their wrongdoings.",
+    "image": "9be08749d092b550.jpg",
+    "creator": "Ninian  Reid (https://www.flickr.com/people/ninian_reid/)",
+    "dateCreated": "2015:04:15 19:32:14",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.58 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3104",
+    "height": "1746",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "q0JBt+GcZSjhaQGo+FEZ8A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "56.3878707777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-3.43094155555556"
+        }
+    ],
+    "about": {}
+}

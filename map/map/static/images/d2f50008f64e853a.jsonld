@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:d2f50008f64e853a",
+    "contentUrl": "https://c3.staticflickr.com/4/3948/15551520601_3ea4884063_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3948/15551520601_fdddb303d5_z.jpg",
+    "name": "P9270617 Oakland Zoo 20130927",
+    "image": "d2f50008f64e853a.jpg",
+    "creator": "Sarah Sammis (https://www.flickr.com/people/pussreboots/)",
+    "dateCreated": "2013:09:27 12:58:35",
+    "description": "Awake tiger",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.01 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2895",
+    "height": "1948",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "HLp4qz3w2Asx1N/dfuMqqQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.7494472222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.145561111111"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0622q7": "English Bulldog",
+            "/m/07h0r": "Tasmanian wolf",
+            "/m/02nf1k": "Siberian tiger",
+            "/m/01p29g": "Alapaha blue blood bulldog",
+            "/m/0891tx": "Toyger",
+            "/m/07dm6": "Tiger",
+            "/m/07lwtn": "Old english bulldog",
+            "/m/01g8p4": "Bengal tiger"
+        }
+    }
+}

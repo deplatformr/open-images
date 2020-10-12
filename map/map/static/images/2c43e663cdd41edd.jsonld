@@ -1,0 +1,51 @@
+{
+    "@id": "openimages:2c43e663cdd41edd",
+    "contentUrl": "https://c6.staticflickr.com/4/3932/15281429869_3ed6f57bf3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/4/3932/15281429869_28af30eb00_z.jpg",
+    "name": "Italy 773",
+    "image": "2c43e663cdd41edd.jpg",
+    "creator": "Scott Maentz (https://www.flickr.com/people/smaentz/)",
+    "dateCreated": "2014:09:29 10:30:22",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "340.32 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "768",
+    "height": "1024",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "YABNOMHcz40jbIY8mtAm5Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.9027027777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "12.4544361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "29386/1051"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0h36z": "Cemetery",
+            "/m/01vw0_": "Grave",
+            "/m/06msq": "Sculpture",
+            "/m/0ltfs": "Bride",
+            "/m/0130jx": "Sink",
+            "/m/02_g0": "Funeral",
+            "/m/0c9ph5": "Flower"
+        }
+    }
+}

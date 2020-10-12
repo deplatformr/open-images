@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:da49ef2ee72f1385",
+    "contentUrl": "https://farm6.staticflickr.com/5113/14018445529_ecab261a98_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/6/5113/14018445529_fd92a748b9_z.jpg",
+    "name": "StartUp Weekend NYC EDU",
+    "image": "da49ef2ee72f1385.jpg",
+    "creator": "Aram Zucker-Scharff (https://www.flickr.com/people/aramzs/)",
+    "dateCreated": "2014:02:01 19:51:07",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.13 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "2880",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "BG/ppC7V7I8LWq+cO28sKA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.7676833333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.9382944444445"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01m3v": "Computer",
+            "/m/0643t": "Personal computer",
+            "/m/01c648": "Laptop"
+        }
+    }
+}

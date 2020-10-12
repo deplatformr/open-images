@@ -1,0 +1,98 @@
+{
+    "@id": "openimages:8f6412d5b8ba662a",
+    "contentUrl": "https://c3.staticflickr.com/8/7177/6897701513_ef40f4afd6_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7177/6897701513_22d06ed408_z.jpg",
+    "name": "Castello di Amorosa Winery, Napa Valley, California, USA",
+    "image": "8f6412d5b8ba662a.jpg",
+    "creator": "Jim G (https://www.flickr.com/people/jimg944/)",
+    "dateCreated": "2011:06:12 11:02:40",
+    "description": "Castello di Amorosa Winery, Napa Valley, California, USA",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.97 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "96 x 96",
+    "disambiguatingDescription": "e9xLrADSAax5eNANpi2o4A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.5582302777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.542696388889"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04dr76w": "Bottle",
+            "/m/0271t": "Drink",
+            "/m/0dwysm": "Wine cellar",
+            "/m/02zn6n": "Barrel",
+            "/m/04bcr3": "Table",
+            "/m/0c_jw": "Furniture",
+            "/m/04wdff": "Malaga",
+            "/m/0159gt": "Brewery",
+            "/m/02x158": "Winery",
+            "/m/03qtmn": "Winemaker"
+        },
+        "trainingBoxes": [
+            {
+                "/m/04bcr3": "Table",
+                "confidence": "1",
+                "xMin": "0.110000",
+                "xMax": "0.991250",
+                "yMin": "0.355833",
+                "yMax": "0.981667",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/02zn6n": "Barrel",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.999375",
+                "yMin": "0.055000",
+                "yMax": "0.649167",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Table is Wood",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04bcr3": "Table",
+                    "xMin": "0.110000",
+                    "xMax": "0.991250",
+                    "yMin": "0.355833",
+                    "yMax": "0.981667"
+                },
+                "box2": {
+                    "/m/083vt": "Wood",
+                    "xMin": "0.110000",
+                    "xMax": "0.991250",
+                    "yMin": "0.355833",
+                    "yMax": "0.981667"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "openimages:6f79161334bc19fc",
+    "contentUrl": "https://c5.staticflickr.com/8/7527/16277655466_80a7a0a747_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/8/7527/16277655466_5e7d51ca48_z.jpg",
+    "name": "DSCF2937",
+    "image": "6f79161334bc19fc.jpg",
+    "creator": "Peter (https://www.flickr.com/people/acidka/)",
+    "dateCreated": "2013:08:06 11:41:18",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "647.97 KiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "rk3iEDRI7fwgh27ekUz/Kg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "44.7910335499993"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "147.163925170068"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bqwh": "Mist"
+        }
+    }
+}

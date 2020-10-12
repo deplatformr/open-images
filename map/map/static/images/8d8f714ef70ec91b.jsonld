@@ -1,0 +1,79 @@
+{
+    "@id": "openimages:8d8f714ef70ec91b",
+    "contentUrl": "https://c4.staticflickr.com/4/3747/11469115706_6e1a453264_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/4/3747/11469115706_399452991b_z.jpg",
+    "name": "شيبس بالرمان",
+    "image": "8d8f714ef70ec91b.jpg",
+    "creator": "Ali from Riyadh : ) (https://www.flickr.com/people/rainsong/)",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.13 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "I+FyB72cSUXaGuWjTiPPwQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "24.7369333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "46.7711"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01qqbj": "Food storage",
+            "/m/04t8sg": "Al dente",
+            "/m/083qqcx": "Tortiglioni",
+            "/m/0gzcjz": "Alphabet pasta",
+            "/m/02wf2z": "Ravioli",
+            "/m/02h36m": "Falukorv",
+            "/m/05znxfy": "Quadratini",
+            "/m/02bpwp": "Tagliatelle",
+            "/m/018y5m": "Valentine's day",
+            "/m/0c45h9": "Orecchiette",
+            "/m/01tqs1": "Biscuit",
+            "/m/03hvr6": "Fettuccine",
+            "/m/04bcff": "Goji",
+            "/m/04dr76w": "Bottle",
+            "/m/03cj9_9": "Croxetti",
+            "/m/09drxk": "Arborio rice",
+            "/m/0mfnf": "Noodle",
+            "/m/026xlvv": "Rotelle",
+            "/m/069qlf": "Anellini",
+            "/m/04191v": "Speculoos",
+            "/m/09696": "Wheat",
+            "/m/02jnhm": "Tin can",
+            "/m/0blbtf": "Springerle",
+            "/m/0c6lc": "Mortadella",
+            "/m/028lgz": "Brown rice",
+            "/m/02k8rz": "Wafer",
+            "/m/093b8w": "Fusilli",
+            "/m/05hxf1": "Bonbon",
+            "/m/020jl4": "Durum",
+            "/m/02w92r": "Cookie cutter",
+            "/m/04v925": "Farfel",
+            "/m/052ly": "Macaroni",
+            "/m/0514zg": "Potpourri",
+            "/m/06hs2r": "Whole grain",
+            "/m/06_psm": "Pappardelle",
+            "/m/02wz3t5": "Corzetti",
+            "/m/04flxj": "Linguine",
+            "/m/09g9qz9": "Lasagnette",
+            "/m/018dy5": "Pepperoni",
+            "/m/026xlyl": "Rotini",
+            "/m/0bt_c3": "Book"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:4f6aa37db8d9fe34",
+    "contentUrl": "https://farm5.staticflickr.com/8702/16817199356_7fef77f786_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/9/8702/16817199356_ea8e4664d6_z.jpg",
+    "name": "(LYON,FR69)",
+    "image": "4f6aa37db8d9fe34.jpg",
+    "creator": "jean-louis Zimmermann (https://www.flickr.com/people/jeanlouis_zimmermann/)",
+    "dateCreated": "2015:03:16 18:08:21",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.23 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "MCiLSOLspnljCj+dPOvyeA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "45.7604916666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "4.860675"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "48889/284"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bdy": "Bowling",
+            "/m/0cgh4": "Building"
+        }
+    }
+}

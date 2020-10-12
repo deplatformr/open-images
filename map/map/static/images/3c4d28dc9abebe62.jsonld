@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:3c4d28dc9abebe62",
+    "contentUrl": "https://farm3.staticflickr.com/2080/2140128472_28d348c846_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/3/2080/2140128472_07d0ab08d7_z.jpg",
+    "name": "Somerville decorations",
+    "image": "3c4d28dc9abebe62.jpg",
+    "creator": "Andrew Malone (https://www.flickr.com/people/andrewmalone/)",
+    "dateCreated": "2007:12:09 13:30:39",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.39 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "EfTG9W/pkoNHCEqbft1Qhg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.375998"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.099594"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01hrm7": "Candy cane",
+            "/m/01l00t": "Wreath",
+            "/m/01gl_m": "Mannequin",
+            "/m/0ltfs": "Bride",
+            "/m/03jm5": "House",
+            "/m/013_1c": "Statue",
+            "/m/0c9ph5": "Flower"
+        }
+    }
+}

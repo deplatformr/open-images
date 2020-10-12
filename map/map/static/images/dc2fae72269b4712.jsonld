@@ -1,0 +1,63 @@
+{
+    "@id": "openimages:dc2fae72269b4712",
+    "contentUrl": "https://farm3.staticflickr.com/7489/15670294817_95af73f40c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/8/7489/15670294817_75be8166be_z.jpg",
+    "name": "Trapeze School New York",
+    "image": "dc2fae72269b4712.jpg",
+    "creator": "Vick Khera (https://www.flickr.com/people/91357687@N02/)",
+    "dateCreated": "2014:11:22 12:55:39",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.86 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "l43i/Nd0SEPF9YIv2KBYQQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 180
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.8738277777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-77.0003972222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "4791/593"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07j7r": "Tree",
+            "/m/05s2s": "Plant",
+            "/m/03q69": "Human hair",
+            "/m/07yv9": "Vehicle"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.713750",
+                "xMax": "0.995625",
+                "yMin": "0.338333",
+                "yMax": "0.871667",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

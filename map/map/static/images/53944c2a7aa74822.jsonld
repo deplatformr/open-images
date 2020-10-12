@@ -1,0 +1,52 @@
+{
+    "@id": "openimages:53944c2a7aa74822",
+    "contentUrl": "https://farm3.staticflickr.com/3043/2453089563_b71caa6dc4_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/4/3043/2453089563_c8603b916b_z.jpg",
+    "name": "DSC_0025",
+    "image": "53944c2a7aa74822.jpg",
+    "creator": "George M. Groutas (https://www.flickr.com/people/jorge-11/)",
+    "dateCreated": "2007:02:05 12:21:55",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.20 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3872",
+    "height": "2592",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "k6SuT/xSNHg/APOkS5/dsQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.5052527777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.0802"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07jdr": "Train",
+            "/m/01bjv": "Bus",
+            "/m/04h4w": "Lake",
+            "/m/01bqvp": "Sky",
+            "/m/0cgh4": "Building",
+            "/m/0838f": "Water",
+            "/m/079cl": "Skyscraper",
+            "/m/06q74": "Ship"
+        }
+    }
+}

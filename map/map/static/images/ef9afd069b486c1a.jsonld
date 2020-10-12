@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:ef9afd069b486c1a",
+    "contentUrl": "https://c3.staticflickr.com/3/2674/3756917500_1b3e3751fd_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/3/2674/3756917500_b07e6932f4_z.jpg",
+    "name": "Commemorative Tree, Koelreuteria Paniculata (Golden Rain Tree), to Honor Nobel Peace Laureate Wangari Maathai of Kenya (Washington, DC)",
+    "image": "ef9afd069b486c1a.jpg",
+    "creator": "takomabibelot (https://www.flickr.com/people/takomabibelot/)",
+    "dateCreated": "2009:07:21 12:23:25",
+    "description": "OLYMPUS DIGITAL CAMERA         ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.07 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "S6rvr4AXKVvU2WeUzugyJw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.8879492699827"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-77.0099008200355"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "203"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0lhr": "Arecales",
+            "/m/0cx45": "Temple"
+        }
+    }
+}

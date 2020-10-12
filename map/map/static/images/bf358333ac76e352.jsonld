@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:bf358333ac76e352",
+    "contentUrl": "https://farm3.staticflickr.com/8679/16332698858_8e76aa306b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8679/16332698858_2aea59c70a_z.jpg",
+    "name": "DSCF9585",
+    "image": "bf358333ac76e352.jpg",
+    "creator": "Zengame (https://www.flickr.com/people/zengame/)",
+    "dateCreated": "2015:02:13 21:58:40",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.45 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3235",
+    "height": "4852",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "gFd6QDV7HRt7FHXNtZCWlQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.7076138888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.798177777778"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cgh4": "Building",
+            "/m/079cl": "Skyscraper"
+        }
+    }
+}

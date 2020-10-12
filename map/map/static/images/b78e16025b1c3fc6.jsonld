@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:b78e16025b1c3fc6",
+    "contentUrl": "https://farm7.staticflickr.com/1210/5103297965_a78ea94127_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/2/1210/5103297965_0634cceb20_z.jpg",
+    "name": "Scratch off",
+    "image": "b78e16025b1c3fc6.jpg",
+    "creator": "Andrew Malone (https://www.flickr.com/people/andrewmalone/)",
+    "dateCreated": "2010:04:17 17:49:17",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.76 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "omR0c85iHjKj5P1Dxe0fRw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.651006"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.755362"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0fldg": "Mango",
+            "/m/01mtt": "Card game",
+            "/m/04scj": "Meat",
+            "/m/04n6jtr": "Table knife",
+            "/m/0h8m01z": "Office instrument",
+            "/m/0h8nm6p": "Nail care",
+            "/m/0284d": "Dairy Product",
+            "/m/09t19": "Engagement ring",
+            "/m/0dt3t": "Fork",
+            "/m/015rvg": "Wedding ring",
+            "/m/026lrs": "Napkin",
+            "/m/04ctx": "Knife",
+            "/m/09swcp": "Household silver"
+        }
+    }
+}

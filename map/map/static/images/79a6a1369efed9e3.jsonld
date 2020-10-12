@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:79a6a1369efed9e3",
+    "contentUrl": "https://farm4.staticflickr.com/5568/14898722395_ed4fedfa14_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5568/14898722395_5811924e99_z.jpg",
+    "name": "Flaggenmast am Baum",
+    "image": "79a6a1369efed9e3.jpg",
+    "creator": "Michael Beat (https://www.flickr.com/people/michael-beat/)",
+    "dateCreated": "2014:08:03 16:05:05",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.57 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "3264",
+    "resolution": "None x None",
+    "disambiguatingDescription": "AcJvHr4ce03+WvgF2LObig==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.2209194444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "12.1264972222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "67367/178"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02916": "Disc golf",
+            "/m/064bf8": "Slacklining",
+            "/m/0194d": "Badminton",
+            "/m/012v4j": "Hiking",
+            "/m/02cbmv": "Georgia pine"
+        }
+    }
+}

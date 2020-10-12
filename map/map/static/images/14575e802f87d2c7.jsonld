@@ -1,0 +1,55 @@
+{
+    "@id": "openimages:14575e802f87d2c7",
+    "contentUrl": "https://farm8.staticflickr.com/8048/8109227480_a4a4ba1c1e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/9/8048/8109227480_f34deddee5_z.jpg",
+    "name": "First 32759 WA54OLN",
+    "image": "14575e802f87d2c7.jpg",
+    "creator": "Graham Richardson (https://www.flickr.com/people/didbygraham/)",
+    "dateCreated": "2012:08:28 14:22:08",
+    "description": "Photo: \tP1110736\nFleet: \tFirst Devon & Cornwall Ltd\nNo: \t32759\nReg: \tWA54OLN\nChassis: \tDennis Trident\nChassis No: \tSFD338BR64GX33583\nBody: \tEast Lancs Myllenium Lolyne\nBody No: \t52404\nSeats: \tH49/29F\nNew: \tFebruary 2005\nAcq: \tFebruary 2005\nEx: \tNew\nPhoto: \t28 August 2012\nLivery:\tRoutes 80/81 (TamarLink)\nroute-X80\t\n",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.51 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3162",
+    "height": "2466",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "0m6LfoTTCW4fUx7ZHBFomw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.3856317300015"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-4.09453690006575"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car",
+            "/m/0c3f90": "Honda s-mx",
+            "/m/01zbnw": "Screenshot",
+            "/m/02w11w8": "Tour bus service",
+            "/m/0bk5m9": "Bus driver",
+            "/m/0bt9lr": "Dog",
+            "/m/07yv9": "Vehicle",
+            "/m/01bjv": "Bus",
+            "/m/03qk36c": "Airport bus",
+            "/m/019jd": "Boat",
+            "/m/0199g": "Bicycle",
+            "/m/0cgh4": "Building",
+            "/m/0680p_": "Lexus gx",
+            "/m/01bqvp": "Sky",
+            "/m/03n9vx": "Double-decker bus"
+        }
+    }
+}

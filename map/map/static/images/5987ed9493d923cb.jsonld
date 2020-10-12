@@ -1,0 +1,116 @@
+{
+    "@id": "openimages:5987ed9493d923cb",
+    "contentUrl": "https://c4.staticflickr.com/3/2802/4413448552_4b27a5c0d4_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/3/2802/4413448552_bf3b301398_z.jpg",
+    "name": "Train & Trestle 'Tween Trees",
+    "image": "5987ed9493d923cb.jpg",
+    "creator": "Orin Zebest (https://www.flickr.com/people/orinrobertjohn/)",
+    "dateCreated": "2009:12:13 14:54:33",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.37 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "AKYHoncWtOBducC7DEp9Cg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.0370230599983"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.05800891"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0hv6w": "Logging",
+            "/m/06wyv": "Steam engine",
+            "/m/0d7z9": "Redwood",
+            "/m/0dd4k": "Funicular",
+            "/m/08dz3q": "Auto part",
+            "/m/01prls": "Land vehicle",
+            "/m/07j7r": "Tree",
+            "/m/07jdr": "Train",
+            "/m/07yv9": "Vehicle",
+            "/m/083wq": "Wheel",
+            "/m/0h9mv": "Tire",
+            "/m/05s2s": "Plant"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.309375",
+                "yMin": "0.000000",
+                "yMax": "0.998889",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.351875",
+                "xMax": "0.999375",
+                "yMin": "0.000000",
+                "yMax": "0.795556",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.592500",
+                "xMax": "0.940625",
+                "yMin": "0.002222",
+                "yMax": "0.993333",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07jdr": "Train",
+                "confidence": "1",
+                "xMin": "0.202500",
+                "xMax": "0.553750",
+                "yMin": "0.053333",
+                "yMax": "0.964444",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/07jdr": "Train",
+                "maskFile": "5987ed9493d923cb_m07jdr_7e9d3732.png",
+                "boxId": "7e9d3732",
+                "xMin": "0.2025",
+                "xMax": "0.55375",
+                "yMin": "0.053333",
+                "yMax": "0.964444",
+                "PredictedIoU": "0.81255",
+                "clicks": "0.47697 0.46984 1;0.35180 0.24391 1;0.21516 0.11990 1;0.29351 0.77052 1;0.46661 0.40459 0;0.37077 0.18621 0;0.22903 0.04942 0;0.52736 0.79576 1;0.31626 0.07519 1;0.50237 0.49015 0;0.27128 0.66799 0;0.53882 0.73830 0"
+            }
+        ]
+    }
+}

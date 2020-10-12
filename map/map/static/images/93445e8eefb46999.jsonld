@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:93445e8eefb46999",
+    "contentUrl": "https://c2.staticflickr.com/8/7333/9536003395_564528a6c6_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/8/7333/9536003395_fbcd414ed5_z.jpg",
+    "name": "Wine barrels",
+    "image": "93445e8eefb46999.jpg",
+    "creator": "Jon Connell (https://www.flickr.com/people/ciamabue/)",
+    "dateCreated": "2013:08:10 10:20:53",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.20 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "jumH96AohVjPtzsJSp5uKw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-33.9543333333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04mwqs": "Keg",
+            "/m/018y_6": "Inventory",
+            "/m/01k5lq": "Single malt whisky",
+            "/m/03qtmn": "Winemaker",
+            "/m/0hzsv": "Weights",
+            "/m/0159gt": "Brewery",
+            "/m/0gjbg72": "Shelf",
+            "/m/09618k": "Noilly prat",
+            "/m/02x158": "Winery",
+            "/m/0h8n982": "Shelving",
+            "/m/01tygv": "Archive",
+            "/m/030cj": "Foster's lager",
+            "/m/0dwysm": "Wine cellar",
+            "/m/02zn6n": "Barrel",
+            "/m/03gqg_": "Balsamic vinegar",
+            "/m/02y_b9": "Fodder",
+            "/m/0g_k0": "Mass production",
+            "/m/01c4r0": "Canning",
+            "/m/04dr76w": "Bottle"
+        }
+    }
+}

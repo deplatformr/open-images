@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:df6fbac85ae27bab",
+    "contentUrl": "https://c4.staticflickr.com/8/7595/16588673127_08f544d09e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7595/16588673127_bcfa3a5817_z.jpg",
+    "name": "IMAG8974.jpg",
+    "image": "df6fbac85ae27bab.jpg",
+    "creator": "charlene mcbride (https://www.flickr.com/people/ursonate/)",
+    "dateCreated": "2015:02:26 07:33:36",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "780.09 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2688",
+    "height": "1520",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "H3w9uBa5DRYvCEnIyc+T1Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.6364173888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.3151016111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "211/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06_dn": "Snow",
+            "/m/01bjv": "Bus",
+            "/m/07jdr": "Train"
+        }
+    }
+}

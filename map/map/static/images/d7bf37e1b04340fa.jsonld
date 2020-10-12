@@ -1,0 +1,65 @@
+{
+    "@id": "openimages:d7bf37e1b04340fa",
+    "contentUrl": "https://c3.staticflickr.com/8/7238/7343708736_126ae4cae3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/8/7238/7343708736_3ce5239209_z.jpg",
+    "name": "Bobcat Head Scratching",
+    "image": "d7bf37e1b04340fa.jpg",
+    "creator": "Jay Phagan (https://www.flickr.com/people/jayphagan/)",
+    "dateCreated": "2012:05:16 09:43:32",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "867.99 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4608",
+    "height": "3456",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "mISDMiTQCd7N8JLf2Rbz2Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "27.6843725"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-97.9690858333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "8307/250"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/027ylld": "Puma",
+            "/m/03_27x": "Chausie",
+            "/m/01nq_x": "Wild cat",
+            "/m/0c29q": "Leopard",
+            "/m/0dfdv": "Snow leopard",
+            "/m/0449p": "Jaguar (Animal)",
+            "/m/0kff3": "Cougar",
+            "/m/01nmp6": "Ocelot",
+            "/m/0172jz": "Bobcat",
+            "/m/09yhzf": "African leopard",
+            "/m/01yrx": "Cat",
+            "/m/0cd4d": "Cheetah",
+            "/m/068m4y": "Savannah",
+            "/m/021crq": "Jaguarundi",
+            "/m/068vv": "Postage stamp",
+            "/m/04g2r": "Lynx",
+            "/m/0891tx": "Toyger",
+            "/m/0cf45": "Clouded leopard",
+            "/m/0gzxy": "Bengal",
+            "/m/01lrl": "Carnivore"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "@id": "openimages:c9a128369bab61be",
+    "contentUrl": "https://c7.staticflickr.com/6/5585/15221867351_7785d9b1e3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/6/5585/15221867351_f61b750724_z.jpg",
+    "name": "View of &quot;drip drop droopy&quot; - Saturday, 13 September 2014 - 13:15 GMT+0200",
+    "image": "c9a128369bab61be.jpg",
+    "creator": "Raoul Pictor (https://www.flickr.com/people/raoulpictor/)",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "306.46 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1278",
+    "height": "720",
+    "resolution": "None x None",
+    "disambiguatingDescription": "PEtW8WOPzBiNlpwKmMuOJw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "46.1964861111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "6.14166388888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "55513/141"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04d1p3": "Shawl",
+            "/m/02qfx": "Embroidery",
+            "/m/078n6m": "Coffee table",
+            "/m/09kxp": "Wool",
+            "/m/0hnnb": "Umbrella",
+            "/m/03xr7y": "Lavender (Color)",
+            "/m/0d4cc": "Needlework",
+            "/m/02jp1h": "Marketplace",
+            "/m/055_j_": "Hawker",
+            "/m/01s_83": "Woven fabric",
+            "/m/02phwj2": "Display window",
+            "/m/047fr": "Knitting",
+            "/m/07br0": "Trade",
+            "/m/05677z": "Tablecloth",
+            "/m/02kj24": "Flea market",
+            "/m/01yh65": "Woolen",
+            "/m/04f759m": "Selling",
+            "/m/0b03ql": "Canopy",
+            "/m/02jf28": "Fair",
+            "/m/028qp": "Dye",
+            "/m/02w3fc": "Tarpaulin",
+            "/m/0dtln": "Lamp",
+            "/m/0dp7g": "Weaving",
+            "/m/01j61q": "Tent",
+            "/m/02h19r": "Scarf",
+            "/m/0hhdb": "Shopping",
+            "/m/08_4sd": "Collection",
+            "/m/011jng": "Fiber",
+            "/m/02kvytt": "Thread",
+            "/m/02y8mg": "Gazebo",
+            "/m/0711_5": "Stall",
+            "/m/0dj0kg": "Cloth merchant",
+            "/m/0191_7": "Retail"
+        }
+    }
+}

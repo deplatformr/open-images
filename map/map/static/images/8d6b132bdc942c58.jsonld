@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:8d6b132bdc942c58",
+    "contentUrl": "https://c1.staticflickr.com/1/175/375551591_c87cee8ebe_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/1/175/375551591_c87cee8ebe_z.jpg?zz=1",
+    "name": "Tamachi Station (East Entrance)",
+    "image": "8d6b132bdc942c58.jpg",
+    "creator": "heiwa4126 (https://www.flickr.com/people/heiwa4126/)",
+    "dateCreated": "2007:01:30 13:41:40",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "596.92 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1280",
+    "height": "327",
+    "resolution": "480 x 480",
+    "disambiguatingDescription": "HEk7kp4iDgR7L3wfwdW37w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.6452805555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.747836111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cgh4": "Building",
+            "/m/01fdzj": "Tower",
+            "/m/07yv9": "Vehicle",
+            "/m/01prls": "Land vehicle",
+            "/m/079cl": "Skyscraper",
+            "/m/07jdr": "Train"
+        }
+    }
+}

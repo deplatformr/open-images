@@ -1,0 +1,85 @@
+{
+    "@id": "openimages:5c6bd7aa2ee9d38c",
+    "contentUrl": "https://c5.staticflickr.com/8/7145/6637073285_a7e0b06eed_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7145/6637073285_73478e4b14_z.jpg",
+    "name": "Allegany Section New River State Park 20111009 4475",
+    "image": "5c6bd7aa2ee9d38c.jpg",
+    "creator": "bobistraveling (https://www.flickr.com/people/bobistraveling/)",
+    "dateCreated": "2011:10:09 16:39:04",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.92 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "y5zj1DPVxS6hO3vJBIWGsw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "36.5607376098633"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-81.3190841674805"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07j7r": "Tree",
+            "/m/04h4w": "Lake",
+            "/m/0838f": "Water",
+            "/m/05s2s": "Plant"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.870000",
+                "xMax": "0.983750",
+                "yMin": "0.042500",
+                "yMax": "0.450000",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.512500",
+                "yMin": "0.000000",
+                "yMax": "0.211667",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.863750",
+                "yMin": "0.000000",
+                "yMax": "0.487500",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

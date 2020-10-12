@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:945d68061915076f",
+    "contentUrl": "https://c8.staticflickr.com/9/8718/16955627952_6e976cd83b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8718/16955627952_de65f50539_z.jpg",
+    "name": "Luke & Me",
+    "image": "945d68061915076f.jpg",
+    "creator": "Morgan Kern (https://www.flickr.com/people/morgan_kern/)",
+    "dateCreated": "2015:03:26 23:05:12",
+    "description": "Processed with VSCOcam with c1 preset",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.64 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "PnUD/+Req0d1CRwKUy2RbA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.7352055555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.9827888888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "4951/469"
+        }
+    ],
+    "about": {}
+}

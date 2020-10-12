@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:bb63e62fd4bea6bb",
+    "contentUrl": "https://c4.staticflickr.com/5/4093/4814447094_eb02fcf93e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/5/4093/4814447094_bcded4cb55_z.jpg",
+    "name": "There's a Bed Up There!",
+    "image": "bb63e62fd4bea6bb.jpg",
+    "creator": "Lachlan Hardy (https://www.flickr.com/people/lachlanhardy/)",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "165.27 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "800",
+    "height": "600",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "WF+6u6YWSZLV7YkdrJi1qw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-33.8729099166667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "151.207924111111"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07br0": "Trade",
+            "/m/025s8bs": "Shopping mall",
+            "/m/027slhs": "Track lighting",
+            "/m/02ws6z": "Chandelier",
+            "/m/01vq3": "Christmas"
+        }
+    }
+}

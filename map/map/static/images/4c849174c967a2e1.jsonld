@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:4c849174c967a2e1",
+    "contentUrl": "https://farm2.staticflickr.com/8369/8527816436_0442f042ef_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "name": "MFA 3-3-13 14",
+    "image": "4c849174c967a2e1.jpg",
+    "creator": "Bridget Eileen (https://www.flickr.com/people/bridgeteileen/)",
+    "dateCreated": "2013:03:03 15:59:07",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "76.95 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1936",
+    "resolution": "None x None",
+    "disambiguatingDescription": "WZSFpxPydGlu/z9GYCSoXw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.3396666388889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.0943333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "18736/877"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/08_4sd": "Collection",
+            "/m/0hhbr": "Art gallery",
+            "/m/05qdh": "Painting",
+            "/m/01qbk5": "Hall of fame"
+        }
+    }
+}

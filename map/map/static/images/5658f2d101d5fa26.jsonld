@@ -1,0 +1,139 @@
+{
+    "@id": "openimages:5658f2d101d5fa26",
+    "contentUrl": "https://farm7.staticflickr.com/7329/9017642484_3d05baac0d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/8/7329/9017642484_c42b27bb59_z.jpg",
+    "name": "Shinkaichi Station, Kobe Rapid",
+    "image": "5658f2d101d5fa26.jpg",
+    "creator": "Kzaral (https://www.flickr.com/people/kzaral/)",
+    "dateCreated": "2013:06:08 13:41:01",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "680.71 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "Ig58SO584ZDCit+wBNjK/A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.6428333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "135.112027777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "54"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01g317": "Person",
+            "/m/0cgh4": "Building"
+        },
+        "trainingBoxes": [
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.000625",
+                "xMax": "0.050000",
+                "yMin": "0.528333",
+                "yMax": "0.802500",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.368750",
+                "xMax": "0.426875",
+                "yMin": "0.432500",
+                "yMax": "0.639167",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.508750",
+                "xMax": "0.573125",
+                "yMin": "0.470000",
+                "yMax": "0.654167",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.552500",
+                "xMax": "0.595000",
+                "yMin": "0.439167",
+                "yMax": "0.540833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01g317": "Person",
+                "confidence": "1",
+                "xMin": "0.736875",
+                "xMax": "0.793750",
+                "yMin": "0.480000",
+                "yMax": "0.637500",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0cgh4": "Building",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.999375",
+                "yMin": "0.000000",
+                "yMax": "0.999167",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "1"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/01g317": "Person",
+                "maskFile": "5658f2d101d5fa26_m01g317_82308837.png",
+                "boxId": "82308837",
+                "xMin": "0.5525",
+                "xMax": "0.595",
+                "yMin": "0.439167",
+                "yMax": "0.540833",
+                "PredictedIoU": "0.80997",
+                "clicks": "0.56636 0.51813 0;0.56175 0.49443 0;0.56820 0.44826 0;0.57623 0.54288 1;0.56411 0.44921 0;0.58526 0.47554 1;0.55967 0.49891 0;0.57700 0.53599 1;0.56820 0.45248 1;0.58084 0.53656 0"
+            }
+        ]
+    }
+}

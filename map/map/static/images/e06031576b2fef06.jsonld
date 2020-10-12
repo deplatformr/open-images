@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:e06031576b2fef06",
+    "contentUrl": "https://farm7.staticflickr.com/5767/21259778800_3a498bd4c6_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/6/5767/21259778800_5822890f0f_z.jpg",
+    "name": "Beamish Museum Railway Station, County Durham",
+    "image": "e06031576b2fef06.jpg",
+    "creator": "Michael Thomas (https://www.flickr.com/people/35889125@N05/)",
+    "dateCreated": "2015:08:25 14:29:16",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.36 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "GyyMuUHSMXyqL8pBS75pQA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "54.8883555555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-1.66515"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "38435/414"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07jdr": "Train"
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "@id": "openimages:03f324971bb365a8",
+    "contentUrl": "https://c1.staticflickr.com/3/2830/9429150613_0e366520bc_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/3/2830/9429150613_886a9b1175_z.jpg",
+    "name": "20130419 08 Niabi Zoo, Moline, Illinois",
+    "image": "03f324971bb365a8.jpg",
+    "creator": "David Wilson (https://www.flickr.com/people/davidwilson1949/)",
+    "dateCreated": "2013:04:19 08:49:04",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.73 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2816",
+    "height": "2112",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "9pOpHRP/B5V4ApIk4ALYhw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.4433416666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-90.4328933333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02p0_xl": "Waterfowl",
+            "/m/015p6": "Bird",
+            "/m/09ddx": "Duck",
+            "/m/0dbvp": "Goose",
+            "/m/0dftk": "Swan",
+            "/m/06_dn": "Snow",
+            "/m/0149r": "Aquarium",
+            "/m/01c80k": "Snow goose",
+            "/m/0dgw9r": "Human",
+            "/m/0dl16c": "Wildlife biologist",
+            "/m/01mppm": "Mergus",
+            "/m/01l28z": "Redhead",
+            "/m/0b3yr": "Beach",
+            "/m/0280j_t": "Canard",
+            "/m/01zbnw": "Screenshot",
+            "/m/01swzs": "American coot",
+            "/m/01m1l4": "Goosander",
+            "/m/0h8mhbc": "Hunting decoy",
+            "/m/01bqvp": "Sky",
+            "/m/06z6r": "Swimming",
+            "/m/01fmbp": "Seaduck",
+            "/m/01c_0l": "Ducks, geese and swans",
+            "/m/04h4w": "Lake",
+            "/m/0gg8brk": "Water bird",
+            "/m/01hs7l": "Tundra swan",
+            "/m/01hjj1": "Mallard",
+            "/m/01j2bj": "Bathroom",
+            "/m/0838f": "Water",
+            "/m/01h_1n": "Playground"
+        },
+        "trainingBoxes": [
+            {
+                "/m/09ddx": "Duck",
+                "confidence": "1",
+                "xMin": "0.335000",
+                "xMax": "0.678125",
+                "yMin": "0.327500",
+                "yMax": "0.561667",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0dbvp": "Goose",
+                "confidence": "1",
+                "xMin": "0.328750",
+                "xMax": "0.669375",
+                "yMin": "0.323333",
+                "yMax": "0.567500",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/0dbvp": "Goose",
+                "maskFile": "03f324971bb365a8_m0dbvp_8be0bb02.png",
+                "boxId": "8be0bb02",
+                "xMin": "0.32875",
+                "xMax": "0.669375",
+                "yMin": "0.323333",
+                "yMax": "0.5675",
+                "PredictedIoU": "0.84093",
+                "clicks": "0.34270 0.45282 0;0.65792 0.38641 0;0.55304 0.44813 0;0.64151 0.41297 0;0.58816 0.34003 1;0.34194 0.43873 1;0.62790 0.42107 0;0.38309 0.40274 0;0.65120 0.40274 1;0.39564 0.55099 1;0.57050 0.34775 0"
+            },
+            {
+                "/m/09ddx": "Duck",
+                "maskFile": "03f324971bb365a8_m09ddx_69fa4770.png",
+                "boxId": "69fa4770",
+                "xMin": "0.335",
+                "xMax": "0.678125",
+                "yMin": "0.3275",
+                "yMax": "0.561667",
+                "PredictedIoU": "0.88828",
+                "clicks": "0.34735 0.46129 0;0.65965 0.37535 0;0.63241 0.41166 0;0.38250 0.40536 0;0.57627 0.34145 0;0.65479 0.39312 1;0.39525 0.55493 1;0.60051 0.33982 1;0.34613 0.44221 1"
+            }
+        ]
+    }
+}

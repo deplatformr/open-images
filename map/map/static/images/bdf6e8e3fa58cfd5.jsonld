@@ -1,0 +1,52 @@
+{
+    "@id": "openimages:bdf6e8e3fa58cfd5",
+    "contentUrl": "https://farm6.staticflickr.com/5259/5543221935_a1dceed336_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/6/5259/5543221935_6dc11cdfcc_z.jpg",
+    "name": "Old stump turned planter",
+    "image": "bdf6e8e3fa58cfd5.jpg",
+    "creator": "Joby Elliott (https://www.flickr.com/people/jobyone/)",
+    "dateCreated": "2011:03:19 19:04:19",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.17 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2560",
+    "height": "1920",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "3dtqH4FCe9u0wAQGSwxkyg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.0795222222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-106.628955555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1511"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0288d4": "Splitting maul",
+            "/m/012ckm": "Bonfire",
+            "/m/0d9wys": "Tree stump",
+            "/m/0c2jj": "Axe",
+            "/m/0hv6w": "Logging",
+            "/m/05mpgz": "Wood chopping",
+            "/m/0bmjwcm": "Cleaving axe",
+            "/m/068hjv": "Wedge (Tool)"
+        }
+    }
+}

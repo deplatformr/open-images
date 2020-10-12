@@ -1,0 +1,81 @@
+{
+    "@id": "openimages:d360c30545a65c70",
+    "contentUrl": "https://farm1.staticflickr.com/7316/16362053812_b78531ba11_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/8/7316/16362053812_ec8a6d2b95_z.jpg",
+    "name": "WP_20140726_12_20_10_Pro(1)",
+    "image": "d360c30545a65c70.jpg",
+    "creator": "swrandall70 (https://www.flickr.com/people/41732862@N03/)",
+    "dateCreated": "2014:07:26 12:20:10",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.49 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3552",
+    "height": "2000",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "WsDGrL5gMAwl3k+nJjvanQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "44.1295002777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-70.2257805555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "151/2"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/019zgx": "Volkswagen scirocco",
+            "/m/05hp41": "Car wash",
+            "/m/026nx54": "Škoda garde",
+            "/m/02p52t": "Volkswagen corrado",
+            "/m/01pyld": "Lamborghini countach",
+            "/m/01prls": "Land vehicle",
+            "/m/07yv9": "Vehicle",
+            "/m/0k4j": "Car",
+            "/m/02q48w4": "Iso lele"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0k4j": "Car",
+                "confidence": "1",
+                "xMin": "0.195625",
+                "xMax": "0.941875",
+                "yMin": "0.233333",
+                "yMax": "0.715556",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/0k4j": "Car",
+                "maskFile": "d360c30545a65c70_m0k4j_b716683f.png",
+                "boxId": "b716683f",
+                "xMin": "0.195625",
+                "xMax": "0.941875",
+                "yMin": "0.233333",
+                "yMax": "0.715556",
+                "PredictedIoU": "0.85381",
+                "clicks": "0.25013 0.63891 1;0.93933 0.62136 0;0.20402 0.44986 1;0.48775 0.26499 1;0.56202 0.68489 0;0.91260 0.54493 1;0.82859 0.43919 1;0.63464 0.69578 1"
+            }
+        ]
+    }
+}

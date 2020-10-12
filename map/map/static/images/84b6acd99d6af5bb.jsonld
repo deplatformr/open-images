@@ -1,0 +1,48 @@
+{
+    "@id": "openimages:84b6acd99d6af5bb",
+    "contentUrl": "https://c4.staticflickr.com/4/3930/15438577681_73d08e9ee0_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/4/3930/15438577681_cb78346c91_z.jpg",
+    "name": "Torre Iberdrola en Bilbao",
+    "image": "84b6acd99d6af5bb.jpg",
+    "creator": "jose a. del moral (https://www.flickr.com/people/jamoral/)",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.45 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "/HbP3F7kukZCGbPexHuQTw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.2678861111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.94668055555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "28"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01bqvp": "Sky",
+            "/m/0csby": "Cloud",
+            "/m/0838f": "Water",
+            "/m/079cl": "Skyscraper",
+            "/m/0g2z8": "Fog"
+        }
+    }
+}

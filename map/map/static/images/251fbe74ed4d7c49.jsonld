@@ -1,0 +1,67 @@
+{
+    "@id": "openimages:251fbe74ed4d7c49",
+    "contentUrl": "https://c2.staticflickr.com/8/7424/12252792456_5a83e84fb5_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/8/7424/12252792456_cbd5447763_z.jpg",
+    "name": "41 Loblolly Pine  Amnie Wilkerson Nature Preserve Raliegh NC 5845",
+    "image": "251fbe74ed4d7c49.jpg",
+    "creator": "bobistraveling (https://www.flickr.com/people/bobistraveling/)",
+    "dateCreated": "2013:09:29 14:35:37",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.49 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3240",
+    "height": "4320",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "8ibjNHBWnzxHmykhvZfXQQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.9237060546875"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-78.5988082885742"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03nk_s": "Plant sap",
+            "/m/047bst": "American walnut",
+            "/m/0d7z9": "Redwood",
+            "/m/0csrf1": "Overcup oak",
+            "/m/0589tx": "Sweet birch",
+            "/m/0192kg": "Black gum",
+            "/m/02y1jf": "Lingzhi mushroom",
+            "/m/018w8": "Basketball (Sport)",
+            "/m/09j2d": "Clothing",
+            "/m/02pk_yw": "False shagbark hickory",
+            "/m/07j7r": "Tree",
+            "/m/05s2s": "Plant"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.999167",
+                "yMin": "0.000625",
+                "yMax": "0.999375",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

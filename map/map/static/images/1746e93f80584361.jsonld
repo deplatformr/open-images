@@ -1,0 +1,64 @@
+{
+    "@id": "openimages:1746e93f80584361",
+    "contentUrl": "https://farm2.staticflickr.com/5631/21836352339_e9c775f96e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/6/5631/21836352339_e2f18ddf1b_z.jpg",
+    "name": "Alliance",
+    "image": "1746e93f80584361.jpg",
+    "creator": "Cambodia4kids.org Beth Kanter (https://www.flickr.com/people/cambodia4kidsorg/)",
+    "dateCreated": "2015:10:07 09:52:47",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.86 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4032",
+    "height": "3024",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "sE8wP8k7yWV+OSpgHXpKyA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "45.5120277777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.684713888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "43741/1012"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02y11r": "Teachers' day",
+            "/m/0215n": "Cartoon",
+            "/m/02d9qx": "Whiteboard",
+            "/m/07jdr": "Train",
+            "/m/0c9ph5": "Flower",
+            "/m/015p6": "Bird",
+            "/m/01kr8f": "Illustration",
+            "/m/019nj4": "Smile",
+            "/m/02csf": "Drawing",
+            "/m/02tzth": "Post-it note",
+            "/m/01n5jq": "Poster",
+            "/m/01yrx": "Cat",
+            "/m/07glzq": "Sketch",
+            "/m/02wbm": "Food",
+            "/m/0b48hv": "Rainbow",
+            "/m/06h5_j": "Child art",
+            "/m/04_tb": "Map",
+            "/m/0bt_c3": "Book",
+            "/m/06_g7": "Surfing",
+            "/m/0jjw": "Art"
+        }
+    }
+}

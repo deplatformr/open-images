@@ -1,0 +1,66 @@
+{
+    "@id": "openimages:51db6c5f15982777",
+    "contentUrl": "https://farm8.staticflickr.com/463/18488294188_bd7b36e8ab_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/1/463/18488294188_5625dc7018_z.jpg",
+    "name": "WP_20150610_16_30_37_Rich",
+    "image": "51db6c5f15982777.jpg",
+    "creator": "Helen Penjam (https://www.flickr.com/people/hile/)",
+    "dateCreated": "2015:06:10 16:30:38",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.24 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3072",
+    "height": "1728",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "l5QjjOQ4jNQMhKTdNtrvow==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "60.6308542463515"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "24.8430038706462"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "138"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/074hmn": "Baeckeoffe",
+            "/m/0ckwm9": "Peel",
+            "/m/02616pk": "Tokwa’t baboy",
+            "/m/05n1hk8": "Lemon peel",
+            "/m/053wn": "Corn",
+            "/m/015_77": "Walnut",
+            "/m/0dbl1z": "Yukon gold potato",
+            "/m/09k_b": "Lemon",
+            "/m/04ctx": "Knife",
+            "/m/05vtc": "Potato",
+            "/m/02p74bx": "Leftovers",
+            "/m/0dqb5": "Citrus",
+            "/m/02l4ht": "Zingiber",
+            "/m/01lbxg": "Nut (Food)",
+            "/m/07l4_w": "Russet burbank potato",
+            "/m/0f9n3": "Ginger",
+            "/m/0fbdv": "Shellfish",
+            "/m/027j4y6": "Ackee and saltfish",
+            "/m/0b76y0": "Food craving",
+            "/m/09qck": "Banana",
+            "/m/0jtbr": "Poutine",
+            "/m/03pvgl": "Canadian cuisine"
+        }
+    }
+}

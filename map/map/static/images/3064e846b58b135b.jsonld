@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:3064e846b58b135b",
+    "contentUrl": "https://c4.staticflickr.com/9/8350/8199223003_2e48255303_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/9/8350/8199223003_e8123d66f8_z.jpg",
+    "name": "Tiruchirappalli, Tamil Nadu, India",
+    "image": "3064e846b58b135b.jpg",
+    "creator": "Emmanuel DYAN (https://www.flickr.com/people/emmanueldyan/)",
+    "dateCreated": "2011:12:17 14:33:19",
+    "description": "Tiruchirappalli, Tamil Nadu, India",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.11 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4672",
+    "height": "3104",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Hhv07LaBGYgX4apyfdMkZA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "10.7904833000167"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "78.7046725"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "81"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0838f": "Water"
+        }
+    }
+}

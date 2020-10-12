@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:7c5797c9f9394412",
+    "contentUrl": "https://farm3.staticflickr.com/4086/5003586504_3455b1aa47_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/5/4086/5003586504_072aee4e01_z.jpg",
+    "name": "Lima Photowalk 12",
+    "image": "7c5797c9f9394412.jpg",
+    "creator": "Miguel Vera León (https://www.flickr.com/people/miguelveraleon/)",
+    "dateCreated": "2010:08:11 22:04:02",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.64 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2245",
+    "height": "3000",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "4r6B6nZmBKBCxeyfoATq8Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-12.0718097100033"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-77.0348668100024"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "131"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01r8w": "Cave",
+            "/m/01613k": "Holding hands"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:9b77c5130ee5960c",
+    "contentUrl": "https://c5.staticflickr.com/6/5346/8753884566_a1ce58f01f_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5346/8753884566_cdbea861b1_z.jpg",
+    "name": "'McTavish'",
+    "image": "9b77c5130ee5960c.jpg",
+    "creator": "Peter Trimming (https://www.flickr.com/people/peter-trimming/)",
+    "dateCreated": "2013:05:18 13:55:25",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.56 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5441",
+    "height": "4000",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "IX7vwIgWnBmltZNx3cQ1Xw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.1730538888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.0484366666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "2447/50"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04g2r": "Lynx",
+            "/m/01yrx": "Cat",
+            "/m/01nq_x": "Wild cat",
+            "/m/0891tx": "Toyger"
+        }
+    }
+}

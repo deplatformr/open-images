@@ -1,0 +1,71 @@
+{
+    "@id": "openimages:c727419c639d9b9d",
+    "contentUrl": "https://c6.staticflickr.com/4/3874/14166935297_ca1df79806_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/4/3874/14166935297_e727948d57_z.jpg",
+    "name": "shot of new condenser circuit",
+    "image": "c727419c639d9b9d.jpg",
+    "creator": "Matt Joyce (https://www.flickr.com/people/openfly/)",
+    "dateCreated": "2014:06:04 20:34:09",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "950.32 KiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "PN+Z4Scfc4b3Fj6PinuTmQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.6833272222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.9817805555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "44"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0d99pf": "Control panel",
+            "/m/02jsng": "Gas compressor",
+            "/m/04h5c": "Locomotive",
+            "/m/01h2qf": "Slide projector",
+            "/m/05k3gf": "Hyundai accent",
+            "/m/03jbxj": "Light switch",
+            "/m/025sk5n": "Tin",
+            "/m/0h548rj": "Floodlight",
+            "/m/0c37z": "Screw",
+            "/m/0h8krhr": "Compressor",
+            "/m/0l4dz": "Electric generator",
+            "/m/01b5w1": "Machine tool",
+            "/m/046glt": "Electrical wiring",
+            "/m/04bmfj": "Reel",
+            "/m/07m5rf": "Heat-shrink tubing",
+            "/m/016znt": "Public utility",
+            "/m/02p43dr": "Current transformer",
+            "/m/03cfcnf": "Cable management",
+            "/m/01j_zg": "Bellows",
+            "/m/01x9x4": "Telephone booth",
+            "/m/07059": "Switch",
+            "/m/013xbf": "Electrical connector",
+            "/m/01g0wd": "Power supply",
+            "/m/0cjc4v": "Throttle",
+            "/m/0836l1": "Enclosure",
+            "/m/025r_0t": "Lead",
+            "/m/070dn6": "Crt projector",
+            "/m/043g5f": "Fuel tank",
+            "/m/02qf1h5": "Electric fan"
+        }
+    }
+}

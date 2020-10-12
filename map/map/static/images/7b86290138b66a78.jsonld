@@ -1,0 +1,54 @@
+{
+    "@id": "openimages:7b86290138b66a78",
+    "contentUrl": "https://c1.staticflickr.com/8/7125/7760240200_2d0426e6f8_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/8/7125/7760240200_d7b890d975_z.jpg",
+    "name": "Y811OBJ",
+    "image": "7b86290138b66a78.jpg",
+    "creator": "Graham Richardson (https://www.flickr.com/people/didbygraham/)",
+    "dateCreated": "2012:02:20 13:59:35",
+    "description": "Photo: \tP1090792\nFleet: \tAnon\nReg: \tY811OBJ\nType: \tScania 114L380\nBody: \tDrawbar\nDate: \t20 February 2012\n",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.06 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3354",
+    "height": "1974",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "WeukQQnAXfkmXIpQ9Ggouw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.3900866499965"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-4.08825516999649"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/043rxy0": "Relocation",
+            "/m/0854xd": "Hyundai 8 to 25-ton truck",
+            "/m/05d2m7": "Truck driver",
+            "/m/0g2lsc": "Nissan diesel quon",
+            "/m/0g2mh3": "Nissan diesel condor",
+            "/m/02cv4w": "Garbage truck",
+            "/m/07r04": "Truck",
+            "/m/0k4j": "Car",
+            "/m/07yv9": "Vehicle"
+        }
+    }
+}

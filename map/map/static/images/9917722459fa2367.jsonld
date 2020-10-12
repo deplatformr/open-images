@@ -1,0 +1,52 @@
+{
+    "@id": "openimages:9917722459fa2367",
+    "contentUrl": "https://farm8.staticflickr.com/495/18516047163_2f737e8339_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/1/495/18516047163_6e85bb529e_z.jpg",
+    "name": "I'M WITH MY INTERNET ACQUAINTANCE",
+    "image": "9917722459fa2367.jpg",
+    "creator": "Topher McCulloch (https://www.flickr.com/people/tofu_mugwump/)",
+    "dateCreated": "2015:02:13 20:15:23",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "194.85 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2048",
+    "height": "2048",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "l7zBrmaSHB4UQvWn3xAQ2g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.8327916666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-87.6401666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "267606/1439"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0c134f": "Aquarius",
+            "/m/09g5pq": "People",
+            "/m/01fklc": "Pink",
+            "/m/02tzth": "Post-it note",
+            "/m/037s3z": "Fête de la musique",
+            "/m/0h8nzzj": "Decor",
+            "/m/04hgtk": "Human head",
+            "/m/015bv3": "Document"
+        }
+    }
+}

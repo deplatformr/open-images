@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:782ad01a639dfe3d",
+    "contentUrl": "https://c6.staticflickr.com/6/5486/12014585796_b96341e2bf_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/6/5486/12014585796_3bac7bcefa_z.jpg",
+    "name": "Fields Farm Road, Hattersley",
+    "image": "782ad01a639dfe3d.jpg",
+    "creator": "Mikey (https://www.flickr.com/people/raver_mikey/)",
+    "dateCreated": "2013:10:12 14:36:25",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.29 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "26bKChGJis0f4zdJpeJ4Xg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.4485611111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.02825833333333"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0bjyj5": "Waste container",
+            "/m/03jm5": "House",
+            "/m/0k4j": "Car"
+        }
+    }
+}

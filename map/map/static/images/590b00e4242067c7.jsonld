@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:590b00e4242067c7",
+    "contentUrl": "https://farm8.staticflickr.com/7206/6837849860_c289c2d54d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/8/7206/6837849860_ce9575de11_z.jpg",
+    "name": "architecture drawings",
+    "image": "590b00e4242067c7.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "2012:03:15 13:42:06",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.29 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Fvd+V/QDeaEzc48mrv323w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "24.1341666388889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "120.646333305556"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/018jrr": "Plan",
+            "/m/07glzq": "Sketch",
+            "/m/04gcl9": "Receipt",
+            "/m/0bg0t": "Schematic",
+            "/m/0f9tj": "Technical drawing",
+            "/m/02csf": "Drawing",
+            "/m/02sp3v": "Floor plan"
+        }
+    }
+}

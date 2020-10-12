@@ -1,0 +1,109 @@
+{
+    "@id": "openimages:abe02df22ca33301",
+    "contentUrl": "https://farm2.staticflickr.com/382/18573031614_e38a2ba517_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/1/382/18573031614_b6b3a23459_z.jpg",
+    "name": "Pasta alla chitarra",
+    "image": "abe02df22ca33301.jpg",
+    "creator": "T.Tseng (https://www.flickr.com/people/68147320@N02/)",
+    "dateCreated": "2015:06:26 14:33:05",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.04 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "33U7Nd2JNIdJWaTPMblWGQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.0839305555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-118.327308333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "58943/697"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02wbm": "Food",
+            "/m/05z55": "Pasta",
+            "/m/0352wl": "Green sauce",
+            "/m/05v6869": "Creamed spinach",
+            "/m/012y1_": "Soba",
+            "/m/078dnm": "Bucatini",
+            "/m/06_psm": "Pappardelle",
+            "/m/018gzr": "Sōmen",
+            "/m/05sqq61": "Pasta with pancetta",
+            "/m/0289fq9": "Pastitsada",
+            "/m/0ch5nsq": "Spaghetti alle vongole",
+            "/m/02ln79": "Yakisoba",
+            "/m/08pc5d": "Trenette",
+            "/m/01npvx": "Chow mein",
+            "/m/026c52y": "Yaki udon",
+            "/m/09448n": "Lo mein",
+            "/m/03hm0hs": "Passatelli",
+            "/m/09gb8by": "Taglierini",
+            "/m/05p9jft": "Clam sauce",
+            "/m/047fw5r": "Singapore-style noodles",
+            "/m/09clx2": "Fried noodles",
+            "/m/09sglw": "Mee pok",
+            "/m/06b_y2": "Fideo",
+            "/m/02z66r9": "Yi mein",
+            "/m/025tm_k": "Instant noodles",
+            "/m/05f62b0": "Stringozzi",
+            "/m/07nlyz": "Spaghetti alla puttanesca",
+            "/m/0263_br": "Bigoli",
+            "/m/01z3j2": "Vermicelli",
+            "/m/0b97cn": "Lamian",
+            "/m/0273gv": "Carbonara",
+            "/m/02hz3p": "Chinese noodles",
+            "/m/09gpqg7": "Scialatelli",
+            "/m/0mfnf": "Noodle",
+            "/m/07x7yj": "Pancit",
+            "/m/0gw9c2": "Pistou",
+            "/m/04flxj": "Linguine",
+            "/m/05c5y0b": "Spaghetti aglio e olio",
+            "/m/0283qft": "Mafaldine",
+            "/m/093b8w": "Fusilli",
+            "/m/02x7pff": "Pici",
+            "/m/04qsz7": "Pasta pomodoro",
+            "/m/04t8sg": "Al dente",
+            "/m/0d2xmz": "Wonton noodles",
+            "/m/09gdlyk": "Bavette",
+            "/m/09jpb7": "Shahe fen",
+            "/m/0dlgzb": "Bakmi",
+            "/m/0f41s6": "Mie goreng",
+            "/m/0772h": "Spaghetti",
+            "/m/02fslx": "Hot dry noodles"
+        },
+        "trainingBoxes": [
+            {
+                "/m/05z55": "Pasta",
+                "confidence": "1",
+                "xMin": "0.260625",
+                "xMax": "0.705625",
+                "yMin": "0.192500",
+                "yMax": "0.810833",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

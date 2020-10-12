@@ -1,0 +1,77 @@
+{
+    "@id": "openimages:a378949b08801111",
+    "contentUrl": "https://farm2.staticflickr.com/3857/19137910476_b20e292e94_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/4/3857/19137910476_b2980cc4c6_z.jpg",
+    "name": "176/365",
+    "image": "a378949b08801111.jpg",
+    "creator": "agirlnamednee (https://www.flickr.com/people/28072695@N03/)",
+    "dateCreated": "2015:06:25 14:17:32",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.99 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3024",
+    "height": "5376",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "C6p4SegmkYb3wRKK7HQlcQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.3811839444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.1071766666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "31"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0229mb": "Egyptian mau",
+            "/m/02vrfqg": "Thai",
+            "/m/02wt_k": "California spangled",
+            "/m/0172jz": "Bobcat",
+            "/m/04y7lg1": "Dragon li",
+            "/m/01pdqb": "Rusty-spotted cat",
+            "/m/0891tx": "Toyger",
+            "/m/03ttd9": "Pixie-bob",
+            "/m/0dnr7": "Textile",
+            "/m/0132vv": "American bobtail",
+            "/m/017fv0": "Nebelung",
+            "/m/0dpc0v": "German rex",
+            "/m/0bt9lr": "Dog",
+            "/m/012jgm": "Cymric",
+            "/m/02kw9d": "German shorthaired pointer",
+            "/m/012k6q": "Ocicat",
+            "/m/05pdg2q": "British longhair",
+            "/m/01yrx": "Cat",
+            "/m/04g2r": "Lynx",
+            "/m/09141t": "Collar (Animal)",
+            "/m/08b02s": "British semi-longhair",
+            "/m/08xgn7": "Comfort",
+            "/m/01m3tw": "Animal shelter",
+            "/m/023kp2": "Paw",
+            "/m/0149r": "Aquarium",
+            "/m/09b5_s": "Asian semi-longhair",
+            "/m/0g_3r": "Siamese",
+            "/m/0h8nm9j": "Cat furniture",
+            "/m/03_27x": "Chausie",
+            "/m/03jn2m": "Azure",
+            "/m/03rbf6": "Macro photography",
+            "/m/01nq_x": "Wild cat",
+            "/m/08nhst": "Ragamuffin"
+        }
+    }
+}

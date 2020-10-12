@@ -1,0 +1,35 @@
+{
+    "@id": "openimages:f744ab50499ac6dd",
+    "contentUrl": "https://c6.staticflickr.com/4/3212/3286811990_ac27141660_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/4/3212/3286811990_95bcc879b0_z.jpg",
+    "name": "Eight (Catonsville, MD)",
+    "image": "f744ab50499ac6dd.jpg",
+    "creator": "takomabibelot (https://www.flickr.com/people/takomabibelot/)",
+    "dateCreated": "2009:02:08 14:48:26",
+    "description": "OLYMPUS DIGITAL CAMERA         ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.79 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "Q3ZSx1UpJOXysCnvs28mug==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "39.2317628199999"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-76.734931470006"
+        }
+    ],
+    "about": {}
+}

@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:f126caa0de6734fe",
+    "contentUrl": "https://c7.staticflickr.com/3/2458/4062611042_e091a66252_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/3/2458/4062611042_2a87c08e90_z.jpg",
+    "name": "Evelyn's 1st Birthday",
+    "image": "f126caa0de6734fe.jpg",
+    "creator": "Robert Bejil (https://www.flickr.com/people/robnas/)",
+    "dateCreated": "2009:10:17 14:51:09",
+    "description": "SONY DSC",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.90 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "240 x 240",
+    "disambiguatingDescription": "ojSvMNqSWZmXqP2OMgWLPQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.2089424133281"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-118.822029113769"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05rhq2": "Knee-high boot",
+            "/m/04nf8d": "Ice hotel",
+            "/m/02s195": "Vase",
+            "/m/0h8m03g": "Rain boot",
+            "/m/0286knq": "Fizz",
+            "/m/0h980f3": "Red russian",
+            "/m/06qrr": "Soft drink"
+        }
+    }
+}

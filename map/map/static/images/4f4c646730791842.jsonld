@@ -1,0 +1,55 @@
+{
+    "@id": "openimages:4f4c646730791842",
+    "contentUrl": "https://farm3.staticflickr.com/8249/8488644653_e949ea8ac4_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8249/8488644653_32410f5bf3_z.jpg",
+    "name": "DSC01146",
+    "image": "4f4c646730791842.jpg",
+    "creator": "John Carmichael (https://www.flickr.com/people/jlcarmichael/)",
+    "dateCreated": "2013:02:19 08:50:04",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.12 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4608",
+    "height": "2592",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "NJ8+kKX/WWvIY9GFu8kTCg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "32.3008852777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-110.957458055556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "7267/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/025s53m": "Rolling stock",
+            "/m/0dd4k": "Funicular",
+            "/m/03jm5": "House",
+            "/m/0bxdx": "Windmill",
+            "/m/01bqvp": "Sky",
+            "/m/02wbm": "Food",
+            "/m/0py27": "Train station",
+            "/m/06wyv": "Steam engine",
+            "/m/07jdr": "Train",
+            "/m/05252qc": "Freight car"
+        }
+    }
+}

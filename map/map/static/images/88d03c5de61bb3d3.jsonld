@@ -1,0 +1,137 @@
+{
+    "@id": "openimages:88d03c5de61bb3d3",
+    "contentUrl": "https://farm4.staticflickr.com/3936/15437167012_d0eaf86ff8_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3936/15437167012_7b26f42f32_z.jpg",
+    "name": "Parkside Dundas ZBV Grampus 7mm kit in Dutch livery",
+    "image": "88d03c5de61bb3d3.jpg",
+    "creator": "Paul Smith (https://www.flickr.com/people/widnes_road/)",
+    "dateCreated": "2014:10:04 15:52:17",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.73 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "dQYs+tmEDK30gMfXc8e/kQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.6959833333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "0.116586111111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "163723/2048"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05252qc": "Freight car",
+            "/m/02mtw0": "Mehndi",
+            "/m/0242gd": "Wagon",
+            "/m/01vk9q": "Track",
+            "/m/01g50p": "Railroad car",
+            "/m/06wyv": "Steam engine",
+            "/m/0h9mv": "Tire",
+            "/m/022pgh": "Electric locomotive",
+            "/m/08dz3q": "Auto part",
+            "/m/083wq": "Wheel",
+            "/m/07yv9": "Vehicle",
+            "/m/07jdr": "Train",
+            "/m/01prls": "Land vehicle",
+            "/m/025r_0t": "Lead",
+            "/m/054v66": "Trestle"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07jdr": "Train",
+                "confidence": "1",
+                "xMin": "0.063125",
+                "xMax": "0.910000",
+                "yMin": "0.320000",
+                "yMax": "0.725000",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "1",
+                "isInside": "0"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "confidence": "1",
+                "xMin": "0.254375",
+                "xMax": "0.288125",
+                "yMin": "0.604167",
+                "yMax": "0.655833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "confidence": "1",
+                "xMin": "0.280000",
+                "xMax": "0.427500",
+                "yMin": "0.575000",
+                "yMax": "0.716667",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "confidence": "1",
+                "xMin": "0.684375",
+                "xMax": "0.758125",
+                "yMin": "0.518333",
+                "yMax": "0.630000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/083wq": "Wheel",
+                "maskFile": "88d03c5de61bb3d3_m083wq_7f43f724.png",
+                "boxId": "7f43f724",
+                "xMin": "0.28",
+                "xMax": "0.4275",
+                "yMin": "0.575",
+                "yMax": "0.716667",
+                "PredictedIoU": "0.62498",
+                "clicks": "0.37751 0.65905 0;0.40502 0.65498 1;0.33931 0.59640 0;0.40158 0.61576 0;0.29385 0.59131 0;0.34504 0.70489 1;0.41762 0.60048 0;0.38630 0.69063 1;0.31830 0.62340 0;0.34695 0.68554 0"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "maskFile": "88d03c5de61bb3d3_m083wq_9b64e750.png",
+                "boxId": "9b64e750",
+                "xMin": "0.684375",
+                "xMax": "0.758125",
+                "yMin": "0.518333",
+                "yMax": "0.63",
+                "PredictedIoU": "0.40352",
+                "clicks": "0.71500 0.62153 1;0.71436 0.55151 0;0.73472 0.55539 0;0.73924 0.60235 0;0.75273 0.60699 1;0.70077 0.59458 1;0.70099 0.61767 1;0.69668 0.61945 0;0.72418 0.60304 0;0.75715 0.60504 1;0.71446 0.58151 1"
+            }
+        ]
+    }
+}

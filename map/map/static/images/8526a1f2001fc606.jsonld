@@ -1,0 +1,51 @@
+{
+    "@id": "openimages:8526a1f2001fc606",
+    "contentUrl": "https://farm7.staticflickr.com/8437/7937154978_202df8a82a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/9/8437/7937154978_91dd5b6010_z.jpg",
+    "name": "Looks Like I'm Going to Get Wet",
+    "image": "8526a1f2001fc606.jpg",
+    "creator": "Andy Arthur (https://www.flickr.com/people/andyarthur/)",
+    "dateCreated": "2012:08:12 14:25:21",
+    "description": "Looks Like I'm Going to Get Wet",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "114.56 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2576",
+    "height": "1716",
+    "resolution": "230 x 230",
+    "disambiguatingDescription": "o+mzAEgqt633z9/aH5mcQQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "44.4690694444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-74.2260388888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0/0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0838f": "Water",
+            "/m/0csby": "Cloud",
+            "/m/07j7r": "Tree",
+            "/m/01bqvp": "Sky",
+            "/m/04h4w": "Lake",
+            "/m/07jdr": "Train"
+        }
+    }
+}

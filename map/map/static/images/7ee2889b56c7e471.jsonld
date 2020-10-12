@@ -1,0 +1,41 @@
+{
+    "@id": "openimages:7ee2889b56c7e471",
+    "contentUrl": "https://farm2.staticflickr.com/1351/5133449177_4f08fd03d9_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/2/1351/5133449177_1db072c121_z.jpg",
+    "name": "2010-1030 URS89-6 Body Installation Architecture City 09.jpg",
+    "image": "7ee2889b56c7e471.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "2010:10:30 14:13:46",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "197.18 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "640",
+    "height": "428",
+    "resolution": "100 x 100",
+    "disambiguatingDescription": "N9tzLx4Ij6I57+CEW2ypOA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "25.0380988277727"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "121.507525334953"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01m3v": "Computer",
+            "/m/02d9qx": "Whiteboard"
+        }
+    }
+}

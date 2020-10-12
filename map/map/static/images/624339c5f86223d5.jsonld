@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:624339c5f86223d5",
+    "contentUrl": "https://farm6.staticflickr.com/5524/14364724774_1f125d94ea_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/6/5524/14364724774_b3f54d80e0_z.jpg",
+    "name": "Sleeping Tiger",
+    "image": "624339c5f86223d5.jpg",
+    "creator": "Jonathan Rolande (https://www.flickr.com/people/jonathanrolande/)",
+    "dateCreated": "2014:05:07 09:46:13",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.12 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "TSplMbdQ8hew1r0Dm60ldw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "28.3600444444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-81.5894388888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "30"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0cdnk": "Big cats",
+            "/m/02nf1k": "Siberian tiger",
+            "/m/01g8p4": "Bengal tiger",
+            "/m/07dm6": "Tiger",
+            "/m/01rnrn": "Liger",
+            "/m/01yrx": "Cat"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:a75969454865cde1",
+    "contentUrl": "https://farm2.staticflickr.com/8088/8482001219_e35da8f02a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8088/8482001219_743ceaeb60_z.jpg",
+    "name": "Osaki Station, JR",
+    "image": "a75969454865cde1.jpg",
+    "creator": "Kzaral (https://www.flickr.com/people/kzaral/)",
+    "dateCreated": "2013:02:16 10:02:12",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "464.27 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "Tm88a9IDqMMHriwUP9LSAA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.6982472222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.412219444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "7"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01zbnw": "Screenshot",
+            "/m/01bjv": "Bus"
+        }
+    }
+}

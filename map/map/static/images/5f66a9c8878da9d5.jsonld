@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:5f66a9c8878da9d5",
+    "contentUrl": "https://farm6.staticflickr.com/5832/22088453329_be671b2248_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/6/5832/22088453329_ddcd50c78d_z.jpg",
+    "name": "P1010040",
+    "image": "5f66a9c8878da9d5.jpg",
+    "creator": "Mikey (https://www.flickr.com/people/raver_mikey/)",
+    "dateCreated": "2015:06:13 18:42:22",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.25 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4608",
+    "height": "3456",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "Hw1iqM1RcPLZL73JjezB5g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.4854621887207"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-2.27554106712341"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0h8n9b2": "Home door",
+            "/m/0467y7": "Passenger car",
+            "/m/02x_6w": "Mobile home",
+            "/m/05mf2t": "Concrete bridge",
+            "/m/07jdr": "Train",
+            "/m/025s53m": "Rolling stock"
+        }
+    }
+}

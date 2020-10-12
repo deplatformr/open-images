@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:ef7756907e845181",
+    "contentUrl": "https://farm2.staticflickr.com/5579/15046215058_4ede5a77dd_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/6/5579/15046215058_ed5db5bc2c_z.jpg",
+    "name": "Evergreen Line Construction",
+    "image": "ef7756907e845181.jpg",
+    "creator": "jmv (https://www.flickr.com/people/jmv/)",
+    "dateCreated": "2014:09:13 18:39:03",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.23 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "GoybK98JeC5TIxH4lll9ww==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.2492444444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.893136111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "21715/358"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/08p0zr": "Segmental bridge",
+            "/m/06q74": "Ship",
+            "/m/07jdr": "Train"
+        }
+    }
+}

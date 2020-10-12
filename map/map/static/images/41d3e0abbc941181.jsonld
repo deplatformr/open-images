@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:41d3e0abbc941181",
+    "contentUrl": "https://farm2.staticflickr.com/5609/15398369330_81dbaafcf0_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5609/15398369330_ddb021415c_z.jpg",
+    "name": "Ajaccio",
+    "image": "41d3e0abbc941181.jpg",
+    "creator": "JeanbaptisteM (https://www.flickr.com/people/jeanbaptistem/)",
+    "dateCreated": "2014:10:20 11:41:44",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.16 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3897",
+    "height": "2535",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "TOhjjKapNI+K2xK6EVseUg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.9149444444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "8.79122222222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "2027/2164"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0838f": "Water",
+            "/m/0199g": "Bicycle",
+            "/m/0csby": "Cloud",
+            "/m/01bqvp": "Sky",
+            "/m/09d_r": "Mountain",
+            "/m/04h4w": "Lake"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "@id": "openimages:02cb735455bb1acc",
+    "contentUrl": "https://c5.staticflickr.com/9/8753/17563981355_3635867ea3_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/9/8753/17563981355_7678d5b625_z.jpg",
+    "name": "LEO Andy Morse receives award",
+    "image": "02cb735455bb1acc.jpg",
+    "creator": "USDA Forest Service Alaska Region (https://www.flickr.com/people/alaska_region/)",
+    "dateCreated": "2015:05:08 14:10:08",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "121.60 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "480",
+    "height": "640",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "f26a8zapJHG6NpBmrZl6rQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "60.5440638888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-145.757002777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "19255/523"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03cr4gb": "Treadmill desk",
+            "/m/0838f": "Water",
+            "/m/05jnl": "Newspaper",
+            "/m/0bt_c3": "Book",
+            "/m/07yv9": "Vehicle",
+            "/m/018c5j": "Eagle scout",
+            "/m/01m3v": "Computer",
+            "/m/04bcr3": "Table",
+            "/m/02wbm": "Food",
+            "/m/0k4j": "Car",
+            "/m/01y9k5": "Desk",
+            "/m/019nj4": "Smile",
+            "/m/0cyf8": "Butterfly",
+            "/m/03w1r4": "Military uniform",
+            "/m/01n5jq": "Poster",
+            "/m/08q1xp": "Office chair",
+            "/m/02s195": "Vase",
+            "/m/0cgh4": "Building",
+            "/m/04_tb": "Map",
+            "/m/0c9ph5": "Flower",
+            "/m/054_l": "Mirror",
+            "/m/01zbnw": "Screenshot",
+            "/m/02d9qx": "Whiteboard",
+            "/m/02tzth": "Post-it note",
+            "/m/047j0r": "Filing cabinet",
+            "/m/04dr76w": "Bottle",
+            "/m/02_g0": "Funeral",
+            "/m/01c648": "Laptop",
+            "/m/05r5c": "Piano",
+            "/m/0643t": "Personal computer"
+        }
+    }
+}

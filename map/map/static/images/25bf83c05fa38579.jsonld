@@ -1,0 +1,55 @@
+{
+    "@id": "openimages:25bf83c05fa38579",
+    "contentUrl": "https://c2.staticflickr.com/9/8572/16409931417_48c70a6283_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8572/16409931417_be00a75d7b_z.jpg",
+    "name": "Afternoon at Jones Beach on Long Island.",
+    "image": "25bf83c05fa38579.jpg",
+    "creator": "Cole Camplese (https://www.flickr.com/people/colecamplese/)",
+    "dateCreated": "2015:02:22 15:02:39",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.01 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "JpZPP8StgmPlDbCPee4qXg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.5949083333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.4995722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "5152/1285"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/09qgm": "Snowboarding",
+            "/m/01b2w5": "Sunset",
+            "/m/07rld4": "Split-rail fence",
+            "/m/015kr": "Bridge",
+            "/m/01r3xn": "Shoal",
+            "/m/01bqvp": "Sky",
+            "/m/0csby": "Cloud",
+            "/m/01jnvt": "Badlands",
+            "/m/0b3yr": "Beach",
+            "/m/06_dn": "Snow",
+            "/m/0838f": "Water"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:8c2517b5af879dea",
+    "contentUrl": "https://c3.staticflickr.com/8/7303/16383648951_52a7acc6bd_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/8/7303/16383648951_2ce9d0fa31_z.jpg",
+    "name": "IMG_9632 - 2015-0124 大溪老茶廠",
+    "image": "8c2517b5af879dea.jpg",
+    "creator": "準建築人手札網站 Forgemind ArchiMedia (https://www.flickr.com/people/eager/)",
+    "dateCreated": "2015:01:24 16:46:24",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.95 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5472",
+    "height": "3648",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "Rj3eM/ss7EqZ0tFgwPGWjg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "24.830601"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "121.329237"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "252382/797"
+        }
+    ],
+    "about": {}
+}

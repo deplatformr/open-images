@@ -1,0 +1,51 @@
+{
+    "@id": "openimages:30344578e1daac06",
+    "contentUrl": "https://farm7.staticflickr.com/8561/15845523955_37cc1756b8_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/9/8561/15845523955_0d3025e2e7_z.jpg",
+    "name": "IMG_6356",
+    "image": "30344578e1daac06.jpg",
+    "creator": "Robert Gray (https://www.flickr.com/people/55063261@N06/)",
+    "dateCreated": "2014:11:19 14:49:25",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.04 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "IBOHTeUICdgiGAQqJZrQww==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "32.5797916666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-110.849358333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "70359/59"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0csby": "Cloud",
+            "/m/016b3m": "Gravel",
+            "/m/01tp0c": "Pebble",
+            "/m/01bqvp": "Sky",
+            "/m/05xh2": "Pyramid",
+            "/m/09d_r": "Mountain",
+            "/m/0199g": "Bicycle"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "@id": "openimages:3fcdb4df9eea55e7",
+    "contentUrl": "https://farm8.staticflickr.com/8591/16646508348_bf39932d0b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8591/16646508348_3e6128a077_z.jpg",
+    "name": "Untitled",
+    "image": "3fcdb4df9eea55e7.jpg",
+    "creator": "Tang Allen (https://www.flickr.com/people/freelancerallent/)",
+    "dateCreated": "2015:03:16 13:08:24",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.53 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1391",
+    "height": "2250",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "ERUABdedCr7eaPrA2ccdXg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "25.0364388888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "121.521119444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "9523/1253"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03m49r": "Eurasian Water Vole",
+            "/m/02y_b9": "Fodder",
+            "/m/05lp25": "Sewellel",
+            "/m/02673sz": "Animal feed",
+            "/m/0c568": "Porcupine",
+            "/m/02zf0n": "Eurasian Red Squirrel",
+            "/m/04rqx": "Mustelidae",
+            "/m/0cl6l": "Straw",
+            "/m/08r0cl": "Abert's squirrel",
+            "/m/0h8nm83": "Small animal supply",
+            "/m/068hy": "Pet",
+            "/m/06hps": "Rodent",
+            "/m/02wbn_p": "Ground squirrels",
+            "/m/016cps": "Groundhog",
+            "/m/01l7qd": "Whiskers",
+            "/m/01yrx": "Cat",
+            "/m/06wtyq": "Common wombat",
+            "/m/0h8npcp": "Small animal food",
+            "/m/023vxw": "Marmot",
+            "/m/071qp": "Squirrel",
+            "/m/02021": "Chipmunk",
+            "/m/0184yy": "Moss",
+            "/m/03rrz8": "Douglas' squirrel",
+            "/m/024qb2": "Grey squirrel",
+            "/m/01lhsp": "New World porcupine",
+            "/m/06s908": "Fox squirrel",
+            "/m/050434": "Kaibab Squirrel",
+            "/m/02zw5g": "Punxsutawney phil",
+            "/m/052bc": "Marsupial"
+        }
+    }
+}

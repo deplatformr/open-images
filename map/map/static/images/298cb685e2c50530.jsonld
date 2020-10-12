@@ -1,0 +1,49 @@
+{
+    "@id": "openimages:298cb685e2c50530",
+    "contentUrl": "https://farm1.staticflickr.com/3687/13389805955_eca227b6b9_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/4/3687/13389805955_84603139fc_z.jpg",
+    "name": "Ignite Fluent (Sponsored by Telerik)",
+    "image": "298cb685e2c50530.jpg",
+    "creator": "John Bristowe (https://www.flickr.com/people/jbristowe/)",
+    "dateCreated": "2014:03:11 10:55:01",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.38 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "AUCKvq369zFLngkPS0rPUw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.6338222222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.378752777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "2665/274"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01m3v": "Computer",
+            "/m/01zbnw": "Screenshot",
+            "/m/015bv3": "Document",
+            "/m/02d9qx": "Whiteboard",
+            "/m/0643t": "Personal computer"
+        }
+    }
+}

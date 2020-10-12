@@ -1,0 +1,34 @@
+{
+    "@id": "openimages:e9045f595d8832f2",
+    "contentUrl": "https://farm3.staticflickr.com/4040/4572458820_b8de8fc0b2_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/5/4040/4572458820_7aba5a5987_z.jpg",
+    "name": "#048",
+    "image": "e9045f595d8832f2.jpg",
+    "creator": "Edoardo Costa (https://www.flickr.com/people/edo-finelight/)",
+    "dateCreated": "2010:05:02 22:41:36",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "142.44 KiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "None x None",
+    "disambiguatingDescription": "2qzBM8bBxLw4/Jb6ruV/rg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.9957619444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "4.35747555555556"
+        }
+    ],
+    "about": {}
+}

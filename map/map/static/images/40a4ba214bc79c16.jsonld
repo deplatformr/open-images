@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:40a4ba214bc79c16",
+    "contentUrl": "https://farm7.staticflickr.com/5110/5638887804_d43cfea11b_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5110/5638887804_ed3e308b5d_z.jpg",
+    "name": "Not a fanboy. But, I do like their products.",
+    "image": "40a4ba214bc79c16.jpg",
+    "creator": "Ridwan Jaafar (https://www.flickr.com/people/ridwan326/)",
+    "dateCreated": "2011:04:20 21:48:05",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "135.78 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2048",
+    "height": "1536",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "lg7vuGOxBqZH6ZpVz74oFQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "52.2226174166667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.295174722222222"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02wbm": "Food",
+            "/m/01_12b": "Granny smith",
+            "/m/014j1m": "Apple",
+            "/m/052rh": "Mcintosh"
+        }
+    }
+}

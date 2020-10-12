@@ -1,0 +1,50 @@
+{
+    "@id": "openimages:c75e6b7c3b70d68c",
+    "contentUrl": "https://c5.staticflickr.com/8/7574/15345598394_f3b103aea4_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/8/7574/15345598394_155250c842_z.jpg",
+    "name": "Untitled",
+    "image": "c75e6b7c3b70d68c.jpg",
+    "creator": "Ryan Dickey (https://www.flickr.com/people/meesterdickey/)",
+    "dateCreated": "2014:12:06 13:30:00",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "914.07 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "t5vovEu0N72iNV2Xaj7spw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.0241138888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-87.6966805555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "57161/310"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04kwhq": "Christmas ornament",
+            "/m/014r1s": "Christmas eve",
+            "/m/025nd": "Christmas tree",
+            "/m/05cchl": "Arizona Cypress",
+            "/m/01bgsw": "Toddler",
+            "/m/0h8m2b9": "Holiday ornament"
+        }
+    }
+}

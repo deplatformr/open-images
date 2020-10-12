@@ -1,0 +1,185 @@
+{
+    "@id": "openimages:ecf15b9ec06882d9",
+    "contentUrl": "https://c2.staticflickr.com/4/3513/3858469804_554ae58512_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/4/3513/3858469804_041e7e57f5_z.jpg",
+    "name": "Abanonded steam engine in Uyuni train cemetery",
+    "image": "ecf15b9ec06882d9.jpg",
+    "creator": "Jimmy Harris (https://www.flickr.com/people/jimmyharris/)",
+    "dateCreated": "2009:07:26 16:58:22",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.72 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "l3Nozkf1XbCaz8DQH1L92g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-20.48201"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-66.83824"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "547685/149"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01prls": "Land vehicle",
+            "/m/08dz3q": "Auto part",
+            "/m/07jdr": "Train",
+            "/m/083wq": "Wheel",
+            "/m/06wyv": "Steam engine",
+            "/m/07yv9": "Vehicle"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07jdr": "Train",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.875625",
+                "yMin": "0.176360",
+                "yMax": "0.757036",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "confidence": "1",
+                "xMin": "0.023125",
+                "xMax": "0.143750",
+                "yMin": "0.643527",
+                "yMax": "0.806754",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "confidence": "1",
+                "xMin": "0.441875",
+                "xMax": "0.498125",
+                "yMin": "0.689493",
+                "yMax": "0.718574",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "confidence": "1",
+                "xMin": "0.578125",
+                "xMax": "0.665625",
+                "yMin": "0.602251",
+                "yMax": "0.710131",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "confidence": "1",
+                "xMin": "0.678750",
+                "xMax": "0.760000",
+                "yMin": "0.599437",
+                "yMax": "0.691370",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "confidence": "1",
+                "xMin": "0.768750",
+                "xMax": "0.846875",
+                "yMin": "0.585366",
+                "yMax": "0.683865",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/083wq": "Wheel",
+                "maskFile": "ecf15b9ec06882d9_m083wq_cf95e5cf.png",
+                "boxId": "cf95e5cf",
+                "xMin": "0.76875",
+                "xMax": "0.846875",
+                "yMin": "0.585366",
+                "yMax": "0.683865",
+                "PredictedIoU": "0.62696",
+                "clicks": "0.80330 0.62142 0;0.84264 0.66169 1;0.79904 0.59337 1;0.78038 0.68021 1;0.83615 0.62515 1;0.84160 0.68052 1;0.83034 0.61355 1;0.82489 0.64776 1;0.79362 0.66018 1;0.80572 0.61960 1"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "maskFile": "ecf15b9ec06882d9_m083wq_6f527be6.png",
+                "boxId": "6f527be6",
+                "xMin": "0.67875",
+                "xMax": "0.76",
+                "yMin": "0.599437",
+                "yMax": "0.69137",
+                "PredictedIoU": "0.80984",
+                "clicks": "0.69461 0.66999 0;0.68745 0.64848 1;0.68703 0.68233 1;0.72517 0.68960 1;0.68618 0.62507 1;0.69588 0.65607 0;0.73466 0.61115 1;0.72981 0.69403 0;0.70404 0.65127 0;0.73550 0.60499 0;0.68343 0.62011 0;0.68831 0.67158 0"
+            },
+            {
+                "/m/07jdr": "Train",
+                "maskFile": "ecf15b9ec06882d9_m07jdr_2955e6d4.png",
+                "boxId": "2955e6d4",
+                "xMin": "0.0",
+                "xMax": "0.875625",
+                "yMin": "0.17636",
+                "yMax": "0.757036",
+                "PredictedIoU": "0.84242",
+                "clicks": "0.03034 0.73588 1;0.85317 0.63656 1;0.08567 0.74851 0;0.71772 0.28579 0;0.07947 0.44623 0;0.85250 0.50436 0;0.04818 0.63016 1;0.75654 0.22087 1;0.03878 0.47961 1"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "maskFile": "ecf15b9ec06882d9_m083wq_98240a30.png",
+                "boxId": "98240a30",
+                "xMin": "0.578125",
+                "xMax": "0.665625",
+                "yMin": "0.602251",
+                "yMax": "0.710131",
+                "PredictedIoU": "0.86457",
+                "clicks": "0.61444 0.67812 1;0.58122 0.69216 1;0.65560 0.69391 0;0.65910 0.64968 1;0.65047 0.69495 1;0.66306 0.67687 1;0.58600 0.69530 0;0.60772 0.61337 0;0.64814 0.62840 1"
+            },
+            {
+                "/m/083wq": "Wheel",
+                "maskFile": "ecf15b9ec06882d9_m083wq_f76d14b0.png",
+                "boxId": "f76d14b0",
+                "xMin": "0.023125",
+                "xMax": "0.14375",
+                "yMin": "0.643527",
+                "yMax": "0.806754",
+                "PredictedIoU": "0.7338",
+                "clicks": "0.03391 0.74807 0;0.07028 0.69853 1;0.14105 0.70861 1;0.12681 0.66738 0;0.03221 0.72196 1;0.07733 0.74347 0;0.12366 0.67117 1;0.03678 0.78099 1;0.12455 0.71375 0;0.12423 0.75412 0;0.13549 0.69450 1;0.08670 0.64803 1"
+            }
+        ]
+    }
+}

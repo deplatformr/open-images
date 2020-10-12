@@ -1,0 +1,62 @@
+{
+    "@id": "openimages:ca7ad971a61e7b89",
+    "contentUrl": "https://c2.staticflickr.com/6/5466/9242196966_8459c0f392_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5466/9242196966_966c3b9127_z.jpg",
+    "name": "S-shaped eel",
+    "image": "ca7ad971a61e7b89.jpg",
+    "creator": "Ruth Hartnup (https://www.flickr.com/people/ruthanddave/)",
+    "dateCreated": "2013:07:03 09:24:09",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.93 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "oqC38zcBy+sDv0NmrxhOfg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "49.9348316666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-124.810858611111"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01jxq2": "Sea Cucumber",
+            "/m/0q5fc84": "Butterfish",
+            "/m/04gyn6": "Sea lamprey",
+            "/m/060st": "Flatworm",
+            "/m/082t9x": "Lumbriculus variegatus",
+            "/m/026xpfb": "Green congo",
+            "/m/0ch3hmm": "Hag fish",
+            "/m/05252fc": "Northern Seahorse",
+            "/m/0jwykhp": "Eel (Food)",
+            "/m/0626mq": "Tubifex tubifex",
+            "/m/084hf": "Worm",
+            "/m/0206cd": "Sidewinder",
+            "/m/02qmbw4": "Enchytraeus buchholzi",
+            "/m/03vj6r": "Obatzda",
+            "/m/0kb9g": "Hagfish",
+            "/m/09k65nd": "Bay pipefish",
+            "/m/01jypq": "Reef",
+            "/m/0cgkc5": "Syngnathiformes",
+            "/m/02pggg": "Sea snake",
+            "/m/01j2pr": "American Eel",
+            "/m/0bwgbm": "Water snake",
+            "/m/0d6n_d": "Plain bellied Watersnake"
+        }
+    }
+}

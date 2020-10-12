@@ -1,0 +1,168 @@
+{
+    "@id": "openimages:3f658e5035332eba",
+    "contentUrl": "https://c3.staticflickr.com/5/4111/4997005280_79cbfffcbb_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/5/4111/4997005280_a62ece11b5_z.jpg",
+    "name": "Plymouth Citybus BL57OXP (Loan)",
+    "image": "3f658e5035332eba.jpg",
+    "creator": "Graham Richardson (https://www.flickr.com/people/didbygraham/)",
+    "dateCreated": "2010:08:24 12:11:36",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.41 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3315",
+    "height": "2000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "/FYKp/XR7RfRiM5rvyQQdg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "50.3703757999846"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-4.14480149995924"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "13"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04h4w": "Lake",
+            "/m/026t_c7": "Hybrid electric vehicle",
+            "/m/0ctphv": "Optare tempo",
+            "/m/01jw_1": "Bus stop",
+            "/m/0bk5m9": "Bus driver",
+            "/m/0300d": "Fare",
+            "/m/03qk36c": "Airport bus",
+            "/m/05j5z9": "Dennis dart",
+            "/m/05b6bfm": "Flxible metro",
+            "/m/01bjv": "Bus",
+            "/m/01prls": "Land vehicle",
+            "/m/04yx4": "Man",
+            "/m/07yv9": "Vehicle",
+            "/m/0k4j": "Car"
+        },
+        "trainingBoxes": [
+            {
+                "/m/01bjv": "Bus",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.014375",
+                "yMin": "0.168912",
+                "yMax": "0.627979",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/01bjv": "Bus",
+                "confidence": "1",
+                "xMin": "0.038750",
+                "xMax": "0.963750",
+                "yMin": "0.110881",
+                "yMax": "0.780311",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.133750",
+                "xMax": "0.238125",
+                "yMin": "0.345078",
+                "yMax": "0.490155",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Man inside_of Bus",
+                "relationshipLabel": "inside_of",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.133750",
+                    "xMax": "0.238750",
+                    "yMin": "0.345078",
+                    "yMax": "0.491192"
+                },
+                "box2": {
+                    "/m/01bjv": "Bus",
+                    "xMin": "0.038750",
+                    "xMax": "0.963750",
+                    "yMin": "0.110881",
+                    "yMax": "0.780311"
+                }
+            },
+            {
+                "relationship": "Man ride Bus",
+                "relationshipLabel": "ride",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.133750",
+                    "xMax": "0.238750",
+                    "yMin": "0.345078",
+                    "yMax": "0.491192"
+                },
+                "box2": {
+                    "/m/01bjv": "Bus",
+                    "xMin": "0.038750",
+                    "xMax": "0.963750",
+                    "yMin": "0.110881",
+                    "yMax": "0.780311"
+                }
+            },
+            {
+                "relationship": "Man is Sitting",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.133750",
+                    "xMax": "0.238125",
+                    "yMin": "0.345078",
+                    "yMax": "0.490155"
+                },
+                "box2": {
+                    "/m/015c4z": "Sitting",
+                    "xMin": "0.133750",
+                    "xMax": "0.238125",
+                    "yMin": "0.345078",
+                    "yMax": "0.490155"
+                }
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/01bjv": "Bus",
+                "maskFile": "3f658e5035332eba_m01bjv_48bd07d3.png",
+                "boxId": "48bd07d3",
+                "xMin": "0.03875",
+                "xMax": "0.96375",
+                "yMin": "0.110881",
+                "yMax": "0.780311",
+                "PredictedIoU": "0.83418",
+                "clicks": "0.34062 0.76372 1;0.05952 0.68563 1;0.74387 0.68319 1;0.89694 0.61242 1;0.93329 0.35403 1;0.48310 0.13615 0;0.90588 0.67419 0;0.96980 0.44875 0;0.46659 0.16935 1;0.93493 0.29075 0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@id": "openimages:92149d360b2b54ed",
+    "contentUrl": "https://c6.staticflickr.com/4/3912/14704890396_e4d82f0185_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/4/3912/14704890396_041cf52bd4_z.jpg",
+    "name": "The Red Arrows 17",
+    "image": "92149d360b2b54ed.jpg",
+    "creator": "Ronnie Macdonald (https://www.flickr.com/people/ronmacphotos/)",
+    "dateCreated": "2014:07:11 14:33:12",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.23 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5041",
+    "height": "1557",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "UnqOZDyFvgZDVUcJAHEg6w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.6817305555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-1.77346666666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03z97b": "Extra ea-300",
+            "/m/072t5t": "Kai t-50 golden eagle",
+            "/m/033zf": "General dynamics f-16 fighting falcon",
+            "/m/0215ry": "Chengdu j-7",
+            "/m/05xt4": "Propeller (Fan)",
+            "/m/01_83h": "North american f-86 sabre",
+            "/m/07l5g": "Turbine",
+            "/m/02hh7d": "Casa c-101",
+            "/m/02_31": "Northrop f-5",
+            "/m/01hg0x": "North american f-100 super sabre",
+            "/m/03d2lvr": "Sukhoi su-35bm",
+            "/m/021nj3": "Dassault mirage 2000",
+            "/m/0hdl4": "Sukhoi su-27",
+            "/m/0c__cf": "Hongdu l-15"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:c1db51b0275ba648",
+    "contentUrl": "https://c1.staticflickr.com/7/6229/6337870739_1b147e9a36_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/7/6229/6337870739_7715d86258_z.jpg",
+    "name": "Ben and Rachel Franklin Gravesite",
+    "image": "c1db51b0275ba648.jpg",
+    "creator": "Guy Fisher (https://www.flickr.com/people/guyfisher/)",
+    "dateCreated": "2011:11:08 17:22:20",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.33 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1600",
+    "height": "1200",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "z/kSKlwcioMycGnF4X45nQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.6627463835167"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-80.5921231036504"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/09gkmwd": "Garden gnome",
+            "/m/02_g0": "Funeral",
+            "/m/01vw0_": "Grave",
+            "/m/0h36z": "Cemetery",
+            "/m/01yrx": "Cat"
+        }
+    }
+}

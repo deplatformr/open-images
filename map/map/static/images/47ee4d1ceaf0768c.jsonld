@@ -1,0 +1,70 @@
+{
+    "@id": "openimages:47ee4d1ceaf0768c",
+    "contentUrl": "https://c5.staticflickr.com/8/7594/16806659751_27aff170e4_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/8/7594/16806659751_d12fcbc11e_z.jpg",
+    "name": "T&D Mobile!",
+    "image": "47ee4d1ceaf0768c.jpg",
+    "creator": "Ted &amp; Dani Percival (https://www.flickr.com/people/tedpercival/)",
+    "dateCreated": "2015:03:13 20:21:14",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.27 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3200",
+    "height": "2368",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "WnMcs+WAhhCrs1sh9d/F3A==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "40.2752977777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-111.687621666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01x3z": "Clock",
+            "/m/07cx4": "Telephone",
+            "/m/0bxyyx_": "Feature phone",
+            "/m/06_72j": "Digital clock",
+            "/m/0glmwd6": "Communication Device",
+            "/m/01c0z": "Battery",
+            "/m/030swj": "Mobile device",
+            "/m/05bfd4": "Portable media player",
+            "/m/020fsy": "Portable communications device",
+            "/m/0169zh": "Smartphone",
+            "/m/05khh": "Operating system",
+            "/m/01m3v": "Computer",
+            "/m/050k8": "Mobile phone",
+            "/m/05b1rx": "Online advertising",
+            "/m/0bh9flk": "Tablet computer",
+            "/m/0bhmh": "Telephony",
+            "/m/01zbnw": "Screenshot",
+            "/m/0h8kvt3": "Mp3 player",
+            "/m/0qjjc": "Remote control",
+            "/m/036xn3": "Cellular network",
+            "/m/027lnzs": "Iphone",
+            "/m/0mcx2": "Ipod",
+            "/m/0w88xth": "Multimedia software",
+            "/m/05t02": "Pda",
+            "/m/06_6r": "Data storage device",
+            "/m/01zrkr": "Computer icon"
+        }
+    }
+}

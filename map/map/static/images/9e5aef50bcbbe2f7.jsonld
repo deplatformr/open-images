@@ -1,0 +1,75 @@
+{
+    "@id": "openimages:9e5aef50bcbbe2f7",
+    "contentUrl": "https://farm8.staticflickr.com/8652/16438539100_e423ca027c_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/9/8652/16438539100_880edb616f_z.jpg",
+    "name": "IMG_7217",
+    "image": "9e5aef50bcbbe2f7.jpg",
+    "creator": "Plamen Dragozov (https://www.flickr.com/people/dragozov/)",
+    "dateCreated": "2015:01:03 15:02:43",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.72 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "MRIQ2t+rbsmSRK7ZhDHdwQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "37.5905222222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.319869444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "5"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01b4q9": "Social group",
+            "/m/04wnmd": "Fixture",
+            "/m/0d4vn": "Hall",
+            "/m/09j5n": "Footwear",
+            "/m/088fh": "Yellow",
+            "/m/01xyhv": "Suit",
+            "/m/019swr": "Knee",
+            "/m/07mhn": "Trousers",
+            "/m/0hgr6": "Denim",
+            "/m/06pg22": "Snapshot",
+            "/m/09w5r": "Human leg",
+            "/m/0l7_8": "Floor",
+            "/m/06rrc": "Shoe",
+            "/m/06c7cv": "Kneeling",
+            "/m/09fwz6": "Lap",
+            "/m/06ht1": "Room",
+            "/m/04115t2": "Job",
+            "/m/02dgv": "Door",
+            "/m/018tkd": "Service",
+            "/m/011l78": "Team",
+            "/m/0ytgt": "Child",
+            "/m/032b3c": "Jacket",
+            "/m/06_kbr": "Hip",
+            "/m/01c34b": "Flooring",
+            "/m/01s560": "Collaboration",
+            "/m/01h8n0": "Conversation",
+            "/m/021dfr": "Youth",
+            "/m/015c4z": "Sitting",
+            "/m/014cnc": "Student",
+            "/m/0191f8": "Learning",
+            "/m/01ffcg": "Varnish"
+        }
+    }
+}

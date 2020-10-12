@@ -1,0 +1,79 @@
+{
+    "@id": "openimages:c8f15f56aa2e6376",
+    "contentUrl": "https://farm7.staticflickr.com/2908/13913218739_d3d24f2c36_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/3/2908/13913218739_4b582a4494_z.jpg",
+    "name": "2014-05-03 19.46.49",
+    "image": "c8f15f56aa2e6376.jpg",
+    "creator": "Dubravko Sorić (https://www.flickr.com/people/11939863@N08/)",
+    "dateCreated": "2014:05:03 19:46:49",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.18 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2592",
+    "height": "1944",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "iDdxHwp9RfgWtIODzToojw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "45.7748708333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "16.0009175"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "157300"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/02yfx": "Fluid",
+            "/m/026fm63": "Calm",
+            "/m/0c2l96": "Bush hammer",
+            "/m/099fz": "Sand",
+            "/m/0129f4": "Chemical compound",
+            "/m/08qrwn": "Rubble",
+            "/m/036hv": "Geology",
+            "/m/016b3m": "Gravel",
+            "/m/01d9ll": "Astronomical object",
+            "/m/033kf": "Frost",
+            "/m/01g6gs": "Black-and-white",
+            "/m/0l7_8": "Floor",
+            "/m/03rby": "Hail",
+            "/m/05nnm": "Organism",
+            "/m/01mwkf": "Monochrome",
+            "/m/03fcm": "Granite",
+            "/m/06bp78": "Drizzle",
+            "/m/03d49p1": "Monochrome photography",
+            "/m/07v7c": "Universe",
+            "/m/01nnqh": "Foam (Substance)",
+            "/m/09dv7": "Soil",
+            "/m/078hm": "Slope",
+            "/m/0dc_v": "Astronomy",
+            "/m/06ngk": "Star",
+            "/m/036k5h": "Grey",
+            "/m/04tdh": "Marble (Material)",
+            "/m/01tp0c": "Pebble",
+            "/m/01kv7h": "Midnight",
+            "/m/01q18m": "Precipitation",
+            "/m/0hr8": "Asphalt",
+            "/m/06z0n": "Sunlight",
+            "/m/04cvjcd": "Rain and snow mixed",
+            "/m/03kpnc": "Glitter",
+            "/m/05by2s": "Tar",
+            "/m/030zlf": "Colorfulness"
+        }
+    }
+}

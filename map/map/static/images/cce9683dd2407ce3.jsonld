@@ -1,0 +1,92 @@
+{
+    "@id": "openimages:cce9683dd2407ce3",
+    "contentUrl": "https://farm4.staticflickr.com/6056/6385101863_e1e2055dbd_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/7/6056/6385101863_5288b89e34_z.jpg",
+    "name": "FMSC Staff Trip 2011 - Temporary Shelter",
+    "image": "cce9683dd2407ce3.jpg",
+    "creator": "Feed My Starving Children (FMSC) (https://www.flickr.com/people/fmsc/)",
+    "dateCreated": "2011:10:21 07:13:28",
+    "description": "SONY DSC                       ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.45 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "4912",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "zoc3LZytlkoLi4LuwnYgoQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "9.55905638888889"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "44.0399547222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "13027/10"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01fnck": "Waste",
+            "/m/03l9g": "Hammer",
+            "/m/028qp": "Dye",
+            "/m/07vc4v": "Metalworking hand tool",
+            "/m/0250ff": "Manhole",
+            "/m/0hgsm4f": "Snow shovel",
+            "/m/01jnzj": "Construction",
+            "/m/01ynw": "Cement",
+            "/m/01xnc_": "Dutch oven",
+            "/m/01l7w1": "Cauldron",
+            "/m/026lc7w": "Workwear",
+            "/m/011q46kg": "Container",
+            "/m/09kmv": "Natural rubber",
+            "/m/066xq": "Pollution",
+            "/m/02ppnm": "Stove",
+            "/m/04c2h8": "Rake",
+            "/m/07w4fs": "Karahi",
+            "/m/01x5q": "Ceramic",
+            "/m/03hlz0c": "Kitchen utensil",
+            "/m/06lml": "Rust",
+            "/m/02x0x5": "Watering can",
+            "/m/04v6l4": "Frying pan",
+            "/m/07cr7j1": "Stock pot",
+            "/m/0h8ntf7": "Household cleaning supply",
+            "/m/03ns2k": "Litter",
+            "/m/09j5n": "Footwear",
+            "/m/04rd7": "Mural",
+            "/m/0dcjfr": "Garden tool",
+            "/m/08l60s": "Attic",
+            "/m/04kkgm": "Bowl",
+            "/m/027rl48": "Ladle",
+            "/m/01mr6j": "Cookware and bakeware",
+            "/m/09w9qp": "Pipe",
+            "/m/0csj6s": "Stain",
+            "/m/01lh8n": "Wheelbarrow",
+            "/m/026gr8": "Cob",
+            "/m/024tz_": "Thai pongal",
+            "/m/0bpff7": "Antique tool",
+            "/m/084rd": "Wok",
+            "/m/01bb6j": "Shovel",
+            "/m/07k1x": "Tool",
+            "/m/01zfyk": "Bucket",
+            "/m/01vzvy": "Mortar (Construction)",
+            "/m/064rk": "Pottery",
+            "/m/0g7xf": "Broom",
+            "/m/01ng72": "Metalworking",
+            "/m/012w5l": "Ladder"
+        }
+    }
+}

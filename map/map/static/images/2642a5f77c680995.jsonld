@@ -1,0 +1,42 @@
+{
+    "@id": "openimages:2642a5f77c680995",
+    "contentUrl": "https://farm6.staticflickr.com/8537/8636548190_0af407be74_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/9/8537/8636548190_22cd5eaf41_z.jpg",
+    "name": "Pius XII LIbrary - New Entrance",
+    "image": "2642a5f77c680995.jpg",
+    "creator": "Paul Sableman (https://www.flickr.com/people/pasa/)",
+    "dateCreated": "2013:04:08 18:59:09",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.54 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "nKhkl0Mfl7dbEtv+2nhb6w==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.6362627777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-90.2353061111111"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0h8ll0s": "Outdoor table",
+            "/m/0cgh4": "Building"
+        }
+    }
+}

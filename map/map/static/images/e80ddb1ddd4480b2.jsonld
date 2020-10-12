@@ -1,0 +1,74 @@
+{
+    "@id": "openimages:e80ddb1ddd4480b2",
+    "contentUrl": "https://farm3.staticflickr.com/5449/8923565417_45a245d357_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/6/5449/8923565417_72d6b0a345_z.jpg",
+    "name": "Babou and Niki",
+    "image": "e80ddb1ddd4480b2.jpg",
+    "creator": "jespahjoy (https://www.flickr.com/people/francapicc/)",
+    "dateCreated": "2013:06:02 08:35:19",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "8.84 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "00FqFavymJvUkxCYz/DRlg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "46.4496666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "43986/71"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0blw4s": "Huntaway",
+            "/m/0bt9lr": "Dog",
+            "/m/026nbpz": "Mountain view cur",
+            "/m/01p5rd": "Bernese mountain dog",
+            "/m/04gp8k": "English mastiff",
+            "/m/02xp9c": "Miniature australian shepherd",
+            "/m/01pns0": "Fire hydrant",
+            "/m/025s1kl": "Livestock guardian dog",
+            "/m/01nw62": "Rottweiler",
+            "/m/01p2gv": "Aidi",
+            "/m/04ljzt6": "Pyrenean mastiff",
+            "/m/01qn1p": "English shepherd",
+            "/m/074pqh": "Spanish mastiff",
+            "/m/03g_78s": "Gaddi kutta",
+            "/m/09h20b": "Rafeiro do alentejo",
+            "/m/02p1d4": "St. bernard",
+            "/m/01pq45": "Chinook",
+            "/m/08mb92": "Appenzeller sennenhund",
+            "/m/0gt7nx": "Kuchi",
+            "/m/0dtln": "Lamp",
+            "/m/01xtxb": "Cavalier king charles spaniel",
+            "/m/04f2yc": "Anatolian shepherd dog",
+            "/m/04nmst": "King charles spaniel",
+            "/m/03dszr": "Akbash dog",
+            "/m/0pwdp": "Border collie",
+            "/m/04371y": "Kangal dog",
+            "/m/02kn5w": "Entlebucher mountain dog",
+            "/m/0bllpv": "Puggle",
+            "/m/03m6zhv": "Australian collie",
+            "/m/05ctyq": "Tennis ball",
+            "/m/03c51t7": "Welsh sheepdog",
+            "/m/0km3f": "Labrador retriever",
+            "/m/037jtq": "Greater swiss mountain dog",
+            "/m/0d4djn": "Dog hiking",
+            "/m/01z404": "Newfoundland"
+        }
+    }
+}

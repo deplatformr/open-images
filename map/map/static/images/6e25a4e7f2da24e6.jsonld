@@ -1,0 +1,106 @@
+{
+    "@id": "openimages:6e25a4e7f2da24e6",
+    "contentUrl": "https://farm7.staticflickr.com/3836/14914119879_70594d343e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/4/3836/14914119879_bf6d988840_z.jpg",
+    "name": "02-IMG_20140824_092207",
+    "image": "6e25a4e7f2da24e6.jpg",
+    "creator": "Spidere Warmouse (https://www.flickr.com/people/spidere/)",
+    "dateCreated": "2014:08:24 09:22:07",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.98 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "rIQaG17z4DEumBSnqIWsVQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.6976585277778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-74.9194564722222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "312"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/054v5h": "Beam bridge",
+            "/m/05mf2t": "Concrete bridge",
+            "/m/01pvk": "Canal",
+            "/m/025t002": "Humpback bridge",
+            "/m/03kj4q": "Watercourse",
+            "/m/07yv9": "Vehicle",
+            "/m/07j7r": "Tree",
+            "/m/01rzcn": "Watercraft",
+            "/m/019jd": "Boat",
+            "/m/02yq2x": "Reflecting pool",
+            "/m/01b480": "Drainage basin",
+            "/m/051gs3": "Fixed link",
+            "/m/096xlh": "Riparian zone",
+            "/m/0j6m2": "Stream",
+            "/m/02c9_23": "Coastal and oceanic landforms",
+            "/m/09qhk": "Aqueduct",
+            "/m/0hrv9": "Elm",
+            "/m/02fhdf": "Water sport",
+            "/m/04h4w": "Lake",
+            "/m/03m4wn": "Boating",
+            "/m/0d0h0h": "Girder bridge",
+            "/m/015kr": "Bridge",
+            "/m/0jj_h": "Tributary",
+            "/m/0fpjpt": "Lacustrine plain",
+            "/m/01v4lt": "Arch bridge",
+            "/m/02fm9k": "Shore",
+            "/m/0f6rkr": "Devil's bridge",
+            "/m/076vx2m": "Mineral spring",
+            "/m/01jnfv": "Viaduct",
+            "/m/0btcr": "Levee",
+            "/m/0184rb": "Pond",
+            "/m/0bp3j53": "Boats and boating--Equipment and supplies",
+            "/m/03h5wy": "Channel",
+            "/m/03ybsm": "Creek"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.000625",
+                "xMax": "0.774375",
+                "yMin": "0.000000",
+                "yMax": "0.456667",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.717500",
+                "xMax": "0.999375",
+                "yMin": "0.000000",
+                "yMax": "0.471667",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

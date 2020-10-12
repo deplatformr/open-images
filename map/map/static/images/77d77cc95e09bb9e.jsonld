@@ -1,0 +1,103 @@
+{
+    "@id": "openimages:77d77cc95e09bb9e",
+    "contentUrl": "https://c7.staticflickr.com/9/8349/8206814549_071b890b59_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/9/8349/8206814549_308bd4da78_z.jpg",
+    "name": "Day 317: Mummy",
+    "image": "77d77cc95e09bb9e.jpg",
+    "creator": "Keith McDuffee (https://www.flickr.com/people/gudlyf/)",
+    "dateCreated": "2012:11:13 23:05:35",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.45 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "3264",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "yB3H/fM5euwsXOw6Vi37ow==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.3128333333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-71.662"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "40292/355"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01g317": "Person",
+            "/m/0849l": "Weightlifting",
+            "/m/0215n": "Cartoon",
+            "/m/0138tl": "Toy",
+            "/m/0k0pj": "Human nose",
+            "/m/0h9mv": "Tire",
+            "/m/0dzf4": "Human arm",
+            "/m/019b80": "Sweater",
+            "/m/09j2d": "Clothing",
+            "/m/0283dt1": "Human mouth",
+            "/m/02p0tk3": "Human body",
+            "/m/035r7c": "Human leg",
+            "/m/03q69": "Human hair",
+            "/m/08dz3q": "Auto part",
+            "/m/04hgtk": "Human head",
+            "/m/04rky": "Mammal",
+            "/m/083wq": "Wheel",
+            "/m/0dzct": "Human face"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0138tl": "Toy",
+                "confidence": "1",
+                "xMin": "0.087500",
+                "xMax": "0.959167",
+                "yMin": "0.099375",
+                "yMax": "0.876250",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j2d": "Clothing",
+                "confidence": "1",
+                "xMin": "0.000000",
+                "xMax": "0.950833",
+                "yMin": "0.115625",
+                "yMax": "0.933750",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "1",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/0138tl": "Toy",
+                "maskFile": "77d77cc95e09bb9e_m0138tl_49211e30.png",
+                "boxId": "49211e30",
+                "xMin": "0.0875",
+                "xMax": "0.959167",
+                "yMin": "0.099375",
+                "yMax": "0.87625",
+                "PredictedIoU": "0.8355",
+                "clicks": "0.14135 0.66767 1;0.92915 0.61423 1;0.26960 0.91347 1;0.33363 0.87419 1;0.86878 0.19842 0;0.25445 0.15132 1;0.22441 0.52607 1;0.22819 0.46525 0;0.03068 0.71562 1;0.23654 0.80116 0;0.79848 0.73440 0"
+            }
+        ]
+    }
+}

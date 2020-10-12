@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:3935b7a0a5db4ea6",
+    "contentUrl": "https://farm7.staticflickr.com/3873/14838096548_b41b033c06_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/4/3873/14838096548_b7db9315d5_z.jpg",
+    "name": "DSC_4197.JPG",
+    "image": "3935b7a0a5db4ea6.jpg",
+    "creator": "Billy Bob Bain (https://www.flickr.com/people/astros/)",
+    "dateCreated": "2012:03:12 15:28:28",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.46 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3872",
+    "height": "2592",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "2pxDGMXylbzqKx6/JqLNFw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "47.5903"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.3316"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/018jz": "Baseball",
+            "/m/01bdy": "Bowling",
+            "/m/037hz": "Golf",
+            "/m/02vx4": "Soccer",
+            "/m/019nj4": "Smile",
+            "/m/01h_1n": "Playground"
+        }
+    }
+}

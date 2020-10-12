@@ -1,0 +1,76 @@
+{
+    "@id": "openimages:b66d156e97d4f512",
+    "contentUrl": "https://farm3.staticflickr.com/7532/15708014519_584a65a861_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/8/7532/15708014519_d931fd8e21_z.jpg",
+    "name": "Root &quot;choking&quot; a tree stem",
+    "image": "b66d156e97d4f512.jpg",
+    "creator": "Scot Nelson (https://www.flickr.com/people/scotnelson/)",
+    "dateCreated": "2014:11:27 09:04:22",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.45 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "dkNh0CirhkU4rfuT1Rb6ww==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "21.3076361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-157.808547222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "11676/265"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0flg6": "Root",
+            "/m/02j71": "Earth",
+            "/m/0fbf1m": "Terrestrial animal",
+            "/m/03154": "Fungus",
+            "/m/01qr50": "Mud",
+            "/m/06wqb": "Space",
+            "/m/01f4td": "Rural area",
+            "/m/0cl6l": "Straw",
+            "/m/078jl": "Snake",
+            "/m/01tbcv": "Non-vascular land plant",
+            "/m/01ss0": "Compost",
+            "/m/0184yy": "Moss",
+            "/m/0hndl": "Shade",
+            "/m/01xc8d": "Rope",
+            "/m/01x2j": "Camouflage",
+            "/m/0hwky": "Pattern",
+            "/m/027t7q": "Mulch",
+            "/m/025ss97": "Environmental art",
+            "/m/0308t8": "Bedrock",
+            "/m/01tx7r": "Volcanic rock",
+            "/m/0403mwp": "Thorns, spines, and prickles",
+            "/m/02n1k": "Erosion",
+            "/m/01cbzq": "Rock",
+            "/m/02l8mj": "California live oak",
+            "/m/0brn2d": "Field",
+            "/m/0c5w9": "Driftwood",
+            "/m/0d9wys": "Tree stump",
+            "/m/0cl63": "Hay",
+            "/m/012vzz": "Plant pathology",
+            "/m/0m739": "Nest",
+            "/m/02tcwp": "Trunk (Tree)",
+            "/m/06bt6": "Reptile"
+        }
+    }
+}

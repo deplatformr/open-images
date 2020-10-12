@@ -1,0 +1,137 @@
+{
+    "@id": "openimages:82a88e411af0123d",
+    "contentUrl": "https://c6.staticflickr.com/9/8179/8073765413_9ebf8ab061_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/9/8179/8073765413_edcf4dbd10_z.jpg",
+    "name": "Solomon Islands Papua New Guinea 068",
+    "image": "82a88e411af0123d.jpg",
+    "creator": "Stefan Krasowski (https://www.flickr.com/people/rapidtravelchai/)",
+    "dateCreated": "2012:09:21 14:27:26",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "729.04 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2816",
+    "height": "2112",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "23NyUxN6axX5jVGtb3AT/Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-9.46275615692139"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "159.975463867188"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0csby": "Cloud",
+            "/m/07j7r": "Tree",
+            "/m/01bqvp": "Sky",
+            "/m/09d_r": "Mountain"
+        },
+        "trainingBoxes": [
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.910000",
+                "xMax": "0.987500",
+                "yMin": "0.365833",
+                "yMax": "0.477500",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.637500",
+                "xMax": "0.683750",
+                "yMin": "0.434167",
+                "yMax": "0.470833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.768125",
+                "xMax": "0.780000",
+                "yMin": "0.446667",
+                "yMax": "0.464167",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.776250",
+                "xMax": "0.790000",
+                "yMin": "0.432500",
+                "yMax": "0.464167",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.782500",
+                "xMax": "0.798125",
+                "yMin": "0.429167",
+                "yMax": "0.465833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.811250",
+                "xMax": "0.825000",
+                "yMin": "0.430833",
+                "yMax": "0.464167",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/07j7r": "Tree",
+                "confidence": "1",
+                "xMin": "0.827500",
+                "xMax": "0.843125",
+                "yMin": "0.436667",
+                "yMax": "0.462500",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "@id": "openimages:de8d53397fe4afe3",
+    "contentUrl": "https://farm4.staticflickr.com/8692/16931924325_e561c00a93_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8692/16931924325_b27a82eae7_z.jpg",
+    "name": "SXSW 2015",
+    "image": "de8d53397fe4afe3.jpg",
+    "creator": "Dave Nakayama (https://www.flickr.com/people/dnak/)",
+    "dateCreated": "2015:03:19 20:37:56",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "779.92 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "CLERa3Yx5UmpzH3T31taXg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "30.2649722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-97.7331305555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "31947/215"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/09j2d": "Clothing",
+            "/m/01dd1s": "Acrobatics",
+            "/m/01jddz": "Concert",
+            "/m/0d8lm": "String instrument",
+            "/m/011_f4": "Chordophone"
+        },
+        "trainingBoxes": [
+            {
+                "/m/09j2d": "Clothing",
+                "confidence": "1",
+                "xMin": "0.420625",
+                "xMax": "0.910000",
+                "yMin": "0.401875",
+                "yMax": "0.839375",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/09j2d": "Clothing",
+                "confidence": "1",
+                "xMin": "0.515625",
+                "xMax": "0.783750",
+                "yMin": "0.305000",
+                "yMax": "0.500000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/09j2d": "Clothing",
+                "maskFile": "de8d53397fe4afe3_m09j2d_f8de237c.png",
+                "boxId": "f8de237c",
+                "xMin": "0.515625",
+                "xMax": "0.78375",
+                "yMin": "0.305",
+                "yMax": "0.5",
+                "PredictedIoU": "0.63933",
+                "clicks": "0.63398 0.33308 1;0.65447 0.36683 0;0.62434 0.30898 1;0.56419 0.40523 0;0.69887 0.38088 0;0.54088 0.33686 1"
+            }
+        ]
+    }
+}

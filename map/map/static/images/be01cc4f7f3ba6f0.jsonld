@@ -1,0 +1,40 @@
+{
+    "@id": "openimages:be01cc4f7f3ba6f0",
+    "contentUrl": "https://farm1.staticflickr.com/4148/4969901543_866077bd11_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c3.staticflickr.com/5/4148/4969901543_484f642bac_z.jpg",
+    "name": "M",
+    "image": "be01cc4f7f3ba6f0.jpg",
+    "creator": "Steve  Bowbrick (https://www.flickr.com/people/bowbrick/)",
+    "dateCreated": "2010:09:08 08:23:27",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.12 MiB",
+    "encodingFormat": "image/jpeg",
+    "resolution": "None x None",
+    "disambiguatingDescription": "FUXOUk2fY0//RNKsIinNcw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "51.531885"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-0.126080277777778"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0gkxy13": "Handwriting",
+            "/m/0bt_c3": "Book",
+            "/m/01knjb": "Billboard"
+        }
+    }
+}

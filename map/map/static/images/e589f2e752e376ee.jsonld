@@ -1,0 +1,92 @@
+{
+    "@id": "openimages:e589f2e752e376ee",
+    "contentUrl": "https://c7.staticflickr.com/1/120/304820605_59595e79f1_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c1.staticflickr.com/1/120/304820605_59595e79f1_z.jpg?zz=1",
+    "name": "Paddington Antiques,167 Latrobe Terrace, Paddington 4064, Brisbane, Queensland, Australia",
+    "image": "e589f2e752e376ee.jpg",
+    "creator": "David Jackmanson (https://www.flickr.com/people/djackmanson/)",
+    "dateCreated": "2005:01:01 13:33:17",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "115.73 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2304",
+    "height": "1728",
+    "resolution": "230 x 230",
+    "disambiguatingDescription": "j+D76kNNGUTHtOAr8GWwwg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-27.4581527777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "152.994747222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/07mk3n": "Metal lathe",
+            "/m/01bjxx": "Camera lens",
+            "/m/01j_zg": "Bellows",
+            "/m/02jsng": "Gas compressor",
+            "/m/0h8mjtj": "Passive circuit component",
+            "/m/03kyfs": "Fastener",
+            "/m/08xdbd": "Rocker cover",
+            "/m/0l4dz": "Electric generator",
+            "/m/07c_2": "Transistor",
+            "/m/013992": "Lathe",
+            "/m/012wfx": "Camshaft",
+            "/m/056ykb": "Stereo camera",
+            "/m/0127_k": "Spark plug",
+            "/m/049vf_": "Point-and-shoot camera",
+            "/m/0c2wf": "Typewriter",
+            "/m/01xf5": "Clutch",
+            "/m/091qfn": "Rocker arm",
+            "/m/0_ksk": "Power tool",
+            "/m/0dw7n": "Digital camera",
+            "/m/0118ms9c": "Reflex camera",
+            "/m/0l7xg": "Gear",
+            "/m/02p43dr": "Current transformer",
+            "/m/01h2qf": "Slide projector",
+            "/m/04bmfj": "Reel",
+            "/m/0d3s4": "Carburetor",
+            "/m/025rsfk": "Copper",
+            "/m/05p4z41": "Mirrorless interchangeable-lens camera",
+            "/m/04n4x": "Lens",
+            "/m/0cvt8m": "Capacitor",
+            "/m/01prls": "Land vehicle",
+            "/m/07yv9": "Vehicle",
+            "/m/08dz3q": "Auto part",
+            "/m/0dv5r": "Camera"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0dv5r": "Camera",
+                "confidence": "1",
+                "xMin": "0.051250",
+                "xMax": "0.998750",
+                "yMin": "0.105000",
+                "yMax": "0.996667",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ]
+    }
+}

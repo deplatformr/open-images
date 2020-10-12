@@ -1,0 +1,56 @@
+{
+    "@id": "openimages:a8f6cdf7f349afca",
+    "contentUrl": "https://c3.staticflickr.com/4/3843/14490075902_7c5a36b4a8_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/4/3843/14490075902_039ffed719_z.jpg",
+    "name": "Luxury all round",
+    "image": "a8f6cdf7f349afca.jpg",
+    "creator": "Mountain/ \\Ash (https://www.flickr.com/people/mountainash/)",
+    "dateCreated": "2014:06:11 23:31:28",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.62 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "+zC0vfWm9bERcX3uptLyoA==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "38.9110666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "1.43833055555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "1"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/039_hs": "Royal yacht",
+            "/m/06q74": "Ship",
+            "/m/02vxb3b": "Ms island escape",
+            "/m/03m9tm": "Royal mail ship",
+            "/m/04zvdk_": "Marine electronics",
+            "/m/01c42l": "Museum ship",
+            "/m/01pwl3": "Maritime museum",
+            "/m/04wv_": "Moon",
+            "/m/019jd": "Boat",
+            "/m/09sdbh": "Luxury yacht",
+            "/m/01tq2l": "Cruise ship",
+            "/m/09_j3b": "Cruiseferry"
+        }
+    }
+}

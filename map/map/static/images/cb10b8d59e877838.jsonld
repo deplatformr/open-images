@@ -1,0 +1,55 @@
+{
+    "@id": "openimages:cb10b8d59e877838",
+    "contentUrl": "https://c1.staticflickr.com/8/7500/16075876857_13df527fe6_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/8/7500/16075876857_acc9ac3049_z.jpg",
+    "name": "IMG_4011",
+    "image": "cb10b8d59e877838.jpg",
+    "creator": "InfoGibraltar (https://www.flickr.com/people/infogibraltar/)",
+    "dateCreated": "2015:01:10 17:34:21",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.04 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "xBBeT5MnKUmi+dUSOqAqUg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "36.1561666666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-5.35013055555556"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "12857/5437"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/033qq4": "Peugeot 306",
+            "/m/01bqvp": "Sky",
+            "/m/0215zm": "Peugeot 205",
+            "/m/063vjv": "Hyundai santa fe",
+            "/m/03wflz5": "Peugeot roa",
+            "/m/01n_q1": "Peugeot 106",
+            "/m/0k4j": "Car",
+            "/m/03p66g": "Crossover suv",
+            "/m/09d_r": "Mountain",
+            "/m/02bp_r": "Peugeot 405",
+            "/m/07yv9": "Vehicle"
+        }
+    }
+}

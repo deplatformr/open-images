@@ -1,0 +1,77 @@
+{
+    "@id": "openimages:8294a5fc6d965cb1",
+    "contentUrl": "https://farm2.staticflickr.com/3901/14921647316_ba739c1962_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/4/3901/14921647316_b6c24ff884_z.jpg",
+    "name": "2014/08/07 @ ラーメン二郎 品川店",
+    "image": "8294a5fc6d965cb1.jpg",
+    "creator": "Takeshi Kiriya (https://www.flickr.com/people/takeshik/)",
+    "dateCreated": "2014:08:07 20:46:29",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.91 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3648",
+    "height": "2736",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "jk7Zu8h6+4eFWOZbPy+Djg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "35.623893737793"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "139.74299621582"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06nk8b": "Hae mee",
+            "/m/03d7qqr": "Lomi",
+            "/m/02gmkb": "Chitterlings",
+            "/m/0cy8mp": "Thukpa",
+            "/m/02y17j": "Pho",
+            "/m/02z80b4": "Kalguksu",
+            "/m/03myyt": "Oyster vermicelli",
+            "/m/04dkzb": "Bak kut teh",
+            "/m/0h1gh8x": "Soto mie",
+            "/m/0b9_75": "Soki",
+            "/m/027c5z0": "Batchoy",
+            "/m/02tcfg": "Beef noodle soup",
+            "/m/0t52nhp": "Feu",
+            "/m/08d_8c": "Noodle soup",
+            "/m/02hz3p": "Chinese noodles",
+            "/m/018gzr": "Sōmen",
+            "/m/025x6pj": "Shirataki noodles",
+            "/m/09xf66": "Cao lầu",
+            "/m/02vkl6v": "Boiled beef",
+            "/m/040_td": "Champon",
+            "/m/05z55": "Pasta",
+            "/m/04gkb7l": "Mami soup",
+            "/m/04t8sg": "Al dente",
+            "/m/0clcjj": "Bún bò huế",
+            "/m/0772h": "Spaghetti",
+            "/m/061ptq": "Kuy teav",
+            "/m/02rk570": "Soto",
+            "/m/09gms": "Ramen",
+            "/m/0b960h": "Okinawa soba",
+            "/m/02wbm": "Food",
+            "/m/0fh90p": "Curry chicken noodles",
+            "/m/0b97cn": "Lamian",
+            "/m/0308gy": "Stock",
+            "/m/0g2n9c": "Lor mee",
+            "/m/08h816": "Curry mee",
+            "/m/07_1h6": "Banmian",
+            "/m/02pg_sb": "Haejangguk",
+            "/m/06b_y2": "Fideo"
+        }
+    }
+}

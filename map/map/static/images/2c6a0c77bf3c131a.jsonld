@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:2c6a0c77bf3c131a",
+    "contentUrl": "https://c3.staticflickr.com/8/7359/11142127183_7a8f804de1_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/8/7359/11142127183_cebea9e662_z.jpg",
+    "name": "IMG_0585.JPG",
+    "image": "2c6a0c77bf3c131a.jpg",
+    "creator": "sylvar (https://www.flickr.com/people/sylvar/)",
+    "dateCreated": "2013:11:30 17:44:57",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.71 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "C6e+2Ju8lElZs7ftq7fw2Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "28.2919"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-81.4039"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04jjh": "Letter",
+            "/m/0bt_c3": "Book",
+            "/m/04gcl9": "Receipt",
+            "/m/05jnl": "Newspaper",
+            "/m/01zbnw": "Screenshot",
+            "/m/0gkxy13": "Handwriting"
+        }
+    }
+}

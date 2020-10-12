@@ -1,0 +1,43 @@
+{
+    "@id": "openimages:778a5dc0eef98b9e",
+    "contentUrl": "https://c7.staticflickr.com/6/5345/9329349046_1eb5008349_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/6/5345/9329349046_4991b543a7_z.jpg",
+    "name": "Barcelona playground",
+    "image": "778a5dc0eef98b9e.jpg",
+    "creator": "Jan Hammershaug (https://www.flickr.com/people/hammershaug/)",
+    "dateCreated": "2013:07:03 17:52:12",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "297.01 KiB",
+    "encodingFormat": "image/jpeg",
+    "width": "1064",
+    "height": "598",
+    "resolution": "60 x 60",
+    "disambiguatingDescription": "VotP+tSeatkQtkVaTNcQ9Q==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.4104194444444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "2.15981666666667"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0199g": "Bicycle",
+            "/m/0cgh4": "Building",
+            "/m/079cl": "Skyscraper",
+            "/m/01h_1n": "Playground"
+        }
+    }
+}

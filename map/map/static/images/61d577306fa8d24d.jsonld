@@ -1,0 +1,44 @@
+{
+    "@id": "openimages:61d577306fa8d24d",
+    "contentUrl": "https://c6.staticflickr.com/5/4110/5146960706_b200e0e48d_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/5/4110/5146960706_b9bb95de6c_z.jpg",
+    "name": "Jordi Serrano demostrando poderío en el #VCNBP",
+    "image": "61d577306fa8d24d.jpg",
+    "creator": "Javier Leiva (https://www.flickr.com/people/catorze/)",
+    "dateCreated": "2010:11:04 15:16:56",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.93 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "CCddncfjoXCxU1snuHu5rg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 270
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.5141861111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-5.61011944444444"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0c9ph5": "Flower",
+            "/m/05f787t": "Tumpeng",
+            "/m/01crps": "Satay",
+            "/m/09759": "Rice",
+            "/m/02wbm": "Food"
+        }
+    }
+}

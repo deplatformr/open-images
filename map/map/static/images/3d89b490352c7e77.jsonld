@@ -1,0 +1,47 @@
+{
+    "@id": "openimages:3d89b490352c7e77",
+    "contentUrl": "https://farm8.staticflickr.com/532/19571047375_623e195ece_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c5.staticflickr.com/1/532/19571047375_453836850c_z.jpg",
+    "name": "Sea Eagle Corroboree Billabong Wetland, Marrakai NT",
+    "image": "3d89b490352c7e77.jpg",
+    "creator": "mrpbps (https://www.flickr.com/people/mrpbps/)",
+    "dateCreated": "2015:06:19 17:28:52",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.51 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "IErSWYU5XgYe/4tq3ZzdRw==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "-12.7090583333333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "131.635727777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "4611/875"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/015p6": "Bird",
+            "/m/0838f": "Water",
+            "/m/04h4w": "Lake"
+        }
+    }
+}

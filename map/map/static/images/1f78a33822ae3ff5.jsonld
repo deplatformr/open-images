@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:1f78a33822ae3ff5",
+    "contentUrl": "https://farm6.staticflickr.com/7289/8732765404_e149576139_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c7.staticflickr.com/8/7289/8732765404_d6464bb667_z.jpg",
+    "name": "Florence",
+    "image": "1f78a33822ae3ff5.jpg",
+    "creator": "inyucho (https://www.flickr.com/people/inyucho/)",
+    "dateCreated": "2013:05:09 15:47:04",
+    "description": "",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "5.79 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "3240",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "cWSAp+F8mLkGH12zuVXByg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.7632361111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "11.2651222222222"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0199g": "Bicycle",
+            "/m/07j7r": "Tree",
+            "/m/09d_r": "Mountain",
+            "/m/079cl": "Skyscraper",
+            "/m/03jm5": "House",
+            "/m/01bqvp": "Sky"
+        }
+    }
+}

@@ -1,0 +1,250 @@
+{
+    "@id": "openimages:728e20f28062fce7",
+    "contentUrl": "https://farm8.staticflickr.com/8708/16770355540_eecf48914e_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8708/16770355540_7069f14509_z.jpg",
+    "name": "primule",
+    "image": "728e20f28062fce7.jpg",
+    "creator": "nociveglia (https://www.flickr.com/people/40385177@N07/)",
+    "dateCreated": "2015:03:28 13:00:27",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.54 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4320",
+    "height": "2432",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "oJQpDLAz/94pNJpfO5+CyQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "44.544975"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "9.616275"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/06bt6": "Reptile",
+            "/m/01f83d": "Primula",
+            "/m/0d7mt0": "Water forget me not",
+            "/m/01rb6t": "Chrysanths",
+            "/m/03nn6w8": "California fawn lily",
+            "/m/02q1v5_": "White cinquefoil",
+            "/m/0h3zkc": "Leptosiphon",
+            "/m/0262qsm": "Burnet rose",
+            "/m/06_4kc6": "White wood sorrel",
+            "/m/062719": "BloodrootSanguinaria canadensis",
+            "/m/03zdh1": "Frangipani",
+            "/m/05jqpx": "Primrose",
+            "/m/02t24m": "Aubretia",
+            "/m/01f4qx": "Lesser celandine",
+            "/m/02xpps": "Forget-me-not",
+            "/m/0cjl_t": "Alpine forget-me-not",
+            "/m/0cc7qq": "Erythronium dens-canis",
+            "/m/05k3py": "Douglas' meadowfoam",
+            "/m/03xmn0": "Cowslip",
+            "/m/06yzz": "Subaru impreza wrx",
+            "/m/03mc3nt": "Avalanche lily",
+            "/m/078jl": "Snake",
+            "/m/0c9ph5": "Flower",
+            "/m/0jbk": "Animal",
+            "/m/05s2s": "Plant",
+            "/m/0fshs": "Fawn lily"
+        },
+        "trainingBoxes": [
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.767500",
+                "xMax": "0.885000",
+                "yMin": "0.351111",
+                "yMax": "0.606667",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.165000",
+                "xMax": "0.295625",
+                "yMin": "0.526667",
+                "yMax": "0.767778",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.173750",
+                "xMax": "0.249375",
+                "yMin": "0.854444",
+                "yMax": "0.961111",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.245625",
+                "xMax": "0.838750",
+                "yMin": "0.000000",
+                "yMax": "0.711111",
+                "isOccluded": "1",
+                "isTruncated": "1",
+                "isGroupOf": "1",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.260000",
+                "xMax": "0.368750",
+                "yMin": "0.603333",
+                "yMax": "0.800000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.291875",
+                "xMax": "0.385625",
+                "yMin": "0.672222",
+                "yMax": "0.900000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.365000",
+                "xMax": "0.465000",
+                "yMin": "0.672222",
+                "yMax": "0.930000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "confidence": "1",
+                "xMin": "0.401875",
+                "xMax": "0.518750",
+                "yMin": "0.663333",
+                "yMax": "0.902222",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingSegmentations": [
+            {
+                "/m/0c9ph5": "Flower",
+                "maskFile": "728e20f28062fce7_m0c9ph5_da35103f.png",
+                "boxId": "da35103f",
+                "xMin": "0.401875",
+                "xMax": "0.51875",
+                "yMin": "0.663333",
+                "yMax": "0.902222",
+                "PredictedIoU": "0.66782",
+                "clicks": "0.47254 0.68100 0;0.48531 0.79695 1;0.46210 0.76270 0;0.49227 0.70576 0;0.44123 0.79032 0;0.45876 0.67088 1;0.48813 0.70280 1;0.48792 0.73774 0;0.51293 0.76529 1;0.48347 0.83932 0;0.47271 0.67918 0;0.44211 0.74213 1"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "maskFile": "728e20f28062fce7_m0c9ph5_d4c6aaec.png",
+                "boxId": "d4c6aaec",
+                "xMin": "0.291875",
+                "xMax": "0.385625",
+                "yMin": "0.672222",
+                "yMax": "0.9",
+                "PredictedIoU": "0.84334",
+                "clicks": "0.34708 0.68539 1;0.30388 0.87479 1;0.29997 0.80876 0;0.36330 0.87305 1;0.29145 0.76482 1;0.32729 0.87580 0;0.35889 0.68604 0;0.29723 0.85183 1;0.31704 0.77898 1;0.32146 0.85127 1;0.37782 0.69476 1;0.33816 0.88703 1"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "maskFile": "728e20f28062fce7_m0c9ph5_0307618b.png",
+                "boxId": "0307618b",
+                "xMin": "0.7675",
+                "xMax": "0.885",
+                "yMin": "0.351111",
+                "yMax": "0.606667",
+                "PredictedIoU": "0.88253",
+                "clicks": "0.77270 0.45841 1;0.82534 0.39849 1;0.88404 0.46514 1;0.86662 0.59845 1;0.83165 0.41893 0;0.87925 0.43336 0;0.81409 0.56948 1;0.88145 0.56675 1;0.79644 0.35543 1;0.83331 0.41614 0;0.87290 0.41790 1;0.86647 0.50720 0"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "maskFile": "728e20f28062fce7_m0c9ph5_0b6fb37f.png",
+                "boxId": "0b6fb37f",
+                "xMin": "0.26",
+                "xMax": "0.36875",
+                "yMin": "0.603333",
+                "yMax": "0.8",
+                "PredictedIoU": "0.80446",
+                "clicks": "0.32109 0.65040 0;0.27226 0.76432 1;0.32643 0.72838 0;0.30450 0.73245 1;0.34779 0.77077 0;0.29191 0.71991 1;0.32490 0.71516 1;0.30850 0.74805 0;0.31702 0.65488 1;0.32404 0.65131 1;0.26687 0.74154 1;0.33086 0.72656 1"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "maskFile": "728e20f28062fce7_m0c9ph5_d9b9a75f.png",
+                "boxId": "d9b9a75f",
+                "xMin": "0.17375",
+                "xMax": "0.249375",
+                "yMin": "0.854444",
+                "yMax": "0.961111",
+                "PredictedIoU": "0.81197",
+                "clicks": "0.21823 0.93637 0;0.23176 0.91856 1;0.24139 0.94794 0;0.19233 0.95396 1;0.21693 0.91810 1;0.24061 0.90144 0;0.22942 0.94331 1;0.22760 0.90700 0;0.22402 0.91649 0;0.19914 0.95861 1;0.19772 0.94892 0;0.23918 0.90175 1"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "maskFile": "728e20f28062fce7_m0c9ph5_3608831d.png",
+                "boxId": "3608831d",
+                "xMin": "0.365",
+                "xMax": "0.465",
+                "yMin": "0.672222",
+                "yMax": "0.93",
+                "PredictedIoU": "0.85331",
+                "clicks": "0.37943 0.74217 0;0.45567 0.82789 1;0.43615 0.84895 0;0.41563 0.91984 0;0.46228 0.76693 1;0.43599 0.74334 0;0.42848 0.91513 1;0.37842 0.83725 1;0.45038 0.85903 0;0.40080 0.67994 1;0.42913 0.75829 1;0.40473 0.80306 1"
+            },
+            {
+                "/m/0c9ph5": "Flower",
+                "maskFile": "728e20f28062fce7_m0c9ph5_7865fe65.png",
+                "boxId": "7865fe65",
+                "xMin": "0.165",
+                "xMax": "0.295625",
+                "yMin": "0.526667",
+                "yMax": "0.767778",
+                "PredictedIoU": "0.75006",
+                "clicks": "0.21363 0.74866 0;0.19878 0.62656 1;0.28268 0.59554 1;0.25966 0.57574 0;0.23502 0.67061 0;0.16607 0.73042 1;0.20989 0.59825 0;0.24083 0.75183 1;0.21197 0.67525 1;0.25109 0.54574 1;0.25179 0.70565 1;0.20307 0.74021 1"
+            }
+        ]
+    }
+}

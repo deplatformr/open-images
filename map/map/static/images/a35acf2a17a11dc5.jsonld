@@ -1,0 +1,54 @@
+{
+    "@id": "openimages:a35acf2a17a11dc5",
+    "contentUrl": "https://farm6.staticflickr.com/2691/4087730216_e2775424a1_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c6.staticflickr.com/3/2691/4087730216_53191c9149_z.jpg",
+    "name": "IMG_0538.JPG",
+    "image": "a35acf2a17a11dc5.jpg",
+    "creator": "Lisa Andres (https://www.flickr.com/people/lilu12323/)",
+    "dateCreated": "2009:11:07 15:35:55",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.58 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3648",
+    "height": "2736",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "MGafO4u7JRVgPLb4CydVFg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "34.1451"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-118.0415"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0jxxt": "Horse racing",
+            "/m/096f8": "Show jumping",
+            "/m/04zzljk": "Splint boots",
+            "/m/0d1tm": "Eventing",
+            "/m/05h2v35": "Jumping (Equestrian Sports)",
+            "/m/01pvc5": "Jockey",
+            "/m/03k3r": "Horse",
+            "/m/013xlm": "Tractor",
+            "/m/0kfbd": "Rodeo",
+            "/m/02tp4d": "Cross-country equestrianism",
+            "/m/0c7753": "Steeplechase (Horse Race)",
+            "/m/0h6hb8": "English riding",
+            "/m/0jzgx": "Flat racing",
+            "/m/0bnwtj": "Equestrian helmet",
+            "/m/03zp9z": "Crop (Whip)"
+        }
+    }
+}

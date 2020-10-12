@@ -1,0 +1,45 @@
+{
+    "@id": "openimages:32abc7e736004d0e",
+    "contentUrl": "https://c7.staticflickr.com/3/2935/14116562225_5459a2f4d8_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/3/2935/14116562225_8ee72beb18_z.jpg",
+    "name": "IMG_20140429_205000",
+    "image": "32abc7e736004d0e.jpg",
+    "creator": "Mathew Ingram (https://www.flickr.com/people/mathewingram/)",
+    "dateCreated": "2014:04:29 20:50:00",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.15 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "HC2kDINxa4D2c19qqrZOUQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "43.1101531944444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "12.3885621944444"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01zbnw": "Screenshot"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "@id": "openimages:ccbae939fc60f6d7",
+    "contentUrl": "https://farm8.staticflickr.com/5519/12283535484_1734a5cee6_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/6/5519/12283535484_e4152e2946_z.jpg",
+    "name": "Looks like a great place to build a bumpout",
+    "image": "ccbae939fc60f6d7.jpg",
+    "creator": "Steven Vance (https://www.flickr.com/people/jamesbondsv/)",
+    "dateCreated": "2014:02:01 15:23:17",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "2.36 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "85vsfLuMyOltfc3dfXyQ/g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 180
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "41.9319722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-87.7115777777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "27751/151"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/071k0": "Skiing",
+            "/m/055s40": "Glacial landform",
+            "/m/038jz": "Glacier",
+            "/m/0280nh": "Fell",
+            "/m/018jqx": "Ski resort",
+            "/m/012v4j": "Hiking",
+            "/m/01r8w": "Cave",
+            "/m/02c66t": "Wedding dress",
+            "/m/0c28q": "Moraine",
+            "/m/01pbgp": "Massif",
+            "/m/06__v": "Snowboard",
+            "/m/02z47m": "Nunatak",
+            "/m/04b966": "Ice cap",
+            "/m/04hgv": "Limestone",
+            "/m/06z4ng": "Piste"
+        }
+    }
+}

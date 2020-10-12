@@ -1,0 +1,46 @@
+{
+    "@id": "openimages:f167eade11f94856",
+    "contentUrl": "https://farm7.staticflickr.com/7135/7485385048_98b3988179_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/8/7135/7485385048_f56703537b_z.jpg",
+    "name": "2012-06-17 06-30 Singapore 143 Chinatown",
+    "image": "f167eade11f94856.jpg",
+    "creator": "Allie_Caulfield (https://www.flickr.com/people/wm_archiv/)",
+    "dateCreated": "2012:06:22 21:41:12",
+    "description": "                               ",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "11.21 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "5684",
+    "height": "3805",
+    "resolution": "350 x 350",
+    "disambiguatingDescription": "SGUHdsCvdVdS/CB66HeARg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "1.2834425"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "103.843275833333"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "2539/100"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/0k4j": "Car"
+        }
+    }
+}

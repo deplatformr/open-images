@@ -1,0 +1,82 @@
+{
+    "@id": "openimages:79081ad49ba293cc",
+    "contentUrl": "https://c5.staticflickr.com/4/3837/14999882529_deddcb7d94_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c4.staticflickr.com/4/3837/14999882529_66f67bb6e5_z.jpg",
+    "name": "Untitled",
+    "image": "79081ad49ba293cc.jpg",
+    "creator": "Gabe Knezek (https://www.flickr.com/people/gabesk/)",
+    "dateCreated": "2014:09:05 20:41:10",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.43 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "3264",
+    "height": "2448",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "MYLRZgIRaGXJCPJb1ozEhg==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "48.5240777777778"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-122.916191666667"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "0"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/04wv_": "Moon",
+            "/m/04ggh49": "Bay",
+            "/m/0b0lbv": "Backlighting",
+            "/m/026fm63": "Calm",
+            "/m/04mx32": "Evening",
+            "/m/0838f": "Water",
+            "/m/02p0sll": "Wave",
+            "/m/07p__m": "Guard rail",
+            "/m/04m6gz": "Porch",
+            "/m/015kr": "Bridge",
+            "/m/03thgk": "Silhouette",
+            "/m/02zsp3": "Cay",
+            "/m/022xdb": "Hinterland",
+            "/m/03cjrt": "Highland",
+            "/m/01b2q6": "Sunrise",
+            "/m/080dk2h": "Red sky at morning",
+            "/m/054v5h": "Beam bridge",
+            "/m/02hdxc": "Inlet",
+            "/m/0cbsnl": "Resort town",
+            "/m/03q13l": "Deck (Building)",
+            "/m/01b2w5": "Sunset",
+            "/m/04wxr": "Mountain range",
+            "/m/01phq4": "Pier",
+            "/m/04gv79h": "Headland",
+            "/m/01rzcn": "Watercraft",
+            "/m/080byt0": "Cape (Geography)",
+            "/m/01b3kg": "Dawn",
+            "/m/03y3sg": "Boardwalk",
+            "/m/013vs": "Afterglow",
+            "/m/01lxd": "Coast",
+            "/m/034srq": "Wind wave",
+            "/m/01r3xn": "Shoal",
+            "/m/01b3l7": "Dusk",
+            "/m/0hl08": "Tropics",
+            "/m/0b3yr": "Beach",
+            "/m/03218s": "Dock",
+            "/m/0d1n2": "Horizon",
+            "/m/04h4w": "Lake"
+        }
+    }
+}

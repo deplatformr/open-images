@@ -1,0 +1,230 @@
+{
+    "@id": "openimages:6bc2c9a4a549d053",
+    "contentUrl": "https://farm4.staticflickr.com/4119/4896138899_f6f2ee788f_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/5/4119/4896138899_97efa3342e_z.jpg",
+    "name": "Siena College & Friary",
+    "image": "6bc2c9a4a549d053.jpg",
+    "creator": "Jim McIntosh (https://www.flickr.com/people/jimcintosh/)",
+    "dateCreated": "2010:08:14 14:08:15",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "4.80 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4000",
+    "height": "3000",
+    "resolution": "180 x 180",
+    "disambiguatingDescription": "rvkhN6N4dzdBXs/8wDTl8g==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "42.7191222222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-73.7536861111111"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/03fp41": "Houseplant",
+            "/m/03jm5": "House",
+            "/m/05s2s": "Plant",
+            "/m/07j7r": "Tree",
+            "/m/0b3fp9": "Countertop",
+            "/m/0c9ph5": "Flower",
+            "/m/0c_jw": "Furniture",
+            "/m/0cgh4": "Building",
+            "/m/0fm3zh": "Flowerpot",
+            "/m/027dwg0": "Lobby",
+            "/m/02p8qh": "Patio"
+        },
+        "trainingBoxes": [
+            {
+                "/m/03fp41": "Houseplant",
+                "confidence": "1",
+                "xMin": "0.861250",
+                "xMax": "0.994375",
+                "yMin": "0.670833",
+                "yMax": "0.963333",
+                "isOccluded": "0",
+                "isTruncated": "1",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03fp41": "Houseplant",
+                "confidence": "1",
+                "xMin": "0.308125",
+                "xMax": "0.433125",
+                "yMin": "0.580833",
+                "yMax": "0.701667",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03fp41": "Houseplant",
+                "confidence": "1",
+                "xMin": "0.415625",
+                "xMax": "0.518750",
+                "yMin": "0.575833",
+                "yMax": "0.689167",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/03fp41": "Houseplant",
+                "confidence": "1",
+                "xMin": "0.803125",
+                "xMax": "0.891875",
+                "yMin": "0.505000",
+                "yMax": "0.675833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0fm3zh": "Flowerpot",
+                "confidence": "1",
+                "xMin": "0.340625",
+                "xMax": "0.363750",
+                "yMin": "0.663333",
+                "yMax": "0.685000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0fm3zh": "Flowerpot",
+                "confidence": "1",
+                "xMin": "0.373125",
+                "xMax": "0.398750",
+                "yMin": "0.665000",
+                "yMax": "0.710833",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0fm3zh": "Flowerpot",
+                "confidence": "1",
+                "xMin": "0.455625",
+                "xMax": "0.483125",
+                "yMin": "0.661667",
+                "yMax": "0.698333",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/0fm3zh": "Flowerpot",
+                "confidence": "1",
+                "xMin": "0.832500",
+                "xMax": "0.868750",
+                "yMin": "0.635000",
+                "yMax": "0.675000",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Flowerpot contain Houseplant",
+                "relationshipLabel": "contain",
+                "box1": {
+                    "/m/0fm3zh": "Flowerpot",
+                    "xMin": "0.340625",
+                    "xMax": "0.364375",
+                    "yMin": "0.662500",
+                    "yMax": "0.685000"
+                },
+                "box2": {
+                    "/m/03fp41": "Houseplant",
+                    "xMin": "0.308125",
+                    "xMax": "0.433750",
+                    "yMin": "0.580000",
+                    "yMax": "0.701667"
+                }
+            },
+            {
+                "relationship": "Flowerpot contain Houseplant",
+                "relationshipLabel": "contain",
+                "box1": {
+                    "/m/0fm3zh": "Flowerpot",
+                    "xMin": "0.373125",
+                    "xMax": "0.399375",
+                    "yMin": "0.664167",
+                    "yMax": "0.710833"
+                },
+                "box2": {
+                    "/m/03fp41": "Houseplant",
+                    "xMin": "0.308125",
+                    "xMax": "0.433750",
+                    "yMin": "0.580000",
+                    "yMax": "0.701667"
+                }
+            },
+            {
+                "relationship": "Flowerpot contain Houseplant",
+                "relationshipLabel": "contain",
+                "box1": {
+                    "/m/0fm3zh": "Flowerpot",
+                    "xMin": "0.455625",
+                    "xMax": "0.483750",
+                    "yMin": "0.660833",
+                    "yMax": "0.698333"
+                },
+                "box2": {
+                    "/m/03fp41": "Houseplant",
+                    "xMin": "0.415625",
+                    "xMax": "0.518750",
+                    "yMin": "0.575000",
+                    "yMax": "0.689167"
+                }
+            },
+            {
+                "relationship": "Flowerpot contain Houseplant",
+                "relationshipLabel": "contain",
+                "box1": {
+                    "/m/0fm3zh": "Flowerpot",
+                    "xMin": "0.831875",
+                    "xMax": "0.868750",
+                    "yMin": "0.634167",
+                    "yMax": "0.675000"
+                },
+                "box2": {
+                    "/m/03fp41": "Houseplant",
+                    "xMin": "0.802500",
+                    "xMax": "0.891875",
+                    "yMin": "0.504167",
+                    "yMax": "0.675833"
+                }
+            }
+        ]
+    }
+}

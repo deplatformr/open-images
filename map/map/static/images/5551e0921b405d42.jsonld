@@ -1,0 +1,51 @@
+{
+    "@id": "openimages:5551e0921b405d42",
+    "contentUrl": "https://farm3.staticflickr.com/8562/16035574412_7b3b52e79a_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c2.staticflickr.com/9/8562/16035574412_5c80ec1882_z.jpg",
+    "name": "IMG_1749",
+    "image": "5551e0921b405d42.jpg",
+    "creator": "Student Support (https://www.flickr.com/people/130078394@N06/)",
+    "dateCreated": "2014:12:16 14:44:41",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "1.93 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "2448",
+    "height": "3264",
+    "resolution": "72 x 72",
+    "disambiguatingDescription": "9ao8s44LL8wDueCnO/vrQQ==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": 0
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLatitude",
+            "value": "53.6434861111111"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSLongitude",
+            "value": "-1.78039722222222"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GPSAltitude",
+            "value": "88567/968"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/01vq3": "Christmas",
+            "/m/03jm5": "House",
+            "/m/07j7r": "Tree",
+            "/m/05cchl": "Arizona Cypress",
+            "/m/0c9ph5": "Flower",
+            "/m/025nd": "Christmas tree",
+            "/m/03tw93": "Fireplace"
+        }
+    }
+}

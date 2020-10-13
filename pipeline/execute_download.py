@@ -50,7 +50,7 @@ def get_download_directory():
 
 if __name__ == "__main__":
 
-    limit = 10000
+    limit = 2000
     for i in range(1, limit):
-        print("Job # " + str(i) + " of " + str(limit) + ".")
+        print("Download job # " + str(i) + " of " + str(limit) + ".")
         download()

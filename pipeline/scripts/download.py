@@ -18,7 +18,7 @@ def download_images(url, image_id, directory):
         if response.status_code != 200:
             # Log download failure in database
             db_path = os.path.join(
-                abs_path, "deplatformr_open_images_downloads.sqlite")
+                abs_path, "deplatformr_open_images_workflow.sqlite")
             workflow_db = sqlite3.connect(db_path)
             cursor = workflow_db.cursor()
             cursor.execute("UPDATE images SET download = ?, download_timestamp = ?, http_code = ? WHERE image_id = ?",
@@ -44,7 +44,7 @@ def download_images(url, image_id, directory):
         images_db.commit()
         images_db.close()
         db_path = os.path.join(
-            abs_path, "deplatformr_open_images_downloads.sqlite")
+            abs_path, "deplatformr_open_images_workflow.sqlite")
         workflow_db = sqlite3.connect(db_path)
         cursor = workflow_db.cursor()
         cursor.execute("UPDATE images SET download = ?, download_timestamp = ?, http_code = ?, filepath = ? WHERE image_id = ?",
@@ -59,7 +59,7 @@ def download_images(url, image_id, directory):
         print(e)
         # Log failure in database
         db_path = os.path.join(
-            abs_path, "deplatformr_open_images_downloads.sqlite")
+            abs_path, "deplatformr_open_images_workflow.sqlite")
         workflow_db = sqlite3.connect(db_path)
         cursor = workflow_db.cursor()
         cursor.execute("UPDATE images SET download = ?, download_timestamp = ?, http_code = ? WHERE image_id = ?",

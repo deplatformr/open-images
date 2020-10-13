@@ -20,7 +20,7 @@ def upload():
             count = 0
             for result in results:
                 count += 1
-                print("Uploading package # " + count + " of " +
+                print("Uploading package # " + str(count) + " of " +
                       str(len(results)) + " to Filecoin.")
                 filecoin_upload(result[0])
 

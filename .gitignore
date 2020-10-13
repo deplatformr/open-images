@@ -10,4 +10,5 @@ pipeline/deplatformr_open_images_workflow.sqlite.copy
 pipeline/nohup.out
 pipeline/nohup2.out
 powergate/info/
+powergate/cid-repush.txt
 map/map/__pycache__

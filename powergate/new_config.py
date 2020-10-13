@@ -7,7 +7,6 @@ ffs = os.getenv('POWERGATE_FFS')
 token = os.getenv('POWERGATE_TOKEN')
 
 defaultConfig = powergate.ffs.default_config(token)
-print(defaultConfig)
 
 print("Loading new default config...")
 with open("config_deplatformr_slingshot_1.json", "r") as f:

@@ -1,15 +1,13 @@
 import exifread
 import os
 import mimetypes
-import re
 import sqlite3
 from datetime import datetime
 
 
 def extract_metadata(image_id, filepath):
     abs_path = os.getcwd()
-    sqlite_path = ("deplatformr_open_images_workflow.sqlite")
-    db_path = os.path.join(abs_path, sqlite_path)
+    db_path = os.path.join(abs_path, "deplatformr_open_images_workflow.sqlite")
     workflow_db = sqlite3.connect(db_path)
     image_path = os.path.join(abs_path, filepath)
 
@@ -94,19 +92,20 @@ def extract_metadata(image_id, filepath):
         cursor.execute(
             "UPDATE images SET extract_metadata = ?, extract_metadata_timestamp = ? WHERE image_id = ?", (True, utctime, image_id,),)
         print("Extracted metadata from image " + image_id)
+        workflow_db.commit()
+        workflow_db.close()
+        return("Success")
 
     except Exception as e:
         utctime = datetime.utcnow()
         cursor = workflow_db.cursor()
         cursor.execute(
             "UPDATE images SET extract_metadata = ?, extract_metadata_timestamp = ? WHERE image_id = ?", (False, utctime, image_id,),)
+        workflow_db.commit()
+        workflow_db.close()
         print("Failed to extract metadata for image " + image_id + ".")
         print(e)
-
-    workflow_db.commit()
-    workflow_db.close()
-
-    return()
+        return("Failure")
 
 
 def gps_dms2dd(degrees, minutes, seconds, direction):

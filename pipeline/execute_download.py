@@ -4,8 +4,8 @@ from natsort import natsorted
 from scripts.download import download_images
 
 
-db_path = os.path.join(os.getcwd(), "deplatformr_open_images_downloads.sqlite")
-downloads_db = sqlite3.connect(db_path)
+db_path = os.path.join(os.getcwd(), "deplatformr_open_images_workflow.sqlite")
+workflow_db = sqlite3.connect(db_path)
 db_path = os.path.join(
     os.getcwd(), "source_data/deplatformr_open_images_v6.sqlite")
 images_db = sqlite3.connect(db_path)
@@ -15,7 +15,7 @@ if not os.path.exists(os.path.join(os.getcwd(), images_path + "/1")):
 
 
 def download():
-    cursor = downloads_db.cursor()
+    cursor = workflow_db.cursor()
     cursor.execute(
         "SELECT image_id FROM images WHERE download IS NULL LIMIT ?", (1,),)
     result = cursor.fetchone()

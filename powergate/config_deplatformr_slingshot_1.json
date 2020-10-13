@@ -9,7 +9,7 @@
   "cold": {
     "enabled": true,
     "filecoin": {
-      "rep_factor": 10,
+      "rep_factor": 5,
       "deal_min_duration": 525600,
       "excluded_miners": [
             "f01240",

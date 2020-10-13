@@ -7,8 +7,7 @@ from scripts.annotations import retrieve_annotations
 
 def write_metadata(image_id, image_directory):
     abs_path = os.getcwd()
-    sqlite_path = ("deplatformr_open_images_workflow.sqlite")
-    db_path = os.path.join(abs_path, sqlite_path)
+    db_path = os.path.join(abs_path, "deplatformr_open_images_workflow.sqlite")
     workflow_db = sqlite3.connect(db_path)
 
     try:
@@ -97,7 +96,10 @@ def write_metadata(image_id, image_directory):
         cursor = workflow_db.cursor()
         cursor.execute(
             "UPDATE images SET write_sidecar = ?, write_sidecar_timestamp = ? WHERE image_id = ?", (True, utctime, image_id,),)
+        workflow_db.commit()
+        workflow_db.close()
         print("Wrote metadata sidecar file for image " + image_id)
+        return("Success")
 
     except Exception as e:
         print("Unable to write metadata sidecar file for image " + image_id)
@@ -106,11 +108,9 @@ def write_metadata(image_id, image_directory):
         cursor = workflow_db.cursor()
         cursor.execute(
             "UPDATE images SET write_sidecar = ?, write_sidecar_timestamp = ? WHERE image_id = ?", (False, utctime, image_id,),)
-
-    workflow_db.commit()
-    workflow_db.close()
-
-    return()
+        workflow_db.commit()
+        workflow_db.close()
+        return("Failure")
 
 
 def GetHumanReadableFilesize(size, precision=2):

@@ -13,10 +13,9 @@ downloads_db_path = os.path.join(
     os.getcwd(), "deplatformr_open_images_downloads.sqlite")
 workflow_db_path = os.path.join(
     os.getcwd(), "deplatformr_open_images_workflow.sqlite")
-workflow_db = sqlite3.connect(db_path)
 images_db_path = os.path.join(
     os.getcwd(), "source_data/deplatformr_open_images_v6.sqlite")
-images_db = sqlite3.connect(db_path)
+images_db = sqlite3.connect(images_db_path)
 images_path = ("source_data/images/")
 if not os.path.exists(os.path.join(os.getcwd(), images_path + "/1")):
     os.makedirs(os.path.join(os.getcwd(), images_path + "/1"))
@@ -45,16 +44,18 @@ def verify():
         result = cursor.fetchone()
         checksum = result[0]
         cursor.close
-        verify_checksums(image_id, filepath, checksum)
+        status = verify_checksums(image_id, filepath, checksum)
     except Exception as e:
         print("Unable to find image for verification")
         print(e)
+        status = "Failure"
 
-    return()
+    return(status)
 
 
 def extract():
     try:
+        workflow_db = sqlite3.connect(workflow_db_path)
         cursor = workflow_db.cursor()
         cursor.execute(
             "SELECT image_id, filepath FROM images WHERE verify_checksum = ? AND extract_metadata IS NULL LIMIT ?", (1, 1,),)
@@ -62,16 +63,18 @@ def extract():
         image_id = result[0]
         filepath = result[1]
         cursor.close()
-        extract_metadata(image_id, filepath)
+        status = extract_metadata(image_id, filepath)
     except Exception as e:
         print("Unable to find image for metadata extraction.")
         print(e)
+        status = "Failure"
 
-    return()
+    return(status)
 
 
 def sidecar():
     try:
+        workflow_db = sqlite3.connect(workflow_db_path)
         cursor = workflow_db.cursor()
         cursor.execute(
             "SELECT image_id, filepath FROM images WHERE extract_metadata = ? AND write_sidecar IS NULL LIMIT ?", (1, 1,),)
@@ -80,16 +83,18 @@ def sidecar():
         split = os.path.split(result[1])
         directory = split[0]
         cursor.close()
-        write_metadata(image_id, directory)
+        status = write_metadata(image_id, directory)
     except Exception as e:
         print("Unable to find image for metadata writing.")
         print(e)
+        status = "Failure"
 
-    return()
+    return(status)
 
 
 def segmentations():
     try:
+        workflow_db = sqlite3.connect(workflow_db_path)
         cursor = workflow_db.cursor()
         cursor.execute(
             "SELECT image_id, filepath FROM images WHERE write_sidecar = ? AND move_segmentations IS NULL LIMIT ?", (1, 1,),)
@@ -97,16 +102,18 @@ def segmentations():
         image_id = result[0]
         filepath = result[1]
         cursor.close()
-        move_segmentations(image_id, filepath)
+        status = move_segmentations(image_id, filepath)
     except Exception as e:
         print("Unable to find segmentation files to move.")
         print(e)
+        status = "Failure"
 
-    return()
+    return(status)
 
 
 def batch():
     try:
+        workflow_db = sqlite3.connect(workflow_db_path)
         cursor = workflow_db.cursor()
         cursor.execute(
             "SELECT image_id, filepath FROM images WHERE move_segmentations = ? AND batch_size IS NULL LIMIT ?", (1, 1,),)
@@ -116,12 +123,13 @@ def batch():
         split = os.path.split(result[1])
         directory = split[0]
         batch_dir = get_batch_directory()
-        batch_size(image_id, directory, batch_dir)
+        status = batch_size(image_id, directory, batch_dir)
     except Exception as e:
         print("Unable to find image for batch sizing.")
         print(e)
+        status = "Failure"
 
-    return()
+    return(status)
 
 
 def get_batch_directory():
@@ -137,6 +145,7 @@ def get_batch_directory():
 
 def package():
     try:
+        workflow_db = sqlite3.connect(workflow_db_path)
         cursor = workflow_db.cursor()
         cursor.execute(
             "SELECT image_id, batch_size FROM images WHERE batch_size > 0 AND package_name IS NULL")
@@ -149,11 +158,12 @@ def package():
         print("Unable to find image for batching.")
         print(e)
 
-    return()
+    return(status)
 
 
 def upload():
     try:
+        workflow_db = sqlite3.connect(workflow_db_path)
         cursor = workflow_db.cursor()
         cursor.execute(
             "SELECT name FROM packages WHERE cid IS NULL LIMIT ?", (1,),)
@@ -172,13 +182,28 @@ def upload():
 
 if __name__ == "__main__":
 
-    limit = 5
-    for i in range(1, limit):
-        print("Job # " + str(i) + " of " + str(limit) + ".")
-        verify()
-        extract()
-        sidecar()
-        segmentations()
-        batch()
+    job_limit = 6400
+
+    for i in range(1, job_limit):
+        print("Starting job # " + str(i) + " of " + str(job_limit) + ".")
+        status = verify()
+        if status == "Failure":
+            print("Aborting job # " + str(i) + " of " + str(job_limit) + ".")
+            continue
+        status = extract()
+        if status == "Failure":
+            print("Aborting job # " + str(i) + " of " + str(job_limit) + ".")
+            continue
+        status = sidecar()
+        if status == "Failure":
+            print("Aborting job # " + str(i) + " of " + str(job_limit) + ".")
+            continue
+        status = segmentations()
+        if status == "Failure":
+            print("Aborting job # " + str(i) + " of " + str(job_limit) + ".")
+            continue
+        status = batch()
+        if status == "Failure":
+            print("Aborting job # " + str(i) + " of " + str(job_limit) + ".")
+            continue
         package()
-        upload()

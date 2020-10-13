@@ -9,8 +9,6 @@ from scripts.batch import batch_size
 from scripts.package import create_package
 from scripts.upload import filecoin_upload
 
-downloads_db_path = os.path.join(
-    os.getcwd(), "deplatformr_open_images_downloads.sqlite")
 workflow_db_path = os.path.join(
     os.getcwd(), "deplatformr_open_images_workflow.sqlite")
 images_db_path = os.path.join(
@@ -30,8 +28,8 @@ if not os.path.exists(os.path.join(os.getcwd(), "source_data/geodata/")):
 
 def verify():
     try:
-        downloads_db = sqlite3.connect(downloads_db_path)
-        cursor = downloads_db.cursor()
+        workflow_db = sqlite3.connect(workflow_db_path)
+        cursor = workflow_db.cursor()
         cursor.execute(
             "SELECT image_id, filepath FROM images WHERE download = ? AND verify_checksum IS NULL LIMIT ?", (1, 1,),)
         result = cursor.fetchone()
@@ -207,3 +205,4 @@ if __name__ == "__main__":
             print("Aborting job # " + str(i) + " of " + str(job_limit) + ".")
             continue
         package()
+        upload()

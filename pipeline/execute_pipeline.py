@@ -182,7 +182,7 @@ def upload():
 
 if __name__ == "__main__":
 
-    job_limit = 6400
+    job_limit = 5500
 
     for i in range(1, job_limit):
         print("Starting job # " + str(i) + " of " + str(job_limit) + ".")

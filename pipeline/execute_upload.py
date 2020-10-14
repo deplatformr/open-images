@@ -5,7 +5,6 @@ from scripts.upload import filecoin_upload
 workflow_db_path = os.path.join(
     os.getcwd(), "deplatformr_open_images_workflow.sqlite")
 
-
 def upload():
     try:
         workflow_db = sqlite3.connect(workflow_db_path)
@@ -13,7 +12,7 @@ def upload():
         cursor.execute(
             "SELECT name FROM packages WHERE cid IS NULL")
         results = cursor.fetchall()
-        if results is None:
+        if len(results) == 0:
             print("No packages ready for Filecoin upload yet.")
             return()
         else:
@@ -33,3 +32,4 @@ def upload():
 
 if __name__ == "__main__":
     upload()
+

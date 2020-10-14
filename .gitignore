@@ -8,8 +8,6 @@ pipeline/scripts/__pycache__
 pipeline/controller2.py
 pipeline/deplatformr_open_images_workflow.sqlite.copy
 pipeline/nohup.out
-pipeline/nohup2.out
 powergate/info/
-powergate/cid-repush.txt
 map/map/__pycache__
 map/__pycache__

@@ -24,12 +24,12 @@ with open(filename, 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
 
     # write column headers
-    csvwriter.writerow(["CID", "Miner ID", "Filename", "File format", "Size (bytes)", "Date stored (UTC)",
-                        "Piece CID", "Wallet ID", "Deal ID", "Price per epoch", "Start epoch", "Duration"])
+    csvwriter.writerow(['CID', 'Miner ID', 'Filename', 'File format', 'Size (bytes)', 'Date stored (UTC)',
+                        'Piece CID', 'Wallet ID', 'Deal ID', 'Price per epoch', 'Start epoch', 'Duration'])
 
     for record in storage_deals.records:
         deal = MessageToDict(record)
-        utc_date = datetime.utcfromtimestamp(deal["time"])
+        utc_date = datetime.utcfromtimestamp(int(deal["time"]))
         cid = deal["rootCid"]
         abs_path = os.getcwd()
         db_path = os.path.join(
@@ -38,5 +38,5 @@ with open(filename, 'w') as csvfile:
         cursor = workflow_db.cursor()
         cursor.execute("SELECT name from packages where cid = ?", (cid,),)
         filename = cursor.fetchone()
-        csvwriter.writerow([deal["rootCid"], deal["dealInfo"]["miner"], filename, ".tar containing .jpg, .png, .json-ld", deal["dealInfo"]["size"], utc_date, deal["dealInfo"]
+        csvwriter.writerow([deal["rootCid"], deal["dealInfo"]["miner"], filename[0], '.tar containing .jpg, .png, .json-ld', deal["dealInfo"]["size"], utc_date, deal["dealInfo"]
                             ["pieceCid"], deal["addr"], deal["dealInfo"]["dealId"], deal["dealInfo"]["pricePerEpoch"], deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"]])

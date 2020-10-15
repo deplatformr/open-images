@@ -5,7 +5,6 @@ from datetime import datetime
 from pygate_grpc.client import PowerGateClient
 from google.protobuf.json_format import MessageToDict
 
-
 api = os.getenv('POWERGATE_API')
 ffs = os.getenv('POWERGATE_FFS')
 token = os.getenv('POWERGATE_TOKEN')

@@ -4,6 +4,6 @@
 * Upload to decentralized [Filecoin](https://filecoin.io/) network using [Pygate](https://github.com/pygate/pygate-gRPC).
 * Build a map overlay [app](http://open-images.deplatformr.com) from extracted GPS data for the Filecoin [Slingshot](https://slingshot.filecoin.io/) competition.
 * Train [Deplatformr](https://deplatformr.com) models on personal datasets using Open Image dataset.
-* For more info, see our [Slingshot application](https://github.com/deplatformr/slingshot/blob/master/participants/Deplatformr.md).
+* For more info, see our [Slingshot application](https://github.com/filecoin-project/slingshot/blob/master/participants/Deplatformr.md).
 
 ![image](website/assets/deplatformr-open-images.png)

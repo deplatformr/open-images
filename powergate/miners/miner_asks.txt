@@ -1,0 +1,771 @@
+f01241
+Ask: f01241
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f01247
+Ask: f01247
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f01272
+Ask: f01272
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 1 MiB
+f01278
+Ask: f01278
+Price per GiB: 0.00000001 FIL
+Verified Price per GiB: 0.00000001 FIL
+Max Piece size: 32 GiB
+f01782
+Ask: f01782
+Price per GiB: 0.00000001 FIL
+Verified Price per GiB: 0.00000000001 FIL
+Max Piece size: 32 GiB
+f02301
+Ask: f02301
+Price per GiB: 5 FIL
+Verified Price per GiB: 5 FIL
+Max Piece size: 32 GiB
+f02401
+Ask: f02401
+Price per GiB: 0.000000002 FIL
+Verified Price per GiB: 0.000000002 FIL
+Max Piece size: 32 GiB
+f02416
+Ask: f02416
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f02423
+Ask: f02423
+Price per GiB: 0.000000001 FIL
+Verified Price per GiB: 0.000000001 FIL
+Max Piece size: 32 GiB
+f02501
+Ask: f02501
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f02514
+ERROR: resolve address failed to get tipset state: context canceled
+
+f02620
+Ask: f02620
+Price per GiB: 0.00000003 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 1 MiB
+f02633
+Ask: f02633
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f02645
+Ask: f02645
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f03176
+Ask: f03176
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 32 GiB
+f03273
+Ask: f03273
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f03274
+Ask: f03274
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f03275
+Ask: f03275
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f03302
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f03363
+Ask: f03363
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 1 MiB
+f03488
+Ask: f03488
+Price per GiB: 0.000000001 FIL
+Verified Price per GiB: 0.000000001 FIL
+Max Piece size: 32 GiB
+f05315
+Ask: f05315
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f05316
+Ask: f05316
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f05317
+Ask: f05317
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f07819
+Ask: f07819
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 1 MiB
+f07850
+Ask: f07850
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f08094
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f08157
+Ask: f08157
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 1 MiB
+f08240
+Ask: f08240
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f08383
+Ask: f08383
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f08474
+Ask: f08474
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 1 MiB
+f09696
+Ask: f09696
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f09731
+Ask: f09731
+Price per GiB: 0.000000000000001 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f09770
+Ask: f09770
+Price per GiB: 0.0000000000005 FIL
+Verified Price per GiB: 0.00000000000005 FIL
+Max Piece size: 32 GiB
+f010088
+Ask: f010088
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 1 MiB
+f010241
+Ask: f010241
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f010253
+Ask: f010253
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f010400
+Ask: f010400
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f010446
+Ask: f010446
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 32 GiB
+f010498
+Ask: f010498
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f010507
+Ask: f010507
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f010558
+Ask: f010558
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f014409
+Ask: f014409
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f014768
+Ask: f014768
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 1 MiB
+f015927
+Ask: f015927
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.0000000005 FIL
+Max Piece size: 8 GiB
+f018783
+ERROR: resolve address failed to get tipset state: context canceled
+
+f018785
+Ask: f018785
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f019029
+Ask: f019029
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f020436
+Ask: f020436
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f020541
+Ask: f020541
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f020928
+Ask: f020928
+Price per GiB: 0.000000001 FIL
+Verified Price per GiB: 0.000000001 FIL
+Max Piece size: 32 GiB
+f021255
+Ask: f021255
+Price per GiB: 0.000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 32 GiB
+f021540
+Ask: f021540
+Price per GiB: 0.0000002 FIL
+Verified Price per GiB: 0.0000002 FIL
+Max Piece size: 1 MiB
+f021870
+Ask: f021870
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f022072
+Ask: f022072
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f022142
+Ask: f022142
+Price per GiB: 0.00000005 FIL
+Verified Price per GiB: 0.00000005 FIL
+Max Piece size: 32 GiB
+f022163
+Ask: f022163
+Price per GiB: 0.00000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 1 MiB
+f022227
+Ask: f022227
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f022922
+Ask: f022922
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f023152
+Ask: f023152
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f023495
+Ask: f023495
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f023647
+Ask: f023647
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f023649
+Ask: f023649
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f023854
+ERROR: resolve address failed to get tipset state: context canceled
+
+f023971
+Ask: f023971
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f024013
+Ask: f024013
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 1 MiB
+f024015
+Ask: f024015
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f024030
+Ask: f024030
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 1 MiB
+f024066
+Ask: f024066
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f024081
+Ask: f024081
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f024084
+Ask: f024084
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f024156
+Ask: f024156
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 1 MiB
+f024800
+Ask: f024800
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f024969
+Ask: f024969
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 1 MiB
+f025017
+Ask: f025017
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f025019
+Ask: f025019
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f029368
+Ask: f029368
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f029401
+Ask: f029401
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f029404
+Ask: f029404
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f029524
+Ask: f029524
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f029556
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f029566
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f030296
+Ask: f030296
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.0000000005 FIL
+Max Piece size: 32 GiB
+f030379
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f032934
+ERROR: resolve address failed to get tipset state: context canceled
+
+f032951
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f033111
+Ask: f033111
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f033124
+Ask: f033124
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f01240
+Ask: f01240
+Price per GiB: 0.000000005 FIL
+Verified Price per GiB: 0.000000005 FIL
+Max Piece size: 32 GiB
+f01277
+Ask: f01277
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 32 GiB
+f02388
+Ask: f02388
+Price per GiB: 0.000000005 FIL
+Verified Price per GiB: 0.000000005 FIL
+Max Piece size: 8 GiB
+f02399
+Ask: f02399
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 1 MiB
+f02492
+Ask: f02492
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f02622
+Ask: f02622
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f02623
+Ask: f02623
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f02665
+Ask: f02665
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f03224
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f03264
+Ask: f03264
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 1 MiB
+f03347
+Ask: f03347
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f03491
+Ask: f03491
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f03512
+Ask: f03512
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 1 MiB
+f03624
+Ask: f03624
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f04443
+Ask: f04443
+Price per GiB: 0.000000000005 FIL
+Verified Price per GiB: 0.000000000005 FIL
+Max Piece size: 32 GiB
+f07806
+Ask: f07806
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 32 GiB
+f07990
+Ask: f07990
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f08025
+ERROR: resolve address failed to get tipset state: context canceled
+
+f08482
+Ask: f08482
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f09693
+Ask: f09693
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f09771
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f09833
+Ask: f09833
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f010035
+Ask: f010035
+Price per GiB: 0.000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 32 GiB
+f010438
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f010512
+Ask: f010512
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 32 GiB
+f014281
+Ask: f014281
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f015877
+Ask: f015877
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f015941
+Ask: f015941
+Price per GiB: 0.000000001 FIL
+Verified Price per GiB: 0.000000001 FIL
+Max Piece size: 32 GiB
+f016594
+Ask: f016594
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f018784
+Ask: f018784
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f019100
+Ask: f019100
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f019104
+Ask: f019104
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000000001 FIL
+Max Piece size: 32 GiB
+f019354
+Ask: f019354
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f019362
+Ask: f019362
+Price per GiB: 0.000000000001 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f020489
+Ask: f020489
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f021710
+Ask: f021710
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f022089
+Ask: f022089
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f022125
+Ask: f022125
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f022376
+Ask: f022376
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f022395
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f022753
+Ask: f022753
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 1 MiB
+f023467
+Ask: f023467
+Price per GiB: 0.000000001 FIL
+Verified Price per GiB: 0.000000001 FIL
+Max Piece size: 1 MiB
+f023490
+Ask: f023490
+Price per GiB: 0.00000000001 FIL
+Verified Price per GiB: 0.00000000001 FIL
+Max Piece size: 1 MiB
+f023581
+Ask: f023581
+Price per GiB: 0.0000000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f023660
+Ask: f023660
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f023825
+Ask: f023825
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f023855
+Ask: f023855
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f023858
+Ask: f023858
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f023859
+Ask: f023859
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f023861
+ERROR: resolve address failed to get tipset state: context canceled
+
+f023868
+Ask: f023868
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f023869
+Ask: f023869
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f023876
+Ask: f023876
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f023977
+Ask: f023977
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f023978
+Ask: f023978
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f023980
+ERROR: resolve address failed to get tipset state: context canceled
+
+f023981
+Ask: f023981
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f024007
+Ask: f024007
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f024008
+Ask: f024008
+Price per GiB: 0 FIL
+Verified Price per GiB: 0 FIL
+Max Piece size: 32 GiB
+f024016
+Ask: f024016
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 32 GiB
+f024130
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f024168
+Ask: f024168
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 1 MiB
+f025007
+Ask: f025007
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 1 MiB
+f030144
+Ask: f030144
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 1 MiB
+f030184
+Ask: f030184
+Price per GiB: 0.0000001 FIL
+Verified Price per GiB: 0.0000001 FIL
+Max Piece size: 1 MiB
+f030284
+Ask: f030284
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f030518
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f032865
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f032976
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f033028
+Ask: f033028
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f033206
+ERROR: failed to open stream to miner: backoff canceled by context
+
+f033517
+Ask: f033517
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 1 MiB
+f033548
+Ask: f033548
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f034733
+Ask: f034733
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB
+f034808
+Ask: f034808
+Price per GiB: 0.0000000005 FIL
+Verified Price per GiB: 0.00000000005 FIL
+Max Piece size: 32 GiB

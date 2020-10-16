@@ -2,7 +2,7 @@
     "buckets": [
         {
             "name": "cheapMiners",
-            "amount": 5,
+            "amount": 8,
             "minerAddresses": [
                 "f024081",
                 "f024084",

@@ -1,29 +1,29 @@
 {
-  "Hot": {
-    "Enabled": false,
-    "AllowUnfreeze": true,
-    "UnfreezeMaxPrice": 50000000,
-    "Ipfs": {
-      "AddTimeout": 300
+  "hot": {
+    "enabled": false,
+    "allow_unfreeze": true,
+    "unfreeze_max_price": 50000000,
+    "ipfs": {
+      "add_timeout": 300
     }
   },
-  "Cold": {
-    "Enabled": true,
-    "Filecoin": {
-      "RepFactor": 5,
-      "DealMinDuration": 518400,
-      "ExcludedMiners": null,
-      "TrustedMiners": null,
-      "CountryCodes": null,
-      "Renew": {
-        "Enabled": false,
-        "Threshold": 0
+  "cold": {
+    "enabled": true,
+    "filecoin": {
+      "rep_factor": 5,
+      "deal_min_duration": 518400,
+      "excluded_miners": null,
+      "trusted_miners": null,
+      "country_codes": null,
+      "renew": {
+        "enabled": false,
+        "threshold": 0
       },
-      "Addr": "t3taeln7s4dwgr42kvrajoqxuu3kfmh4vdf23xadnkjsxf2m5bnkof7shktll3es4sviytidzcmo572ibg4uvq",
-      "MaxPrice": 500000000,
-      "FastRetrieval": true,
-      "DealStartOffset": 8640
+      "addr": "t3taeln7s4dwgr42kvrajoqxuu3kfmh4vdf23xadnkjsxf2m5bnkof7shktll3es4sviytidzcmo572ibg4uvq",
+      "max_price": 500000000,
+      "fast_retrieval": true,
+      "deal_start_offset": 8640
     }
   },
-  "Repairable": true
+  "repairable": true
 }

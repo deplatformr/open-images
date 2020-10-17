@@ -2,6 +2,25 @@
 
 {% block content %}
 
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog float-left" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><strong>Open Image ID: </strong>{{photo[0]}}</h5>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="static/images/{{ photo[21] }}" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="zoom" data-dismiss="modal">zoom on map</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="mapid"></div>
 
 <div class="container" style="max-width: 100%;">
@@ -9,7 +28,7 @@
 
 <div class="col">
     
-<a href="static/images/{{ photo[21] }}"><img class="img-fluid" src="static/images/{{ photo[21] }}" /></a>
+<img class="img-fluid" src="static/images/{{ photo[21] }}" />
 </div> <!-- column -->
 
 <div class="col">
@@ -17,6 +36,7 @@
 <!-- TODO: auto-lookup -->
 <strong>Place: </strong>Paris, France<br />
 {% if photo[7] != "None" %}
+<strong>Open Image: </strong><a target="_blank" href="static/images/{{ photo[21] }}">{{photo[21]}}</a><br />
 <strong>Title: </strong>{{photo[7]}}<br />
 {% endif %}
 {% if photo[6] != "None" %}
@@ -53,12 +73,13 @@
 <strong>Altitude: </strong>{{photo[20]}}<br />
 {% endif %}
 {% if photo[4] != "None" %}
-<strong>License: </strong>{{ photo[4] }}<br />
+<strong>License: </strong><a target="_blank" href="{{photo[4]}}">{{ photo[4] }}</a><br />
 {% endif %}
 {% if photo[22] != "None" %}
-<strong>Package: </strong>{{ photo[22] }}<br />
+<strong>Manifest: </strong><a href="static/images/{{ jsonld }}">{{ jsonld }}</a><hr />
+<strong><img height="25px" src="{{ url_for('static', filename='assets/filecoin-logo.svg') }}" id="filecoin-logo"/>&nbsp;Package: </strong><a href="#">{{ photo[22] }}</a>
 {% endif %}
-<strong>Manifest: </strong><a href="static/images/{{ jsonld }}">{{ jsonld }}</a>
+
 
 </div> <!-- column -->
 </div> <!-- row -->
@@ -84,8 +105,14 @@
 
 {% block extra_js %}
 <script>
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+        });
+    $("#zoom").click(function(){
+        mymap.flyTo([48.8612333333333, 2.33483055555556], 18)
+        });
 
-    var mymap = L.map('mapid').setView([48.8612333333333, 2.33483055555556], 18);
+    var mymap = L.map('mapid').setView([48.8612333333333, -48.33483055555556], 3); /* set long to -50 */
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGV0ZXItdmciLCJhIjoiY2tnNXhvZmI1MHhvbTJybXN2dmZtMW4wdiJ9.hf_TPGvkWbgo4TweQGuDZA', {
         maxZoom: 20,
@@ -100,6 +127,8 @@
     var marker = L.marker([48.8612333333333, 2.33483055555556]).addTo(mymap);
 
 </script>
+
+
 
 
 {% endblock %}

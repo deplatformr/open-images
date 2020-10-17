@@ -25,6 +25,11 @@ body {
     color: #FFF;
 }
 
+#myModal {
+    margin-left: 100px; 
+    margin-top: 100px;
+}
+
 .col {
     padding-left: 0 !important;
 }
@@ -40,6 +45,7 @@ body {
   max-width: auto;
   float: left;
 }
+
 
 
 

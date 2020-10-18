@@ -22,11 +22,12 @@ options = Options()
 options.headless = True
 options.add_argument("--window-size=1920,1200")
 
-DRIVER_PATH = '/Users/peter/Development/open-images/powergate/chromedriver'
+DRIVER_PATH = os.path.join(abs_path, 'chromedriver')
 driver = webdriver.Chrome(executable_path=DRIVER_PATH)  # open browser windows
 # driver = webdriver.Chrome(options = options, executable_path = DRIVER_PATH)  # headless
 
 count = 0
+total_deals = 0
 
 for cid in cids:
     count += 1
@@ -92,8 +93,9 @@ for cid in cids:
         driver.find_element_by_class_name("sc-fzoXWK.hnKkAN.is-center").click()
     print(str(active_deals) + " active deals")
     print("---------")
-
+    total_deals += active_deals
     driver.switch_to.default_content
 
+print("TOTAL ACTIVE DEALS: " + str(total_deals))
 workflow_db.close()
 driver.quit()

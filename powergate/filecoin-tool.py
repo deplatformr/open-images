@@ -12,8 +12,12 @@ workflow_db_path = os.path.join(
 
 workflow_db = sqlite3.connect(workflow_db_path)
 cursor = workflow_db.cursor()
-cursor.execute("SELECT cid FROM packages WHERE cid IS NOT NULL")
+# cursor.execute("SELECT cid FROM packages WHERE cid IS NOT NULL")
+# if run needs to be resumed for a specific package:
+cursor.execute("SELECT cid FROM packages WHERE cid IS NOT NULL AND timestamp > ?",
+               ("2020-10-16 06:10:54.294597",),)
 cids = cursor.fetchall()
+
 
 options = Options()
 options.headless = True
@@ -27,17 +31,21 @@ count = 0
 
 for cid in cids:
     count += 1
-    filepath = "https://filecoin.tools/" + cid[0]
-    driver.get(filepath)
-
-    # Wait for page data to render
-    time.sleep(7)
-
-    deals = driver.find_elements_by_class_name('sc-fzoLag')
-    piece_cid = driver.find_element_by_class_name('sc-fzoyTs').text
     print("CID " + str(count) + " of " + str(len(cids)))
     print("Payload CID " + cid[0])
-    print("Piece CID " + piece_cid)
+    try:
+        filepath = "https://filecoin.tools/" + cid[0]
+        driver.get(filepath)
+
+        # Wait for page data to render
+        time.sleep(7)
+
+        deals = driver.find_elements_by_class_name('sc-fzoLag')
+        piece_cid = driver.find_element_by_class_name('sc-fzoyTs').text
+        print("Piece CID " + piece_cid)
+    except Exception as e:
+        print("No deals found")
+        continue
 
     active_deals = 0
 

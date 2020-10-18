@@ -180,7 +180,7 @@ def upload():
 
 if __name__ == "__main__":
 
-    job_limit = 5500
+    job_limit = 3800
 
     for i in range(1, job_limit):
         print("Starting job # " + str(i) + " of " + str(job_limit) + ".")
@@ -205,4 +205,3 @@ if __name__ == "__main__":
             print("Aborting job # " + str(i) + " of " + str(job_limit) + ".")
             continue
         package()
-        upload()

@@ -71,7 +71,7 @@ for cid in cids:
                 utctime = datetime.utcnow()
                 cursor = workflow_db.cursor()
                 cursor.execute("INSERT INTO jobs (job_id, cid, ffs, timestamp, status) VALUES (?,?,?,?,?)",
-                               (job.job_id, cid, ffs, utctime, "Executing",),)
+                               (job.job_id, cid, ffs, utctime, "JOB_STATUS_EXECUTING",),)
                 workflow_db.commit()
                 print("Waiting " + str(interval) +
                       " seconds before next push.")

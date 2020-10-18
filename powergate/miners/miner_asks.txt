@@ -1,771 +1,363 @@
-f01241
-Ask: f01241
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f01247
-Ask: f01247
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f01272
-Ask: f01272
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 1 MiB
-f01278
-Ask: f01278
-Price per GiB: 0.00000001 FIL
-Verified Price per GiB: 0.00000001 FIL
-Max Piece size: 32 GiB
-f01782
-Ask: f01782
-Price per GiB: 0.00000001 FIL
-Verified Price per GiB: 0.00000000001 FIL
-Max Piece size: 32 GiB
-f02301
-Ask: f02301
-Price per GiB: 5 FIL
-Verified Price per GiB: 5 FIL
-Max Piece size: 32 GiB
-f02401
-Ask: f02401
-Price per GiB: 0.000000002 FIL
-Verified Price per GiB: 0.000000002 FIL
-Max Piece size: 32 GiB
-f02416
-Ask: f02416
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f02423
-Ask: f02423
-Price per GiB: 0.000000001 FIL
-Verified Price per GiB: 0.000000001 FIL
-Max Piece size: 32 GiB
-f02501
-Ask: f02501
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f02514
-ERROR: resolve address failed to get tipset state: context canceled
-
-f02620
-Ask: f02620
-Price per GiB: 0.00000003 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 1 MiB
-f02633
-Ask: f02633
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f02645
-Ask: f02645
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f03176
-Ask: f03176
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 32 GiB
-f03273
-Ask: f03273
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f03274
-Ask: f03274
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f03275
-Ask: f03275
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f03302
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f03363
-Ask: f03363
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 1 MiB
-f03488
-Ask: f03488
-Price per GiB: 0.000000001 FIL
-Verified Price per GiB: 0.000000001 FIL
-Max Piece size: 32 GiB
-f05315
-Ask: f05315
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f05316
-Ask: f05316
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f05317
-Ask: f05317
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f07819
-Ask: f07819
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 1 MiB
-f07850
-Ask: f07850
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f08094
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f08157
-Ask: f08157
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 1 MiB
-f08240
-Ask: f08240
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f08383
-Ask: f08383
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f08474
-Ask: f08474
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 1 MiB
-f09696
-Ask: f09696
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f09731
-Ask: f09731
-Price per GiB: 0.000000000000001 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f09770
-Ask: f09770
-Price per GiB: 0.0000000000005 FIL
-Verified Price per GiB: 0.00000000000005 FIL
-Max Piece size: 32 GiB
-f010088
-Ask: f010088
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 1 MiB
-f010241
-Ask: f010241
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f010253
-Ask: f010253
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f010400
-Ask: f010400
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f010446
-Ask: f010446
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 32 GiB
-f010498
-Ask: f010498
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f010507
-Ask: f010507
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f010558
-Ask: f010558
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f014409
-Ask: f014409
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f014768
-Ask: f014768
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 1 MiB
-f015927
-Ask: f015927
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.0000000005 FIL
-Max Piece size: 8 GiB
-f018783
-ERROR: resolve address failed to get tipset state: context canceled
-
-f018785
-Ask: f018785
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f019029
-Ask: f019029
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f020436
-Ask: f020436
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f020541
-Ask: f020541
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f020928
-Ask: f020928
-Price per GiB: 0.000000001 FIL
-Verified Price per GiB: 0.000000001 FIL
-Max Piece size: 32 GiB
-f021255
-Ask: f021255
-Price per GiB: 0.000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 32 GiB
-f021540
-Ask: f021540
-Price per GiB: 0.0000002 FIL
-Verified Price per GiB: 0.0000002 FIL
-Max Piece size: 1 MiB
-f021870
-Ask: f021870
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f022072
-Ask: f022072
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f022142
-Ask: f022142
-Price per GiB: 0.00000005 FIL
-Verified Price per GiB: 0.00000005 FIL
-Max Piece size: 32 GiB
-f022163
-Ask: f022163
-Price per GiB: 0.00000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 1 MiB
-f022227
-Ask: f022227
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f022922
-Ask: f022922
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f023152
-Ask: f023152
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f023495
-Ask: f023495
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f023647
-Ask: f023647
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f023649
-Ask: f023649
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f023854
-ERROR: resolve address failed to get tipset state: context canceled
-
-f023971
-Ask: f023971
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f024013
-Ask: f024013
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 1 MiB
-f024015
-Ask: f024015
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f024030
-Ask: f024030
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 1 MiB
-f024066
-Ask: f024066
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f024081
-Ask: f024081
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f024084
-Ask: f024084
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f024156
-Ask: f024156
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 1 MiB
-f024800
-Ask: f024800
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f024969
-Ask: f024969
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 1 MiB
-f025017
-Ask: f025017
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f025019
-Ask: f025019
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f029368
-Ask: f029368
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f029401
-Ask: f029401
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f029404
-Ask: f029404
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f029524
-Ask: f029524
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f029556
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f029566
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f030296
-Ask: f030296
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.0000000005 FIL
-Max Piece size: 32 GiB
-f030379
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f032934
-ERROR: resolve address failed to get tipset state: context canceled
-
-f032951
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f033111
-Ask: f033111
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f033124
-Ask: f033124
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f01240
-Ask: f01240
-Price per GiB: 0.000000005 FIL
-Verified Price per GiB: 0.000000005 FIL
-Max Piece size: 32 GiB
-f01277
-Ask: f01277
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 32 GiB
-f02388
-Ask: f02388
-Price per GiB: 0.000000005 FIL
-Verified Price per GiB: 0.000000005 FIL
-Max Piece size: 8 GiB
-f02399
-Ask: f02399
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 1 MiB
-f02492
-Ask: f02492
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f02622
-Ask: f02622
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f02623
-Ask: f02623
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f02665
-Ask: f02665
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f03224
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f03264
-Ask: f03264
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 1 MiB
-f03347
-Ask: f03347
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f03491
-Ask: f03491
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f03512
-Ask: f03512
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 1 MiB
-f03624
-Ask: f03624
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f04443
-Ask: f04443
-Price per GiB: 0.000000000005 FIL
-Verified Price per GiB: 0.000000000005 FIL
-Max Piece size: 32 GiB
-f07806
-Ask: f07806
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 32 GiB
-f07990
-Ask: f07990
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f08025
-ERROR: resolve address failed to get tipset state: context canceled
-
-f08482
-Ask: f08482
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f09693
-Ask: f09693
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f09771
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f09833
-Ask: f09833
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f010035
-Ask: f010035
-Price per GiB: 0.000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 32 GiB
-f010438
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f010512
-Ask: f010512
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 32 GiB
-f014281
-Ask: f014281
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f015877
-Ask: f015877
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f015941
-Ask: f015941
-Price per GiB: 0.000000001 FIL
-Verified Price per GiB: 0.000000001 FIL
-Max Piece size: 32 GiB
-f016594
-Ask: f016594
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f018784
-Ask: f018784
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f019100
-Ask: f019100
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f019104
-Ask: f019104
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000000001 FIL
-Max Piece size: 32 GiB
-f019354
-Ask: f019354
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f019362
-Ask: f019362
-Price per GiB: 0.000000000001 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f020489
-Ask: f020489
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f021710
-Ask: f021710
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f022089
-Ask: f022089
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f022125
-Ask: f022125
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f022376
-Ask: f022376
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f022395
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f022753
-Ask: f022753
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 1 MiB
-f023467
-Ask: f023467
-Price per GiB: 0.000000001 FIL
-Verified Price per GiB: 0.000000001 FIL
-Max Piece size: 1 MiB
-f023490
-Ask: f023490
-Price per GiB: 0.00000000001 FIL
-Verified Price per GiB: 0.00000000001 FIL
-Max Piece size: 1 MiB
-f023581
-Ask: f023581
-Price per GiB: 0.0000000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f023660
-Ask: f023660
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f023825
-Ask: f023825
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f023855
-Ask: f023855
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f023858
-Ask: f023858
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f023859
-Ask: f023859
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f023861
-ERROR: resolve address failed to get tipset state: context canceled
-
-f023868
-Ask: f023868
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f023869
-Ask: f023869
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f023876
-Ask: f023876
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f023977
-Ask: f023977
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f023978
-Ask: f023978
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f023980
-ERROR: resolve address failed to get tipset state: context canceled
-
-f023981
-Ask: f023981
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f024007
-Ask: f024007
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f024008
-Ask: f024008
-Price per GiB: 0 FIL
-Verified Price per GiB: 0 FIL
-Max Piece size: 32 GiB
-f024016
-Ask: f024016
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 32 GiB
-f024130
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f024168
-Ask: f024168
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 1 MiB
-f025007
-Ask: f025007
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 1 MiB
-f030144
-Ask: f030144
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 1 MiB
-f030184
-Ask: f030184
-Price per GiB: 0.0000001 FIL
-Verified Price per GiB: 0.0000001 FIL
-Max Piece size: 1 MiB
-f030284
-Ask: f030284
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f030518
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f032865
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f032976
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f033028
-Ask: f033028
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f033206
-ERROR: failed to open stream to miner: backoff canceled by context
-
-f033517
-Ask: f033517
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 1 MiB
-f033548
-Ask: f033548
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f034733
-Ask: f034733
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
-f034808
-Ask: f034808
-Price per GiB: 0.0000000005 FIL
-Verified Price per GiB: 0.00000000005 FIL
-Max Piece size: 32 GiB
+f032977 500000000               256             142641      1142641 
+f010505 500000000               256             141726      1141726 
+f024066 500000000               256             142831      1142831 
+f01287  100000000000            256             145058      231458  
+f019243 500000000               256             147560      1147560 
+f03482  500000000               256             145149      1145149 
+f02645  100000000000            256             148106      1199306 
+f03144  500000000               256             139374      1139374 
+f030158 500000000               256             150433      1150433 
+f02824  500000000               256             153164      1153164 
+f02492  500000000               256             154222      1154222 
+f03131  100000000               256             153875      240275  
+f02416  500000000               256             149516      1149516 
+f01152  100000000               256             151114      237514  
+f023490 1000000000              256             155533      241933  
+f08157  500000000               256             148864      1148864 
+f022142 200000000               131072          154520      240920  
+f018501 500000000               131072          153597      239997  
+f01799  100000000000            256             143047      1194247 
+f022522 100000000000            134217728       153051      239451  
+f03491  100000000000            256             148119      1199319 
+f024084 0                       256             153935      240335  
+f07998  50000000                256             146294      232694  
+f014251 500000000               256             148571      1148571 
+f01289  500000000               256             153790      1153790 
+f019824 100000000000            256             148800      235200  
+f023219 500000000               256             150630      1150630 
+f014706 500000000               256             141828      1141828 
+f09605  500000000               256             155125      1155125 
+f021075 100000000000            256             145734      1196934 
+f010558 500000000               256             143036      1143036 
+f010523 500000000               256             141725      1141725 
+f02633  100000000000            256             148112      1199312 
+f023647 500000000               256             142384      1142384 
+f014365 990000000000000000      16777216        153460      239860  
+f010617 10000000000             134217728       152126      238526  
+f034047 500000000               256             151511      1151511 
+f010501 500000000               256             153720      1153720 
+f015942 500000000               256             152527      1152527 
+f021265 500000000000            256             145710      232110  
+f020541 500000000               256             139688      1139688 
+f020378 100000000               256             155062      241462  
+f018782 100000000000            256             148110      1199310 
+f022395 100000000               256             152174      1203374 
+f034567 500000000               256             151292      1151292 
+f023825 100000000000            256             148070      1199270 
+f022125 500000000               256             149639      1149639 
+f03249  500000000               256             155614      1155614 
+f040218 500000000               256             151295      1151295 
+f019279 100000000000            256             155205      1206405 
+f029401 100000000000            256             144567      230967  
+f015734 500000000               256             145997      1145997 
+f07709  100000000000            256             153042      239442  
+f05316  100000000000            256             148049      1199249 
+f021540 200000000000            1048576         148335      234735  
+f02770  0                       256             136588      1187788 
+f015927 900000000               16777216        152975      239375  
+f023152 500000000               256             150502      1150502 
+f023660 0                       134217728       153530      239930  
+f033113 500000000               256             154713      1154713 
+f023861 0                       256             153787      240187  
+f023855 0                       134217728       153334      239734  
+f024007 0                       134217728       153334      239734  
+f02609  500000000               256             142233      1142233 
+f029524 500000000               256             139761      1139761 
+f02613  0                       256             144966      231366  
+f021346 500000000               256             151198      1151198 
+f014302 500000000               256             154393      1154393 
+f02417  100000000000            256             148057      1199257 
+f09675  500000000               256             139524      1139524 
+f019029 100000000000            102400          143569      229969  
+f08073  100000000000            256             154676      241076  
+f02666  500000000               256             151079      1151079 
+f010528 500000000               256             154502      1154502 
+f034039 500000000               256             155542      241942  
+f030226 0                       256             152060      238460  
+f010399 100000000               256             154764      1205964 
+f020742 100000000               256             146897      1198097 
+f023871 0                       268435456       153791      240191  
+f02401  2000000000              256             142807      229207  
+f01240  5000000000              268435456       152060      238460  
+f01782  10000000000             256             155278      241678  
+f019118 500000000               256             140472      1140472 
+f019104 100000000               256             146582      232982  
+f02514  100000000000            256             147984      1199184 
+f02619  10000000000             134217728       153597      239997  
+f018785 100000000000            256             148132      1199332 
+f024014 0                       268435456       153834      240234  
+f023977 0                       268435456       153900      240300  
+f023530 0                       256             153836      240236  
+f024015 100000000000            256             148076      1199276 
+f033091 500000000               256             147677      1147677 
+f03273  100000000000            256             148041      1199241 
+f010507 100000000000            256             153645      1204845 
+f023854 0                       256             156001      242401  
+f023978 0                       268435456       153923      240323  
+f09825  500000000               256             148030      1148030 
+f01277  1000000000              256             155241      241641  
+f018781 100000000000            256             148110      1199310 
+f022374 500000000               256             153278      1153278 
+f023981 0                       134217728       153333      239733  
+f029490 10                      134217728       154972      241372  
+f014686 500000000               256             142254      1142254 
+f023565 0                       256             155381      241781  
+f023009 5                       256             155108      241508  
+f020928 1000000000              256             148549      234949  
+f024969 500000000               256             153312      1153312 
+f07824  500000000               256             154445      1154445 
+f033501 500000000               256             150651      1150651 
+f010088 1000000000              256             155390      241790  
+f023843 1                       256             151247      237647  
+f03328  1                       256             152502      238902  
+f033028 100                     256             156032      242432  
+f09737  500000000               256             149204      1149204 
+f02627  0                       256             151361      237761  
+f016594 100000000000            256             139988      1191188 
+f08285  500000000               256             152473      238873  
+f020361 100000000000            256             152104      1203304 
+f09037  500000000               256             153249      1153249 
+f014805 500000000               256             152743      1152743 
+f02420  500000000               256             148774      1148774 
+f08482  500000000               256             140195      1140195 
+f07819  500000000               256             153831      1153831 
+f02576  100000000000            1048576         154973      241373  
+f02665  500000000               256             144767      1144767 
+f022373 500000000               256             153269      1153269 
+f02723  500000000               256             145548      1145548 
+f03488  1000000000              256             145569      231969  
+f023971 100000000000            134217728       140293      226693  
+f010512 100000000               256             145933      1197133 
+f01276  2000000000              256             150283      236683  
+f07969  500000000               256             152965      1152965 
+f02388  500000000000            1048576         154834      241234  
+f01291  100000000               67108864        152365      238765  
+f024147 0                       256             154390      240790  
+f02421  100000000               256             155992      242392  
+f022832 100000000               256             145468      231868  
+f019399 500000000               256             150135      1150135 
+f023495 100000000000            256             148070      1199270 
+f039800 500000000               256             154526      1154526 
+f08204  500000000               256             150429      1150429 
+f030284 500000000               256             140674      1140674 
+f023928 0                       134217728       153333      239733  
+f02405  7766279631452241920     256             148972      235372  
+f01154  500000000               256             139820      1139820 
+f023853 0                       134217728       153334      239734  
+f023870 0                       134217728       153333      239733  
+f020385 100000000000            256             148700      1199900 
+f030335 500000000               256             145480      1145480 
+f03624  100000000000            134217728       155050      241450  
+f010035 1000000000              134217728       154831      241231  
+f02626  500000000               256             140008      1140008 
+f024511 500000000               256             152891      1152891 
+f02381  50000000000000000       256             140826      227226  
+f014324 500000000               256             148938      1148938 
+f014569 500000000               256             153623      1153623 
+f05315  100000000000            256             148048      1199248 
+f02415  100000000000            256             148110      1199310 
+f02422  500000000               256             150299      1150299 
+f023939 10000000000             256             154678      241078  
+f03362  500000000               256             139920      1139920 
+f023869 0                       134217728       153333      239733  
+f014409 50000000000             268435456       155822      242222  
+f015877 100000000000            256             140045      1191245 
+f023534 0                       256             154441      240841  
+f024016 100000000000            256             148070      1199270 
+f02620  30000000000             536870912       146189      232589  
+f014394 100000000000            134217728       139577      225977  
+f010400 500000000               256             145365      1145365 
+f014327 500000000               256             152543      1152543 
+f022163 10000000000             1048576         148063      234463  
+f019100 100000000000            256             155529      1206729 
+f025017 500000000               256             141000      1141000 
+f03274  100000000000            256             148031      1199231 
+f030347 500000000               256             154770      1154770 
+f08207  500000000               256             144371      1144371 
+f018783 100000000000            256             148119      1199319 
+f023876 0                       268435456       153795      240195  
+f01241  100000000000            256             147948      1199148 
+f03345  100000000000            256             140066      1191266 
+f07806  100000000               256             146185      1197385 
+f022566 10000000000             1024            154290      240690  
+f018780 100000000000            256             148123      1199323 
+f015919 500000000               256             144769      1144769 
+f08019  100000000000            256             150839      1202039 
+f025019 500000000               256             145718      1145718 
+f08091  100000000               256             148736      235136  
+f022853 500000000               256             143026      1143026 
+f024468 500000000               256             154315      1154315 
+f01235  500000000               256             153285      1153285 
+f07850  100000000000            256             148022      1199222 
+f017665 500000000               256             151872      1151872 
+f014395 500000000               256             140531      1140531 
+f024800 100000000000            131072          154403      240803  
+f08371  5200000                 256             146643      233043  
+f022289 100                     256             154896      241296  
+f09693  100000000000            256             148059      1199259 
+f016398 0                       256             154922      241322  
+f010253 100000000000            256             148060      1199260 
+f09710  500000000               256             148788      1148788 
+f02387  2000000000              256             155890      242290  
+f022922 500000000               256             153132      1153132 
+f024156 0                       256             151874      238274  
+f015662 100000000               256             150325      1201525 
+f024085 0                       268435456       153840      240240  
+f02823  500000000               256             153128      1153128 
+f03134  100000000               256             155993      1207193 
+f023649 500000000               256             142373      1142373 
+f02501  100000000000            256             147985      1199185 
+f020315 500000000               256             154445      1154445 
+f025007 100000000000            256             147728      234128  
+f024081 0                       256             154880      241280  
+f022072 10                      134217728       154978      241378  
+f010254 100000000               256             154531      1205731 
+f023179 500000000               256             153988      1153988 
+f014233 500000000               256             140469      1140469 
+f08025  100000000000            256             148123      1199323 
+f01238  100000000000            256             145136      231536  
+f010038 500000000               256             139972      1139972 
+f024550 500000000               256             147210      1147210 
+f03339  10000000000             256             154681      241081  
+f03224  1000000000000           256             150823      237223  
+f015747 100000000000            256             144717      1195917 
+f04443  800000                  256             155960      242360  
+f033189 10000000                256             154499      240899  
+f020648 500000000               256             151127      1151127 
+f022309 100000000000            256             146292      1197492 
+f023462 0                       256             155615      242015  
+f034362 500000000               256             148115      1148115 
+f022130 100000000000            256             155683      242083  
+f020436 500000000               131072          154754      241154  
+f023858 0                       256             153778      240178  
+f021535 500000000               256             150783      1150783 
+f024012 0                       256             153748      240148  
+f02529  0                       256             144966      231366  
+f02606  100000000000            1048576         155881      242281  
+f09731  1000                    256             140500      226900  
+f02301  5000000000000000000     256             151288      237688  
+f023868 0                       134217728       153333      239733  
+f021525 0                       256             155887      1155887 
+f020605 100000000000            256             146740      233140  
+f010491 500000000               256             153128      1843526 
+f032934 500000000               256             148676      1148676 
+f010202 500000000               256             146115      1146115 
+f032888 500000000               256             150837      1150837 
+f05317  100000000000            256             148048      1199248 
+f03344  500000000               256             140107      1140107 
+f033511 500000000               256             152227      1152227 
+f09652  500000000               256             147587      1147587 
+f022352 10000000000             1048576         155725      242125  
+f010493 500000000               256             148222      1148222 
+f020904 1000000000              268435456       155979      242379  
+f025025 100000000000            134217728       142056      228456  
+f030296 5000000000000           134217728       155638      242038  
+f022227 500000000               256             154692      1154692 
+f03364  500000000               256             154946      1154946 
+f024146 0                       134217728       156011      242411  
+f021710 500000000               256             145601      1145601 
+f07990  100000000000            256             148128      1199328 
+f08383  100000000000            256             147955      1199155 
+f019661 5000000000000           134217728       147215      233615  
+f023980 0                       134217728       153333      239733  
+f020747 1000000000000           256             155212      241612  
+f020523 100000000000            256             143315      229715  
+f021255 1000000000              134217728       150995      237395  
+f02490  -4570789518076018688    256             154106      240506  
+f010446 500000000               256             155328      241728  
+f021339 500000000               256             140403      1140403 
+f03176  100000000               256             155974      1207174 
+f023561 100000000               256             148578      234978  
+f03222  500000000               256             139501      1139501 
+f021714 100000000               256             148563      1199763 
+f02623  100000000000            256             147965      1199165 
+f019354 500000000               256             139550      1139550 
+f07945  500000000               256             148322      1148322 
+f014472 500000000               256             152717      1152717 
+f014768 500000000               57344           156004      242404  
+f029404 100000000000            256             148076      234476  
+f019240 100000000               256             144248      230648  
+f08240  500000000               256             155493      241893  
+f024008 0                       256             154574      240974  
+f09620  2500000                 256             150893      237293  
+f01248  500000000               256             139667      1139667 
+f010084 500000000               256             145552      1145552 
+f03143  500000000               256             144759      1144759 
+f023573 100000000               256             151184      1202384 
+f021316 500000000               256             140128      1140128 
+f010479 100000000000            256             148704      235104  
+f024013 0                       134217728       153752      240152  
+f08103  100000000000            256             150757      237157  
+f07919  4089650035136921600     134217728       149245      235645  
+f024006 0                       256             156016      242416  
+f010010 100000000000            256             146006      1197206 
+f08403  500000000               256             152993      239393  
+f020398 1                       256             154691      241091  
+f014392 500000000               256             146128      1146128 
+f023492 500000000               256             144302      1144302 
+f024148 0                       134217728       156011      242411  
+f010241 100000000000            256             153173      1204373 
+f09569  100000000000            134217728       155899      242299  
+f02419  1000000000000           256             146493      232893  
+f021583 500000000               256             154211      1154211 
+f021444 500000000               256             139460      1139460 
+f023581 100000000               134217728       151066      237466  
+f09696  100000000000            256             148061      1199261 
+f024136 0                       268435456       153786      240186  
+f09848  1000000000000000        268435456       150786      237186  
+f029649 100000000               256             148630      235030  
+f018784 100000000000            256             148110      1199310 
+f02625  1000000000              256             142901      229301  
+f033557 500000000               256             155008      1155008 
+f023662 0                       134217728       153484      239884  
+f010247 100000000               256             155672      1206872 
+f02303  500000000               256             151099      1151099 
+f023859 0                       134217728       153333      239733  
+f023982 0                       256             155386      241786  
+f014804 500000000               256             141777      1141777 
+f022399 100000000000            256             155816      1207016 
+f030144 500000000               256             154498      1154498 
+f01272  500000000               256             151603      1151603 
+f022855 100000000000            256             146942      1198142 
+f010513 500000000               256             141723      1141723 
+f032913 100000000               256             154695      241095  
+f03275  100000000000            256             148034      1199234 
+f033036 500000000               256             153636      1153636 
+f010225 500000000               256             144730      1144730 
+f02614  500000000               256             147621      1147621 
+f021532 500000000               256             147873      1147873 
+f01280  500000000               256             141559      1141559 
+f021479 0                       256             153749      240149  
+f021870 10                      134217728       154933      241333  
+f019551 500000000               256             153440      1153440 
+f014699 500000000               256             151561      1151561 
+f01279  1000000000000           256             150546      236946  
+f032835 500000000               256             154537      1154537 
+f010299 500000000               256             149054      1149054 
+f039515 500000000               256             154795      1154795 
+f01247  100000000000            256             140492      1191692 
+f08264  1000000                 32768           155807      242207  
+f08474  100000000               256             150450      1201650 
+f034216 500000000               256             150666      1150666 
+f08257  500000000               256             139567      1139567 
+f01234  95000000000             268435456       151997      238397  
+f03340  500000000               256             153025      1153025 
+f020489 100000000000            256             140298      140538  
+f029368 500000000               256             142374      1142374 
+f02622  100000000000            256             148016      1199216 
+f010405 100000000000            134217728       150848      237248  
+f01278  2000000000              102400          154945      241345  
+f09589  100000000000            268435456       148032      234432  
+f03002  0                       256             148719      235119  
+f02399  100000000               256             152285      1203485 
+f023001 100000000               256             151487      237887  
+f014683 500000000               256             150313      1150313 
+f02503  500000000               256             140188      1140188 
+f023627 500000000               256             153272      1153272 
+f08242  500000000               256             139524      1139524 
+f010048 100000000000            256             148180      234580  
+f09642  500000000               256             147732      1147732 
+f010498 500000000               256             141727      1141727 
+f023467 500000000               134217728       153883      240283  
+f023678 100000000000            256             144978      1196178 
+f022261 10000000000             256             154681      241081  

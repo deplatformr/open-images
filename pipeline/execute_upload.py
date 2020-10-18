@@ -6,7 +6,7 @@ from scripts.upload import filecoin_upload
 
 workflow_db_path = os.path.join(
     os.getcwd(), "deplatformr_open_images_workflow.sqlite")
-interval = 300
+interval = 60
 
 
 def upload():

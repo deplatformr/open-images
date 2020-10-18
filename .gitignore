@@ -13,3 +13,8 @@ powergate/info/
 powergate/jobs_report.txt
 map/map/__pycache__
 map/__pycache__
+map/_filecoin_downloads/
+map/map/deplatformr-open-images copy.sqlite
+map/map/deplatformr-open-images.sqlite-journal
+
+

@@ -3,6 +3,7 @@ import sqlite3
 from datetime import datetime
 from pygate_grpc.client import PowerGateClient
 import time
+import sys
 
 api = os.getenv('POWERGATE_API')
 ffs = os.getenv('POWERGATE_FFS')
@@ -27,7 +28,8 @@ for cid in cids:
 
     # TAKE SOME ACTION BASED ON NUMBER OF ACTIVE DEALS
 
-    # SHOW CANCEL COMMAND IF TOO MANY
+    # IF TOO MANY
+    # SHOW CANCEL COMMAND
     """ All >= & jobs cancelled on Oct 17 21:00
     if count[0] >= 7:
         cursor.execute("SELECT job_id FROM jobs WHERE cid = ?", (cid[0],),)
@@ -35,32 +37,51 @@ for cid in cids:
         for job in jobs:
             print("POW_SERVERADDRESS=" + api +
                   " pow ffs cancel " + job[0] + " -t " + token)
+    """
 
-    # SHOW CANCEL COMMAND IF TOO FEW
+    # IF TOO FEW
     if count[0] < 5:
         package = cid[1]
         cid = cid[0]
-    
-        cursor.execute("SELECT job_id FROM jobs WHERE cid = ?", (cid[0],),)
+
+        cursor.execute(
+            "SELECT job_id, status FROM jobs WHERE cid = ?", (cid,),)
         jobs = cursor.fetchall()
         if len(jobs) > 0:
             for job in jobs:
-                print("POW_SERVERADDRESS=" + api +
-                      " pow ffs cancel " + job[0] + " -t " + token)
+                # SHOW JOB STATUS
+                print("Job ID: " + job[0])
+                print(job[1])
+
+                """
+                # SHOW CANCEL COMMAND
+                if job[1] == "JOB_STATUS_EXECUTING" or job[1] == "JOB_STATUS_QUEUED":
+                    print("POW_SERVERADDRESS=" + api +
+                          " pow ffs cancel " + job[0] + " -t " + token)
+                """
 
         # REPUSH IF TOO FEW
-        interval = 30
-        utctime = datetime.utcnow()
-        job = powergate.ffs.push(cid, token, override=True)
-        print("Repushed " + package + " - " + cid + " to Filecoin.")
-        print("Job ID: " + job.job_id)
-        utctime = datetime.utcnow()
-        cursor = workflow_db.cursor()
-        cursor.execute("INSERT INTO jobs (job_id, cid, ffs, timestamp, status) VALUES (?,?,?,?,?)",
-                       (job.job_id, cid, ffs, utctime, "Executing",),)
-        workflow_db.commit()
-        print("Waiting " + str(interval) + " seconds before next push.")
-        time.sleep(interval)
+        if job[1] != "JOB_STATUS_EXECUTING" or job[1] != "JOB_STATUS_QUEUED":
+            try:
+                interval = 30
+                utctime = datetime.utcnow()
+                job = powergate.ffs.push(cid, token, override=True)
+                print("Repushed " + package + " - " + cid + " to Filecoin.")
+                print("Job ID: " + job.job_id)
+                utctime = datetime.utcnow()
+                cursor = workflow_db.cursor()
+                cursor.execute("INSERT INTO jobs (job_id, cid, ffs, timestamp, status) VALUES (?,?,?,?,?)",
+                               (job.job_id, cid, ffs, utctime, "Executing",),)
+                workflow_db.commit()
+                print("Waiting " + str(interval) +
+                      " seconds before next push.")
+                time.sleep(interval)
+            except Exception as e:
+                print("Repush of Job " + job[0] + " failed. Aborting queu.")
+                print(e)
+                workflow_db.close()
+                sys.exit()
+        else:
+            print("Job " + job[1] + " is still executing or queued.")
 
 workflow_db.close()
-"""

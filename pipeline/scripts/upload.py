@@ -37,12 +37,12 @@ def filecoin_upload(package):
                        (job.job_id, stage.cid, ffs, utctime, "Executing",),)
         workflow_db.commit()
         workflow_db.close()
+        return("Success")
 
     except Exception as e:
         print("Unable to push package " + package + " to Filecoin.")
         print(e)
-
-    return()
+        return("Failure")
 
 
 if __name__ == "__main__":

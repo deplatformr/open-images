@@ -4,6 +4,7 @@ from flask import Flask, render_template, redirect, flash, url_for, safe_join, s
 from datetime import datetime
 from pygate_grpc.client import PowerGateClient
 from map import app
+import requests
 
 images_db = "map/deplatformr-open-images.sqlite"
 
@@ -11,6 +12,7 @@ api = os.getenv('POWERGATE_API')
 ffs = os.getenv('POWERGATE_FFS')
 token = os.getenv('POWERGATE_TOKEN')
 powergate = PowerGateClient(api, is_secure=True)
+
 
 @app.route('/')
 @app.route('/<id>')
@@ -22,7 +24,30 @@ def index(id):
     tags = cursor.fetchall()
 
     cursor.execute("SELECT * FROM open_images WHERE ImageID=?", (id,),)
-    photo = cursor.fetchone()
+    result = cursor.fetchone()
+    photo = list(result)
+
+    # See if city or country needs to be retrieved
+    if photo[24] is None or photo[25] is None:
+        map_key = os.getenv('GOOGLE_MAP_API_KEY')
+        response = requests.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" +
+                                photo[18] + "," + photo[19] + "&result_type=locality&result_type=country&key=" + map_key)
+        geo_dict = dict(response.json())
+        for component in geo_dict["results"][0]["address_components"]:
+            if "locality" in component["types"]:
+                city = component["long_name"]
+            if "country" in component["types"]:
+                country = component["long_name"]
+        if photo[24] is None and city is not None:
+            cursor.execute(
+                "UPDATE open_images set city=? where ImageID=?", (city, photo[0],),)
+            db.commit()
+            photo[24] = city
+        if photo[25] is None and country is not None:
+            cursor.execute(
+                "UPDATE open_images set country=? where ImageID=?", (country, photo[0],),)
+            db.commit()
+            photo[25] = country
 
     if photo[12] is not None:
         # TODO convert to more readable format
@@ -43,8 +68,8 @@ def index(id):
     return render_template("index.html", tags=tags, photo=photo, created=created, jsonld=jsonld, annotations=annotations, cid=cid)
 
 
-@app.route("/filecoin-download/<id>/<package>/<cid>", methods=["GET"])
-def filecoin_download(id, cid, package):
+@app.route("/filecoin-download/<package>/<cid>", methods=["GET"])
+def filecoin_download(package, cid):
     """
     Retrieve a file from Filecoin via IPFS using Powergate and offer the user
     the option to save it to their machine.

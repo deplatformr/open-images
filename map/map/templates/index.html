@@ -42,12 +42,13 @@
   <thead>
   </thead>
   <tbody>
+    {% if photo[24] != None or photo[25] != None %}
     <tr>
       <th scope="row">Place:</th>
-      <!-- TODO: auto-lookup -->
       <!-- TODO: Wikipedia preview -->
-      <td>Paris, France</td>
+      <td>{{ photo[24] }}{% if photo[24] != None and photo[25] != None %}, {% endif %} {{ photo[25] }}</td>
     </tr>
+    {% endif %}
     {% if photo[7] != "None" %}
     <tr>
       <th scope="row">Open Image:</th>

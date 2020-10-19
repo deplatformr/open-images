@@ -4,6 +4,8 @@
 # ALSO NEED TO IMPORT PACKAGES TABLE FROM WORKFLOW_DB
 #
 # ALSO NEED TO REMOVE ALL IMAGES WHERE PACKAGE_NAME IS NULL
+#
+# ALSO NEED TO ADD city AND country columns to open_images
 
 import sqlite3
 import os

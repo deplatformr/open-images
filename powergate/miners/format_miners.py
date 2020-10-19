@@ -18,12 +18,11 @@ with open("miner_asks.txt", "r") as miners_list:
     for i in range(0, lines_length):
         split = lines[i].split(" ")
         miner = split[0]
-        line = lines[i][8:]
-        split = line.split(" ")
-        price = int(split[0])
+        print(miner)
+        price = str.strip(lines[i][9:30])
 
         if miner in cheap_working_miners:
-            cheap_working_miners[miner] = price
+            cheap_working_miners[miner] = int(price)
 
 # Match functioning miners list to ask price list
 pop_list = []

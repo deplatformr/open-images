@@ -30,14 +30,22 @@ for cid in cids:
 
     # IF TOO MANY
     # SHOW CANCEL COMMAND
-    """ All >= & jobs cancelled on Oct 17 21:00
+
     if count[0] >= 7:
-        cursor.execute("SELECT job_id FROM jobs WHERE cid = ?", (cid[0],),)
+        cid = cid[0]
+
+        cursor.execute(
+            "SELECT job_id, status FROM jobs WHERE cid = ?", (cid,),)
         jobs = cursor.fetchall()
-        for job in jobs:
-            print("POW_SERVERADDRESS=" + api +
-                  " pow ffs cancel " + job[0] + " -t " + token)
-    """
+        if len(jobs) > 0:
+            for job in jobs:
+                # SHOW JOB STATUS
+                print("Job ID: " + job[0])
+                print(job[1])
+
+                # SHOW CANCEL COMMAND
+                if job[1] == "JOB_STATUS_EXECUTING" or job[1] == "JOB_STATUS_QUEUED":
+                    print("POW_SERVERADDRESS=" + api + " pow ffs cancel " + job[0] + " -t " + token)
 
     # IF TOO FEW
     if count[0] < 5:
@@ -53,13 +61,11 @@ for cid in cids:
                 print("Job ID: " + job[0])
                 print(job[1])
 
-                """
                 # SHOW CANCEL COMMAND
                 if job[1] == "JOB_STATUS_EXECUTING" or job[1] == "JOB_STATUS_QUEUED":
-                    print("POW_SERVERADDRESS=" + api +
-                          " pow ffs cancel " + job[0] + " -t " + token)
-                """
+                    print("POW_SERVERADDRESS=" + api + " pow ffs cancel " + job[0] + " -t " + token)
 
+        """
         # REPUSH IF TOO FEW
         if job[1] != "JOB_STATUS_EXECUTING" or job[1] != "JOB_STATUS_QUEUED":
             try:
@@ -83,5 +89,6 @@ for cid in cids:
                 sys.exit()
         else:
             print("Job " + job[1] + " is still executing or queued.")
+        """
 
 workflow_db.close()

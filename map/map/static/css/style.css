@@ -30,9 +30,24 @@ body {
     margin-top: 100px;
 }
 
+#mapid { 
+    height: 700px; 
+    width: 100%; 
+}
+
+#map-container {
+  padding: 0 30px 0 0;
+}
+
+#metadata-container {
+  padding-top: 80px;
+
+}
+
 .col {
     padding-left: 0 !important;
 }
+
 
 .tag {
   color: #004085;
@@ -48,5 +63,3 @@ body {
 
 
 
-
-#mapid { height: 700px; width: 97%; }

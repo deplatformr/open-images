@@ -1,6 +1,6 @@
 import os
 import sqlite3
-from flask import Flask, render_template, redirect, flash, url_for
+from flask import Flask, render_template, redirect, flash, url_for, safe_join, send_file
 from datetime import datetime
 from pygate_grpc.client import PowerGateClient
 from map import app
@@ -11,7 +11,6 @@ api = os.getenv('POWERGATE_API')
 ffs = os.getenv('POWERGATE_FFS')
 token = os.getenv('POWERGATE_TOKEN')
 powergate = PowerGateClient(api, is_secure=True)
-
 
 @app.route('/')
 @app.route('/<id>')
@@ -52,20 +51,24 @@ def filecoin_download(id, cid, package):
     """
 
     try:
-        # Retrieve data from Filecoin
-        powergate = PowerGateClient(api, is_secure=True)
-        data_ = powergate.ffs.get(cid, token)
-
-        # Save the downloaded data as a file
         # Use the user data directory configured for the app
         downloads = app.config["FILECOIN_DOWNLOADS"]
         if not os.path.exists(downloads):
             os.makedirs(downloads)
 
+        """
+        # Retrieve data from Filecoin
+        data_ = powergate.ffs.get(cid, token)
+
+        # Save the downloaded data as a file
         with open(os.path.join(downloads, package), "wb") as out_file:
             # Iterate over the data byte chunks and save them to an output file
             for data in data_:
                 out_file.write(data)
+        """
+
+        # FOR TESTING
+        package = "deplatformr-open-images-71.tar"
 
         # Create path to download file
         safe_path = safe_join("../" + downloads, package)

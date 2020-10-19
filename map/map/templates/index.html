@@ -3,7 +3,7 @@
 {% block content %}
 
 
-
+<div class="container" id="map-container" style="max-width: 100%;">
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog float-left" role="document">
@@ -26,72 +26,127 @@
 
 <div id="mapid"></div>
 
-<div class="container" style="max-width: 100%;">
+</div> <!-- container -->
+
+<div class="container" id="metadata-container" style="max-width: 100%;">
 <div class="row" style="margin-top: 20px; width: 100%;">
 
 <div class="col">
     
-<img class="img-fluid" src="static/images/{{ photo[21] }}" />
+<img style="border: 1px solid #dee2e6;" class="img-fluid" src="static/images/{{ photo[21] }}" />
 </div> <!-- column -->
 
 <div class="col">
 
-<!-- TODO: auto-lookup -->
-<strong>Place: </strong>Paris, France<br />
-{% if photo[7] != "None" %}
-<strong>Open Image: </strong><a target="_blank" href="static/images/{{ photo[21] }}">{{photo[21]}}</a><br />
-<strong>Title: </strong>{{photo[7]}}<br />
-{% endif %}
-{% if photo[6] != "None" %}
-<strong>Creator: </strong>{{photo[6]}}<br />
-{% endif %}
-{% if created !="None" %}
-<strong>Creation date: </strong>{{ created }}<br />
-{% endif %}
-{% if photo[13] != "None" %}
-<strong>Description: </strong>{{photo[13]}}<br />
-{% endif %}
-{% if photo[8] != "None" %}
-<strong>File size: </strong>{{ photo[8] | filesizeformat(true) }}<br />
-{% endif %}
-{% if photo[15] != "None" %}
-<strong>Width: </strong>{{ photo[15] }}<br />
-{% endif %}
-{% if photo[16] != "None" %}
-<strong>Height: </strong>{{ photo[16] }}<br />
-{% endif %}
-{% if photo[17] != "None" %}
-<strong>Resolution: </strong>{{ photo[17] }}<br />
-{% endif %}
-{% if photo[14] != "None" %}
-<strong>Mimetype: </strong>{{ photo[14] }}<br />
-{% endif %}
-{% if photo[18] != "None" %}
-<strong>Latitude: </strong>{{photo[18]}}<br />
-{% endif %}
-{% if photo[19] != "None" %}
-<strong>Longitude: </strong>{{photo[19]}}<br />
-{% endif %}
-{% if photo[20] != "None" %}
-<strong>Altitude: </strong>{{photo[20]}}<br />
-{% endif %}
-{% if photo[4] != "None" %}
-<strong>License: </strong><a target="_blank" href="{{photo[4]}}">{{ photo[4] }}</a><br />
-{% endif %}
-{% if photo[22] != "None" %}
-<strong>Manifest: </strong><a href="static/images/{{ jsonld }}">{{ jsonld }}</a><hr />
-
+<table class="table table-sm table-striped" id="metadata-manifest">
+  <thead>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Place:</th>
+      <!-- TODO: auto-lookup -->
+      <!-- TODO: Wikipedia preview -->
+      <td>Paris, France</td>
+    </tr>
+    {% if photo[7] != "None" %}
+    <tr>
+      <th scope="row">Open Image:</th>
+      <td><a target="_blank" href="static/images/{{ photo[21] }}">{{photo[21]}}</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Title:</th>
+      <td>{{photo[7]}}</td>
+    </tr>
+    {% endif %}
+    {% if photo[6] != "None" %}
+    <tr>
+      <th scope="row">Creator:</th>
+      <td>{{photo[6]}}</td>
+    </tr>
+    {% endif %}
+    {% if created !="None" %}
+    <tr>
+      <th scope="row">Creation date:</th>
+      <td>{{ created }}</td>
+    </tr>
+    {% endif %}
+    {% if photo[13] != "None" %}
+    <tr>
+      <th scope="row">Description:</th>
+      <td>{{photo[13]}}</td>
+    </tr>
+    {% endif %}
+    {% if photo[8] != "None" %}
+    <tr>
+      <th scope="row">File size:</th>
+      <td>{{ photo[8] | filesizeformat(true) }}</td>
+    </tr>
+    {% endif %}
+    {% if photo[15] != "None" %}
+    <tr>
+      <th scope="row">Width:</th>
+      <td>{{ photo[15] }}</td>
+    </tr>
+    {% endif %} 
+    {% if photo[16] != "None" %}
+    <tr>
+      <th scope="row">Height:</th>
+      <td>{{ photo[16] }}</td>
+    </tr>
+    {% endif %}
+    {% if photo[17] != "None" %}
+    <tr>
+      <th scope="row">Resolution:</th>
+      <td>{{ photo[17] }}</td>
+    </tr>
+    {% endif %}
+    {% if photo[14] != "None" %}
+    <tr>
+      <th scope="row">Mimetype:</th>
+      <td>{{ photo[14] }}</td>
+    </tr>
+    {% endif %}   
+    {% if photo[18] != "None" %}
+    <tr>
+      <th scope="row">Latitude:</th>
+      <td>{{photo[18]}}</td>
+    </tr>
+    {% endif %}
+    {% if photo[19] != "None" %}
+    <tr>
+      <th scope="row">Longitude:</th>
+      <td>{{photo[19]}}</td>
+    </tr>
+    {% endif %} 
+    {% if photo[20] != "None" %}
+    <tr>
+      <th scope="row">Altitude:</th>
+      <td>{{photo[20]}}</td>
+    </tr>
+    {% endif %}
+    {% if photo[4] != "None" %}
+    <tr>
+      <th scope="row">License:</th>
+      <td><a target="_blank" href="{{photo[4]}}">{{ photo[4] }}</a></td>
+    </tr>
+    {% endif %}
+    {% if photo[22] != "None" %}
+    <tr>
+      <th scope="row">Manifest:</th>
+      <td><a href="static/images/{{ jsonld }}">{{ jsonld }}</a></td>
+    </tr>
+    {% endif %}
+  </tbody>
+</table>
 <div class="float-left" style="margin-right: 15px;"><img height="50px" src="{{ url_for('static', filename='assets/filecoin-logo.svg') }}" id="filecoin-logo" /></div>
 <div><strong>Package: </strong>{{ photo[22] }} ({{ cid[1] | filesizeformat(true) }})<br />
 <strong>CID: <strong><a href="{{ url_for('filecoin_download', id=photo[0], package=photo[22], cid=cid[0]) }}">{{ cid[0] }}</a></div>
-{% endif %}
-
 
 </div> <!-- column -->
 </div> <!-- row -->
-</div> <!-- container -->
 
-<div class="row" style="margin: 20px 20px 20px 20px;">
+<div class="row" style="margin: 50px 0 0 0;">
+
 <div class="col">
 <h4>Machine learning annotations</h4>
 <strong>Type: </strong>tags <br />
@@ -106,6 +161,10 @@
 <div class="col">
 </div> <!-- column -->
 </div> <!-- row -->
+
+</div> <!-- container -->
+
+
 
 {% endblock %}
 
@@ -130,8 +189,12 @@
         zoomOffset: -1
     }).addTo(mymap);
 
-    var marker = L.marker([48.8612333333333, 2.33483055555556]).addTo(mymap);
+    var marker = L.marker([48.8612333333333, 2.33483055555556]).on('click', markerOnClick).addTo(mymap);
 
+    function markerOnClick(e)
+    {
+      window.location.href = '#metadata-container';
+    }
 </script>
 
 

@@ -4,13 +4,13 @@
     "allow_unfreeze": true,
     "unfreeze_max_price": 50000000,
     "ipfs": {
-      "add_timeout": 300
+      "add_timeout": 30
     }
   },
   "cold": {
     "enabled": true,
     "filecoin": {
-      "rep_factor": 8,
+      "rep_factor": 5,
       "deal_min_duration": 518400,
       "excluded_miners": null,
       "trusted_miners": null,

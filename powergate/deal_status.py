@@ -75,7 +75,7 @@ for cid in cids:
         # REPUSH IF TOO FEW
         if job[1] != "JOB_STATUS_EXECUTING" and job[1] != "JOB_STATUS_QUEUED":
             try:
-                interval = 240
+                interval = 10
                 utctime = datetime.utcnow()
                 job = powergate.ffs.push(cid, token, override=True)
                 print("Repushed " + package + " - " + cid + " to Filecoin.")

@@ -27,7 +27,7 @@ for cid in cids:
     cursor.execute(
         "SELECT COUNT(*) FROM deals WHERE payload_cid = ?", (cid[0], ), )
     count = cursor.fetchone()
-    if count == 0:
+    if count[0] == 0:
         zero_count += 1
         print(cid[1] + " - " + cid[0] + " has " +
               str(count[0]) + " active deals.")

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Deplatformr - Prototype</title>
+<title>Deplatformr - Open Images</title>
 
 <link rel="shortcut icon" href="{{ url_for('static', filename='assets/favicon.ico') }}">
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
@@ -32,34 +32,7 @@
     <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='assets/deplatformr-open-images.png') }}"/></a>
     </div>
 
-
-   <div class="navbar-collapse" id="navbarNavDropdown">
-
-      <div class="dropdown" style="padding-left: 100px;">
-        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">label</button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="addtags">
-            {% for tag in tags %}
-            <a class="dropdown-item" href="#" id="{{tag[0]}}">{{tag[0]}}</a>
-            {% endfor %}
-        </div>
-      </div>
-
-      <div class="dropdown" style="padding: 0 20px 0 20px;">
-        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">country</button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="addtags">
-            {% for country in countries %}
-            <a class="dropdown-item" href="#" id=""></a>
-            {% endfor %}
-        </div>
-      </div>
-
-    <div>
-    <span class="topmenu-icon" style="margin-left: 40px;"><a href="https://github.com/deplatformr/open-images"><i class="fa fa-wrench fa-lg"></i></a> Under Construction - come back soon</span>
-    </div>
-
-    </div>
-
-
+    <select class="form-control labelSelect" id="labelSelect" placeholder="Enter a machine learning label..." data-url="{{ url_for('static', filename='tags.json') }}" autocomplete="off"></select>
 
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
@@ -93,13 +66,19 @@
 
 </div> 
 
-
-
 <script src="{{ url_for('static', filename='js/jquery-3.5.0.min.js') }}"></script>
 <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-   crossorigin=""></script>
+<script src="{{ url_for('static', filename='js/bootstrap-autocomplete.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/leaflet.js') }}"></script>
+
+<script type="application/javascript">
+    $( "#labelSelect" ).focus(function() {
+            alert( "Handler for .focus() called." );
+    });
+    $('#labelSelect').autoComplete();
+
+</script>
+
 {# *** Allow sub-templates to insert extra html to the bottom of the body *** #}
 {% block extra_js %}{% endblock %}
 

@@ -1,6 +1,6 @@
 import os
 import sqlite3
-from flask import Flask, render_template, redirect, flash, url_for, safe_join, send_file
+from flask import Flask, render_template, redirect, flash, url_for, safe_join, send_file, jsonify
 from datetime import datetime
 from pygate_grpc.client import PowerGateClient
 from map import app
@@ -15,13 +15,16 @@ powergate = PowerGateClient(api, is_secure=True)
 
 
 @app.route('/')
-@app.route('/<id>')
-def index(id):
+def index():
+
+    return (redirect(url_for('image', id='14a2df364ad5f854')))
+
+
+@app.route('/image/<id>')
+def image(id):
 
     db = sqlite3.connect(images_db)
     cursor = db.cursor()
-    cursor.execute("SELECT DISTINCT DisplayName FROM annotations")
-    tags = cursor.fetchall()
 
     cursor.execute("SELECT * FROM open_images WHERE ImageID=?", (id,),)
     result = cursor.fetchone()
@@ -65,7 +68,24 @@ def index(id):
         "SELECT cid, size FROM packages WHERE name=?", (photo[22],),)
     cid = cursor.fetchone()
 
-    return render_template("index.html", tags=tags, photo=photo, created=created, jsonld=jsonld, annotations=annotations, cid=cid)
+    marker = float(photo[19]) - 50
+
+    return render_template("index.html", photo=photo, marker=marker, created=created, jsonld=jsonld, annotations=annotations, cid=cid)
+
+
+@app.route("/tags", methods=["GET"])
+def tags():
+
+    db = sqlite3.connect(images_db)
+    cursor = db.cursor()
+    cursor.execute("SELECT DISTINCT DisplayName FROM annotations")
+    tags = cursor.fetchall()
+
+    taglist = []
+    for tag in tags:
+        taglist += tag
+
+    return jsonify(taglist)
 
 
 @app.route("/filecoin-download/<package>/<cid>", methods=["GET"])
@@ -81,8 +101,8 @@ def filecoin_download(package, cid):
         if not os.path.exists(downloads):
             os.makedirs(downloads)
 
-        """
         # Retrieve data from Filecoin
+        # NOTE: CID config must have "hot: enabled" in Powergate for retrieval to work
         data_ = powergate.ffs.get(cid, token)
 
         # Save the downloaded data as a file
@@ -90,10 +110,6 @@ def filecoin_download(package, cid):
             # Iterate over the data byte chunks and save them to an output file
             for data in data_:
                 out_file.write(data)
-        """
-
-        # FOR TESTING
-        package = "deplatformr-open-images-71.tar"
 
         # Create path to download file
         safe_path = safe_join("../" + downloads, package)

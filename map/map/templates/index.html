@@ -15,7 +15,9 @@
         </button>
       </div>
       <div class="modal-body">
-        <img class="img-fluid" src="static/images/{{ photo[21] }}" />
+        <img class="img-fluid" src="../static/images/{{ photo[21] }}" />
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" id="zoom" data-dismiss="modal">zoom on map</button>
@@ -33,7 +35,7 @@
 
 <div class="col">
     
-<img style="border: 1px solid #dee2e6;" class="img-fluid" src="static/images/{{ photo[21] }}" />
+<img style="border: 1px solid #dee2e6;" class="img-fluid" src="../static/images/{{ photo[21] }}" />
 </div> <!-- column -->
 
 <div class="col">
@@ -52,7 +54,7 @@
     {% if photo[7] != "None" %}
     <tr>
       <th scope="row">Open Image:</th>
-      <td><a target="_blank" href="static/images/{{ photo[21] }}">{{photo[21]}}</a></td>
+      <td><a target="_blank" href="../static/images/{{ photo[21] }}">{{photo[21]}}</a></td>
     </tr>
     <tr>
       <th scope="row">Title:</th>
@@ -141,7 +143,7 @@
 </table>
 <div class="float-left" style="margin-right: 15px;"><img height="50px" src="{{ url_for('static', filename='assets/filecoin-logo.svg') }}" id="filecoin-logo" /></div>
 <div><strong>Package: </strong>{{ photo[22] }} ({{ cid[1] | filesizeformat(true) }})<br />
-<strong>CID: <strong><a href="{{ url_for('filecoin_download', id=photo[0], package=photo[22], cid=cid[0]) }}">{{ cid[0] }}</a></div>
+<strong>CID: <strong><a href="{{ url_for('filecoin_download', package=photo[22], cid=cid[0]) }}">{{ cid[0] }}</a></div>
 
 </div> <!-- column -->
 </div> <!-- row -->
@@ -170,15 +172,16 @@
 {% endblock %}
 
 {% block extra_js %}
-<script>
+<script type="application/javascript">
+
     $(document).ready(function(){
         $("#myModal").modal('show');
         });
     $("#zoom").click(function(){
-        mymap.flyTo([48.8612333333333, 2.33483055555556], 18)
+        mymap.flyTo([ {{ photo[18] }}, {{ photo[19] }} ], 18)
         });
 
-    var mymap = L.map('mapid').setView([48.8612333333333, -48.33483055555556], 3); /* set long to -50 */
+    var mymap = L.map('mapid').setView([ {{photo[18] }}, {{ marker }} ], 3); /* set long to -50 */
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGV0ZXItdmciLCJhIjoiY2tnNXhvZmI1MHhvbTJybXN2dmZtMW4wdiJ9.hf_TPGvkWbgo4TweQGuDZA', {
         maxZoom: 20,
@@ -190,7 +193,7 @@
         zoomOffset: -1
     }).addTo(mymap);
 
-    var marker = L.marker([48.8612333333333, 2.33483055555556]).on('click', markerOnClick).addTo(mymap);
+    var marker = L.marker([ {{ photo[18] }}, {{ photo[19] }} ]).on('click', markerOnClick).addTo(mymap);
 
     function markerOnClick(e)
     {

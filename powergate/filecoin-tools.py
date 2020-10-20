@@ -38,7 +38,7 @@ for cid in cids:
         driver.get(filepath)
 
         # Wait for page data to render
-        time.sleep(7)
+        time.sleep(10)
 
         deals = driver.find_elements_by_class_name('sc-fzoLag')
         piece_cid = driver.find_element_by_class_name('sc-fzoyTs').text
@@ -52,7 +52,7 @@ for cid in cids:
     for deal in deals:
         detail = deal.find_element_by_class_name("sc-fzoNJl").click()
         # Wait for modal pop-up
-        time.sleep(1)
+        time.sleep(2)
         driver.switch_to.active_element
         rows = driver.find_elements_by_class_name('row')
         for row in rows:

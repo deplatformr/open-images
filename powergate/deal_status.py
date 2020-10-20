@@ -52,7 +52,7 @@ for cid in cids:
     """
 
     # IF TOO FEW
-    if count[0] = 0:
+    if count[0] == 0:
         package = cid[1]
         cid = cid[0]
 

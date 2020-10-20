@@ -14,11 +14,10 @@ ffs = os.getenv('POWERGATE_FFS')
 token = os.getenv('POWERGATE_TOKEN')
 powergate = PowerGateClient(api, is_secure=True)
 
-cid = "Qmc9vHFYfSBTr98dGS3FbsazL2AnyVU3Cht6J2RzQj7cco"
-config = "unfreeze=config.json"
+cid = "QmaQtN37VfCWfmmQTtNFZVA85K911He7rF5JochkD5iGsK"
 utctime = datetime.utcnow()
 
-job = powergate.ffs.push(cid, token, config=config, override=True)
+job = powergate.ffs.push(cid, token, override=True)
 print("Repushed CID " + cid + " to Filecoin.")
 print("Job ID: " + job.job_id)
 utctime = datetime.utcnow()

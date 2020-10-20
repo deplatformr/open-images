@@ -73,7 +73,7 @@ for cid in cids:
                 """
 
         # REPUSH IF TOO FEW
-        if job[1] != "JOB_STATUS_EXECUTING" or job[1] != "JOB_STATUS_QUEUED":
+        if job[1] != "JOB_STATUS_EXECUTING" and job[1] != "JOB_STATUS_QUEUED":
             try:
                 interval = 240
                 utctime = datetime.utcnow()

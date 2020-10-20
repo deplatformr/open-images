@@ -45,7 +45,8 @@ for cid in cids:
 
                 # SHOW CANCEL COMMAND
                 if job[1] == "JOB_STATUS_EXECUTING" or job[1] == "JOB_STATUS_QUEUED":
-                    print("POW_SERVERADDRESS=" + api + " pow ffs cancel " + job[0] + " -t " + token)
+                    print("POW_SERVERADDRESS=" + api +
+                          " pow ffs cancel " + job[0] + " -t " + token)
 
     # IF TOO FEW
     if count[0] < 5:
@@ -63,13 +64,13 @@ for cid in cids:
 
                 # SHOW CANCEL COMMAND
                 if job[1] == "JOB_STATUS_EXECUTING" or job[1] == "JOB_STATUS_QUEUED":
-                    print("POW_SERVERADDRESS=" + api + " pow ffs cancel " + job[0] + " -t " + token)
+                    print("POW_SERVERADDRESS=" + api +
+                          " pow ffs cancel " + job[0] + " -t " + token)
 
-        """
         # REPUSH IF TOO FEW
         if job[1] != "JOB_STATUS_EXECUTING" or job[1] != "JOB_STATUS_QUEUED":
             try:
-                interval = 30
+                interval = 240
                 utctime = datetime.utcnow()
                 job = powergate.ffs.push(cid, token, override=True)
                 print("Repushed " + package + " - " + cid + " to Filecoin.")
@@ -89,6 +90,5 @@ for cid in cids:
                 sys.exit()
         else:
             print("Job " + job[1] + " is still executing or queued.")
-        """
 
 workflow_db.close()

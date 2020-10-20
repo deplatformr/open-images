@@ -32,7 +32,6 @@ for cid in cids:
 
     # IF TOO MANY
     # SHOW CANCEL COMMAND
-    """
     if count[0] >= 7:
         cid = cid[0]
 
@@ -49,7 +48,6 @@ for cid in cids:
                 if job[1] == "JOB_STATUS_EXECUTING" or job[1] == "JOB_STATUS_QUEUED":
                     print("POW_SERVERADDRESS=" + api +
                           " pow ffs cancel " + job[0] + " -t " + token)
-    """
 
     # IF TOO FEW
     if count[0] == 0:
@@ -65,13 +63,12 @@ for cid in cids:
                 print("Job ID: " + job[0])
                 print(job[1])
 
-                """
                 # SHOW CANCEL COMMAND
                 if job[1] == "JOB_STATUS_EXECUTING" or job[1] == "JOB_STATUS_QUEUED":
                     print("POW_SERVERADDRESS=" + api +
                           " pow ffs cancel " + job[0] + " -t " + token)
-                """
 
+        """
         # REPUSH IF TOO FEW
         if job[1] != "JOB_STATUS_EXECUTING" and job[1] != "JOB_STATUS_QUEUED":
             try:
@@ -96,6 +93,7 @@ for cid in cids:
                 sys.exit()
         else:
             print("Job " + job[1] + " is still executing or queued.")
+        """
 
 if repush_count > 0:
     print("Repushed " + str(repush_count) + " CIDs.")

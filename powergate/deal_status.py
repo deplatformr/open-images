@@ -105,6 +105,6 @@ if repush_count > 0:
     print("Repushed " + str(repush_count) + " CIDs.")
 
 if zero_count > 0:
-    print(str(zero_count) + " jobs without deals.")
+    print(str(zero_count) + " CIDs without deals.")
 
 workflow_db.close()

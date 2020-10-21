@@ -1,41 +1,33 @@
 import os
 import sqlite3
 import csv
-from datetime import datetime
-from pygate_grpc.client import PowerGateClient
-from google.protobuf.json_format import MessageToDict
 
-api = os.getenv('POWERGATE_API')
-ffs = os.getenv('POWERGATE_FFS')
-token = os.getenv('POWERGATE_TOKEN')
+abs_path = os.getcwd()
+split = os.path.split(abs_path)
+workflow_db_path = os.path.join(
+    split[0], "pipeline/deplatformr_open_images_workflow.sqlite")
+workflow_db = sqlite3.connect(workflow_db_path)
+cursor = workflow_db.cursor()
+cursor.execute(
+    "SELECT deal_id, payload_cid, piece_size, miner_id from deals ORDER BY payload_cid;")
+deals = cursor.fetchall()
 
-powergate = PowerGateClient(api, False)
 
-# get final storage deals info
-storage_deals = powergate.ffs.list_storage_deal_records(
-    include_pending=False, include_final=True, token=token)
-
-print(str(len(storage_deals.records)) + " storage deals found.")
-filename = "deals-ffs-" + ffs + ".csv"
+print(str(len(deals)) + " storage deals found.")
+filename = "slingshot1-deals-deplatformr-21-Oct-2020" + ".csv"
 print("Writing to " + filename + ".")
 
 with open(filename, 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
 
     # write column headers
-    csvwriter.writerow(['CID', 'Miner ID', 'Filename', 'File format', 'Size (bytes)', 'Date stored (UTC)',
-                        'Piece CID', 'Wallet ID', 'Deal ID', 'Price per epoch', 'Start epoch', 'Duration'])
+    csvwriter.writerow(['Deal ID', 'Miner ID', 'Payload CID', 'Filename', 'File format', 'CID Size (bytes)', 'Date stored (UTC)',
+                        'Curated Dataset', 'Over 10 copies?'])
 
-    for record in storage_deals.records:
-        deal = MessageToDict(record)
-        utc_date = datetime.utcfromtimestamp(int(deal["time"]))
-        cid = deal["rootCid"]
-        abs_path = os.getcwd()
-        db_path = os.path.join(
-            abs_path, "deplatformr_open_images_workflow.sqlite")
-        workflow_db = sqlite3.connect(db_path)
-        cursor = workflow_db.cursor()
-        cursor.execute("SELECT name from packages where cid = ?", (cid,),)
-        filename = cursor.fetchone()
-        csvwriter.writerow([deal["rootCid"], deal["dealInfo"]["miner"], filename[0], '.tar containing .jpg, .png, .json-ld', deal["dealInfo"]["size"], utc_date, deal["dealInfo"]
-                            ["pieceCid"], deal["addr"], deal["dealInfo"]["dealId"], deal["dealInfo"]["pricePerEpoch"], deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"]])
+    for deal in deals:
+        cursor.execute(
+            "SELECT name, cid_timestamp from packages where cid = ?", (deal[1],),)
+        package = cursor.fetchone()
+        utc_date = package[1][:-10]
+        csvwriter.writerow(deal[0], deal[3], deal[1], package[0],
+                           ".tar containing .jpg, .png, and .jsonld", deal[2], utc_date, "Google Open Images", None)

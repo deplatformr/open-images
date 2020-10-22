@@ -134,6 +134,7 @@ def filecoin_download(package, cid):
         if not os.path.exists(downloads):
             os.makedirs(downloads)
 
+        """
         # Retrieve data from Filecoin
         # NOTE: CID config must have "hot: enabled" in Powergate for retrieval to work
         data_ = powergate.ffs.get(cid, token)
@@ -143,6 +144,9 @@ def filecoin_download(package, cid):
             # Iterate over the data byte chunks and save them to an output file
             for data in data_:
                 out_file.write(data)
+        """
+
+        package = "test.tar"
 
         # Create path to download file
         safe_path = safe_join("../" + downloads, package)

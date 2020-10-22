@@ -142,8 +142,8 @@
   </tbody>
 </table>
 <div class="float-left" style="margin-right: 15px;"><img height="50px" src="{{ url_for('static', filename='assets/filecoin-logo.svg') }}" id="filecoin-logo" /></div>
-<div><strong>Package: </strong>{{ photo[22] }} ({{ cid[1] | filesizeformat(true) }})<br />
-<strong>CID: <strong><a href="{{ url_for('filecoin_download', package=photo[22], cid=cid[0]) }}">{{ cid[0] }}</a></div>
+<div><strong>Package: </strong><a href="{{ url_for('filecoin_download', package=photo[22], cid=cid[0]) }}">{{ photo[22] }}</a> ({{ cid[1] | filesizeformat(true) }})<br />
+<strong>CID: <a href="https://filecoin.tools/{{cid[0]}}">{{ cid[0] }}</a></div>
 
 </div> <!-- column -->
 </div> <!-- row -->

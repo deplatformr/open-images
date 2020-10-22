@@ -32,8 +32,10 @@
     <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='assets/deplatformr-open-images.png') }}"/></a>
     </div>
 
-    <select class="form-control labelSelect" id="labelSelect" placeholder="Enter a machine learning label..." data-url="{{ url_for('static', filename='tags.json') }}" autocomplete="off"></select>
 
+    <select class="form-control labelSelect" placeholder="type to search labels..."  data-url="{{ url_for('static', filename='tags.json') }}"></select>
+    <code class="labelSelected"></code>
+    
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
         <span class="topmenu-icon"><a href="https://github.com/deplatformr/open-images"><i class="fa fa-question-circle fa-lg"></i></a></span>
@@ -68,15 +70,20 @@
 
 <script src="{{ url_for('static', filename='js/jquery-3.5.0.min.js') }}"></script>
 <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
-<script src="{{ url_for('static', filename='js/bootstrap-autocomplete.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap-autocomplete-fork.min.js') }}"></script>
 <script src="{{ url_for('static', filename='js/leaflet.js') }}"></script>
 
-<script type="application/javascript">
-    $( "#labelSelect" ).focus(function() {
-            alert( "Handler for .focus() called." );
-    });
-    $('#labelSelect').autoComplete();
+<script>
+    $(function () {
 
+        $('.labelSelect').autoComplete({minLength:1});
+        $('.labelSelect').on('autocomplete.select', function (evt, item) {
+            console.log('select', item);
+            $('.labelSelected').html(item?JSON.stringify(item):'null');
+
+        });
+
+    });
 </script>
 
 {# *** Allow sub-templates to insert extra html to the bottom of the body *** #}

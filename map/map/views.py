@@ -32,15 +32,25 @@ def image(id):
 
     # See if city or country needs to be retrieved
     if photo[24] is None or photo[25] is None:
+        city = None
+        country = None
+        address = None
         map_key = os.getenv('GOOGLE_MAP_API_KEY')
         response = requests.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" +
-                                photo[18] + "," + photo[19] + "&result_type=locality&result_type=country&key=" + map_key)
+                                photo[18] + "," + photo[19] + "&result_type=street_address&key=" + map_key)
         geo_dict = dict(response.json())
-        for component in geo_dict["results"][0]["address_components"]:
-            if "locality" in component["types"]:
-                city = component["long_name"]
-            if "country" in component["types"]:
-                country = component["long_name"]
+        try:
+            for component in geo_dict["results"][0]["address_components"]:
+                if "postal_town" in component["types"]:
+                    city = component["long_name"]
+                if "country" in component["types"]:
+                    country = component["long_name"]
+                if "locality" in component["types"]:
+                    city = component["long_name"]
+                if "country" in component["types"]:
+                    country = component["long_name"]
+        except:
+            pass
         if photo[24] is None and city is not None:
             cursor.execute(
                 "UPDATE open_images set city=? where ImageID=?", (city, photo[0],),)

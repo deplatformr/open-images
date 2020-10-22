@@ -70,7 +70,29 @@ def image(id):
 
     marker = float(photo[19]) - 50
 
-    return render_template("index.html", photo=photo, marker=marker, created=created, jsonld=jsonld, annotations=annotations, cid=cid)
+    return render_template("image.html", photo=photo, marker=marker, created=created, jsonld=jsonld, annotations=annotations, cid=cid)
+
+
+@app.route("/label/<id>", methods=["GET"])
+def label(id):
+
+    db = sqlite3.connect(images_db)
+    cursor = db.cursor()
+    cursor.execute(
+        "SELECT ImageID FROM annotations WHERE DisplayName = ?", (id,),)
+    labels = cursor.fetchall()
+
+    images_list = []
+    for label in labels:
+        cursor.execute(
+            "SELECT latitude, longitude FROM open_images WHERE ImageID=?", (label[0],),)
+        image = cursor.fetchone()
+        if image is not None:
+            images_list += [(label[0], image[0], image[1])]
+
+    count = len(images_list)
+
+    return render_template("label.html", images=images_list, label=id, count=count)
 
 
 @app.route("/labels", methods=["GET"])
@@ -78,7 +100,8 @@ def labels():
 
     db = sqlite3.connect(images_db)
     cursor = db.cursor()
-    cursor.execute("SELECT DISTINCT DisplayName FROM annotations ORDER BY DisplayName")
+    cursor.execute(
+        "SELECT DISTINCT DisplayName FROM annotations ORDER BY DisplayName")
     labels = cursor.fetchall()
 
     labels_list = []

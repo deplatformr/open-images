@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div class="container" id="map-container" style="max-width: 100%;">
+
+<p>Location of Open Image photos with the label <span id="headertag">{{ label }}</span></p>
+<div id="mapid"></div>
+
+</div> <!-- container -->
+
+<div class="container" id="metadata-container" style="max-width: 100%;">
+
+
+
+
+
+</div> <!-- container -->
+
+
+
+{% endblock %}
+
+{% block extra_js %}
+<script type="application/javascript">
+
+  var mymap = L.map('mapid').setView([ {{ images[0][1] }}, {{ images[0][2] }} ], 3); /* set long to -50 */
+
+  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGV0ZXItdmciLCJhIjoiY2tnNXhvZmI1MHhvbTJybXN2dmZtMW4wdiJ9.hf_TPGvkWbgo4TweQGuDZA', {
+      maxZoom: 20,
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+          '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+          'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      id: 'mapbox/satellite-streets-v11',
+      tileSize: 512,
+      zoomOffset: -1
+  }).addTo(mymap);
+
+
+  {% for image in images %}
+  marker = L.marker([ {{ image[1] }}, {{ image[2] }} ], {title:"{{ image[0] }} "} ).on('click', markerOnClick).addTo(mymap);  
+  {% endfor %}
+  
+  function markerOnClick(e)
+  {
+    var baseUrl = window.location.origin;
+    window.location.href = baseUrl + "/image/" + this.options.title
+  }
+
+
+</script>
+
+
+
+
+{% endblock %}

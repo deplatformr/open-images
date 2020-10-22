@@ -73,19 +73,19 @@ def image(id):
     return render_template("index.html", photo=photo, marker=marker, created=created, jsonld=jsonld, annotations=annotations, cid=cid)
 
 
-@app.route("/tags", methods=["GET"])
-def tags():
+@app.route("/labels", methods=["GET"])
+def labels():
 
     db = sqlite3.connect(images_db)
     cursor = db.cursor()
-    cursor.execute("SELECT DISTINCT DisplayName FROM annotations")
-    tags = cursor.fetchall()
+    cursor.execute("SELECT DISTINCT DisplayName FROM annotations ORDER BY DisplayName")
+    labels = cursor.fetchall()
 
-    taglist = []
-    for tag in tags:
-        taglist += tag
+    labels_list = []
+    for label in labels:
+        labels_list += label
 
-    return jsonify(taglist)
+    return jsonify(labels_list)
 
 
 @app.route("/filecoin-download/<package>/<cid>", methods=["GET"])

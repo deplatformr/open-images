@@ -22,12 +22,12 @@ with open(filename, 'w') as csvfile:
 
     # write column headers
     csvwriter.writerow(['Deal ID', 'Miner ID', 'Payload CID', 'Filename', 'File format', 'CID Size (bytes)', 'Date stored (UTC)',
-                        'Curated Dataset', 'Over 10 copies?'])
+                        'Curated Dataset'])
 
     for deal in deals:
         cursor.execute(
             "SELECT name, cid_timestamp from packages where cid = ?", (deal[1],),)
         package = cursor.fetchone()
         utc_date = package[1][:-10]
-        csvwriter.writerow(deal[0], deal[3], deal[1], package[0],
-                           ".tar containing .jpg, .png, and .jsonld", deal[2], utc_date, "Google Open Images", None)
+        csvwriter.writerow([deal[0], deal[3], deal[1], package[0],
+                            ".tar containing .jpg, .png, and .jsonld", deal[2], utc_date, "Google Open Images"])

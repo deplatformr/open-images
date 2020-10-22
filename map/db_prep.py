@@ -1,30 +1,31 @@
 # EXPORT THE DATABASE AFTER RUNNING THIS SCRIPT AND IMPORT AS NEW DBASE TO
 # DRASTICALLY REDUCE SIZE
-# 
+#
 # ALSO NEED TO IMPORT PACKAGES TABLE FROM WORKFLOW_DB
 #
-# ALSO NEED TO REMOVE ALL IMAGES WHERE PACKAGE_NAME IS NULL
+# ALSO NEED TO REMOVE ALL IMAGES WHERE PACKAGE_NAME IS > ...-126.tar
 #
 # ALSO NEED TO ADD city AND country columns to open_images
 
 import sqlite3
-import os
 
 images_db = "map/deplatformr_open_images_v6.sqlite"
 db = sqlite3.connect(images_db)
 cursor = db.cursor()
 
-"""
 print("Deleting non-geo images from database. This will take a while.")
-cursor.execute = ("DELETE FROM open_images WHERE latitude IS NULL")
+cursor.execute("DELETE FROM open_images WHERE latitude IS NULL")
 db.commit()
 
-print("Creating annotations table.")
-cursor.execute("CREATE TABLE "annotations" ("id" INTEGER, ImageID" TEXT, "DisplayName" TEXT, "Type" TEXT, "Function" TEXT, "Confidence" INTEGER, "XMin1" TEXT, "XMax1" TEXT, "YMin1" TEXT, "YMax1" TEXT, "RelationshipLabel" TEXT, "DisplayName2"  INTEGER, "XMin2" TEXT, "XMax2" TEXT, "YMin2" TEXT, "YMax2" TEXT, "isOccluded" TEXT, "isTruncated" TEXT, "isGroupOf" TEXT, "isDepiction" TEXT, "isInside" TEXT, "MaskPath" TEXT, "BoxID" TEXT, "PredictedIoU" TEXT, "Clicks" TEXT) PRIMARY KEY("id")")
+print("Creating annotation tables...")
+cursor.execute("CREATE TABLE labels (id INTEGER, ImageID TEXT, DisplayName TEXT, Function TEXT, Confidence INTEGER, XMin1 TEXT, XMax1 TEXT, YMin1 TEXT, YMax1 TEXT, RelationshipLabel TEXT, DisplayName2 INTEGER, XMin2 TEXT, XMax2 TEXT, YMin2 TEXT, YMax2 TEXT, isOccluded TEXT, isTruncated TEXT, isGroupOf TEXT, isDepiction TEXT, isInside TEXT, MaskPath TEXT, BoxID TEXT, PredictedIoU TEXT, Clicks TEXT) PRIMARY KEY(id)")
+cursor.execute("CREATE TABLE boxes (id INTEGER, ImageID TEXT, DisplayName TEXT, Function TEXT, Confidence INTEGER, XMin1 TEXT, XMax1 TEXT, YMin1 TEXT, YMax1 TEXT, RelationshipLabel TEXT, DisplayName2 INTEGER, XMin2 TEXT, XMax2 TEXT, YMin2 TEXT, YMax2 TEXT, isOccluded TEXT, isTruncated TEXT, isGroupOf TEXT, isDepiction TEXT, isInside TEXT, MaskPath TEXT, BoxID TEXT, PredictedIoU TEXT, Clicks TEXT) PRIMARY KEY(id)")
+cursor.execute("CREATE TABLE relationships (id INTEGER, ImageID TEXT, DisplayName TEXT, Function TEXT, Confidence INTEGER, XMin1 TEXT, XMax1 TEXT, YMin1 TEXT, YMax1 TEXT, RelationshipLabel TEXT, DisplayName2 INTEGER, XMin2 TEXT, XMax2 TEXT, YMin2 TEXT, YMax2 TEXT, isOccluded TEXT, isTruncated TEXT, isGroupOf TEXT, isDepiction TEXT, isInside TEXT, MaskPath TEXT, BoxID TEXT, PredictedIoU TEXT, Clicks TEXT) PRIMARY KEY(id)")
+cursor.execute("CREATE TABLE segmentations (id INTEGER, ImageID TEXT, DisplayName TEXT, Function TEXT, Confidence INTEGER, XMin1 TEXT, XMax1 TEXT, YMin1 TEXT, YMax1 TEXT, RelationshipLabel TEXT, DisplayName2 INTEGER, XMin2 TEXT, XMax2 TEXT, YMin2 TEXT, YMax2 TEXT, isOccluded TEXT, isTruncated TEXT, isGroupOf TEXT, isDepiction TEXT, isInside TEXT, MaskPath TEXT, BoxID TEXT, PredictedIoU TEXT, Clicks TEXT) PRIMARY KEY(id)")
 db.commit()
-"""
 
-print("Populating image relationships in the annotations table.")
+
+print("Populating annotations...")
 cursor.execute("SELECT ImageID FROM open_images")
 images = cursor.fetchall()
 for image in images:
@@ -36,8 +37,8 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, Type, Function, Confidence) VALUES (?,?,?,?,?)",
-                           (image_id, result[0], "tag", "training", result[1],))
+            cursor.execute("INSERT INTO labels (ImageID, DisplayName, Function, Confidence) VALUES (?,?,?,?,?)",
+                           (image_id, result[0], "training", result[1],))
         db.commit()
 
     cursor.execute(
@@ -45,8 +46,8 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, Type, Function, Confidence) VALUES (?,?,?,?,?)",
-                           (image_id, result[0], "tag", "testing", result[1],))
+            cursor.execute("INSERT INTO labels (ImageID, DisplayName, Function, Confidence) VALUES (?,?,?,?,?)",
+                           (image_id, result[0], "testing", result[1],))
         db.commit()
 
     cursor.execute(
@@ -54,7 +55,7 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, Type, Function, Confidence) VALUES (?,?,?,?,?)",
+            cursor.execute("INSERT INTO labels (ImageID, DisplayName, Function, Confidence) VALUES (?,?,?,?,?)",
                            (image_id, result[0], "tag", "validation", result[1],))
         db.commit()
 
@@ -64,8 +65,8 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, Type, Function, Confidence, XMin1, Xmax1, YMin1, YMax1, isOccluded, isTruncated, isGroupOf, isDepiction, isInside) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-                           (image_id, result[0], "box", "training", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
+            cursor.execute("INSERT INTO boxes (ImageID, DisplayName, Function, Confidence, XMin1, Xmax1, YMin1, YMax1, isOccluded, isTruncated, isGroupOf, isDepiction, isInside) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (image_id, result[0], "training", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
         db.commit()
 
     cursor.execute(
@@ -73,8 +74,8 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, Type, Function, Confidence, XMin1, Xmax1, YMin1, YMax1, isOccluded, isTruncated, isGroupOf, isDepiction, isInside) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-                           (image_id, result[0], "box", "testing", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
+            cursor.execute("INSERT INTO boxes (ImageID, DisplayName, Function, Confidence, XMin1, Xmax1, YMin1, YMax1, isOccluded, isTruncated, isGroupOf, isDepiction, isInside) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (image_id, result[0], "testing", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
         db.commit()
 
     cursor.execute(
@@ -82,7 +83,7 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, Type, Function, Confidence, XMin1, Xmax1, YMin1, YMax1, isOccluded, isTruncated, isGroupOf, isDepiction, isInside) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            cursor.execute("INSERT INTO boxes (ImageID, DisplayName, Function, Confidence, XMin1, Xmax1, YMin1, YMax1, isOccluded, isTruncated, isGroupOf, isDepiction, isInside) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                            (image_id, result[0], "box", "validation", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
         db.commit()
 
@@ -91,24 +92,24 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, DisplayName2, RelationshipLabel, Type, Function, XMin1, Xmax1, YMin1, YMax1, XMin2, Xmax2, YMin2, YMax2) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-                           (image_id, result[0], result[1], result[2], "relationship", "training", result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
+            cursor.execute("INSERT INTO relationships (ImageID, DisplayName, DisplayName2, RelationshipLabel, Function, XMin1, Xmax1, YMin1, YMax1, XMin2, Xmax2, YMin2, YMax2) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (image_id, result[0], result[1], result[2], "training", result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
         db.commit()
 
     cursor.execute("SELECT l1.DisplayName, l2.DisplayName, r.RelationshipLabel, r.Xmin1, r.XMax1, r.YMin1, r.YMax1, r.XMin2, r.XMax2, r.YMin2, r.YMax2 FROM test_relationships r LEFT JOIN labels l1 ON r.LabelName1 = l1.LabelName LEFT JOIN labels l2 ON r.LabelName2 = l2.LabelName WHERE r.ImageID = ?", (image_id,),)
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, DisplayName2, RelationshipLabel, Type, Function, XMin1, Xmax1, YMin1, YMax1, XMin2, Xmax2, YMin2, YMax2) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-                           (image_id, result[0], result[1], result[2], "relationship", "testing", result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
+            cursor.execute("INSERT INTO relationships (ImageID, DisplayName, DisplayName2, RelationshipLabel, Function, XMin1, Xmax1, YMin1, YMax1, XMin2, Xmax2, YMin2, YMax2) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (image_id, result[0], result[1], result[2], "testing", result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
         db.commit()
 
     cursor.execute("SELECT l1.DisplayName, l2.DisplayName, r.RelationshipLabel, r.Xmin1, r.XMax1, r.YMin1, r.YMax1, r.XMin2, r.XMax2, r.YMin2, r.YMax2 FROM validate_relationships r LEFT JOIN labels l1 ON r.LabelName1 = l1.LabelName LEFT JOIN labels l2 ON r.LabelName2 = l2.LabelName WHERE r.ImageID = ?", (image_id,),)
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, DisplayName2, RelationshipLabel, Type, Function, XMin1, Xmax1, YMin1, YMax1, XMin2, Xmax2, YMin2, YMax2) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-                           (image_id, result[0], result[1], result[2], "relationship", "validation", result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
+            cursor.execute("INSERT INTO relationships (ImageID, DisplayName, DisplayName2, RelationshipLabel, Function, XMin1, Xmax1, YMin1, YMax1, XMin2, Xmax2, YMin2, YMax2) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (image_id, result[0], result[1], result[2], "validation", result[3], result[4], result[5], result[6], result[7], result[8], result[9], result[10]))
         db.commit()
 
     # Segmentations
@@ -118,8 +119,8 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, Type, Function, MaskPath, BoxID, XMin1, Xmax1, YMin1, YMax1, PredictedIoU, Clicks) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
-                           (image_id, result[0], "segmentation", "training", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8]))
+            cursor.execute("INSERT INTO segmentations (ImageID, DisplayName, Function, MaskPath, BoxID, XMin1, Xmax1, YMin1, YMax1, PredictedIoU, Clicks) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (image_id, result[0], "training", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8]))
         db.commit()
 
     cursor.execute(
@@ -127,8 +128,8 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, Type, Function, MaskPath, BoxID, XMin1, Xmax1, YMin1, YMax1, PredictedIoU, Clicks) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
-                           (image_id, result[0], "segmentation", "validation", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8]))
+            cursor.execute("INSERT INTO segmentations (ImageID, DisplayName, Function, MaskPath, BoxID, XMin1, Xmax1, YMin1, YMax1, PredictedIoU, Clicks) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (image_id, result[0], "validation", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8]))
         db.commit()
 
     cursor.execute(
@@ -136,8 +137,23 @@ for image in images:
     results = cursor.fetchall()
     if len(results) > 0:
         for result in results:
-            cursor.execute("INSERT INTO annotations (ImageID, DisplayName, Type, Function, MaskPath, BoxID, XMin1, Xmax1, YMin1, YMax1, PredictedIoU, Clicks) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
-                           (image_id, result[0], "segmentation", "testing", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8]))
+            cursor.execute("INSERT INTO segmentations (ImageID, DisplayName, Function, MaskPath, BoxID, XMin1, Xmax1, YMin1, YMax1, PredictedIoU, Clicks) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (image_id, result[0], "testing", result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8]))
         db.commit()
+
+cursor.execute("DROP TABLE test_boxes")
+cursor.execute("DROP TABLE test_labels_human")
+cursor.execute("DROP TABLE test_relationships")
+cursor.execute("DROP TABLE test_segmentations")
+cursor.execute("DROP TABLE train_boxes")
+cursor.execute("DROP TABLE train_labels_human")
+cursor.execute("DROP TABLE train_relationships")
+cursor.execute("DROP TABLE train_segmentations")
+cursor.execute("DROP TABLE validate_boxes")
+cursor.execute("DROP TABLE validate_labels_human")
+cursor.execute("DROP TABLE validate_relationships")
+cursor.execute("DROP TABLE validate_segmentations")
+db.commit()
+
 
 db.close()

@@ -158,4 +158,21 @@ cursor.execute("DROP TABLE validate_segmentations")
 db.commit()
 
 
+"""IF THERE'S ANNOTATIONS LINKED TO DELETED IMAGE RECORDS - CLEANUP
+cursor.execute("SELECT * FROM annotations")
+annotations = cursor.fetchall()
+print(str(len(annotations)) + " found.")
+count = 0
+for annotation in annotations:
+    cursor.execute("SELECT * FROM open_images WHERE ImageID=?",
+                   (annotation[1],),)
+    image = cursor.fetchone()
+    if image is None:
+        count += 1
+        cursor.execute("DELETE FROM annotations WHERE id=?", (annotation[0],),)
+db.commit()
+print(str(count) + " empty annotations erased.")
+"""
+
+
 db.close()

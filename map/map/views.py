@@ -146,8 +146,6 @@ def filecoin_download(package, cid):
                 out_file.write(data)
         """
 
-        package = "test.tar"
-
         # Create path to download file
         safe_path = safe_join("../" + downloads, package)
 

@@ -80,7 +80,8 @@
         $('.labelSelect').on('autocomplete.select', function (evt, item) {
             console.log('select', item);
             $('.labelSelected').html(item?JSON.stringify(item):'null');
-
+            var baseUrl = window.location.origin;
+            window.location.href = baseUrl + "/label/" + item
         });
 
     });

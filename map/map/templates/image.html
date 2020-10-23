@@ -4,34 +4,13 @@
 
 
 <div class="container" id="map-container" style="max-width: 100%;">
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog float-left" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><strong>Open Image ID: </strong>{{photo[0]}}</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img class="img-fluid" src="../static/images/{{ photo[21] }}" />
-
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" id="zoom" data-dismiss="modal">zoom on map</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div id="mapid"></div>
 
 </div> <!-- container -->
 
 <div class="container" id="metadata-container" style="max-width: 100%;">
-<div class="row" style="margin-top: 20px;  border-top: 2px solid black; width: 100%;">
+<div class="row" style="margin-top: 20px; width: 100%;">
 
 <div class="col">
     
@@ -314,24 +293,9 @@ testing_segmentations
 
 -->
 
-
-
-
-
-
 </div> <!-- column -->
 
-
-
-
-
-
-
 </div> <!-- row -->
-
-
-
-
 
 {% endblock %}
 
@@ -339,13 +303,9 @@ testing_segmentations
 <script type="application/javascript">
 
     $(document).ready(function(){
-        $("#myModal").modal('show');
+          mymap.flyTo([ {{ photo[18] }}, {{ photo[19] }} ], 18)
         });
     
-    $("#zoom").click(function(){
-        mymap.flyTo([ {{ photo[18] }}, {{ photo[19] }} ], 18)
-        });
-
     var mymap = L.map('mapid').setView([ {{photo[18] }}, {{ marker }} ], 3); /* set long to -50 */
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGV0ZXItdmciLCJhIjoiY2tnNXhvZmI1MHhvbTJybXN2dmZtMW4wdiJ9.hf_TPGvkWbgo4TweQGuDZA', {
@@ -365,7 +325,6 @@ testing_segmentations
       window.location.href = '#metadata-container';
     }
 </script>
-
 
 
 

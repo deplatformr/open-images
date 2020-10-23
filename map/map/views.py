@@ -1,6 +1,6 @@
 import os
 import sqlite3
-from flask import Flask, render_template, redirect, flash, url_for, safe_join, send_file, jsonify
+from flask import Flask, render_template, redirect, flash, url_for, safe_join, send_file, jsonify, request
 from datetime import datetime
 from pygate_grpc.client import PowerGateClient
 from map import app
@@ -17,7 +17,7 @@ powergate = PowerGateClient(api, is_secure=True)
 @app.route('/')
 def index():
 
-    return (redirect(url_for('image', id='14a2df364ad5f854')))
+    return (redirect(url_for('label', name='Swimming')))
 
 
 @app.route('/image/<id>')
@@ -34,7 +34,6 @@ def image(id):
     if photo[24] is None or photo[25] is None:
         city = None
         country = None
-        address = None
         map_key = os.getenv('GOOGLE_MAP_API_KEY')
         response = requests.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" +
                                 photo[18] + "," + photo[19] + "&result_type=street_address&key=" + map_key)
@@ -154,6 +153,49 @@ def label(name):
     count = len(images_list)
 
     return render_template("label.html", images=images_list, label=name, count=count)
+
+
+@app.route('/image-info')
+def image_info():
+    id = request.args.get("id")
+    db = sqlite3.connect(images_db)
+    cursor = db.cursor()
+    cursor.execute("SELECT * FROM open_images WHERE ImageID=?", (id,),)
+    result = cursor.fetchone()
+
+    photo = list(result)
+    # See if city or country needs to be retrieved
+    if photo[24] is None or photo[25] is None:
+        city = None
+        country = None
+        map_key = os.getenv('GOOGLE_MAP_API_KEY')
+        response = requests.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" +
+                                photo[18] + "," + photo[19] + "&result_type=street_address&key=" + map_key)
+        geo_dict = dict(response.json())
+        try:
+            for component in geo_dict["results"][0]["address_components"]:
+                if "postal_town" in component["types"]:
+                    city = component["long_name"]
+                if "country" in component["types"]:
+                    country = component["long_name"]
+                if "locality" in component["types"]:
+                    city = component["long_name"]
+                if "country" in component["types"]:
+                    country = component["long_name"]
+        except:
+            pass
+        if photo[24] is None and city is not None:
+            cursor.execute(
+                "UPDATE open_images set city=? where ImageID=?", (city, photo[0],),)
+            db.commit()
+            photo[24] = city
+        if photo[25] is None and country is not None:
+            cursor.execute(
+                "UPDATE open_images set country=? where ImageID=?", (country, photo[0],),)
+            db.commit()
+            photo[25] = country
+
+    return jsonify({"filename": photo[21], "city": photo[24], "country": photo[25]})
 
 
 @app.route("/labels", methods=["GET"])

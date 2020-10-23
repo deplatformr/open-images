@@ -2,6 +2,24 @@
 
 {% block content %}
 
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog float-left" role="document">
+    <div class="modal-content">
+      <div class="modal-header" id="modal-header">
+        <h5 class="modal-title" id="modal-title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body">
+      </div>
+      <div class="modal-footer" id="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="container" id="map-container" style="max-width: 100%;">
 
@@ -22,7 +40,11 @@
 {% block extra_js %}
 <script type="application/javascript">
 
-  var mymap = L.map('mapid').setView([ {{ 40 }}, {{ -20 }} ], 2); /* set long to -50 */
+  $(document).ready(function(){
+    $("#myModal").modal('hide');
+    });
+
+  var mymap = L.map('mapid').setView([40,-20], 2); /* set long to -50 */
 
   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGV0ZXItdmciLCJhIjoiY2tnNXhvZmI1MHhvbTJybXN2dmZtMW4wdiJ9.hf_TPGvkWbgo4TweQGuDZA', {
       maxZoom: 20,
@@ -36,13 +58,45 @@
 
 
   {% for image in images %}
-  marker = L.marker([ {{ image[1] }}, {{ image[2] }} ], {title:"{{ image[0] }} "} ).on('click', markerOnClick).addTo(mymap);  
+  marker = L.marker([ {{ image[1] }}, {{ image[2] }} ], {title:"{{ image[0] }}"} ).on('click', markerOnClick).addTo(mymap);  
   {% endfor %}
   
   function markerOnClick(e)
   {
-    var baseUrl = window.location.origin;
-    window.location.href = baseUrl + "/image/" + this.options.title
+    getinfo(this.options.title);
+    $("#myModal").modal('show');
+  }
+
+  function getinfo(id)
+  {
+      var base_url = window.location.origin;
+      $.ajax({
+          url: "/image-info",
+          type: "GET",
+          data: {"id" : id},
+          dataType : "json",
+          timeout: 5000,
+      })
+      .done(function( json ) {
+        $("#modal-title").html("<strong>Open Image ID: </strong>"+ id + "<br />")
+        $("#modal-place").html()
+        if (json.city == null){
+          if (json.country == null){
+            $("#modal-body").html("<img class='img-fluid' src='../static/images/" + json.filename + "' />")
+          }
+          else {
+            $("#modal-body").html("<div style='margin-bottom: 0px;'>" + json.country + "</div><br /><img class='img-fluid' src='../static/images/" + json.filename + "' />")
+          }
+        }
+        else {
+        $("#modal-body").html("<div style='margin-bottom: 0px;'>" + json.city + ", " + json.country + "</div><br /><img class='img-fluid' src='../static/images/" + json.filename + "' />")
+        }
+        $("#modal-footer").html('<a href="' + base_url + '/image/' + id + '"><button class="btn btn-primary">zoom on map</button></a><a href="' + base_url + '/image/' + id + '#metadata-container"><button class="btn btn-primary">view metadata</button>')
+
+
+      })
+      .fail(function() {
+      })
   }
 
 

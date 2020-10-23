@@ -31,7 +31,7 @@
 </div> <!-- container -->
 
 <div class="container" id="metadata-container" style="max-width: 100%;">
-<div class="row" style="margin-top: 20px; width: 100%;">
+<div class="row" style="margin-top: 20px;  border-top: 2px solid black; width: 100%;">
 
 <div class="col">
     
@@ -51,11 +51,11 @@
       <td>{{ photo[24] }}{% if photo[24] != None and photo[25] != None %}, {% endif %} {{ photo[25] }}</td>
     </tr>
     {% endif %}
-    {% if photo[7] != "None" %}
     <tr>
       <th scope="row">Open Image:</th>
       <td><a target="_blank" href="../static/images/{{ photo[21] }}">{{photo[21]}}</a></td>
     </tr>
+    {% if photo[7] != "None" %}
     <tr>
       <th scope="row">Title:</th>
       <td>{{photo[7]}}</td>
@@ -147,25 +147,189 @@
 
 </div> <!-- column -->
 </div> <!-- row -->
+</div> <!-- container -->
 
-<div class="row" style="margin: 50px 0 0 0;">
 
+<div class="container" style="max-width: 100%;">
+
+<div class="row" style="margin: 50px 0 0 0; padding-top: 10px; border-top: 2px solid black;">
+
+<h3>Machine learning annotations</h3>
+</div>
+
+<div class="row" style="margin: 10px 0 0 0;">
 <div class="col">
-<h4>Machine learning annotations</h4>
-<strong>Type: </strong>tags <br />
-<strong>Function: </strong>training <br />
-{% for annotation in annotations %}
-
-
-<a href="#"><span class="tag">{{ annotation[2] }}</span></a>
-
+{% if confident_training_tags|count > 0 %}
+<div class="tag-container">
+<hr />
+<strong>Training Labels - confident matches:</strong><br />
+{% for tag in confident_training_tags %}
+<a href="{{ url_for('label', name=tag[2]) }}"><span class="tag">{{ tag[2] }}</span></a>
 {% endfor %}
+</div>
+{% endif %}
+
+{% if not_confident_training_tags|count > 0 %}
+<div class="tag-container">
+<hr />
+<strong>Training Labels - unconfident matches:</strong><br />
+{% for tag in not_confident_training_tags %}
+<a href="{{ url_for('label', name=tag[2]) }}"><span class="tag">{{ tag[2] }}</span></a>
+{% endfor %}
+</div>
+{% endif %}
+
+{% if confident_validation_tags|count > 0 %}
+<div class="tag-container">
+<hr />
+<strong>Validation Labels - confident matches:</strong><br />
+{% for tag in confident_validation_training_tags %}
+<a href="{{ url_for('label', name=tag[2]) }}"><span class="tag">{{ tag[2] }}</span></a>
+{% endfor %}
+</div>
+{% endif %}
+
+{% if not_confident_validation_tags|count > 0 %}
+<div class="tag-container">
+<hr />
+<strong>Validation Labels - unconfident matches:</strong><br />
+{% for tag in not_confident_validation_tags %}
+<a href="{{ url_for('label', name=tag[2]) }}"><span class="tag">{{ tag[2] }}</span></a>
+{% endfor %}
+</div>
+{% endif %}
+
+{% if confident_testing_tags|count > 0 %}
+<div class="tag-container">
+<hr />
+<strong>Testing Labels - confident matches:</strong><br />
+{% for tag in confident_testing_tags %}
+<a href="{{ url_for('label', name=tag[2]) }}"><span class="tag">{{ tag[2] }}</span></a>
+{% endfor %}
+</div>
+{% endif %}
+
+{% if not_confident_testing_tags|count > 0 %}
+<div class="tag-container">
+<hr />
+<strong>Testing Labels - unconfident matches:</strong><br />
+{% for tag in not_confident_testing_tags %}
+<a href="{{ url_for('label', name=tag[2]) }}"><span class="tag">{{ tag[2] }}</span></a>
+{% endfor %}
+</div>
+{% endif %}
+
 </div> <!-- column -->
+
 <div class="col">
+
+<div class="row" style="margin: 10px 0 0 0;">
+<div class="col">
+{% if training_relationships|count > 0 %}
+<hr />
+<div class="tag-container">
+<strong><span style="padding-bottom: 20px;">Training Relationships:</span></strong><br />
+{% for relationship in training_relationships %}
+<span style="color: #004085;">{{ relationship[1] }} {{ relationship[2] }} {{ relationship[3] }}</span><br />
+<span style="color:#999;">XMin1: {{ relationship[4] }} XMax1: {{ relationship[5] }} YMin1: {{ relationship[6] }} YMax1: {{ relationship[7] }}<br />
+XMin2: {{ relationship[7] }} XMax2: {{ relationship[8] }} YMin2: {{ relationship[9] }} YMax2: {{ relationship[10] }}</span><br />
+{% endfor %}
+</div>
+{% endif %}
+
+<div class="row" style="margin: 10px 0 0 0;">
+<div class="col">
+{% if validation_relationships|count > 0 %}
+<hr />
+<div class="tag-container">
+<strong><span style="padding-bottom: 20px;">Validation Relationships:</span></strong><br />
+{% for relationship in validation_relationships %}
+<span style="color: #004085;">{{ relationship[1] }} {{ relationship[2] }} {{ relationship[3] }}</span><br />
+<span style="color:#999;">XMin1: {{ relationship[4] }} XMax1: {{ relationship[5] }} YMin1: {{ relationship[6] }} YMax1: {{ relationship[7] }}<br />
+XMin2: {{ relationship[7] }} XMax2: {{ relationship[8] }} YMin2: {{ relationship[9] }} YMax2: {{ relationship[10] }}</span><br />
+{% endfor %}
+</div>
+{% endif %}
+
+<div class="row" style="margin: 10px 0 0 0;">
+<div class="col">
+{% if testing_relationships|count > 0 %}
+<hr />
+<div class="tag-container">
+<strong><span style="padding-bottom: 20px;">Testing Relationships:</span></strong><br />
+{% for relationship in testing_relationships %}
+<span style="color: #004085;">{{ relationship[1] }} {{ relationship[2] }} {{ relationship[3] }}</span><br />
+<span style="color:#999;">XMin1: {{ relationship[4] }} XMax1: {{ relationship[5] }} YMin1: {{ relationship[6] }} YMax1: {{ relationship[7] }}<br />
+XMin2: {{ relationship[7] }} XMax2: {{ relationship[8] }} YMin2: {{ relationship[9] }} YMax2: {{ relationship[10] }}</span><br />
+{% endfor %}
+</div>
+{% endif %}
+
+<div class="row" style="margin: 10px 0 0 0;">
+<div class="col">
+{% if training_boxes|count > 0 %}
+<hr />
+<div class="tag-container">
+<strong><span style="padding-bottom: 20px;">Training Boxes:</span></strong><br />
+{% for box in training_boxes %}
+<span style="color: #004085;">{{ box[1] }}</span><br />
+<span style="color:#999;">XMin:{{ box[2] }} XMax: {{ box[3] }} YMin: {{ box[4] }} YMax: {{ box[5] }}<br/>
+{% if box[6] == "1" %}Is occluded. {% endif %}{% if box[7] == "1" %}Is truncated. {% endif %}{% if box[8] == "1" %}Is group of. {% endif %}{% if box[9] == "1" %}Is depiction. {% endif %}{% if box[10] == "1" %}Is inside. {% endif %}</span><br />
+{% endfor %}
+</div>
+{% endif %}
+
+<div class="row" style="margin: 10px 0 0 0;">
+<div class="col">
+{% if validation_boxes|count > 0 %}
+<hr />
+<div class="tag-container">
+<strong><span style="padding-bottom: 20px;">Validation Boxes:</span></strong><br />
+{% for box in validation_boxes %}
+<span style="color: #004085;">{{ box[1] }}</span><br />
+<span style="color:#999;">XMin:{{ box[2] }} XMax: {{ box[3] }} YMin: {{ box[4] }} YMax: {{ box[5] }}<br/>
+{% if box[6] == "1" %}Is occluded. {% endif %}{% if box[7] == "1" %}Is truncated. {% endif %}{% if box[8] == "1" %}Is group of. {% endif %}{% if box[9] == "1" %}Is depiction. {% endif %}{% if box[10] == "1" %}Is inside. {% endif %}</span><br />
+{% endfor %}
+</div>
+{% endif %}
+
+<div class="row" style="margin: 10px 0 0 0;">
+<div class="col">
+{% if testing_boxes|count > 0 %}
+<hr />
+<div class="tag-container">
+<strong><span style="padding-bottom: 20px;">Testing Boxes:</span></strong><br />
+{% for box in testing_boxes %}
+<span style="color: #004085;">{{ box[1] }}</span><br />
+<span style="color:#999;">XMin:{{ box[2] }} XMax: {{ box[3] }} YMin: {{ box[4] }} YMax: {{ box[5] }}<br/>
+{% if box[6] == "1" %}Is occluded. {% endif %}{% if box[7] == "1" %}Is truncated. {% endif %}{% if box[8] == "1" %}Is group of. {% endif %}{% if box[9] == "1" %}Is depiction. {% endif %}{% if box[10] == "1" %}Is inside. {% endif %}</span><br />
+{% endfor %}
+</div>
+{% endif %}
+
+<!--
+training_segmentations
+validation_segmentations
+testing_segmentations
+
+-->
+
+
+
+
+
+
 </div> <!-- column -->
+
+
+
+
+
+
+
 </div> <!-- row -->
 
-</div> <!-- container -->
+
 
 
 

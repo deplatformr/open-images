@@ -5,15 +5,12 @@
 
 <div class="container" id="map-container" style="max-width: 100%;">
 
-<p>Location of Open Image photos with the label <span id="headertag">{{ label }}</span></p>
+<p>Location of {{ count }} Open Image {% if count==1 %}photo{% else %}photos{% endif %} with the label <span class="cleartag">{{ label }}</span></p>
 <div id="mapid"></div>
 
 </div> <!-- container -->
 
 <div class="container" id="metadata-container" style="max-width: 100%;">
-
-
-
 
 
 </div> <!-- container -->
@@ -25,7 +22,7 @@
 {% block extra_js %}
 <script type="application/javascript">
 
-  var mymap = L.map('mapid').setView([ {{ images[0][1] }}, {{ images[0][2] }} ], 3); /* set long to -50 */
+  var mymap = L.map('mapid').setView([ {{ 40 }}, {{ -20 }} ], 2); /* set long to -50 */
 
   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGV0ZXItdmciLCJhIjoiY2tnNXhvZmI1MHhvbTJybXN2dmZtMW4wdiJ9.hf_TPGvkWbgo4TweQGuDZA', {
       maxZoom: 20,

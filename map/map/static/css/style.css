@@ -51,13 +51,16 @@ b  {
 
 #metadata-container {
   padding-top: 80px;
-
 }
 
 .col {
     padding-left: 0 !important;
 }
 
+.tag-container {
+  margin-top: 15px;
+  clear: both;
+}
 
 .tag {
   color: #004085;
@@ -71,7 +74,7 @@ b  {
   float: left;
 }
 
-#headertag {
+.cleartag {
   color: #004085;
   background-color: #cce5ff;
   border-color: #b8daff;

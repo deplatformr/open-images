@@ -71,8 +71,59 @@ def image(id):
     split = os.path.splitext(photo[21])
     jsonld = split[0] + ".jsonld"
 
+    # Gather and sort annotations related to this image
     cursor.execute("SELECT * FROM annotations WHERE ImageID=?", (id,),)
     annotations = cursor.fetchall()
+    tags = []
+    boxes = []
+    relationships = []
+    segmentations = []
+    for annotation in annotations:
+        if annotation[3] == "tag":
+            tags += [[annotation[4], annotation[5], annotation[2]]]
+        if annotation[3] == "relationship":
+            relationships += [[annotation[4], annotation[2], annotation[10], annotation[11], annotation[6], annotation[7],
+                               annotation[8], annotation[9], annotation[12], annotation[13], annotation[14], annotation[15]]]
+        if annotation[3] == "box":
+            boxes += [[annotation[4], annotation[2], annotation[6], annotation[7],
+                       annotation[8], annotation[9], annotation[16], annotation[17], annotation[18], annotation[19], annotation[20]]]
+        if annotation[3] == "segmentation":
+            segmentations += [[annotation[4], annotation[2], annotation[6], annotation[7],
+                               annotation[8], annotation[9], annotation[21], annotation[23]]]
+
+    training_relationships = [
+        relationship for relationship in relationships if relationship[0] == "training"]
+    validation_relationships = [
+        relationship for relationship in relationships if relationship[0] == "validation"]
+    testing_relationships = [
+        relationship for relationship in relationships if relationship[0] == "testing"]
+
+    training_boxes = [
+        box for box in boxes if box[0] == "training"]
+    validation_boxes = [
+        box for box in boxes if box[0] == "validation"]
+    testing_boxes = [
+        box for box in boxes if box[0] == "testing"]
+
+    training_tags = [tag for tag in tags if tag[0] == "training"]
+    confident_training_tags = [tag for tag in training_tags if tag[1] == 1]
+    not_confident_training_tags = [tag for tag in training_tags if tag[1] == 0]
+
+    validation_tags = [tag for tag in tags if tag[0] == "validation"]
+    confident_validation_tags = [tag for tag in validation_tags if tag[1] == 1]
+    not_confident_validation_tags = [
+        tag for tag in validation_tags if tag[1] == 0]
+
+    testing_tags = [tag for tag in tags if tag[0] == "testing"]
+    confident_testing_tags = [tag for tag in testing_tags if tag[1] == 1]
+    not_confident_testing_tags = [tag for tag in testing_tags if tag[1] == 0]
+
+    training_segmentations = [
+        segmentation for segmentation in segmentations if segmentation[0] == "training"]
+    validation_segmentations = [
+        segmentation for segmentation in segmentations if segmentation[0] == "validation"]
+    testing_segmentations = [
+        segmentation for segmentation in segmentations if segmentation[0] == "confident_testing_tags"]
 
     cursor.execute(
         "SELECT cid, size FROM packages WHERE name=?", (photo[22],),)
@@ -80,16 +131,16 @@ def image(id):
 
     marker = float(photo[19]) - 50
 
-    return render_template("image.html", photo=photo, marker=marker, created=created, jsonld=jsonld, annotations=annotations, cid=cid)
+    return render_template("image.html", photo=photo, marker=marker, created=created, jsonld=jsonld, cid=cid, training_boxes=training_boxes, validation_boxes=validation_boxes, testing_boxes=testing_boxes, confident_training_tags=confident_training_tags, not_confident_training_tags=not_confident_training_tags, confident_validation_tags=confident_validation_tags, not_confident_validation_tags=not_confident_validation_tags, confident_testing_tags=confident_testing_tags, not_confident_testing_tags=not_confident_testing_tags, training_segmentations=training_segmentations, validation_segmentations=validation_segmentations, testing_segmentations=testing_segmentations, training_relationships=training_relationships, validation_relationships=validation_relationships, testing_relationships=testing_relationships)
 
 
-@app.route("/label/<id>", methods=["GET"])
-def label(id):
+@app.route("/label/<name>", methods=["GET"])
+def label(name):
 
     db = sqlite3.connect(images_db)
     cursor = db.cursor()
     cursor.execute(
-        "SELECT ImageID FROM annotations WHERE DisplayName = ?", (id,),)
+        "SELECT ImageID FROM annotations WHERE DisplayName = ?", (name,),)
     labels = cursor.fetchall()
 
     images_list = []
@@ -102,7 +153,7 @@ def label(id):
 
     count = len(images_list)
 
-    return render_template("label.html", images=images_list, label=id, count=count)
+    return render_template("label.html", images=images_list, label=name, count=count)
 
 
 @app.route("/labels", methods=["GET"])

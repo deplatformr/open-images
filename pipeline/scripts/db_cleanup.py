@@ -20,5 +20,5 @@ for result in results:
     print(result[0])
     cursor.execute("UPDATE open_images set package_name = ? where ImageID = ?",
                    ("deplatformr-open-images-3.tar", result[0],),)
-workflow_db.commit()
-workflow_db.close()
+images_db.commit()
+images_db.close()

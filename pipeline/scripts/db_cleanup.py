@@ -8,17 +8,17 @@ db_path = os.path.join(
     os.getcwd(), "source_data/deplatformr_open_images_v6.sqlite")
 images_db = sqlite3.connect(db_path)
 
-cursor = images_db.cursor()
-cursor.execute("SELECT ImageID from open_images WHERE package_name = ?", (
-    "deplatformr-open-images-46.tar",),)
+cursor = workflow_db.cursor()
+cursor.execute("SELECT image_id from images WHERE package_name = ?", (
+    "deplatformr-open-images-3.tar",),)
 results = cursor.fetchall()
 cursor.close()
 print("found " + str(len(results)) + " results.")
 
-cursor = workflow_db.cursor()
+cursor = images_db.cursor()
 for result in results:
     print(result[0])
-    cursor.execute("UPDATE images set package_name = ? where image_id = ?",
-                   ("deplatformr-open-images-4.tar", result[0],),)
+    cursor.execute("UPDATE open_images set package_name = ? where image_id = ?",
+                   ("deplatformr-open-images-3.tar", result[0],),)
 workflow_db.commit()
 workflow_db.close()

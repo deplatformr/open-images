@@ -20,6 +20,12 @@ def index():
     return (redirect(url_for('label', name='Swimming')))
 
 
+@app.route('/about')
+def about():
+
+    return (render_template("about.html"))
+
+
 @app.route('/image/<id>')
 def image(id):
 
@@ -162,8 +168,8 @@ def image_info():
     cursor = db.cursor()
     cursor.execute("SELECT * FROM open_images WHERE ImageID=?", (id,),)
     result = cursor.fetchone()
-
     photo = list(result)
+
     # See if city or country needs to be retrieved
     if photo[24] is None or photo[25] is None:
         city = None

@@ -1,0 +1,439 @@
+{
+    "@id": "openimages:0c1653734a748a25",
+    "contentUrl": "https://farm6.staticflickr.com/5485/9725226041_46c4a28976_o.jpg",
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "thumbnailUrl": "https://c8.staticflickr.com/6/5485/9725226041_8c0166e6db_z.jpg",
+    "name": "Brazil v/s Portugal (Foxborough, Massachusetts)",
+    "image": "0c1653734a748a25.jpg",
+    "creator": "md.faisalzaman (https://www.flickr.com/people/faisalzaman/)",
+    "dateCreated": "2013:09:10 20:27:21",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "contentSize": "3.49 MiB",
+    "encodingFormat": "image/jpeg",
+    "width": "4288",
+    "height": "2848",
+    "resolution": "300 x 300",
+    "disambiguatingDescription": "MhV3Lq7770Dwzix3rkbzug==",
+    "exifData": [
+        {
+            "@type": "PropertyValue",
+            "name": "Orientation",
+            "value": "NaN"
+        }
+    ],
+    "about": {
+        "trainingLabels": {
+            "/m/05y5lj": "Sports equipment",
+            "/m/01g317": "Person",
+            "/m/018xm": "Ball",
+            "/m/0c725h": "Huddle",
+            "/m/06qrr": "Soft drink",
+            "/m/018w8": "Basketball (Sport)",
+            "/m/02vx4": "Soccer",
+            "/m/01h_1n": "Playground",
+            "/m/01226z": "Football",
+            "/m/04yx4": "Man"
+        },
+        "trainingBoxes": [
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.561250",
+                "xMax": "0.803750",
+                "yMin": "0.239419",
+                "yMax": "0.954517",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.015625",
+                "xMax": "0.269375",
+                "yMin": "0.267214",
+                "yMax": "0.979785",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.188125",
+                "xMax": "0.345625",
+                "yMin": "0.042956",
+                "yMax": "0.648136",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.267500",
+                "xMax": "0.461875",
+                "yMin": "0.029690",
+                "yMax": "0.672141",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.331875",
+                "xMax": "0.631250",
+                "yMin": "0.037903",
+                "yMax": "0.680354",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.403125",
+                "xMax": "0.972500",
+                "yMin": "0.034744",
+                "yMax": "0.678459",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.460625",
+                "xMax": "0.563750",
+                "yMin": "0.044852",
+                "yMax": "0.663298",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.524375",
+                "xMax": "0.653125",
+                "yMin": "0.065066",
+                "yMax": "0.680354",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/04yx4": "Man",
+                "confidence": "1",
+                "xMin": "0.528125",
+                "xMax": "0.599375",
+                "yMin": "0.046747",
+                "yMax": "0.118130",
+                "isOccluded": "1",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05y5lj": "Sports equipment",
+                "confidence": "1",
+                "xMin": "0.129375",
+                "xMax": "0.184375",
+                "yMin": "0.862918",
+                "yMax": "0.980417",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05y5lj": "Sports equipment",
+                "confidence": "1",
+                "xMin": "0.264375",
+                "xMax": "0.340625",
+                "yMin": "0.619078",
+                "yMax": "0.670246",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05y5lj": "Sports equipment",
+                "confidence": "1",
+                "xMin": "0.359375",
+                "xMax": "0.394375",
+                "yMin": "0.620973",
+                "yMax": "0.668351",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05y5lj": "Sports equipment",
+                "confidence": "1",
+                "xMin": "0.400000",
+                "xMax": "0.487500",
+                "yMin": "0.626027",
+                "yMax": "0.682249",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05y5lj": "Sports equipment",
+                "confidence": "1",
+                "xMin": "0.487500",
+                "xMax": "0.543125",
+                "yMin": "0.641188",
+                "yMax": "0.667088",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05y5lj": "Sports equipment",
+                "confidence": "1",
+                "xMin": "0.516250",
+                "xMax": "0.556875",
+                "yMin": "0.615919",
+                "yMax": "0.648136",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05y5lj": "Sports equipment",
+                "confidence": "1",
+                "xMin": "0.588750",
+                "xMax": "0.656875",
+                "yMin": "0.880606",
+                "yMax": "0.939987",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05y5lj": "Sports equipment",
+                "confidence": "1",
+                "xMin": "0.700625",
+                "xMax": "0.744375",
+                "yMin": "0.905875",
+                "yMax": "0.955780",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            },
+            {
+                "/m/05y5lj": "Sports equipment",
+                "confidence": "1",
+                "xMin": "0.761250",
+                "xMax": "0.806875",
+                "yMin": "0.615919",
+                "yMax": "0.662034",
+                "isOccluded": "0",
+                "isTruncated": "0",
+                "isGroupOf": "0",
+                "isDepiction": "0",
+                "isInside": "0"
+            }
+        ],
+        "trainingRelationships": [
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.188125",
+                    "xMax": "0.345625",
+                    "yMin": "0.042956",
+                    "yMax": "0.648136"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.188125",
+                    "xMax": "0.345625",
+                    "yMin": "0.042956",
+                    "yMax": "0.648136"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.267500",
+                    "xMax": "0.461875",
+                    "yMin": "0.029690",
+                    "yMax": "0.672141"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.267500",
+                    "xMax": "0.461875",
+                    "yMin": "0.029690",
+                    "yMax": "0.672141"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.331875",
+                    "xMax": "0.631250",
+                    "yMin": "0.037903",
+                    "yMax": "0.680354"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.331875",
+                    "xMax": "0.631250",
+                    "yMin": "0.037903",
+                    "yMax": "0.680354"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.403125",
+                    "xMax": "0.972500",
+                    "yMin": "0.034744",
+                    "yMax": "0.678459"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.403125",
+                    "xMax": "0.972500",
+                    "yMin": "0.034744",
+                    "yMax": "0.678459"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.460625",
+                    "xMax": "0.563750",
+                    "yMin": "0.044852",
+                    "yMax": "0.663298"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.460625",
+                    "xMax": "0.563750",
+                    "yMin": "0.044852",
+                    "yMax": "0.663298"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.524375",
+                    "xMax": "0.653125",
+                    "yMin": "0.065066",
+                    "yMax": "0.680354"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.524375",
+                    "xMax": "0.653125",
+                    "yMin": "0.065066",
+                    "yMax": "0.680354"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.528125",
+                    "xMax": "0.599375",
+                    "yMin": "0.046747",
+                    "yMax": "0.118130"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.528125",
+                    "xMax": "0.599375",
+                    "yMin": "0.046747",
+                    "yMax": "0.118130"
+                }
+            },
+            {
+                "relationship": "Man is Standing",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.561250",
+                    "xMax": "0.803750",
+                    "yMin": "0.239419",
+                    "yMax": "0.954517"
+                },
+                "box2": {
+                    "/m/02wzbmj": "Standing",
+                    "xMin": "0.561250",
+                    "xMax": "0.803750",
+                    "yMin": "0.239419",
+                    "yMax": "0.954517"
+                }
+            },
+            {
+                "relationship": "Man is Walking",
+                "relationshipLabel": "is",
+                "box1": {
+                    "/m/04yx4": "Man",
+                    "xMin": "0.015625",
+                    "xMax": "0.269375",
+                    "yMin": "0.267214",
+                    "yMax": "0.979785"
+                },
+                "box2": {
+                    "/m/083mg": "Walking",
+                    "xMin": "0.015625",
+                    "xMax": "0.269375",
+                    "yMin": "0.267214",
+                    "yMax": "0.979785"
+                }
+            }
+        ]
+    }
+}

@@ -18,7 +18,7 @@ print("found " + str(len(results)) + " results.")
 cursor = images_db.cursor()
 for result in results:
     print(result[0])
-    cursor.execute("UPDATE open_images set package_name = ? where image_id = ?",
+    cursor.execute("UPDATE open_images set package_name = ? where ImageID = ?",
                    ("deplatformr-open-images-3.tar", result[0],),)
 workflow_db.commit()
 workflow_db.close()

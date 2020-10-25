@@ -10,8 +10,8 @@ CREATE TABLE IF NOT EXISTS "train_labels_human" (
 	"Source"	TEXT,
 	"LabelName"	TEXT,
 	"Confidence"	INTEGER,
-	FOREIGN KEY("LabelName") REFERENCES "labels"("LabelName"),
 	FOREIGN KEY("ImageID") REFERENCES "open_images"("ImageID"),
+	FOREIGN KEY("LabelName") REFERENCES "labels"("LabelName"),
 	PRIMARY KEY("id")
 );
 CREATE TABLE IF NOT EXISTS "test_labels_human" (
@@ -193,6 +193,7 @@ CREATE TABLE IF NOT EXISTS "open_images" (
 	"altitude"	TEXT,
 	"filename"	TEXT,
 	"package_name"	TEXT,
+	"package_cid"	TEXT,
 	PRIMARY KEY("ImageID")
 );
 CREATE INDEX IF NOT EXISTS "train_images" ON "train_labels_human" (

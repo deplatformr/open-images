@@ -17,15 +17,33 @@ CREATE TABLE IF NOT EXISTS "images" (
 	"package_name"	TEXT,
 	FOREIGN KEY("package_name") REFERENCES "packages_old"("name")
 );
-CREATE TABLE IF NOT EXISTS "deals" (
-	"deal_id"	TEXT,
+CREATE TABLE IF NOT EXISTS "packages" (
+	"name"	TEXT,
+	"timestamp"	TEXT,
+	"size"	INTEGER,
 	"cid"	TEXT,
-	"deal_timestamp"	INTEGER,
-	"miner"	INTEGER,
-	"duration"	INTEGER,
-	PRIMARY KEY("deal_id"),
-	FOREIGN KEY("cid") REFERENCES "packages_old"("cid")
+	"cid_timestamp"	TEXT,
+	PRIMARY KEY("name")
 );
-CREATE TABLE IF NOT EXISTS "jobs" ("job_id" TEXT, "cid" TEXT, "timestamp" TEXT, "status" TEXT, FOREIGN KEY("cid") REFERENCES "packages_old"("cid"), PRIMARY KEY("job_id"));
-CREATE TABLE IF NOT EXISTS "packages" ("name" TEXT, "timestamp" TEXT, "size" INTEGER, "cid" TEXT, "cid_timestamp" TEXT, PRIMARY KEY("name"));
+CREATE TABLE IF NOT EXISTS "jobs" (
+	"job_id"	TEXT,
+	"cid"	TEXT,
+	"timestamp"	TEXT,
+	"status"	TEXT,
+	"ffs"	TEXT,
+	FOREIGN KEY("cid") REFERENCES "packages"("cid"),
+	PRIMARY KEY("job_id")
+);
+CREATE TABLE IF NOT EXISTS "deals" (
+	"deal_id"	INTEGER,
+	"payload_cid"	TEXT,
+	"piece_cid"	TEXT,
+	"piece_size"	INTEGER,
+	"miner_id"	TEXT,
+	"client_id"	TEXT,
+	"start_epoch"	INTEGER,
+	"end_epoch"	INTEGER,
+	"price"	INTEGER,
+	PRIMARY KEY("deal_id")
+);
 COMMIT;

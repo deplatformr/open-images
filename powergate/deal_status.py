@@ -51,7 +51,7 @@ for cid in cids:
                 if job[1] == "JOB_STATUS_EXECUTING" or job[1] == "JOB_STATUS_QUEUED":
                     print("POW_SERVERADDRESS=" + api +
                           " pow ffs cancel " + job[0] + " -t " + token)
- 
+    """
     # IF TOO FEW
     if count[0] == 0:
         package = cid[1]
@@ -68,9 +68,9 @@ for cid in cids:
 
                 # SHOW CANCEL COMMAND
                 if job[1] == "JOB_STATUS_EXECUTING" or job[1] == "JOB_STATUS_QUEUED":
-                    print("POW_SERVERADDRESS=" + api +
-                          " pow ffs cancel " + job[0] + " -t " + token)
+                    print("POW_SERVERADDRESS=" + api + " pow ffs cancel " + job[0] + " -t " + token)
 
+        """
         # REPUSH IF TOO FEW
         if job[1] != "JOB_STATUS_EXECUTING" and job[1] != "JOB_STATUS_QUEUED":
             try:
@@ -84,8 +84,7 @@ for cid in cids:
                 cursor.execute("INSERT INTO jobs (job_id, cid, ffs, timestamp, status) VALUES (?,?,?,?,?)",
                                (job.job_id, cid, ffs, utctime, "JOB_STATUS_EXECUTING",),)
                 workflow_db.commit()
-                print("Waiting " + str(interval) +
-                      " seconds before next push.")
+                print("Waiting " + str(interval) + " seconds before next push.")
                 time.sleep(interval)
                 repush_count += 1
             except Exception as e:
@@ -95,7 +94,6 @@ for cid in cids:
                 sys.exit()
         else:
             print("Job " + job[1] + " is still executing or queued.")
-        """
 
 if repush_count > 0:
     print("Repushed " + str(repush_count) + " CIDs.")

@@ -6,4 +6,4 @@
 * Train [Deplatformr](https://deplatformr.com) models on personal datasets using Open Image dataset.
 * For more info, see our [Slingshot application](https://github.com/filecoin-project/slingshot/blob/master/participants/Deplatformr.md).
 
-![image](website/assets/deplatformr-open-images.png)
+![image](map/map/static/instructions/deplatformr-firehose.png)

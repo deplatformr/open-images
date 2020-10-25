@@ -1,188 +1,176 @@
-f01241: 'active, USA, Portland, 6block', // 707807
-f01247: 'active, Canada, Montreal, BigChungus™', // 710073
-f02423: 'active, Ukraine, Kyiv, igowreck', // 714898
-f02501: 'active, USA, Portland, 6block', // 707800
-f02514: 'active, USA, Portland, 6block', // 707864
-f02633: 'active, China, Hong Kong', // 706745
-f03224: 'active, Ukraine, Irpin, oboltusov', // 714894
-f03273: 'active, USA, Portland, 6block', // 712440
-f03274: 'active, USA, Portland, 6block', // 712416
-f03339: 'active, China, Luzhou, benxun', // 740016
-f03491: 'active, China, Hong Kong', // 738469
-f04443: 'active, China, Shanghai, 罗良科技', // 705857
-f05315: 'active, USA, Portland, 6block', // 707939
-f07850: 'active, USA, Portland, 6block', // 713928
-f08025: 'active, China, Hong Kong', // 738583
-f08240: 'active, Russia, Novosibirsk, Rabinovitch', // 712437
-f08383: 'active, USA, Portland, 6block', // 706565
-f08403: 'active, UK, Lower Slaughter', // 713599
-f09696: 'active, USA, Portland + Singapore', // 713482
-f010241: 'active, China, Beijing + USA, Portland', // 705706
-f010253: 'active, China, Beijing + USA, Portland', // 706878
-f010479: 'active, France, Fontenay-sous-Bois', // 712357
-f010558: 'active, China, Shenzhen + Hong Kong', // 706835
-f015941: 'active, Ukraine, Kyiv', // 714900
-f018783: 'active, Singapore + Germany, Frankfurt + USA', // 705886
-f018784: 'active, Singapore + Germany, Frankfurt + USA', // 739720
-f018785: 'active, Singapore + Germany, Frankfurt + USA', // 707946
-f019100: 'active, Romania, Cluj-Napoca', // 738582
-f020928: 'active, China, Deyang + Singapore', // 706738
-f021255: 'active, China, Suzhou + Netherlands', // 712473
-f022142: 'active, USA, Queens', // 712346
-f022163: 'active, NR', // 713556
-f023179: 'active, China, Fuzhou', // 740483
-f023467: 'active, Norway, Oslo', // 738612
-f023492: 'active, China, Beijing', // 712544
-f023647: 'active, Korea, Gangseo-gu', // 713611
-f023649: 'active, Korea, Seoul', // 714470
-f023660: 'active, China, Fuzhou', // 740031
-f023825: 'active, USA, Portland', // 739018
-f023855: 'active, China, Fuzhou', // 738318
-f024015: 'active, USA, Portland', // 706411
-f024030: 'active, Korea, Gwangju', // 712469
-f024156: 'active, USA', // 713605
-f024969: 'active, NR', // 710141
-f025019: 'active, China, Taiwan, Hsinchu', // 712480
-f029401: 'active, USA, Portland + New Castle', // 708048
-f029404: 'active, USA, Portland + New Castle', // 713872
-f033111: 'active, China, Shanghai', // 707071
-f033124: 'active, China, Shanghai', // 705832
-f01238: 'active-sealing, Vietnam, Hanoi, FILECOIN-VIETNAM', // 713586
-f019551: 'active-sealing, UK', // 712567
-f01240: 'sealing, Netherlands, HidNand', // 710102
-f01277: 'sealing, Sweden, Stockholm, tvsthlm', // 800696
-f01278: 'sealing, USA, Grand Rapids, MiMiner', // 800894
-f01287: 'sealing, China, Jiaxing, MaiTian', // 799024
-f01291: 'sealing, Sweden, Stockholm, tvsthlm', // 799664
-f01782: 'sealing, China, Hong Kong + Singapore + USA, Portland, hellofil.com', // 800930
-f01799: 'sealing, China, Jinan, TokenHome', // 799284
-f02415: 'sealing, China, Hong Kong', // 799011
-f02416: 'sealing, China, Guangdong, 星际无限', // 799897
-f02576: 'sealing, Denmark, Gjerlev, BenjaminH', // 800192
-f02619: 'sealing, China, Beijing, Blockcasting', // 800698
-f02622: 'sealing, USA, Portland, 6block', // 801056
-f02625: 'sealing, China, Shanghai, IPFS星际工厂', // 800655
-f02645: 'sealing, China, Hong Kong', // 800994
-f02665: 'sealing, Netherlands, Amsterdam, fm-ops', // 740398
-f03134: 'sealing, China, Cangzhou, 乔木信息', // 799202
-f03222: 'sealing, China, Yuncheong, 星云矿池', // 801207
-f03275: 'sealing, USA, Portland, 6block', // 799430
-f03345: 'sealing, China, Fuzhou, chh', // 799802
-f03482: 'sealing, China, Wuxi', // 800301
-f03488: 'sealing, Korea, Geumcheon-gu', // 800912
-f05316: 'sealing, USA, Portland, 6block', // 801313
-f05317: 'sealing, USA, Portland', // 799602
-f07806: 'sealing, China, Wuhan, HelloXP', // 800014
-f07990: 'sealing, China, Hong Kong', // 738554
-f07998: 'sealing, China, Hangzhou', // 799281
-f08257: 'sealing, China, Ningbo + USA, Boardman', // 800319
-f08482: 'sealing, USA, Athol, @why', // 800586
-f09693: 'sealing, USA, Portland + Singapore', // 800261
-f09731: 'sealing, China, Guiyang', // 800082
-f09771: 'sealing, China, Hangzhou', // 740696
-f09833: 'sealing, USA, San Jose', // 706035
-f010035: 'sealing, Netherlands', // 713827
-f010088: 'sealing, DNS:purumine.com', // 800813
-f010254: 'sealing, Japan, Minamata', // 799347
-f010400: 'sealing, China, Shenyang', // 800036
-f010438: 'sealing, USA', // 740230
-f010446: 'sealing, Netherlands', // 800789
-f010491: 'sealing, China, Shenzhen', // 799021
-f010498: 'sealing, China, Shenzhen', // 799989
-f010501: 'sealing, China, Hangzhou', // 799791
-f010505: 'sealing, China, Wuhan', // 799396
-f010507: 'sealing, China, Hangzhou', // 799238
-f010513: 'sealing, China, Chongqing', // 800877
-f010523: 'sealing, China, Beijing', // 800659
-f010617: 'sealing, Canada, Surrey, @feiya200', // 800560
-f014281: 'sealing, Netherlands, Permerend', // 740229
-f014394: 'sealing, China, Suzhou', // 800207
-f014409: 'sealing, USA, Waxhaw', // 799613
-f015734: 'sealing, China, Qingdao', // 800191
-f015877: 'sealing, China, Jiaxing + USA', // 713722
-f015927: 'sealing, USA, East Islip', // 799033
-f016594: 'sealing, Germany', // 800973
-f018501: 'sealing, China, Beijing', // 800362
-f018781: 'sealing, Singapore + Germany, Frankfurt + USA', // 800794
-f019029: 'sealing, Serbia, Boljevac', // 800974
-f019118: 'sealing, China, Jiaxing', // 799250
-f019240: 'sealing, China, Beijing', // 799119
-f019354: 'sealing, Germany, Frankfurt', // 800833
-f019459: 'sealing, USA, Alpharetta', // 800569
-f020436: 'sealing, China, Beijing', // 798959
-f020489: 'sealing, China, Lioaning', // 738426
-f020523: 'sealing, China, Suzhou', // 801288
-f020541: 'sealing, China, Shanghai', // 799650
-f021262: 'sealing, China, Shanghai', // 800190
-f021339: 'sealing, China, Jiaxing', // 799266
-f021346: 'sealing, China, Shanghai', // 801047
-f021583: 'sealing, China, Jiaxing', // 800927
-f021710: 'sealing, China, Shijiazhuang', // 800100
-f022089: 'sealing, China, Beijing', // 738430
-f022125: 'sealing, China, Shenzhen', // 801104
-f022261: 'sealing, China, Luzhou', // 799313
-f022352: 'sealing, Norway, Borgen', // 799713
-f022376: 'sealing, China, Dongguan', // 741176
-f022395: 'sealing, USA, Los Angeles', // 800048
-f022522: 'sealing, China, Dongguan', // 799503
-f022797: 'sealing, NR', // 800710
-f022853: 'sealing, China, Fuzhou', // 800242
-f022922: 'sealing, China, Shenzhen', // 799163
-f023152: 'sealing, China, Quanzhou', // 801395
-f023219: 'sealing, NR', // 799460
-f023495: 'sealing, China, Beijing + USA, Portland', // 799062
-f023565: 'sealing, China, Fuzhou', // 799706
-f023581: 'sealing, China, Hong Kong', // 708340
-f023662: 'sealing, China, Fuzhou', // 801152
-f023853: 'sealing, China, Fuzhou', // 800728
-f023858: 'sealing, China, Fuzhou', // 739665
-f023859: 'sealing, China, Fuzhou', // 799838
-f023861: 'sealing, China, Fuzhou', // 800392
-f023868: 'sealing, China, Fuzhou', // 799985
-f023869: 'sealing, China, Fuzhou', // 799273
-f023870: 'sealing, China, Fuzhou', // 801340
-f023928: 'sealing, China, Fuzhou', // 799973
-f023939: 'sealing, NR', // 800067
-f023971: 'sealing, USA, @Brian Y', // 799446
-f023978: 'sealing, China, Fuzhou', // 801087
-f023980: 'sealing, China, Fuzhou', // 799898
-f023981: 'sealing, China, Fuzhou', // 800494
-f024006: 'sealing, China, Fuzhou', // 801019
-f024007: 'sealing, China, Fuzhou', // 798996
-f024008: 'sealing, China, Fuzhou', // 801348
-f024012: 'sealing, China, Fuzhou', // 800064
-f024016: 'sealing, USA, Portland', // 800187
-f024025: 'sealing, China, Chengdu', // 799799
-f024081: 'sealing, China, Fuzhou', // 800959
-f024084: 'sealing, China, Fuzhou', // 801017
-f024101: 'sealing, China, Guiyang', // 801354
-f024146: 'sealing, China, Fuzhou', // 799440
-f024147: 'sealing, China, Fuzhou', // 800388
-f024184: 'sealing, Korea, Gangnam-gu', // 799794
-f024511: 'sealing, NR', // 799653
-f025017: 'sealing, China, Hefei', // 799112
-f025025: 'sealing, China, Qingdao', // 799640
-f025032: 'sealing, China, Beijing', // 799612
-f029368: 'sealing, Korea, Gangseo-gu', // 800459
-f029490: 'sealing, NR', // 800904
-f029524: 'sealing, China, Hong Kong', // 799453
-f029619: 'sealing, undefined', // 800706
-f030226: 'sealing, China, Fuzhou', // 800679
-f030284: 'sealing, China, Shandong', // 739215
-f030335: 'sealing, China, Fujian', // 800750
-f032934: 'sealing, Korea, Incheon', // 801293
-f032977: 'sealing, China, Deyang', // 800096
-f033036: 'sealing, China, Liaoning', // 800365
-f033189: 'sealing, China, Zhejiang', // 800881
-f033206: 'sealing, Canada', // 708385
-f033511: 'sealing, China, Dongguan', // 801136
-f033548: 'sealing, China, Fuzhou', // 738403
-f034039: 'sealing, Russia', // 799443
-f034047: 'sealing, China, Hangzhou', // 800287
-f034075: 'sealing, Japan', // 799215
-f034084: 'sealing, China, Chongqing', // 799424
-f034733: 'sealing, China, Hong Kong', // 740486
-f034808: 'sealing, Korea, Incheon', // 740154
-f035436: 'sealing, China, Jiangsu', // 800397
-f039515: 'sealing, China, Chongqing', // 799178
-f039873: 'sealing, China, Fuzhou', // 799902
+
+f02401: 'active, Canada, Chambly, NBFS Canada', // 937996
+f02501: 'active, USA, Portland, 6block', // 938090
+f02514: 'active, USA, Portland, 6block', // 938379
+f02540: 'active, USA, Rochester', // 938045
+f02623: 'active, USA, Portland, 6block', // 938297
+f03274: 'active, USA, Portland, 6block', // 938303
+f03339: 'active, China, Luzhou, benxun', // 937940
+f05315: 'active, USA, Portland, 6block', // 938359
+f05664: 'active, China, Shenzhen, 艾比特网络科技', // 939461
+f07850: 'active, USA, Portland, 6block', // 938302
+f08240: 'active, Russia, Novosibirsk, Rabinovitch', // 938385
+f08403: 'active, UK, Lower Slaughter', // 938366
+f09696: 'active, USA, Portland + Singapore', // 938288
+f010084: 'active, China, Beijing', // 938111
+f010241: 'active, China, Beijing + USA, Portland', // 939606
+f010253: 'active, China, Beijing + USA, Portland', // 938270
+f010446: 'active, Netherlands', // 937849
+f010501: 'active, China, Hangzhou', // 938069
+f010505: 'active, China, Wuhan', // 938078
+f010558: 'active, China, Shenzhen + Hong Kong', // 939433
+f010617: 'active, Canada, Surrey, @feiya200', // 938033
+f014394: 'active, China, Suzhou', // 938057
+f014768: 'active, Singapore', // 938347
+f018781: 'active, Singapore + Germany, Frankfurt + USA', // 938127
+f019029: 'active, Serbia, Boljevac', // 937988
+f019362: 'active, China, Hangzhou', // 937936
+f019824: 'active, USA', // 938012
+f020378: 'active, Bulgaria, Asenovgrad', // 937855
+f020904: 'active, Korea, Uijeongbu-si', // 938348
+f022142: 'active, USA, Queens', // 938324
+f022163: 'active, NR', // 938267
+f022261: 'active, China, Luzhou', // 937978
+f022853: 'active, China, Fuzhou', // 937904
+f023009: 'active, USA, Berkeley', // 938319
+f023660: 'active, China, Fuzhou', // 938277
+f023843: 'active, NR', // 937932
+f023859: 'active, China, Fuzhou', // 937946
+f023928: 'active, China, Fuzhou', // 937892
+f024007: 'active, China, Fuzhou', // 937863
+f024015: 'active, USA, Portland', // 938331
+f024081: 'active, undefined', // 938129
+f024084: 'active, China, Fuzhou', // 937850
+f024146: 'active, China, Fuzhou', // 937998
+f024147: 'active, China, Fuzhou', // 938109
+f025017: 'active, China, Hefei', // 938043
+f029401: 'active, USA, Portland + New Castle', // 938365
+f029404: 'active, USA, Portland + New Castle', // 938294
+f030335: 'active, China, Fujian', // 938061
+f033189: 'active, China, Zhejiang', // 937903
+f034047: 'active, China, Hangzhou', // 937921
+f034701: 'active, China, Shenzhen', // 938113
+f034777: 'active, China, Chengdu', // 938098
+f035436: 'active, China, Jiangsu', // 937968
+f042540: 'active, China, Beijing + USA, Portland + Newcastle', // 938025
+f042558: 'active, China, Beijing + USA, Portland + Newcastle', // 938169
+f042635: 'active, China, Beijing + USA, Portland + Newcastle', // 938085
+f043376: 'active, Korea, Incheon', // 937878
+f044160: 'active, China, Guangzhou', // 938047
+f045555: 'active, China, Chongqing', // 938515
+f046426: 'active, China, Beijing', // 938137
+f047858: 'active, China, Wuhan', // 937907
+f048172: 'active, China, Suzhou', // 937898
+f048192: 'active, China, Suzhou', // 937999
+f01278: 'active-sealing, USA, Grand Rapids, MiMiner', // 955765
+f01291: 'active-sealing, Sweden, Stockholm, tvsthlm', // 955973
+f02387: 'active-sealing, Canada, Brampton, NBFS Canada', // 955717
+f02576: 'active-sealing, Denmark, Gjerlev, BenjaminH', // 955669
+f02622: 'active-sealing, USA, Portland, 6block', // 957067
+f02633: 'active-sealing, China, Hong Kong', // 955834
+f02645: 'active-sealing, China, Hong Kong', // 955424
+f03176: 'active-sealing, USA, San Mateo, Five Star-Helmsman&Heiben', // 955827
+f03275: 'active-sealing, USA, Portland, 6block', // 955588
+f03328: 'active-sealing, China, Xinxiang', // 955461
+f03488: 'active-sealing, Korea, Geumcheon-gu', // 956976
+f05316: 'active-sealing, USA, Portland, 6block', // 957026
+f05317: 'active-sealing, USA, Portland', // 955554
+f08025: 'active-sealing, China, Hong Kong', // 955573
+f08157: 'active-sealing, China, Beijing + Germany, Frankfurt, 超星际', // 938382
+f08264: 'active-sealing, China, Xianning', // 955492
+f08285: 'active-sealing, Latvia, Riga, stander', // 957013
+f010479: 'active-sealing, France, Fontenay-sous-Bois', // 938292
+f015927: 'active-sealing, USA, East Islip', // 955435
+f018784: 'active-sealing, Singapore + Germany, Frankfurt + USA', // 957124
+f019100: 'active-sealing, Romania, Cluj-Napoca', // 955540
+f019104: 'active-sealing, Canada, Chambly', // 955447
+f021262: 'active-sealing, China, Shanghai', // 955455
+f021870: 'active-sealing, USA, Portland', // 955410
+f022352: 'active-sealing, Norway, Borgen', // 957035
+f022922: 'active-sealing, China, Shenzhen', // 955613
+f023467: 'active-sealing, Norway, Oslo', // 955396
+f023495: 'active-sealing, China, Beijing + USA, Portland', // 955468
+f023649: 'active-sealing, Korea, Seoul', // 938392
+f023825: 'active-sealing, USA, Portland', // 955596
+f023854: 'active-sealing, China, Fuzhou', // 955403
+f024184: 'active-sealing, Korea, Gangnam-gu', // 955682
+f025019: 'active-sealing, China, Taiwan, Hsinchu', // 938404
+f029368: 'active-sealing, Korea, Gangseo-gu', // 955464
+f029490: 'active-sealing, NR', // 956926
+f033111: 'active-sealing, China, Shanghai', // 938357
+f039515: 'active-sealing, China, Chongqing', // 955835
+f01238: 'sealing, Vietnam, Hanoi, FILECOIN-VIETNAM', // 938059
+f01241: 'sealing, USA, Portland, 6block', // 937854
+f01276: 'sealing, Canada, Brampton, NBFS Canada', // 957062
+f01277: 'sealing, Sweden, Stockholm, tvsthlm', // 955559
+f01287: 'sealing, China, Jiaxing, MaiTian', // 937948
+f01799: 'sealing, China, Jinan, TokenHome', // 955457
+f02388: 'sealing, Netherlands, Amersfoort, Kroketje', // 955417
+f02416: 'sealing, China, Guangdong, 星际无限', // 955801
+f02423: 'sealing, Ukraine, Kyiv, igowreck', // 955433
+f02620: 'sealing, Poland, Krakow, @magik6k', // 955623
+f02665: 'sealing, Netherlands, Amsterdam, fm-ops', // 938042
+f03131: 'sealing, China, Changsha', // 956981
+f03273: 'sealing, USA, Portland, 6block', // 937918
+f03347: 'sealing, China, Shenzhen', // 939466
+f03624: 'sealing, Germany, Chemnitz, ode', // 937895
+f04443: 'sealing, China, Shanghai, 罗良科技', // 938022
+f07806: 'sealing, China, Wuhan, HelloXP', // 955414
+f07998: 'sealing, China, Hangzhou', // 937995
+f08383: 'sealing, USA, Portland, 6block', // 937930
+f08482: 'sealing, USA, Athol, @why', // 955732
+f09848: 'sealing, USA', // 955398
+f010088: 'sealing, DNS:purumine.com', // 938079
+f014281: 'sealing, Netherlands, Permerend', // 955446
+f015877: 'sealing, China, Jiaxing + USA', // 937884
+f016594: 'sealing, Germany', // 955548
+f018780: 'sealing, Singapore + Germany, Frankfurt + USA', // 955617
+f018782: 'sealing, Singapore + Germany, Frankfurt + USA', // 937971
+f019534: 'sealing, USA, Beaverton', // 938299
+f020398: 'sealing, China, Zhangjiakou', // 937933
+f021339: 'sealing, China, Jiaxing', // 938031
+f021346: 'sealing, China, Shanghai', // 955444
+f022072: 'sealing, China, Jieyang', // 956992
+f022125: 'sealing, China, Shenzhen', // 938002
+f022130: 'sealing, Korea, Seodaemun-gu', // 937868
+f022308: 'sealing, NR', // 955499
+f023490: 'sealing, Ukraine, Kyiv', // 937908
+f023492: 'sealing, China, Beijing', // 956944
+f023647: 'sealing, Korea, Gangseo-gu', // 955490
+f023939: 'sealing, NR', // 955423
+f023971: 'sealing, USA, @Brian Y', // 957070
+f024006: 'sealing, China, Fuzhou', // 937827
+f024800: 'sealing, China, Hong Kong', // 955739
+f025007: 'sealing, Korea, Gyeonggi-do', // 955412
+f025044: 'sealing, undefined', // 957073
+f029524: 'sealing, China, Hong Kong', // 955469
+f030384: 'sealing, undefined', // 956985
+f032934: 'sealing, Korea, Incheon', // 955515
+f033124: 'sealing, China, Shanghai', // 938158
+f033438: 'sealing, USA', // 955496
+f034808: 'sealing, Korea, Incheon', // 955586
+f040173: 'sealing, Ukraine, Ternopil', // 955422
+f043929: 'sealing, China, Beijing', // 955439
+f046317: 'sealing, China, Nanyang', // 938157
+f047419: 'sealing, USA, Waukesha', // 957080
+f047978: 'sealing, Korea, Seoul', // 937947
+f048135: 'sealing, China, Chongqing', // 942959
+f048545: 'sealing, China, Chengdu', // 937926
+f048557: 'sealing, Korea, Seoul', // 938181
+f048858: 'sealing, Japan, Tokyo', // 955494
+f049055: 'sealing, USA, Odgen', // 937974
+f049772: 'sealing, Korea, Seoul', // 938106
+f049953: 'sealing, Korea, Bucheon-si', // 955416
+f050201: 'sealing, Korea, Seoul', // 938081
+f050271: 'sealing, China, Changsha', // 938177
+f050500: 'sealing, Korea, Uiwang', // 955543
+f052135: 'sealing, Korea, Goyang-si', // 957234
+f052447: 'sealing, China, Beijing + USA, Portland + New Castle', // 957145
+f052740: 'sealing, China, Shaanxi', // 956019
+f052767: 'sealing, Korea, Seoul', // 956003
+f053088: 'sealing, China, Shanghai', // 955532
+f053255: 'sealing, Korea, Seoul', // 955798
+f053916: 'sealing, USA, Concord', // 955829
+f054083: 'sealing, Korea, Hwaseong-si', // 955594
+f054389: 'sealing, China, Chongqing', // 955428
+f054619: 'sealing, Korea, Hwaseong-si', // 956965

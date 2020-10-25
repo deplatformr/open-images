@@ -20,9 +20,9 @@ with open("miner_asks.txt", "r") as miners_list:
         miner = split[0]
         print(miner)
         price = str.strip(lines[i][9:30])
-
         if miner in cheap_working_miners:
-            cheap_working_miners[miner] = int(price)
+            if price != '':
+                cheap_working_miners[miner] = int(price)
 
 # Match functioning miners list to ask price list
 pop_list = []

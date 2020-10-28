@@ -4,10 +4,8 @@
             "name": "cheapMiners",
             "amount": 7,
             "minerAddresses": [
-                "f023859",
                 "f023928",
                 "f024081",
-                "f024146",
                 "f020398",
                 "f023490",
                 "f024006",

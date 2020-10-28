@@ -9,7 +9,7 @@ ffs = os.getenv('POWERGATE_FFS')
 token = os.getenv('POWERGATE_TOKEN')
 
 
-powergate = PowerGateClient(api, is_secure=True)
+powergate = PowerGateClient(api, is_secure=False)
 
 
 abs_path = os.getcwd()

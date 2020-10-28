@@ -17,11 +17,11 @@ def push(cid):
         api = os.getenv('POWERGATE_API')
         ffs = os.getenv('POWERGATE_FFS')
         token = os.getenv('POWERGATE_TOKEN')
-        powergate = PowerGateClient(api, is_secure=True)
+        powergate = PowerGateClient(api, is_secure=False)
 
         utctime = datetime.utcnow()
 
-        job = powergate.ffs.push(cid, token, override=True)
+        job = powergate.ffs.push(cid, token, override=False)
         print("Repushed CID " + cid + " to Filecoin.")
         print("Job ID: " + job.job_id)
         utctime = datetime.utcnow()

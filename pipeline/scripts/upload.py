@@ -16,7 +16,7 @@ def filecoin_upload(package):
         api = os.getenv('POWERGATE_API')
         ffs = os.getenv('POWERGATE_FFS')
         token = os.getenv('POWERGATE_TOKEN')
-        powergate = PowerGateClient(api, is_secure=True)
+        powergate = PowerGateClient(api, is_secure=False)
 
         db_path = os.path.join(
             abs_path, "deplatformr_open_images_workflow.sqlite")

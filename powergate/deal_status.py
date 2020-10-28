@@ -71,32 +71,30 @@ for cid in cids:
                     print("POW_SERVERADDRESS=" + api +
                           " pow ffs cancel " + job[0] + " -t " + token)
 
-                # REPUSH IF TOO FEW
-                if job[1] != "JOB_STATUS_EXECUTING" and job[1] != "JOB_STATUS_QUEUED":
-                    try:
-                        interval = 10
-                        utctime = datetime.utcnow()
-                        job = powergate.ffs.push(cid, token, override=True)
-                        print("Repushed " + package +
-                              " - " + cid + " to Filecoin.")
-                        print("Job ID: " + job.job_id)
-                        utctime = datetime.utcnow()
-                        cursor = workflow_db.cursor()
-                        cursor.execute("INSERT INTO jobs (job_id, cid, ffs, timestamp, status) VALUES (?,?,?,?,?)",
-                                       (job.job_id, cid, ffs, utctime, "JOB_STATUS_EXECUTING",),)
-                        workflow_db.commit()
-                        print("Waiting " + str(interval) +
-                              " seconds before next push.")
-                        time.sleep(interval)
-                        repush_count += 1
-                    except Exception as e:
-                        print("Repush of Job " +
-                              job[0] + " failed. Aborting queu.")
-                        print(e)
-                        workflow_db.close()
-                        sys.exit()
-                else:
-                    print("Job " + job[1] + " is still executing or queued.")
+        # REPUSH IF TOO FEW
+        if job[1] != "JOB_STATUS_EXECUTING" and job[1] != "JOB_STATUS_QUEUED":
+            try:
+                interval = 10
+                utctime = datetime.utcnow()
+                job = powergate.ffs.push(cid, token, override=True)
+                print("Repushed " + package + " - " + cid + " to Filecoin.")
+                print("Job ID: " + job.job_id)
+                utctime = datetime.utcnow()
+                cursor = workflow_db.cursor()
+                cursor.execute("INSERT INTO jobs (job_id, cid, ffs, timestamp, status) VALUES (?,?,?,?,?)",
+                               (job.job_id, cid, ffs, utctime, "JOB_STATUS_EXECUTING",),)
+                workflow_db.commit()
+                print("Waiting " + str(interval) +
+                      " seconds before next push.")
+                time.sleep(interval)
+                repush_count += 1
+            except Exception as e:
+                print("Repush of Job " + job[0] + " failed. Aborting queu.")
+                print(e)
+                workflow_db.close()
+                sys.exit()
+        else:
+            print("Job " + job[1] + " is still executing or queued.")
 
 if repush_count > 0:
     print("Repushed " + str(repush_count) + " CIDs.")

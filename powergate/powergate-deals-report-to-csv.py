@@ -32,7 +32,7 @@ with open(filename, 'w') as csvfile:
         cid = deal["rootCid"]
         abs_path = os.getcwd()
         db_path = os.path.join(
-            abs_path, "deplatformr_open_images_workflow.sqlite")
+            abs_path, "pipeline/deplatformr_open_images_workflow.sqlite")
         workflow_db = sqlite3.connect(db_path)
         cursor = workflow_db.cursor()
         cursor.execute("SELECT name from packages where cid = ?", (cid,),)

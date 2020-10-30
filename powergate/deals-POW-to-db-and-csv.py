@@ -28,7 +28,7 @@ with open(filename, 'w') as csvfile:
 
     abs_path = os.getcwd()
     db_path = os.path.join(
-        abs_path, "pipeline/deplatformr_open_images_workflow.sqlite")
+        abs_path, "../pipeline/deplatformr_open_images_workflow.sqlite")
     print(db_path)
     workflow_db = sqlite3.connect(db_path)
     cursor = workflow_db.cursor()

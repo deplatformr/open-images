@@ -26,15 +26,18 @@ with open(filename, 'w') as csvfile:
     csvwriter.writerow(['CID', 'Miner ID', 'Filename', 'File format', 'Size (bytes)', 'Date stored (UTC)',
                         'Piece CID', 'Wallet ID', 'Deal ID', 'Price per epoch', 'Start epoch', 'Duration'])
 
+    abs_path = os.getcwd()
+    db_path = os.path.join(
+        abs_path, "pipeline/deplatformr_open_images_workflow.sqlite")
+    print(db_path)
+    workflow_db = sqlite3.connect(db_path)
+    cursor = workflow_db.cursor()
+
+    """
     for record in storage_deals.records:
         deal = MessageToDict(record)
         utc_date = datetime.utcfromtimestamp(int(deal["time"]))
         cid = deal["rootCid"]
-        abs_path = os.getcwd()
-        db_path = os.path.join(
-            abs_path, "pipeline/deplatformr_open_images_workflow.sqlite")
-        workflow_db = sqlite3.connect(db_path)
-        cursor = workflow_db.cursor()
         cursor.execute("SELECT name from packages where cid = ?", (cid,),)
         filename = cursor.fetchone()
         csvwriter.writerow([deal["rootCid"], deal["dealInfo"]["miner"], filename[0], '.tar containing .jpg, .png, .json-ld', deal["dealInfo"]["size"], utc_date, deal["dealInfo"]
@@ -42,5 +45,5 @@ with open(filename, 'w') as csvfile:
         cursor.execute("INSERT OR IGNORE INTO deals (deal_id, payload_cid, piece_cid, piece_size, miner_id, start_epoch, duration, price) VALUES (?,?,?,?,?,?,?,?)", (
             deal["dealInfo"]["dealId"], deal["rootCid"], deal["dealInfo"]["pieceCid"], deal["dealInfo"]["size"], deal["dealInfo"]["miner"], deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"], deal["dealInfo"]["pricePerEpoch"]),)
         workflow_db.commit()
-
+        """
 workflow_db.close()

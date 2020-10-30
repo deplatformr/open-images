@@ -27,8 +27,9 @@ with open(filename, 'w') as csvfile:
                         'Piece CID', 'Wallet ID', 'Deal ID', 'Price per epoch', 'Start epoch', 'Duration'])
 
     abs_path = os.getcwd()
+    split = os.path.split(abs_path)
     db_path = os.path.join(
-        abs_path, "../pipeline/deplatformr_open_images_workflow.sqlite")
+        split[0], "pipeline/deplatformr_open_images_workflow.sqlite")
     print(db_path)
     workflow_db = sqlite3.connect(db_path)
     cursor = workflow_db.cursor()

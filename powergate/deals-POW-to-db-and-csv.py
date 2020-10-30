@@ -17,7 +17,7 @@ storage_deals = powergate.ffs.list_storage_deal_records(
 
 print(str(len(storage_deals.records)) + " storage deals found.")
 filename = "deals-ffs-" + ffs + ".csv"
-print("Writing to " + filename + ".")
+print("Writing to " + filename)
 
 with open(filename, 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
@@ -49,5 +49,6 @@ with open(filename, 'w') as csvfile:
                             ["pieceCid"], deal["addr"], deal["dealInfo"]["dealId"], price, deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"]])
         cursor.execute("INSERT OR IGNORE INTO deals (deal_id, payload_cid, piece_cid, timestamp, piece_size, miner_id, start_epoch, duration, price) VALUES (?,?,?,?,?,?,?,?,?)", (
             deal["dealInfo"]["dealId"], deal["rootCid"], deal["dealInfo"]["pieceCid"], utc_date, deal["dealInfo"]["size"], deal["dealInfo"]["miner"], deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"], price),)
+        workflow_db.commit()
 
 workflow_db.close()

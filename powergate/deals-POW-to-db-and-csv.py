@@ -35,7 +35,7 @@ with open(filename, 'w') as csvfile:
 
     for record in storage_deals.records:
         deal = MessageToDict(record)
-        print(deal["dealInfo"])
+        print(deal["dealInfo"]["pricePerEpoch"])
         """
         utc_date = datetime.utcfromtimestamp(int(deal["time"]))
         cid = deal["rootCid"]

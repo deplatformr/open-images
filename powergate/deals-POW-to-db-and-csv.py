@@ -35,16 +35,19 @@ with open(filename, 'w') as csvfile:
 
     for record in storage_deals.records:
         deal = MessageToDict(record)
-        print(deal["dealInfo"]["pricePerEpoch"])
-        """
+
+        try:
+            price = deal["dealInfo"]["pricePerEpoch"]
+        except:
+            price = 0
+
         utc_date = datetime.utcfromtimestamp(int(deal["time"]))
         cid = deal["rootCid"]
         cursor.execute("SELECT name from packages where cid = ?", (cid,),)
         filename = cursor.fetchone()
         csvwriter.writerow([deal["rootCid"], deal["dealInfo"]["miner"], filename[0], '.tar containing .jpg, .png, .json-ld', deal["dealInfo"]["size"], utc_date, deal["dealInfo"]
-                            ["pieceCid"], deal["addr"], deal["dealInfo"]["dealId"], deal["dealInfo"]["pricePerEpoch"], deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"]])
+                            ["pieceCid"], deal["addr"], deal["dealInfo"]["dealId"], price, deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"]])
         cursor.execute("INSERT OR IGNORE INTO deals (deal_id, payload_cid, piece_cid, timestamp, piece_size, miner_id, start_epoch, duration, price) VALUES (?,?,?,?,?,?,?,?,?)", (
-            deal["dealInfo"]["dealId"], deal["rootCid"], deal["dealInfo"]["pieceCid"], utc_date, deal["dealInfo"]["size"], deal["dealInfo"]["miner"], deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"], deal["dealInfo"]["pricePerEpoch"]),)
-        """
+            deal["dealInfo"]["dealId"], deal["rootCid"], deal["dealInfo"]["pieceCid"], utc_date, deal["dealInfo"]["size"], deal["dealInfo"]["miner"], deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"], price),)
 
 workflow_db.close()

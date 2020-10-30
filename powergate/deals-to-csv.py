@@ -1,6 +1,7 @@
 import os
 import sqlite3
 import csv
+from datetime import date
 
 abs_path = os.getcwd()
 split = os.path.split(abs_path)
@@ -14,7 +15,11 @@ deals = cursor.fetchall()
 
 
 print(str(len(deals)) + " storage deals found.")
-filename = "slingshot1-deals-deplatformr-21-Oct-2020" + ".csv"
+
+today = date.today()
+date_string = today.strftime("%b-%d-%Y")
+
+filename = "slingshot2-deals-deplatformr" + date_string + ".csv"
 print("Writing to " + filename + ".")
 
 with open(filename, 'w') as csvfile:

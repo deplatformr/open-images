@@ -34,7 +34,6 @@ with open(filename, 'w') as csvfile:
     workflow_db = sqlite3.connect(db_path)
     cursor = workflow_db.cursor()
 
-    """
     for record in storage_deals.records:
         deal = MessageToDict(record)
         utc_date = datetime.utcfromtimestamp(int(deal["time"]))
@@ -46,5 +45,5 @@ with open(filename, 'w') as csvfile:
         cursor.execute("INSERT OR IGNORE INTO deals (deal_id, payload_cid, piece_cid, piece_size, miner_id, start_epoch, duration, price) VALUES (?,?,?,?,?,?,?,?)", (
             deal["dealInfo"]["dealId"], deal["rootCid"], deal["dealInfo"]["pieceCid"], deal["dealInfo"]["size"], deal["dealInfo"]["miner"], deal["dealInfo"]["startEpoch"], deal["dealInfo"]["duration"], deal["dealInfo"]["pricePerEpoch"]),)
         workflow_db.commit()
-        """
+
 workflow_db.close()

@@ -43,4 +43,7 @@ def upload():
 
 
 if __name__ == "__main__":
-    upload()
+    job_limit = 21
+
+    for i in range(1, job_limit):
+        upload()

@@ -14,6 +14,31 @@ def upload():
         workflow_db = sqlite3.connect(workflow_db_path)
         cursor = workflow_db.cursor()
         cursor.execute(
+            "SELECT name FROM packages WHERE cid IS NULL LIMIT ?", (1,),)
+        result = cursor.fetchone()
+        if len(result) == 0:
+            print("No packages ready for Filecoin upload yet.")
+            return()
+        else:
+            print("Uploading package " + result[0] + " to Filecoin."
+            try:
+                status = filecoin_upload(result[0])
+            except:
+                print("Upload unsuccessful. Aborting job.")
+                sys.exit()
+
+    except Exception as e:
+        print("Unable to find package for Filecoin upload.")
+        print(e)
+        sys.exit()
+
+    return()
+
+def upload_all():
+    try:
+        workflow_db = sqlite3.connect(workflow_db_path)
+        cursor = workflow_db.cursor()
+        cursor.execute(
             "SELECT name FROM packages WHERE cid IS NULL")
         results = cursor.fetchall()
         if len(results) == 0:
@@ -41,9 +66,8 @@ def upload():
 
     return()
 
-
 if __name__ == "__main__":
-    job_limit = 21
+    job_limit = 10
 
     for i in range(1, job_limit):
         upload()

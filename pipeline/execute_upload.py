@@ -20,10 +20,9 @@ def upload():
             print("No packages ready for Filecoin upload yet.")
             return()
         else:
-            print("Uploading package " + result[0] + " to Filecoin."
-            try:
-                status = filecoin_upload(result[0])
-            except:
+            print("Uploading package " + result[0] + " to Filecoin.")
+            status = filecoin_upload(result[0])
+            if status == "Failure":
                 print("Upload unsuccessful. Aborting job.")
                 sys.exit()
 

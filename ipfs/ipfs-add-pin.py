@@ -16,7 +16,7 @@ def pin(package):
     response = client.add(package)
     cid = response["Hash"]
 
-    print("Pinning " + cid + "...")
+    print("Pinning " + cid)
     response = client.pin.add(cid, timeout=50000)
     cursor.execute("UPDATE packages SET pinned = ? WHERE cid = ?", (True, cid),)
     db.commit()
@@ -31,12 +31,10 @@ def pin(package):
 
 if __name__ == '__main__':
 
-    try:
-        if sys.argv[1] is None:
-            print("Please provide a package name.")
-            sys.exit(0)
-        else:
-            pin(str(sys.argv[1]))
-    except Exception as e:
-        print("Unable to add " + str(sys.argv[1]) + " to IPFS node.")
-        print(e)
+    path = "/media/ipfsnode/tmp/deplatformr-open-images-"
+    start_package = 134
+    end_package = 169
+
+    for i in range(start_package, end_package):
+        package_path = path + i + ".tar"
+        pin(package_path)

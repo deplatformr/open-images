@@ -6,7 +6,7 @@ def pin(cid=None):
   client = ipfshttpclient.connect()  # Connects to: /dns/localhost/tcp/5001/http
   # response = client.id()
     
-  db = sqlite3.connect("open-images.sqlite")
+  db = sqlite3.connect("pinned-packages.sqlite")
   cursor = db.cursor()
 
   if cid == None:

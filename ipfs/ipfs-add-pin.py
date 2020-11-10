@@ -1,26 +1,30 @@
 import ipfshttpclient
 import sqlite3
 import sys
+import os
 
 def pin(package):
   client = ipfshttpclient.connect()  # Connects to: /dns/localhost/tcp/5001/http
   # response = client.id()
-    
-  db = sqlite3.connect("open-images.sqlite")
+
+  db = sqlite3.connect("pinned-packages.sqlite")
   cursor = db.cursor()
 
   try:
 
+    print("Adding " + package + " to IPFS...")
     response = client.add(package)
-    print(response["Hash'])  
+    cid = response["Hash"]
 
-    """
-    response = client.pin.add(cid, timeout=50000)
     print("Pinning " + cid + "...")
+    response = client.pin.add(cid, timeout=50000)
     cursor.execute("UPDATE packages SET pinned = ? WHERE cid = ?", (True, cid),)
     db.commit()
-    print("Successfully pinned.")
-    """
+
+    print("Successfully added and pinned to IPFS.")
+    print("Deleting source file.")
+    os.remove(package)
+
   except Exception as e:
     print(e)
 

@@ -1,5 +1,4 @@
 from pygate_grpc.client import PowerGateClient
-from pygate_grpc.ffs import get_file_bytes, bytes_to_chunks
 import os
 import sys
 import sqlite3
@@ -14,7 +13,6 @@ def filecoin_upload(package):
         upload_file = os.path.join(package_dir, package)
 
         api = os.getenv('POWERGATE_API')
-        ffs = os.getenv('POWERGATE_FFS')
         token = os.getenv('POWERGATE_TOKEN')
         powergate = PowerGateClient(api, is_secure=False)
 
@@ -22,19 +20,18 @@ def filecoin_upload(package):
             abs_path, "deplatformr_open_images_workflow.sqlite")
         workflow_db = sqlite3.connect(db_path)
 
-        iter = get_file_bytes(upload_file)
-        stage = powergate.ffs.stage(bytes_to_chunks(iter), token)
+        staged_file = powergate.data.stage_file(upload_file, token)
+        job = powergate.config.apply(staged_file.cid, override=False, token=token)
 
-        job = powergate.ffs.push(stage.cid, token)
         print("Uploaded package " + package + " to Filecoin.")
-        print("CID: " + stage.cid)
-        print("Job ID: " + job.job_id)
+        print("CID: " + staged_file.cid)
+        print("Job ID: " + job.jobId)
         utctime = datetime.utcnow()
         cursor = workflow_db.cursor()
         cursor.execute("UPDATE packages SET cid = ?, cid_timestamp = ? WHERE name = ?",
-                       (stage.cid, utctime, package,),)
+                       (staged_file.cid, utctime, package,),)
         cursor.execute("INSERT INTO jobs (job_id, cid, ffs, timestamp, status) VALUES (?,?,?,?,?)",
-                       (job.job_id, stage.cid, ffs, utctime, "JOB_STATUS_EXECUTING",),)
+                       (job.jobId, staged_file.cid, None, utctime, "JOB_STATUS_EXECUTING",),)
         workflow_db.commit()
         workflow_db.close()
         return("Success")

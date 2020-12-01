@@ -19,7 +19,7 @@ print(str(len(deals)) + " storage deals found.")
 today = date.today()
 date_string = today.strftime("%b-%d-%Y")
 
-filename = "slingshot2-deals-deplatformer" + date_string + ".csv"
+filename = "slingshot2-deals-deplatformer-" + date_string + ".csv"
 print("Writing to " + filename + ".")
 
 with open(filename, 'w') as csvfile:

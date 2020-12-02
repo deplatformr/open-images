@@ -31,19 +31,22 @@ CREATE TABLE IF NOT EXISTS "jobs" (
 	"timestamp"	TEXT,
 	"status"	TEXT,
 	"ffs"	TEXT,
-	FOREIGN KEY("cid") REFERENCES "packages"("cid"),
-	PRIMARY KEY("job_id")
+	PRIMARY KEY("job_id"),
+	FOREIGN KEY("cid") REFERENCES "packages"("cid")
 );
 CREATE TABLE IF NOT EXISTS "deals" (
 	"deal_id"	INTEGER,
 	"payload_cid"	TEXT,
-	"piece_cid"	TEXT,
-	"piece_size"	INTEGER,
 	"miner_id"	TEXT,
-	"client_id"	TEXT,
+	"piece_cid"	TEXT,
+	"timestamp"	TEXT,
+	"piece_size"	INTEGER,
 	"start_epoch"	INTEGER,
-	"end_epoch"	INTEGER,
+	"activation_epoch"	TEXT,
+	"duration"	TEXT,
 	"price"	INTEGER,
+	"wallet"	TEXT,
+	"state"	TEXT,
 	PRIMARY KEY("deal_id")
 );
 COMMIT;

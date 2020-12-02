@@ -19,7 +19,7 @@ print(str(len(jobs_dict["storageJobs"])) + " jobs currently executing.")
 
 today = datetime.today()
 date_string = today.strftime("%b-%d-%Y")
-filename = "storage-jobs-" + user + "-" + date_string + ".csv"
+filename = "storage-jobs-executing-" + user + "-" + date_string + ".csv"
 print("Writing to " + filename)
 
 with open(filename, 'w') as csvfile:

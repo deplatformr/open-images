@@ -9,8 +9,15 @@ workflow_db_path = os.path.join(
 workflow_db = sqlite3.connect(workflow_db_path)
 cursor = workflow_db.cursor()
 
-for i in range(432, 442):
-    package_name = "deplatformr-open-images-" + str(i) + ".tar"
-    cursor.execute("SELECT name, cid FROM packages WHERE name=?", (package_name,))
-    package = cursor.fetchone()
+timestamp = "2020-12-02 00:00:00.00000"
+cursor.execute("SELECT name, cid FROM packages WHERE cid_timestamp > ?", (timestamp,),)
+packages = cursor.fetchall()
+
+package_count = 0
+
+for package in packages:
+    package_count+= 1
+    print("Filename: " + package[0])
     deal_status(package[1])
+
+print(str(package_count) + " packages uploaded after " + timestamp)

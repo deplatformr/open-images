@@ -22,6 +22,7 @@ def deal_status(cid):
         table+=[(deal["stateName"], deal["miner"], deal["pricePerEpoch"], message)]
     print(tabulate(table))
 
+
 if __name__ == "__main__":
 
     try:

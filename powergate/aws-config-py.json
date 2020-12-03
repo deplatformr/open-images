@@ -1,0 +1,29 @@
+{
+  "hot": {
+    "enabled": false,
+    "allow_unfreeze": true,
+    "unfreeze_max_price": 50000000,
+    "ipfs": {
+      "add_timeout": 30
+    }
+  },
+  "cold": {
+    "enabled": true,
+    "filecoin": {
+      "replication_factor": 4,
+      "deal_min_duration": 518400,
+      "excluded_miners": null,
+      "trusted_miners": null,
+      "country_codes": null,
+      "renew": {
+        "enabled": false,
+        "threshold": 0
+      },
+      "address": "f3qne2hc6e6hoki2o47urwodci3546z2govz6zjachm3yeogj6rfqyoh2xticeuwwt7rk6yfbit7xvdiukt4tq",
+      "max_price": 10000000000,
+      "fast_retrieval": true,
+      "deal_start_offset": 8640
+    }
+  },
+  "repairable": true
+}

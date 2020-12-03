@@ -15,7 +15,11 @@ def deal_status(cid):
     print("Status: " + status[0][2]["status"])
     table = []
     for deal in status[0][2]["dealInfo"]:
-        table+=[(deal["stateName"], deal["miner"], deal["pricePerEpoch"])]
+        if deal["stateName"]=="StorageDealError":
+            message = deal["message"]
+        else:
+            message = ""
+        table+=[(deal["stateName"], deal["miner"], deal["pricePerEpoch"], message)]
     print(tabulate(table))
 
 if __name__ == "__main__":

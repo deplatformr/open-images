@@ -1,12 +1,11 @@
 import os
-import sqlite3
 import csv
+import sqlite3
 from datetime import datetime
 from pygate_grpc.client import PowerGateClient
 
 api = os.getenv('POWERGATE_API')
 token = os.getenv('POWERGATE_TOKEN')
-
 powergate = PowerGateClient(api, False)
 
 # get final storage deals info
@@ -51,8 +50,3 @@ if total_deals > 0:
             cursor.execute("SELECT name from packages where cid = ?", (cid,),)
             filename = cursor.fetchone()
             csvwriter.writerow([deal["dealInfo"]["dealId"], deal["rootCid"], deal["dealInfo"]["miner"], filename[0], deal["dealInfo"]["size"], utc_date, deal["dealInfo"]["pieceCid"], price, deal["dealInfo"]["startEpoch"], deal["dealInfo"]["activationEpoch"], deal["dealInfo"]["duration"], deal["address"], deal["dealInfo"]["stateName"]])
-            cursor.execute("INSERT OR IGNORE INTO deals (deal_id, payload_cid, piece_cid, timestamp, piece_size, miner_id, start_epoch, activation_epoch, duration, price, wallet, state) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", (
-                deal["dealInfo"]["dealId"], deal["rootCid"], deal["dealInfo"]["pieceCid"], utc_date, deal["dealInfo"]["size"], deal["dealInfo"]["miner"], deal["dealInfo"]["startEpoch"], deal["dealInfo"]["activationEpoch"], deal["dealInfo"]["duration"], price, deal["address"], deal["dealInfo"]["stateName"]),)
-            workflow_db.commit()
-
-    workflow_db.close()

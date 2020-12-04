@@ -1,11 +1,9 @@
 from pygate_grpc.client import PowerGateClient
 from google.protobuf.json_format import MessageToDict
 import os
-import sqlite3
 
 api = os.getenv('POWERGATE_API')
 token = os.getenv('POWERGATE_TOKEN')
-
 powergate = PowerGateClient(api, is_secure=False)
 
 total_jobs = powergate.storage_jobs.summary(cids='', token=token)

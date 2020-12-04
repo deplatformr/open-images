@@ -56,7 +56,8 @@ jobs.sort(key=lambda x: x['filename'], reverse=False)
 
 for job in jobs:
     print(job["filename"])
-    print(job["CID"])
+    print("Job: " + job["id"])
+    print("CID: " + job["CID"])
     print(job["Date"])
     print(tabulate(job["Deals"]))
     print("")

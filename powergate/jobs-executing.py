@@ -16,6 +16,8 @@ jobs = powergate.admin.storage_jobs.executing(user_id=user, cids='')
 
 jobs_dict = MessageToDict(jobs)
 
+jobs = []
+
 for storage_job in jobs_dict["storageJobs"]:
 
     utc_date = datetime.utcfromtimestamp(int(storage_job["createdAt"]))
@@ -30,10 +32,6 @@ for storage_job in jobs_dict["storageJobs"]:
     cursor.execute("SELECT name from packages where cid = ?", (cid,),)
     filename = cursor.fetchone()
 
-    print(filename[0])
-    print(cid)
-    print(utc_date)
-
     table = []
 
     try:
@@ -42,11 +40,25 @@ for storage_job in jobs_dict["storageJobs"]:
                 message = deal["message"]
             except:
                 message = ''
-            table+=[(deal["stateName"], deal["miner"], deal["pricePerEpoch"], message)]
-        print(tabulate(table))
+            try:
+                price = deal["pricePerEpoch"]
+            except:
+                price = 0
+            table+=[(deal["stateName"], deal["miner"], price, message)]
+        #print(tabulate(table))
     except Exception as e:
         print(e)
+
+    jobs.append({"filename": filename[0], "CID": cid, "Date": str(utc_date), "Deals": table})
     
+# sort by package name
+jobs.sort(key=lambda x: x['filename'], reverse=False)
+
+for job in jobs:
+    print(job["filename"])
+    print(job["CID"])
+    print(job["Date"])
+    print(tabulate(job["Deals"]))
     print("")
 
 print(str(len(jobs_dict["storageJobs"])) + " jobs currently executing.")

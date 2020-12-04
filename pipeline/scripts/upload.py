@@ -30,8 +30,8 @@ def filecoin_upload(package):
         cursor = workflow_db.cursor()
         cursor.execute("UPDATE packages SET cid = ?, cid_timestamp = ? WHERE name = ?",
                        (staged_file.cid, utctime, package,),)
-        cursor.execute("INSERT INTO jobs (job_id, cid, ffs, timestamp, status) VALUES (?,?,?,?,?)",
-                       (job.jobId, staged_file.cid, None, utctime, "JOB_STATUS_EXECUTING",),)
+        cursor.execute("INSERT INTO jobs (job_id, cid, timestamp, status) VALUES (?,?,?,?,?)",
+                       (job.jobId, staged_file.cid, utctime, "JOB_STATUS_EXECUTING",),)
         workflow_db.commit()
         workflow_db.close()
         return("Success")

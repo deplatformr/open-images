@@ -49,14 +49,14 @@ for storage_job in jobs_dict["storageJobs"]:
     except Exception as e:
         print(e)
 
-    jobs.append({"filename": filename[0], "CID": cid, "Date": str(utc_date), "Deals": table})
+    jobs.append({"filename": filename[0], "job_id": storage_job["id"], "CID": cid, "Date": str(utc_date), "Deals": table})
     
 # sort by package name
 jobs.sort(key=lambda x: x['filename'], reverse=False)
 
 for job in jobs:
     print(job["filename"])
-    print("Job: " + job["id"])
+    print("Job: " + job["job_id"])
     print("CID: " + job["CID"])
     print(job["Date"])
     print(tabulate(job["Deals"]))

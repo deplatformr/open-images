@@ -32,14 +32,14 @@ for storage_job in jobs_dict["storageJobs"]:
     cursor.execute("SELECT name from packages where cid = ?", (cid,),)
     filename = cursor.fetchone()
 
-    jobs.append({"filename": filename[0], "CID": cid, "Date": str(utc_date)})
+    jobs.append({"filename": filename[0], "job_id": storage_job["id"], "CID": cid, "Date": str(utc_date)})
     
 # sort by package name
 jobs.sort(key=lambda x: x['filename'], reverse=False)
 
 for job in jobs:
     print(job["filename"])
-    print("Job: " + job["id"])
+    print("Job: " + job["job_id"])
     print("CID: " + job["CID"])
     print(job["Date"])
     print("")

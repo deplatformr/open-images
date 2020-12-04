@@ -20,3 +20,4 @@ map/map/deplatformr_open_images_v6.sqlite
 map/map/deplatformr_open_images_v6.sqlite-journal
 map/map/static/images/
 map/map/deplatformr-open-images.sqlite
+powergate/__pycache__

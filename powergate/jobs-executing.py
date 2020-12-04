@@ -39,13 +39,16 @@ for storage_job in jobs_dict["storageJobs"]:
             try:
                 message = deal["message"]
             except:
-                message = ''
+                message = ""
             try:
                 price = deal["pricePerEpoch"]
             except:
                 price = 0
-            table+=[(deal["stateName"], deal["miner"], price, message)]
-        #print(tabulate(table))
+            try:
+                id = deal["dealId"]
+            except:
+                id = "n/a"
+            table+=[(id, deal["stateName"], deal["miner"], price, message)]
     except Exception as e:
         print(e)
 

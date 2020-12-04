@@ -10,7 +10,7 @@
   "cold": {
     "enabled": true,
     "filecoin": {
-      "replicationFactor": 4,
+      "replicationFactor": 5,
       "dealMinDuration": 518400,
       "excludedMiners": null,
       "trustedMiners": null,

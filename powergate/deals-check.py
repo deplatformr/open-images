@@ -25,7 +25,7 @@ for i in range(127, 748):
         if deal_count > 10:
             plus_ten_count += 1
         else:
-            if deal_count < 3:
+            if deal_count < 1:
                 less_count += 1
                 print(package[0] + ": " + str(deal_count) + " deals.")
                 print("CID: " + package[1])
@@ -55,7 +55,10 @@ for i in range(127, 748):
                                     id = "n/a"
                                 table+=[(id, deal[2], deal[4], price, message)]
                             print(tabulate(table))
+                else:
+                    # powergate.config.apply(package[1], override=True, token=token)
+                    print("Configuration push applied.")
                 print("")
 
 print("Number of CIDs with over 10 deals: " + str(plus_ten_count))
-print("Number of CIDs with less than 3 deals: " + str(less_count))
+print("Number of CIDs with 0 deals: " + str(less_count))

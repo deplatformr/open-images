@@ -13,6 +13,7 @@ cursor = workflow_db.cursor()
 
 plus_ten_count = 0
 less_count = 0
+no_jobs_count = 0
 
 for i in range(127, 748):
     package_name = "deplatformr-open-images-" + str(i) + ".tar"
@@ -56,9 +57,11 @@ for i in range(127, 748):
                                 table+=[(id, deal[2], deal[4], price, message)]
                             print(tabulate(table))
                 else:
-                    # powergate.config.apply(package[1], override=True, token=token)
+                    no_jobs_count += 1                    
+                    powergate.config.apply(package[1], override=True, token=token)
                     print("Configuration push applied.")
                 print("")
 
 print("Number of CIDs with over 10 deals: " + str(plus_ten_count))
 print("Number of CIDs with 0 deals: " + str(less_count))
+print("Number of CIDs with 0 jobs: " + str(no_jobs_count))

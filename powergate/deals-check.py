@@ -3,6 +3,13 @@ import sqlite3
 import csv
 from tabulate import tabulate
 from datetime import date
+from pygate_grpc.client import PowerGateClient
+
+# Connect to Powergate
+api = os.getenv('POWERGATE_API')
+token = os.getenv('POWERGATE_TOKEN')
+user = os.getenv('POWERGATE_USER')
+powergate = PowerGateClient(api, is_secure=False)
 
 abs_path = os.getcwd()
 split = os.path.split(abs_path)

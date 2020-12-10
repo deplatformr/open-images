@@ -11,7 +11,7 @@
     "enabled": true,
     "filecoin": {
       "replication_factor": 4,
-      "deal_min_duration": 518400,
+      "deal_min_duration": 1051200,
       "excluded_miners": null,
       "trusted_miners": null,
       "country_codes": null,

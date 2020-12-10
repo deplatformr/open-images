@@ -26,13 +26,25 @@ with open(filename, 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
 
     # write column headers
-    csvwriter.writerow(['Deal ID', 'Miner ID', 'Payload CID', 'Filename', 'File format', 'Deal Size (in bytes)', 'Deal Date (UTC)',
-                        'Curated Dataset'])
+    csvwriter.writerow(['Deal ID', 'Miner ID', 'Payload CID', 'Filename', 'File format', 'Deal Size (in bytes)', 'Deal Date (UTC)', 'Curated Dataset', '10+ Deals?'])
 
+    cid_count = 0
+    previous_cid = ""
     for deal in deals:
         cursor.execute(
             "SELECT name, cid_timestamp from packages where cid = ?", (deal[1],),)
         package = cursor.fetchone()
         utc_date = package[1][:-10]
+        if deal[1] == previous_cid:
+            cid_count += 1
+        else:
+            cid_count = 1
+        previous_cid = deal[1]
+        if cid_count > 10:
+            size = 0
+            ten = "10+ deals"
+        else:
+            size = deal[2]
+            ten = ""
         csvwriter.writerow([deal[0], deal[3], deal[1], package[0],
-                            ".tar containing .jpg, .png, and .jsonld", deal[2], utc_date, "Google Open Images"])
+                            ".tar containing .jpg, .png, and .jsonld", size, utc_date, "Google Open Images", ten])
